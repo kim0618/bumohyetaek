@@ -14,7 +14,7 @@ export const healthCareArticles: ContentItem[] = [
   {
     slug: 'national-health-checkup-guide',
     title: '국가건강검진 대상·항목·결과 활용 완벽 가이드',
-    seoTitle: '국가건강검진 2025 - 대상 확인과 검진 항목 안내',
+    seoTitle: '국가건강검진 - 대상 확인과 검진 항목 안내',
     seoDescription: '건강보험 가입자라면 2년마다 국가건강검진을 무료로 받을 수 있습니다. 출생연도별 대상 확인 방법, 혈압·혈당 등 기본 검진 항목, 결과지 활용 방법을 안내합니다.',
     category: 'health-care',
     template: 'standard',
@@ -125,12 +125,10 @@ export const healthCareArticles: ContentItem[] = [
 
     relatedSlugs: ['long-term-care-grade', 'cancer-screening-guide'],
 
-    // BMI 계산기 보조 연결 (건강 계산기는 보조 연결만 사용)
     relatedCalculator: {
       brand: siteConfig.calculatorSiteName,
       name: 'BMI 계산기',
-      // 실제 URL은 jptcalc.kr에서 확인 후 입력 필요 - 임의 생성 금지
-      url: siteConfig.calculatorSiteUrl,
+      url: 'https://www.jptcalc.kr/calc/health/bmi/',
       openMode: 'new-tab',
       category: 'health',
       crossSiteTrackingKey: 'guide-health-checkup-bmi',
@@ -145,8 +143,8 @@ export const healthCareArticles: ContentItem[] = [
   /* ── 2. 치매안심센터 이용 방법 ─────────────────────────────── */
   {
     slug: 'dementia-care-center',
-    title: '치매안심센터 무료 서비스 이용 방법 (2025년)',
-    seoTitle: '치매안심센터 이용 방법 2025 - 무료 검진과 가족 지원',
+    title: '치매안심센터 무료 서비스 이용 방법',
+    seoTitle: '치매안심센터 이용 방법 - 무료 검진과 가족 지원',
     seoDescription: '전국 256개 치매안심센터에서 치매 조기 검진과 돌봄 가족 지원을 무료로 받을 수 있습니다. 방문 절차, 인지선별검사, 치매 등록 후 약제비 지원 혜택을 정리했습니다.',
     category: 'health-care',
     template: 'standard',
@@ -256,8 +254,8 @@ export const healthCareArticles: ContentItem[] = [
   /* ── 3. 국가암검진 가이드 ───────────────────────────────────── */
   {
     slug: 'cancer-screening-guide',
-    title: '국가암검진 무료 대상·항목·신청 방법 (2025년)',
-    seoTitle: '국가암검진 2025 - 6대 암 무료 대상과 신청 방법',
+    title: '국가암검진 무료 대상·항목·신청 방법',
+    seoTitle: '국가암검진 - 6대 암 무료 대상과 신청 방법',
     seoDescription: '국가에서 위암·대장암·간암·유방암·자궁경부암·폐암 6종 검진을 무료 또는 10% 본인부담으로 지원합니다. 연령별 검진 대상과 주기, 예약 방법을 안내합니다.',
     category: 'health-care',
     template: 'policy',
@@ -364,8 +362,8 @@ export const healthCareArticles: ContentItem[] = [
   /* ── 4. 방문요양 서비스 신청 방법 ──────────────────────────── */
   {
     slug: 'home-visiting-care',
-    title: '방문요양 서비스 신청 방법과 이용 비용 (2025년)',
-    seoTitle: '방문요양 신청 방법 2025 - 장기요양등급별 비용과 이용 절차',
+    title: '방문요양 서비스 신청 방법과 이용 비용',
+    seoTitle: '방문요양 신청 방법 - 장기요양등급별 비용과 이용 절차',
     seoDescription: '장기요양등급을 받은 어르신이라면 방문요양 서비스를 이용할 수 있습니다. 등급별 월 한도액, 본인 부담금, 요양보호사 매칭 방법과 신청 절차를 정리했습니다.',
     category: 'health-care',
     template: 'policy',
@@ -476,8 +474,8 @@ export const healthCareArticles: ContentItem[] = [
   /* ── 5. 노인 무료 예방접종 ──────────────────────────────────── */
   {
     slug: 'senior-vaccination',
-    title: '노인 무료 예방접종 종류와 맞는 방법 (2025년)',
-    seoTitle: '노인 무료 예방접종 2025 - 독감·폐렴구균·대상포진 신청 방법',
+    title: '노인 무료 예방접종 종류와 맞는 방법',
+    seoTitle: '노인 무료 예방접종 - 독감·폐렴구균·대상포진 신청 방법',
     seoDescription: '만 65세 이상 어르신은 독감·폐렴구균 예방접종을 무료로 받을 수 있습니다. 2025년 접종 시기, 대상 확인 방법, 가까운 위탁 의료기관 찾는 방법을 안내합니다.',
     category: 'health-care',
     template: 'standard',
@@ -580,4 +578,199 @@ export const healthCareArticles: ContentItem[] = [
 
     relatedSlugs: ['national-health-checkup-guide', 'cancer-screening-guide'],
   },
+
+
+  /* ── 건강보험 본인부담 상한제 ───────────────────────────────── */
+  {
+    slug: 'health-insurance-limit',
+    title: '건강보험 본인부담 상한제 - 병원비 환급받는 방법',
+    seoTitle: '건강보험 본인부담 상한제 - 병원비 환급 신청 방법',
+    seoDescription: '연간 병원비가 일정 금액을 초과하면 건강보험공단에서 초과분을 돌려줍니다. 2025년 소득분위별 상한액, 환급 신청 방법, 자동 지급 여부를 정리했습니다.',
+    category: 'health-care',
+    template: 'policy',
+    targetUser: 'both',
+
+    createdAt: '2025-03-20',
+    updatedAt: '2025-03-20',
+    reviewStatus: 'current',
+
+    summary:
+      '1년 동안 병원비 본인부담금이 소득에 따른 상한액을 초과하면 건강보험공단이 초과분을 돌려줍니다. 소득분위별 상한액과 환급 신청 방법을 정리했습니다.',
+    heroDescription:
+      '큰 병에 걸리거나 장기 입원 시 병원비 걱정이 많습니다. 건강보험 본인부담 상한제를 알면 과도하게 낸 병원비를 돌려받을 수 있습니다.',
+
+    keyPoints: [
+      '연간 본인부담금이 소득분위별 상한액 초과 시 초과분 전액 환급',
+      '공단이 먼저 확인해 통보하므로 대부분 자동으로 돌려받음',
+      '요양병원 장기 입원, 암 치료 등 고액 의료비 환자에게 특히 중요',
+    ],
+
+    tags: ['본인부담상한제', '병원비환급', '건강보험', '의료비', '환급신청'],
+    hubKey: ['prepare-care', 'government-benefits'],
+    order: 6,
+    isFeatured: false,
+
+    officialSources: [
+      { name: '국민건강보험공단', url: 'https://www.nhis.or.kr', note: '본인부담 상한제 안내 및 환급 신청' },
+      { name: '건강보험 고객센터', url: 'https://www.nhis.or.kr', note: '전화 1577-1000' },
+    ],
+
+    sections: [
+      {
+        type: 'text',
+        heading: '본인부담 상한제란?',
+        body: '건강보험 본인부담 상한제는 1년 동안 건강보험 적용 병원비(비급여 제외)가 소득 수준에 따라 정해진 상한액을 넘으면, 초과분을 건강보험공단이 전액 돌려주는 제도입니다. 큰 병이나 장기 치료로 의료비 부담이 커질 때 가장 중요한 안전망입니다. [[long-term-care-grade|장기요양등급]] 신청과 함께 확인하면 좋습니다.',
+      },
+      {
+        type: 'info',
+        heading: '2025년 소득분위별 상한액',
+        body: '1분위(하위 10%): 87만 원 / 2~3분위: 108만 원 / 4~5분위: 162만 원 / 6~7분위: 303만 원 / 8분위: 414만 원 / 9분위: 514만 원 / 10분위(상위 10%): 780만 원. 소득이 낮을수록 상한액이 낮아 더 빨리 혜택을 받을 수 있습니다.',
+      },
+      {
+        type: 'warning',
+        heading: '비급여 항목은 포함되지 않습니다',
+        body: '상급병실료, 선택진료비, 미용·성형, 비급여 주사·검사 등 건강보험 비급여 항목은 상한제 계산에 포함되지 않습니다. 실제 낸 전체 병원비가 아닌, 급여 항목 본인부담금 기준임을 꼭 확인하세요.',
+      },
+      {
+        type: 'numbered-list',
+        heading: '환급받는 두 가지 방법',
+        items: [
+          '사후 환급 (대부분): 매년 8월 건강보험공단이 전년도 본인부담금을 정산해 초과분을 통보하고, 신청하면 환급. 건강보험 홈페이지 또는 공단 지사 방문·전화로 신청.',
+          '사전 급여: 같은 요양기관(병원)에서 연간 본인부담금이 상한액을 초과하면, 그 시점부터 추가 부담 없이 진료받을 수 있음. 병원이 공단에 직접 청구.',
+        ],
+      },
+      {
+        type: 'tip',
+        heading: '환급금 조회 방법',
+        body: '국민건강보험 홈페이지(nhis.or.kr) → 민원여기요 → 개인민원 → 본인부담금 조회에서 누적 금액과 예상 환급액을 미리 확인할 수 있습니다. 매년 8월에 문자·우편으로 안내가 옵니다.',
+      },
+      {
+        type: 'text',
+        heading: '환급 신청 방법',
+        body: '공단에서 우편·문자로 안내가 오면, 건강보험공단 홈페이지 또는 고객센터(1577-1000)를 통해 신청합니다. 환급금은 신청 후 2주 이내에 지정 계좌로 입금됩니다. 안내를 받지 못했더라도 직접 조회해 신청할 수 있습니다.',
+      },
+    ],
+
+    faq: [
+      {
+        question: '매년 신청해야 하나요?',
+        answer: '사후 환급의 경우 매년 8월에 공단이 안내하면 신청해야 합니다. 단, 사전에 동의해두면 자동 지급 설정도 가능합니다. 공단 홈페이지에서 자동이체 계좌를 등록해두면 편리합니다.',
+      },
+      {
+        question: '실손보험과 중복 적용되나요?',
+        answer: '본인부담 상한제 환급금은 건강보험에서 받는 것이므로 실손보험 청구와 별개입니다. 단, 실손보험 청구 시 이미 환급받은 금액은 공제될 수 있으므로 보험사에 확인하세요.',
+      },
+      {
+        question: '여러 병원을 다녔을 때도 합산되나요?',
+        answer: '사후 환급은 모든 요양기관에서 발생한 본인부담금을 연간 합산해 계산합니다. 여러 병원을 다녀도 합산 금액이 상한액을 넘으면 환급받을 수 있습니다.',
+      },
+    ],
+
+    cautionNote:
+      '이 글은 2025년 기준으로 작성되었습니다. 소득분위별 상한액은 매년 조정되며, 비급여 항목은 상한제 적용 대상이 아닙니다. 정확한 금액은 건강보험공단(1577-1000)에서 확인하세요.',
+
+    relatedSlugs: ['long-term-care-grade', 'national-health-checkup-guide', 'home-visiting-care'],
+  },
+
+
+  /* ── 노인 운전면허 갱신·반납 ─────────────────────────────── */
+  {
+    slug: 'senior-driving-license',
+    title: '노인 운전면허 갱신과 반납 - 절차·혜택·주의사항',
+    seoTitle: '노인 운전면허 갱신 반납 - 65세 75세 절차와 혜택',
+    seoDescription: '만 65세 이상은 운전면허 갱신 주기가 짧아집니다. 75세 이상은 인지능력 검사도 필요합니다. 갱신 절차, 자진 반납 혜택, 대중교통 지원까지 정리했습니다.',
+    category: 'health-care',
+    template: 'checklist',
+    targetUser: 'both',
+
+    createdAt: '2025-03-20',
+    updatedAt: '2025-03-20',
+    reviewStatus: 'current',
+
+    summary:
+      '만 65세 이상은 운전면허 갱신 주기가 3년으로 짧아집니다. 75세 이상은 인지능력 검사가 추가됩니다. 갱신 절차와 자진 반납 시 교통비 지원 혜택을 정리했습니다.',
+    heroDescription:
+      '부모님 운전이 걱정된다면 면허 갱신 시기와 절차를 미리 알아두세요. 자진 반납 시 교통비 지원 혜택도 있습니다.',
+
+    keyPoints: [
+      '65세 이상: 면허 갱신 주기 3년으로 단축',
+      '75세 이상: 교통안전 교육 + 인지능력 검사 추가',
+      '자진 반납 시 10만 원 교통카드 등 지자체별 혜택 제공',
+    ],
+
+    tags: ['운전면허갱신', '노인운전', '면허반납', '75세운전', '교통안전'],
+    hubKey: ['prepare-care'],
+    order: 7,
+    isFeatured: false,
+
+    officialSources: [
+      { name: '도로교통공단', url: 'https://www.koroad.or.kr', note: '면허 갱신·반납 안내' },
+      { name: '경찰청 교통민원24', url: 'https://www.efine.go.kr', note: '온라인 면허 갱신 신청' },
+    ],
+
+    sections: [
+      {
+        type: 'text',
+        heading: '나이에 따라 달라지는 면허 갱신 주기',
+        body: '운전면허는 일정 기간마다 갱신해야 합니다. 만 65세 미만은 10년마다, 만 65세 이상은 3년마다 갱신합니다. 만 75세 이상은 3년마다 갱신하며, 추가로 인지능력 검사와 교통안전 교육이 필요합니다. [[dementia-care-center|치매안심센터]]에서 미리 인지 검사를 받아보는 것도 좋습니다.',
+      },
+      {
+        type: 'numbered-list',
+        heading: '65세 이상 면허 갱신 절차',
+        items: [
+          '갱신 기간 확인: 면허증 뒷면 또는 경찰청 교통민원24(efine.go.kr)에서 만료일 확인',
+          '신체검사: 가까운 병·의원에서 운전면허 신체검사 (시력·청력 등)',
+          '75세 이상 추가: 도로교통공단 지정기관에서 인지능력 자가진단 및 교통안전 교육(3시간)',
+          '면허시험장 또는 경찰서 민원실 방문: 신분증 + 신체검사 결과 + 사진 지참',
+          '온라인 갱신: 경찰청 교통민원24에서 일부 가능 (해당 여부 사전 확인)',
+        ],
+      },
+      {
+        type: 'info',
+        heading: '75세 이상 인지능력 검사란?',
+        body: '치매·인지 저하로 인한 사고 예방을 위해 도입된 검사입니다. 도로교통공단 운전면허시험장 또는 지정 교육기관에서 실시하며, 약 30분 소요됩니다. 검사 결과에 따라 면허 갱신이 제한될 수 있습니다.',
+      },
+      {
+        type: 'tip',
+        heading: '운전면허 자진 반납 혜택',
+        body: '운전이 불안하다면 자진 반납을 고려해보세요. 대부분의 지자체에서 10만 원 상당의 교통카드를 지급합니다. 일부 지역은 대중교통 무료 이용권, 택시 바우처 등을 추가로 제공합니다. 주민센터 또는 경찰서 민원실에서 반납 신청이 가능합니다.',
+      },
+      {
+        type: 'numbered-list',
+        heading: '면허 자진 반납 방법',
+        items: [
+          '가까운 경찰서 민원실 또는 운전면허시험장 방문',
+          '신분증과 운전면허증 지참',
+          '반납 신청서 작성 후 제출',
+          '해당 지자체 혜택 신청: 주민센터에서 교통카드 또는 바우처 수령',
+        ],
+      },
+      {
+        type: 'warning',
+        heading: '갱신 기간을 넘기면 무면허 운전이 됩니다',
+        body: '면허 유효기간이 지난 후 운전하면 무면허 운전으로 처벌받습니다. 갱신 기간(만료 6개월 전부터 가능)을 미리 확인하고 여유 있게 갱신하세요.',
+      },
+    ],
+
+    faq: [
+      {
+        question: '인지능력 검사에서 불합격하면 어떻게 되나요?',
+        answer: '인지능력 검사 결과가 기준 이하이면 전문의 진단을 받아야 합니다. 전문의 소견에 따라 면허 갱신이 제한되거나 취소될 수 있습니다.',
+      },
+      {
+        question: '갱신을 깜빡해서 기간이 지났다면?',
+        answer: '만료 후 1년 이내라면 적성검사만으로 재취득이 가능합니다. 1년 초과 시 기능시험을 다시 봐야 합니다. 이미 만료됐다면 빨리 갱신하는 것이 좋습니다.',
+      },
+      {
+        question: '자진 반납하면 나중에 다시 취득할 수 있나요?',
+        answer: '자진 반납 후에도 다시 면허 시험에 응시해 취득할 수 있습니다. 단, 인지 기능에 문제가 없어야 합니다.',
+      },
+    ],
+
+    cautionNote:
+      '이 글은 2025년 기준으로 작성되었습니다. 지자체별 면허 반납 혜택과 인지능력 검사 기관은 변경될 수 있으므로 도로교통공단(1577-1120) 또는 주민센터에서 확인하세요.',
+
+    relatedSlugs: ['dementia-care-center', 'senior-discount-guide', 'national-health-checkup-guide'],
+  },
+
 ];

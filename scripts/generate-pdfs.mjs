@@ -7,11 +7,14 @@ const OUTPUT_DIR = path.join(__dirname, '../public/downloads');
 const BASE_URL = 'http://localhost:2000';
 
 const PAGES = [
-  { slug: 'welfare-checklist',          file: 'welfare-checklist.pdf' },
-  { slug: 'basic-pension-checklist',    file: 'basic-pension-checklist.pdf' },
-  { slug: 'care-grade-checklist',       file: 'care-grade-checklist.pdf' },
-  { slug: 'hospital-visit-checklist',   file: 'hospital-visit-checklist.pdf' },
-  { slug: 'financial-safety-checklist', file: 'financial-safety-checklist.pdf' },
+  { slug: 'welfare-checklist',              file: 'welfare-checklist.pdf' },
+  { slug: 'basic-pension-checklist',        file: 'basic-pension-checklist.pdf' },
+  { slug: 'care-grade-checklist',           file: 'care-grade-checklist.pdf' },
+  { slug: 'hospital-visit-checklist',       file: 'hospital-visit-checklist.pdf' },
+  { slug: 'financial-safety-checklist',     file: 'financial-safety-checklist.pdf' },
+  { slug: 'survivor-pension-checklist',     file: 'survivor-pension-checklist.pdf' },
+  { slug: 'vaccination-schedule',           file: 'vaccination-schedule.pdf' },
+  { slug: 'inheritance-checklist',          file: 'inheritance-checklist.pdf' },
 ];
 
 const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
@@ -67,4 +70,4 @@ for (const { slug, file } of PAGES) {
 }
 
 await browser.close();
-console.log('\n완료: public/downloads/ 에 PDF 5개 생성됨');
+console.log(`\n완료: public/downloads/ 에 PDF ${PAGES.length}개 생성됨`);

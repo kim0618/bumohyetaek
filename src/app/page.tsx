@@ -70,7 +70,7 @@ export default function HomePage() {
                 {[
                   { value: `${totalArticles}편`, label: '가이드' },
                   { value: `${hubs.length}개`, label: '상황별 허브' },
-                  { value: '2025년', label: '최신 기준' },
+                  { value: '2026년', label: '최신 기준' },
                 ].map(({ value, label }) => (
                   <span key={label} className="text-sm text-gray-600">
                     <span className="font-bold text-blue-700">{value}</span>{' '}
@@ -250,7 +250,49 @@ export default function HomePage() {
 
 
       {/* ══════════════════════════════════════════════════════════
-          6. 신뢰 요소 - 운영 기준 간략 안내
+          6. 긴급 연락처 - 시니어 필수 번호
+          ══════════════════════════════════════════════════════════ */}
+      <section aria-labelledby="emergency-heading" className="py-14">
+        <div className="container-wide">
+          <h2 id="emergency-heading" className="mt-0 mb-2">
+            알아두면 좋은 연락처
+          </h2>
+          <p className="text-gray-600 mb-8">
+            부모님 휴대폰에 저장해 두세요. 급할 때 바로 전화할 수 있습니다.
+          </p>
+
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              { name: '보건복지상담센터', number: '129', desc: '복지 전반 무료 상담 (24시간)', color: 'border-l-blue-600' },
+              { name: '국민연금공단', number: '1355', desc: '연금 수령·유족연금·반환 상담', color: 'border-l-blue-600' },
+              { name: '건강보험공단', number: '1577-1000', desc: '건강보험·장기요양 등급 신청', color: 'border-l-green-600' },
+              { name: '치매상담콜센터', number: '1899-9988', desc: '치매 관련 상담·돌봄 안내', color: 'border-l-green-600' },
+              { name: '금융감독원 콜센터', number: '1332', desc: '금융사기 피해 신고·상담', color: 'border-l-amber-500' },
+              { name: '경찰청 (보이스피싱)', number: '112', desc: '보이스피싱·금융사기 즉시 신고', color: 'border-l-amber-500' },
+            ].map(({ name, number, desc, color }) => (
+              <div
+                key={name}
+                className={`rounded-lg border border-gray-200 ${color} border-l-4 bg-white px-4 py-3.5`}
+              >
+                <div className="flex items-center justify-between gap-2">
+                  <span className="font-semibold text-gray-900 text-sm">{name}</span>
+                  <a
+                    href={`tel:${number.replace(/-/g, '')}`}
+                    className="font-bold text-blue-700 text-base no-underline hover:underline"
+                  >
+                    {number}
+                  </a>
+                </div>
+                <p className="mt-1 text-xs text-gray-500 mb-0">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+      {/* ══════════════════════════════════════════════════════════
+          7. 신뢰 요소 - 운영 기준 간략 안내
           ══════════════════════════════════════════════════════════ */}
       <section
         aria-label="운영 기준 안내"
@@ -259,7 +301,7 @@ export default function HomePage() {
         <div className="container-wide">
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-center sm:justify-start sm:text-left">
             {[
-              '2025년 기준 최신 정보 검토',
+              '2026년 기준 최신 정보 검토',
               '보건복지부·공단 등 공식 출처 기반',
               '제도 변경 시 수시 업데이트',
               '어르신·자녀 누구나 읽기 쉽게',

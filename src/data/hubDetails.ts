@@ -144,8 +144,7 @@ export const hubDetails: HubDetail[] = [
       calculator: {
         brand: siteConfig.calculatorSiteName,
         name: 'BMI 계산기',
-        // 실제 URL은 jptcalc.kr에서 확인 후 입력 필요 - 임의 생성 금지
-        url: siteConfig.calculatorSiteUrl,
+        url: 'https://www.jptcalc.kr/calc/health/bmi/',
         openMode: 'new-tab',
         category: 'health',
         crossSiteTrackingKey: 'hub-health-checkup-bmi',

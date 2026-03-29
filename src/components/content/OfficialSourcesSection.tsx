@@ -30,19 +30,15 @@ export default function OfficialSourcesSection({
     <section aria-labelledby="official-sources-heading">
       <h2 id="official-sources-heading">{title}</h2>
 
-      <ul className="space-y-3 pl-0" style={{ listStyle: 'none' }}>
+      <div className="rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 divide-y divide-gray-200">
         {sources.map((source) => (
-          <li
-            key={source.url}
-            className="flex items-start gap-3 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3"
-          >
-            {/* 기관 링크 영역 */}
-            <div className="min-w-0 flex-1">
+          <div key={source.url} className="flex items-center justify-between gap-3 py-2 first:pt-0 last:pb-0">
+            <div className="min-w-0 flex items-center gap-2">
               <TrackableLink
                 href={source.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-semibold no-underline hover:underline"
+                className="text-sm font-semibold no-underline hover:underline"
                 aria-label={`${source.name} 공식 사이트 (새 탭에서 열림)`}
                 event={{
                   name: 'official_source_click',
@@ -54,21 +50,15 @@ export default function OfficialSourcesSection({
                 }}
               >
                 {source.name}
-                <span
-                  className="ml-1 text-sm font-normal text-gray-500"
-                  aria-hidden="true"
-                >
-                  ↗
-                </span>
+                <span className="ml-1 text-xs font-normal text-gray-500" aria-hidden="true">↗</span>
               </TrackableLink>
-
               {source.note && (
-                <p className="mt-0.5 text-sm text-gray-600">{source.note}</p>
+                <span className="text-xs text-gray-500 hidden sm:inline">- {source.note}</span>
               )}
             </div>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }

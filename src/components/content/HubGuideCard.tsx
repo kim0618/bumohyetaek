@@ -40,11 +40,16 @@ export default function HubGuideCard({ hub, sourcePage = 'unknown' }: Props) {
       <span className={`mb-3 block h-1 w-8 rounded-full ${accentColor}`} aria-hidden="true" />
 
       <div className="flex items-start justify-between gap-3">
-        <div className="min-w-0">
+        <div className="flex items-start gap-2.5 min-w-0">
+          {hub.icon && (
+            <span className="shrink-0 text-xl mt-0.5" aria-hidden="true">{hub.icon}</span>
+          )}
+          <div className="min-w-0">
           <p className="font-semibold text-gray-900">{hub.title}</p>
           <p className="mt-1 text-sm text-gray-600 line-clamp-2">
             {hub.description}
           </p>
+          </div>
         </div>
         {/* 화살표 */}
         <span className="mt-0.5 shrink-0 text-blue-600" aria-hidden="true">

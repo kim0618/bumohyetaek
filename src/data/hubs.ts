@@ -13,6 +13,7 @@ export const hubs: Hub[] = [
       '갑작스러운 입원이나 요양 상황에서 챙겨야 할 건강보험·장기요양·간병 정보를 모았습니다.',
     href: '/hub/prepare-care',
     relatedCategories: ['health-care'],
+    icon: '🏥',
   },
   {
     slug: 'retirement-income',
@@ -21,6 +22,7 @@ export const hubs: Hub[] = [
       '국민연금·기초연금·주택연금 수령 전략과 은퇴 후 받을 수 있는 지원금을 정리했습니다.',
     href: '/hub/retirement-income',
     relatedCategories: ['pension-welfare', 'finance-safety'],
+    icon: '💰',
   },
   {
     slug: 'government-benefits',
@@ -29,6 +31,7 @@ export const hubs: Hub[] = [
       '놓치기 쉬운 복지급여·바우처·지원금을 상황별로 분류해 신청 방법까지 안내합니다.',
     href: '/hub/government-benefits',
     relatedCategories: ['pension-welfare'],
+    icon: '📋',
   },
   {
     slug: 'health-checkup',
@@ -37,6 +40,7 @@ export const hubs: Hub[] = [
       '국가 건강검진 대상·항목·결과 활용법과 건강보험 본인부담 줄이는 방법을 담았습니다.',
     href: '/hub/health-checkup',
     relatedCategories: ['health-care'],
+    icon: '🩺',
   },
   {
     slug: 'financial-safety',
@@ -45,6 +49,7 @@ export const hubs: Hub[] = [
       '노후 자산 관리 기초, 보이스피싱·금융사기 예방법, 안전한 금융 생활 가이드입니다.',
     href: '/hub/financial-safety',
     relatedCategories: ['finance-safety'],
+    icon: '🛡️',
   },
 ];
 

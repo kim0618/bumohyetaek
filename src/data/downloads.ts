@@ -86,6 +86,51 @@ export const downloads: PdfDownload[] = [
     printUrl: '/print/financial-safety-checklist',
   },
 
+  /* ── 6. 유족연금 신청 준비표 ────────────────────────────────── */
+  {
+    id: 'survivor-pension-checklist',
+    title: '유족연금 신청 준비표',
+    description: '유족연금 수급 자격 확인부터 구비서류, 신청 절차까지 한눈에 정리했습니다.',
+    status: 'available',
+    fileName: 'survivor-pension-checklist.pdf',
+    gateType: 'direct',
+    relatedGuides: ['survivor-pension'],
+    relatedHubs:   ['retirement-income'],
+    category: 'pension-welfare',
+    tags: ['유족연금', '신청준비', '체크리스트'],
+    printUrl: '/print/survivor-pension-checklist',
+  },
+
+  /* ── 7. 어르신 예방접종 일정표 ────────────────────────────── */
+  {
+    id: 'vaccination-schedule',
+    title: '어르신 예방접종 일정표',
+    description: '65세 이상 무료 예방접종 종류, 접종 시기, 준비사항을 달력형으로 정리했습니다.',
+    status: 'available',
+    fileName: 'vaccination-schedule.pdf',
+    gateType: 'direct',
+    relatedGuides: ['senior-vaccination'],
+    relatedHubs:   ['health-checkup'],
+    category: 'health-care',
+    tags: ['예방접종', '독감', '폐렴구균'],
+    printUrl: '/print/vaccination-schedule',
+  },
+
+  /* ── 8. 상속·증여 점검 체크리스트 ─────────────────────────── */
+  {
+    id: 'inheritance-checklist',
+    title: '상속·증여 점검 체크리스트',
+    description: '상속세 계산, 증여 한도, 필요 서류 등 사전에 점검할 항목을 정리했습니다.',
+    status: 'available',
+    fileName: 'inheritance-checklist.pdf',
+    gateType: 'direct',
+    relatedGuides: ['inheritance-gift-planning'],
+    relatedHubs:   ['financial-safety'],
+    category: 'finance-safety',
+    tags: ['상속', '증여', '세금'],
+    printUrl: '/print/inheritance-checklist',
+  },
+
 ];
 
 /** 전체 다운로드 목록 */

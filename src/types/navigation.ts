@@ -30,6 +30,8 @@ export interface Hub {
   href: string;
   /** 이 허브와 연관된 카테고리 (1개 이상) */
   relatedCategories: ContentCategory[];
+  /** 카드에 표시할 아이콘 (텍스트/이모지) */
+  icon?: string;
 }
 
 /** 공통 내비게이션 링크 */

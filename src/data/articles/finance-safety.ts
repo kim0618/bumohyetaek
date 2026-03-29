@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 /**
  * 금융·생활안전 카테고리 콘텐츠
@@ -122,8 +123,8 @@ export const financeSafetyArticles: ContentItem[] = [
   /* ── 2. 주택연금 신청 방법 ──────────────────────────────────── */
   {
     slug: 'housing-pension',
-    title: '주택연금 신청 방법과 수령액 계산 (2025년)',
-    seoTitle: '주택연금 신청 방법 2025 - 자격과 월 수령액 계산',
+    title: '주택연금 신청 방법과 수령액 계산',
+    seoTitle: '주택연금 신청 방법 - 자격과 월 수령액 계산',
     seoDescription: '집을 담보로 맡기고 매달 연금을 받으면서 계속 거주할 수 있는 주택연금. 2025년 자격 기준, 집값별 월 수령액 예시, 신청 절차와 해지 방법을 한눈에 정리했습니다.',
     category: 'finance-safety',
     template: 'policy',
@@ -343,14 +344,27 @@ export const financeSafetyArticles: ContentItem[] = [
       '이 글은 일반적인 노후 재정 점검 가이드이며 개인의 상황에 따라 적합한 방법이 다를 수 있습니다. 구체적인 재정 계획은 전문가 상담을 통해 수립하시기 바랍니다.',
 
     relatedSlugs: ['housing-pension', 'prevent-voice-phishing', 'basic-pension-application'],
+
+    relatedCalculator: {
+      brand: siteConfig.calculatorSiteName,
+      name: '예금 이자 계산기',
+      url: 'https://www.jptcalc.kr/calc/finance/deposit/',
+      openMode: 'new-tab',
+      category: 'finance',
+      crossSiteTrackingKey: 'guide-retirement-checklist-deposit',
+    },
+    calculatorCTA: {
+      text: '예금 이자 계산해보기',
+      subText: `${siteConfig.calculatorSiteName} · 무료`,
+    },
   },
 
 
   /* ── 4. 상속·증여 미리 준비하기 ────────────────────────────── */
   {
     slug: 'inheritance-gift-planning',
-    title: '부모님 상속·증여 미리 준비하는 방법 (2025년 기준)',
-    seoTitle: '상속·증여 준비 방법 2025 - 절세 방법과 필수 서류 총정리',
+    title: '부모님 상속·증여 미리 준비하는 방법',
+    seoTitle: '상속·증여 준비 방법 - 절세 방법과 필수 서류 총정리',
     seoDescription: '부모님이 살아계실 때 미리 상속·증여를 준비하면 세금을 줄이고 분쟁을 막을 수 있습니다. 2025년 증여세 면제 한도, 상속세 기초공제, 유언장 작성 방법을 정리했습니다.',
     category: 'finance-safety',
     template: 'standard',
@@ -454,14 +468,27 @@ export const financeSafetyArticles: ContentItem[] = [
       '이 글은 일반적인 정보 제공을 목적으로 작성되었으며 개인의 상황에 따라 세금과 법적 처리 방법이 크게 달라질 수 있습니다. 구체적인 상속·증여 계획은 세무사 또는 변호사와 상담하세요.',
 
     relatedSlugs: ['retirement-finance-checklist', 'housing-pension'],
+
+    relatedCalculator: {
+      brand: siteConfig.calculatorSiteName,
+      name: '상속세 계산기',
+      url: 'https://www.jptcalc.kr/calc/realestate/inheritance/',
+      openMode: 'new-tab',
+      category: 'finance',
+      crossSiteTrackingKey: 'guide-inheritance-gift-inheritance-tax',
+    },
+    calculatorCTA: {
+      text: '상속세 미리 계산해보기',
+      subText: `${siteConfig.calculatorSiteName} · 무료`,
+    },
   },
 
 
   /* ── 5. 성년후견제도 안내 ────────────────────────────────────── */
   {
     slug: 'adult-guardianship',
-    title: '성년후견제도 - 치매 부모님 재산 관리 방법 (2025년)',
-    seoTitle: '성년후견제도 신청 방법 2025 - 치매 부모님 재산 보호하기',
+    title: '성년후견제도 - 치매 부모님 재산 관리 방법',
+    seoTitle: '성년후견제도 신청 방법 - 치매 부모님 재산 보호하기',
     seoDescription: '치매로 의사 결정이 어려운 부모님을 위해 성년후견 또는 임의후견을 신청할 수 있습니다. 법원 신청 방법, 비용, 후견인의 역할을 정리했습니다.',
     category: 'finance-safety',
     template: 'policy',
@@ -566,4 +593,216 @@ export const financeSafetyArticles: ContentItem[] = [
 
     relatedSlugs: ['inheritance-gift-planning', 'prevent-voice-phishing'],
   },
+
+
+  /* ── 장례 절차·비용 준비 가이드 ─────────────────────────────── */
+  {
+    slug: 'funeral-preparation-guide',
+    title: '장례 절차와 비용 준비 가이드 - 갑작스러운 상황에 당황하지 않으려면',
+    seoTitle: '장례 절차 비용 준비 가이드 - 절차 순서와 비용 정리',
+    seoDescription: '가족이 갑자기 돌아가시면 무엇부터 해야 할지 막막합니다. 사망신고부터 장례 절차, 평균 비용, 정부 지원금까지 미리 알아두면 당황하지 않을 수 있습니다.',
+    category: 'finance-safety',
+    template: 'checklist',
+    targetUser: 'family',
+
+    createdAt: '2025-03-20',
+    updatedAt: '2025-03-20',
+    reviewStatus: 'current',
+
+    summary:
+      '가족이 갑자기 돌아가셨을 때 해야 할 일을 순서대로 정리했습니다. 사망신고, 장례 진행, 비용, 정부 지원금까지 미리 알아두면 당황하지 않을 수 있습니다.',
+    heroDescription:
+      '장례는 갑작스럽게 찾아옵니다. 슬픔 속에서도 처리해야 할 행정 절차와 비용을 미리 알아두면 조금이나마 도움이 됩니다.',
+
+    keyPoints: [
+      '사망신고는 사망 후 1개월 이내 주민센터에 신고',
+      '장례 평균 비용 500~1,000만 원대, 국가 지원 최대 80만 원',
+      '기초수급자·차상위계층은 장제급여로 실비 지원 가능',
+    ],
+
+    tags: ['장례절차', '장례비용', '사망신고', '장제급여', '상속'],
+    hubKey: ['financial-safety'],
+    order: 6,
+    isFeatured: false,
+
+    officialSources: [
+      { name: '정부24', url: 'https://www.gov.kr', note: '사망신고 온라인 접수' },
+      { name: '보건복지부', url: 'https://www.mohw.go.kr', note: '장제급여 안내' },
+    ],
+
+    sections: [
+      {
+        type: 'text',
+        heading: '사망 직후 해야 할 일',
+        body: '가족이 돌아가시면 먼저 사망진단서를 발급받아야 합니다. 병원에서 임종한 경우 병원에서, 자택이나 요양원에서 임종한 경우 의사나 119를 통해 사망 확인 후 사망진단서를 받습니다. 이후 장례식장을 결정하고, 사망신고를 합니다.',
+      },
+      {
+        type: 'numbered-list',
+        heading: '장례 진행 순서',
+        items: [
+          '사망진단서 발급: 의사·병원에서 발급, 여러 장 받아두는 것이 좋음',
+          '장례식장 결정: 병원 장례식장, 공립 장례식장, 사설 장례식장 중 선택',
+          '장례 준비: 수의·관·꽃·음식 등 장례식장과 협의',
+          '발인·화장 또는 매장: 장례 3일 후 발인, 화장장 예약 필수',
+          '사망신고: 사망 후 1개월 이내 주민센터 또는 정부24에서 신고',
+          '금융·연금 정리: 계좌 동결 해제, 연금 수령 중단·유족연금 신청',
+          '상속 절차: [[inheritance-gift-planning|상속·증여]] 관련 세금 및 명의 이전',
+        ],
+      },
+      {
+        type: 'info',
+        heading: '장례 비용 기준',
+        body: '장례 비용은 규모와 방식에 따라 크게 다릅니다. 일반적으로 500만~1,000만 원 수준이며, 화장과 납골 기준입니다. 공립 장례식장이 사설보다 저렴하고, 자연장(수목장 등)은 비용이 낮습니다. 장례식장 이용 전 세부 항목별 견적을 반드시 확인하세요.',
+      },
+      {
+        type: 'tip',
+        heading: '기초수급자는 장제급여를 신청하세요',
+        body: '국민기초생활보장법에 따라 기초생활수급자 가구원이 사망하면 장제급여를 받을 수 있습니다. 1인당 최대 80만 원(2025년 기준) 지급. 사망일로부터 1년 이내 주민센터에 신청하면 됩니다.',
+      },
+      {
+        type: 'numbered-list',
+        heading: '사망 후 행정 처리 체크리스트',
+        items: [
+          '사망신고 (주민센터 또는 정부24, 1개월 이내)',
+          '건강보험·국민연금 수급 중단 신고 (공단에 연락)',
+          '[[survivor-pension|유족연금]] 신청 (국민연금공단 1355)',
+          '금융계좌 정리: 은행에 사망 통보, 상속 계좌 이전',
+          '부동산·자동차 명의 이전 (법무사 또는 시·군·구청)',
+          '기초연금·수급자 자격 말소 (주민센터)',
+        ],
+      },
+      {
+        type: 'warning',
+        heading: '상속 포기는 3개월 이내에 결정해야 합니다',
+        body: '상속 재산보다 빚이 많다면 상속 포기 또는 한정승인을 고려해야 합니다. 사망을 안 날로부터 3개월 이내에 법원에 신청해야 하므로, 부채 여부를 빨리 파악하는 것이 중요합니다.',
+      },
+    ],
+
+    faq: [
+      {
+        question: '사망신고를 안 하면 어떻게 되나요?',
+        answer: '사망신고를 하지 않으면 고인 명의 연금·보험이 계속 지급될 수 있고, 나중에 이를 반환해야 할 수 있습니다. 또한 행정적 처리가 지연되어 상속·금융 정리에 어려움이 생깁니다. 반드시 1개월 이내에 신고하세요.',
+      },
+      {
+        question: '화장장 예약은 얼마나 일찍 해야 하나요?',
+        answer: '수도권 화장장은 성수기(봄·가을)에 1~2주 이상 대기하는 경우도 있습니다. 장례식장을 정한 즉시 화장장 예약을 함께 진행하는 것이 좋습니다. 장례식장에서 대행해주기도 합니다.',
+      },
+      {
+        question: '고인의 카드 빚도 상속되나요?',
+        answer: '네, 빚도 상속됩니다. 재산보다 빚이 많다면 상속 포기 또는 한정승인을 신청해야 합니다. 3개월의 기간이 있으므로 전문가(변호사·법무사)와 먼저 상담하세요.',
+      },
+    ],
+
+    cautionNote:
+      '이 글은 2025년 기준으로 작성되었습니다. 장제급여 금액, 사망신고 절차는 변경될 수 있으며 지자체마다 다를 수 있습니다. 구체적인 사항은 주민센터 또는 해당 기관에 문의하세요.',
+
+    relatedSlugs: ['survivor-pension', 'inheritance-gift-planning', 'adult-guardianship'],
+  },
+
+
+  /* ── 실버타운·노인 주거 선택 가이드 ────────────────────────── */
+  {
+    slug: 'senior-housing-guide',
+    title: '실버타운·노인 주거 선택 가이드 - 종류별 비용과 입주 조건',
+    seoTitle: '실버타운 노인주거 선택 가이드 - 종류 비용 입주조건',
+    seoDescription: '실버타운, 노인복지주택, 공공실버주택, 요양원의 차이와 비용을 정리했습니다. 부모님 상황에 맞는 노인 주거를 선택하는 기준을 안내합니다.',
+    category: 'finance-safety',
+    template: 'comparison',
+    targetUser: 'family',
+
+    createdAt: '2025-03-20',
+    updatedAt: '2025-03-20',
+    reviewStatus: 'current',
+
+    summary:
+      '실버타운, 공공실버주택, 노인복지주택, 요양원은 입주 조건과 비용이 모두 다릅니다. 부모님 건강 상태와 재정 상황에 맞는 선택 기준을 정리했습니다.',
+    heroDescription:
+      '부모님 노후 주거를 고민하고 있다면 각 시설의 종류와 비용 차이를 먼저 파악하는 것이 중요합니다. 민간 실버타운부터 공공 지원 주택까지 한눈에 비교합니다.',
+
+    keyPoints: [
+      '건강하고 자립 가능하면 실버타운·노인복지주택, 돌봄 필요하면 요양원',
+      '공공실버주택은 저렴하지만 대기 기간이 길어 미리 신청해야 함',
+      '입주 전 장기요양등급 여부, 보증금 환급 조건 반드시 확인',
+    ],
+
+    tags: ['실버타운', '노인주거', '공공실버주택', '요양원', '노인복지주택'],
+    hubKey: ['financial-safety', 'government-benefits'],
+    order: 7,
+    isFeatured: false,
+
+    officialSources: [
+      { name: '보건복지부', url: 'https://www.mohw.go.kr', note: '노인 주거복지시설 안내' },
+      { name: 'LH 한국토지주택공사', url: 'https://www.lh.or.kr', note: '공공실버주택 입주 신청' },
+    ],
+
+    sections: [
+      {
+        type: 'text',
+        heading: '노인 주거 시설, 무엇이 다른가요?',
+        body: '노인 주거는 크게 스스로 생활 가능한 자립형과 돌봄이 필요한 요양형으로 나뉩니다. 자립형에는 민간 실버타운, 노인복지주택, 공공실버주택이 있고, 요양형에는 노인요양시설(요양원)과 노인요양공동생활가정이 있습니다. [[long-term-care-grade|장기요양등급]]이 있으면 요양형 시설 입소가 유리합니다.',
+      },
+      {
+        type: 'summary',
+        heading: '노인 주거 시설 한눈에 비교',
+        body: '구분 | 대상 | 월 비용 | 특징\n민간 실버타운 | 자립 가능 어르신 | 100~300만 원 이상 | 고급 편의시설, 보증금 1억 이상\n노인복지주택 | 60세 이상 | 50~150만 원 | 분양·임대형, 의료서비스 포함\n공공실버주택 | 65세 이상 무주택 저소득 | 주변 시세 30~50% | 대기 필요, 정부 지원\n요양원 | 장기요양 1~5등급 | 50~150만 원 | 24시간 돌봄, 건강보험 일부 지원',
+      },
+      {
+        type: 'text',
+        heading: '민간 실버타운',
+        body: '민간이 운영하는 고급 노인 주거시설입니다. 수영장·헬스장·식당 등 편의시설이 잘 갖춰져 있으며, 의료서비스도 제공합니다. 입주 보증금 1억~수억 원에 월 이용료 100만~300만 원 이상으로 비용 부담이 큽니다. 건강하고 경제적 여유가 있는 어르신에게 적합합니다.',
+      },
+      {
+        type: 'text',
+        heading: '공공실버주택',
+        body: 'LH·지자체가 운영하는 저렴한 임대주택입니다. 만 65세 이상 무주택 저소득층을 대상으로 하며, 주변 시세의 30~50% 수준의 임대료로 생활할 수 있습니다. 복지관·의료기관과 연계된 서비스도 제공합니다. 인기가 많아 대기 기간이 길므로 미리 신청해두는 것이 좋습니다.',
+      },
+      {
+        type: 'tip',
+        heading: '공공실버주택 신청 방법',
+        body: 'LH청약센터(apply.lh.or.kr) 또는 주민센터에서 신청합니다. 기초생활수급자·차상위계층·장애인 등 우선 공급 대상이 있으므로, 본인 자격을 먼저 확인하세요.',
+      },
+      {
+        type: 'text',
+        heading: '요양원(노인요양시설)',
+        body: '장기요양등급(1~5등급)이 있는 어르신이 입소할 수 있는 돌봄 시설입니다. 24시간 간호·돌봄 서비스를 제공하며, 건강보험에서 일부를 부담해 본인 부담이 낮아집니다. 등급에 따라 비용이 다르며, 1등급의 경우 본인 부담 월 40~60만 원 수준입니다.',
+      },
+      {
+        type: 'numbered-list',
+        heading: '노인 주거 선택 시 확인할 사항',
+        items: [
+          '건강 상태: 자립 가능 여부 및 장기요양등급 유무 확인',
+          '비용 부담: 보증금·월 이용료·추가 서비스비 합산 계산',
+          '위치: 가족 방문 편의성, 병원·마트 접근성 확인',
+          '계약 조건: 보증금 환급 방식, 퇴소 시 조건 꼼꼼히 확인',
+          '운영 이력: 입주자 후기, 행정처분 이력 조회(노인복지관 홈페이지)',
+        ],
+      },
+      {
+        type: 'warning',
+        heading: '보증금 환급 조건을 반드시 확인하세요',
+        body: '일부 민간 실버타운은 보증금 환급 시 시세 차익을 공제하거나 환급 시기가 늦어지는 경우가 있습니다. 계약 전 보증금 환급 조건과 퇴소 시 절차를 변호사 또는 법무사와 함께 검토하는 것을 권장합니다.',
+      },
+    ],
+
+    faq: [
+      {
+        question: '장기요양등급이 없어도 요양원에 들어갈 수 있나요?',
+        answer: '장기요양등급이 없으면 건강보험 지원을 받지 못하고 전액 본인 부담으로 입소해야 합니다. 비용이 크게 높아지므로, 먼저 [[long-term-care-grade|장기요양등급]] 신청을 하는 것이 좋습니다.',
+      },
+      {
+        question: '공공실버주택과 일반 임대주택 차이가 무엇인가요?',
+        answer: '공공실버주택은 노인 맞춤형으로 무장애 설계(턱 없음, 손잡이 등)가 되어 있고, 복지·의료 서비스가 연계됩니다. 일반 임대주택보다 생활 편의성이 높습니다.',
+      },
+      {
+        question: '부모님이 치매가 있으면 어떤 시설이 맞나요?',
+        answer: '치매 어르신은 치매전담형 요양원 또는 치매안심센터 연계 서비스를 이용하는 것이 좋습니다. [[long-term-care-grade|장기요양등급]] 신청과 [[dementia-care-center|치매안심센터]] 상담을 먼저 받아보세요.',
+      },
+    ],
+
+    cautionNote:
+      '이 글은 2025년 기준으로 작성되었습니다. 시설별 비용·입주 조건은 운영 기관과 지역에 따라 다르며, 정확한 내용은 해당 시설이나 보건복지부(129)에 문의하시기 바랍니다.',
+
+    relatedSlugs: ['long-term-care-grade', 'home-visiting-care', 'housing-benefit'],
+  },
+
 ];
