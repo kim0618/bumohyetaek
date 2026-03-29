@@ -591,7 +591,7 @@ export const financeSafetyArticles: ContentItem[] = [
     cautionNote:
       '이 글은 일반적인 정보 안내 목적으로 작성되었습니다. 실제 후견 신청은 개인 상황에 따라 절차가 달라질 수 있으니 법원 후견포털(help-me.kr) 또는 법률구조공단(132)에 문의해 정확한 안내를 받으세요.',
 
-    relatedSlugs: ['inheritance-gift-planning', 'prevent-voice-phishing'],
+    relatedSlugs: ['inheritance-gift-planning', 'funeral-preparation-guide', 'prevent-voice-phishing'],
   },
 
 

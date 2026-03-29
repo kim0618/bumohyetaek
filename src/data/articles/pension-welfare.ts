@@ -127,7 +127,7 @@ export const pensionWelfareArticles: ContentItem[] = [
     cautionNote:
       '이 글은 2025년 1월 기준 정보를 바탕으로 작성되었습니다. 선정기준액·수령액은 매년 변경될 수 있으니 신청 전 보건복지부 또는 주민센터에서 최신 내용을 확인하시기 바랍니다.',
 
-    relatedSlugs: [],
+    relatedSlugs: ['national-pension-timing', 'senior-discount-guide', 'housing-pension'],
     // relatedCalculator: 연금 계산기는 애드센스 승인 후 추가 예정
   },
 
@@ -590,7 +590,7 @@ export const pensionWelfareArticles: ContentItem[] = [
     cautionNote:
       '이 글은 2025년 기준으로 작성되었습니다. 유족연금 지급률과 기준액은 변경될 수 있으므로 신청 전 국민연금공단(1355)에서 최신 정보를 확인하세요.',
 
-    relatedSlugs: ['basic-pension-application', 'retirement-finance-checklist'],
+    relatedSlugs: ['basic-pension-application', 'funeral-preparation-guide', 'retirement-finance-checklist'],
   },
 
 
