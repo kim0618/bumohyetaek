@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import type { PdfDownload } from '@/types/download';
 import { TrackableLink } from '@/components/analytics';
 import { Badge } from '@/components/ui';
@@ -50,27 +51,39 @@ export default function PdfDownloadCard({ item, variant = 'card' }: Props) {
           </div>
         </div>
 
-        {isAvailable ? (
-          <TrackableLink
-            href={href}
-            download
-            className="btn-sm btn-outline shrink-0 no-underline text-sm"
-            aria-label={`${item.title} PDF 저장하기`}
-            event={{ name: 'pdf_download_click', params: { pdf_id: item.id, pdf_title: item.title, status: item.status } }}
-          >
-            PDF 저장
-            <span aria-hidden="true" className="ml-1 text-gray-400">↓</span>
-          </TrackableLink>
-        ) : (
-          <span
-            className="inline-flex items-center rounded-lg border-2 border-gray-200
-                       px-4 py-2 text-sm font-semibold text-gray-400
-                       min-h-[44px] cursor-not-allowed"
-            aria-label="아직 준비 중입니다"
-          >
-            준비 중
-          </span>
-        )}
+        <div className="flex flex-wrap items-center gap-2">
+          {isAvailable ? (
+            <TrackableLink
+              href={href}
+              download
+              className="btn-sm btn-outline shrink-0 no-underline text-sm"
+              aria-label={`${item.title} PDF 저장하기`}
+              event={{ name: 'pdf_download_click', params: { pdf_id: item.id, pdf_title: item.title, status: item.status } }}
+            >
+              PDF 저장
+              <span aria-hidden="true" className="ml-1 text-gray-400">↓</span>
+            </TrackableLink>
+          ) : (
+            <span
+              className="inline-flex items-center rounded-lg border-2 border-gray-200
+                         px-4 py-2 text-sm font-semibold text-gray-400
+                         min-h-[44px] cursor-not-allowed"
+              aria-label="아직 준비 중입니다"
+            >
+              준비 중
+            </span>
+          )}
+          {item.printUrl && (
+            <Link
+              href={item.printUrl}
+              target="_blank"
+              rel="noopener"
+              className="text-xs text-blue-600 underline underline-offset-2 hover:text-blue-800"
+            >
+              인쇄용 페이지 열기
+            </Link>
+          )}
+        </div>
       </div>
     );
   }
@@ -125,7 +138,7 @@ export default function PdfDownloadCard({ item, variant = 'card' }: Props) {
         {item.description}
       </p>
 
-      <div className="mt-4">
+      <div className="mt-4 flex flex-col gap-2">
         {isAvailable ? (
           <TrackableLink
             href={href}
@@ -147,10 +160,22 @@ export default function PdfDownloadCard({ item, variant = 'card' }: Props) {
             >
               준비 중
             </span>
-            <p className="mt-2 mb-0 text-xs text-gray-400">
-              곧 제공될 예정입니다.
-            </p>
+            {!item.printUrl && (
+              <p className="mt-0 mb-0 text-xs text-gray-400">
+                곧 제공될 예정입니다.
+              </p>
+            )}
           </>
+        )}
+        {item.printUrl && (
+          <Link
+            href={item.printUrl}
+            target="_blank"
+            rel="noopener"
+            className="text-xs text-blue-600 underline underline-offset-2 hover:text-blue-800"
+          >
+            인쇄용 페이지 열기
+          </Link>
         )}
       </div>
     </div>

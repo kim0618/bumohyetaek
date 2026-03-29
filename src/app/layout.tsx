@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Script from 'next/script';
 import './globals.css';
 import { siteConfig, getSiteUrl } from '@/config/siteConfig';
-import { Header, Footer } from '@/components/layout';
+import { LayoutShell } from '@/components/layout';
 import JsonLd from '@/components/seo/JsonLd';
 import { buildOrganizationJsonLd, buildWebSiteJsonLd } from '@/lib/jsonld';
 
@@ -61,13 +61,7 @@ export default function RootLayout({
           본문 바로가기
         </a>
 
-        <Header />
-
-        <main id="main-content" className="flex-1">
-          {children}
-        </main>
-
-        <Footer />
+        <LayoutShell>{children}</LayoutShell>
 
         {/* ── AdSense 스크립트 ──────────────────────────────────
             NEXT_PUBLIC_ADSENSE_CLIENT 미설정 시 로드 안 함.

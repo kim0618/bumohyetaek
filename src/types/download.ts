@@ -71,4 +71,11 @@ export interface PdfDownload {
 
   /** 검색·필터용 태그 */
   tags?: string[];
+
+  /**
+   * 인쇄용 페이지 경로
+   * 설정 시 다운로드 카드에 "인쇄용 페이지 열기" 링크 표시
+   * 예: '/print/basic-pension-checklist'
+   */
+  printUrl?: string;
 }
