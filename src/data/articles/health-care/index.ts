@@ -1,0 +1,53 @@
+import type { ContentItem } from '@/types/content';
+
+import nationalHealthCheckupGuide from './national-health-checkup-guide';
+import dementiaCareCenter from './dementia-care-center';
+import cancerScreeningGuide from './cancer-screening-guide';
+import homeVisitingCare from './home-visiting-care';
+import seniorVaccination from './senior-vaccination';
+import healthInsuranceLimit from './health-insurance-limit';
+import seniorDrivingLicense from './senior-driving-license';
+import careFacilityComparison from './care-facility-comparison';
+import seniorDentalCoverage from './senior-dental-coverage';
+import careTypeSelection from './care-type-selection';
+import seniorHearingAid from './senior-hearing-aid';
+import seniorMentalHealth from './senior-mental-health';
+import seniorFallPrevention from './senior-fall-prevention';
+import healthInsurancePremiumReduction from './health-insurance-premium-reduction';
+import seniorDiabetesManagement from './senior-diabetes-management';
+import hospicePalliativeCare from './hospice-palliative-care';
+import rehabilitationInsurance from './rehabilitation-insurance';
+import polypharmacyManagement from './polypharmacy-management';
+import seniorCognitiveScreening from './senior-cognitive-screening';
+import seniorOralHealth from './senior-oral-health';
+import seniorEyeHealth from './senior-eye-health';
+import seniorNutritionGuide from './senior-nutrition-guide';
+import seniorExerciseGuide from './senior-exercise-guide';
+import seniorSleepHealth from './senior-sleep-health';
+
+export const healthCareArticles: ContentItem[] = [
+  nationalHealthCheckupGuide,
+  dementiaCareCenter,
+  cancerScreeningGuide,
+  homeVisitingCare,
+  seniorVaccination,
+  healthInsuranceLimit,
+  seniorDrivingLicense,
+  careFacilityComparison,
+  seniorDentalCoverage,
+  careTypeSelection,
+  seniorHearingAid,
+  seniorMentalHealth,
+  seniorFallPrevention,
+  healthInsurancePremiumReduction,
+  seniorDiabetesManagement,
+  hospicePalliativeCare,
+  rehabilitationInsurance,
+  polypharmacyManagement,
+  seniorCognitiveScreening,
+  seniorOralHealth,
+  seniorEyeHealth,
+  seniorNutritionGuide,
+  seniorExerciseGuide,
+  seniorSleepHealth,
+];
