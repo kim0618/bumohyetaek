@@ -23,6 +23,16 @@ import nearPovertyBenefits from './near-poverty-benefits';
 import seniorTransportDiscount from './senior-transport-discount';
 import elderAbusePrevention from './elder-abuse-prevention';
 import seniorCustomizedCare from './senior-customized-care';
+import seniorCultureVoucher from './senior-culture-voucher';
+import seniorLegalAid from './senior-legal-aid';
+import seniorHousingRenovation from './senior-housing-renovation';
+import lonelySeniorSupport from './lonely-senior-support';
+import basicPensionReduction from './basic-pension-reduction';
+import seniorJobTypes from './senior-job-types';
+import seniorDaycareCenter from './senior-daycare-center';
+import emergencyCareService from './emergency-care-service';
+import veteransSeniorBenefit from './veterans-senior-benefit';
+import seniorDigitalEducation from './senior-digital-education';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -48,4 +58,14 @@ export const pensionWelfareArticles: ContentItem[] = [
   seniorTransportDiscount,
   elderAbusePrevention,
   seniorCustomizedCare,
+  seniorCultureVoucher,
+  seniorLegalAid,
+  seniorHousingRenovation,
+  lonelySeniorSupport,
+  basicPensionReduction,
+  seniorJobTypes,
+  seniorDaycareCenter,
+  emergencyCareService,
+  veteransSeniorBenefit,
+  seniorDigitalEducation,
 ];

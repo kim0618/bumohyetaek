@@ -24,6 +24,16 @@ import seniorEyeHealth from './senior-eye-health';
 import seniorNutritionGuide from './senior-nutrition-guide';
 import seniorExerciseGuide from './senior-exercise-guide';
 import seniorSleepHealth from './senior-sleep-health';
+import advanceDirective from './advance-directive';
+import seniorKneeSurgery from './senior-knee-surgery';
+import seniorDentureImplant from './senior-denture-implant';
+import caregiverCertification from './caregiver-certification';
+import seniorHypertension from './senior-hypertension';
+import seniorIncontinence from './senior-incontinence';
+import seniorEmergencyResponse from './senior-emergency-response';
+import seniorPhysicalTherapy from './senior-physical-therapy';
+import seniorCataractSurgery from './senior-cataract-surgery';
+import seniorAssistiveDevice from './senior-assistive-device';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -50,4 +60,14 @@ export const healthCareArticles: ContentItem[] = [
   seniorNutritionGuide,
   seniorExerciseGuide,
   seniorSleepHealth,
+  advanceDirective,
+  seniorKneeSurgery,
+  seniorDentureImplant,
+  caregiverCertification,
+  seniorHypertension,
+  seniorIncontinence,
+  seniorEmergencyResponse,
+  seniorPhysicalTherapy,
+  seniorCataractSurgery,
+  seniorAssistiveDevice,
 ];

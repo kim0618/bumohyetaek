@@ -47,7 +47,7 @@ export default function Header() {
             />
 
             <Link
-              href="/hub/government-benefits"
+              href="/hub/government-benefits/"
               className="rounded-md px-3 py-2 text-sm font-medium text-blue-700 no-underline hover:bg-blue-50"
             >
               상황별 가이드

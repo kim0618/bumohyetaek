@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'pension-income-tax',
@@ -111,6 +112,19 @@ const article: ContentItem = {
     '이 글은 일반적인 안내 목적으로 작성되었습니다. 개인 소득 구성과 연금 종류에 따라 유리한 과세 방식이 달라지므로 세무사 상담을 통해 정확한 절세 방법을 확인하세요. 세법은 매년 개정될 수 있습니다.',
 
   relatedSlugs: ['national-pension-timing', 'retirement-pension-irp', 'retirement-finance-checklist'],
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '종합소득세 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/income-tax/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-pension-tax-income',
+  },
+  calculatorCTA: {
+    text: '종합소득세 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} - 무료`,
+  },
 };
 
 export default article;

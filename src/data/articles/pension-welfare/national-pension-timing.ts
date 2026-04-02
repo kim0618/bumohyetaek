@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'national-pension-timing',
@@ -110,6 +111,19 @@ const article: ContentItem = {
     '이 글은 2025년 기준으로 작성되었습니다. 수령 기준 연령, 감액률, 소득 기준은 법령 개정에 따라 변경될 수 있습니다. 개인별 상황에 맞는 결정을 위해 국민연금공단(1355) 상담을 권장합니다.',
 
   relatedSlugs: ['basic-pension-application', 'housing-pension', 'survivor-pension', 'national-pension-lump-sum', 'pension-income-tax'],
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '만 나이 계산기',
+    url: 'https://www.jptcalc.kr/calc/date/age/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-pension-timing-age',
+  },
+  calculatorCTA: {
+    text: '만 나이 확인하기',
+    subText: `${siteConfig.calculatorSiteName} - 무료`,
+  },
 };
 
 export default article;

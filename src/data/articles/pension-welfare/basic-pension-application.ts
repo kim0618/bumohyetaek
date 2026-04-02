@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'basic-pension-application',
@@ -127,7 +128,19 @@ const article: ContentItem = {
     '이 글은 2025년 1월 기준 정보를 바탕으로 작성되었습니다. 선정기준액·수령액은 매년 변경될 수 있으니 신청 전 보건복지부 또는 주민센터에서 최신 내용을 확인하시기 바랍니다.',
 
   relatedSlugs: ['national-pension-timing', 'senior-discount-guide', 'housing-pension'],
-  // relatedCalculator: 연금 계산기는 애드센스 승인 후 추가 예정
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '만 나이 계산기',
+    url: 'https://www.jptcalc.kr/calc/date/age/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-basic-pension-age',
+  },
+  calculatorCTA: {
+    text: '만 나이 확인하기',
+    subText: `${siteConfig.calculatorSiteName} - 무료`,
+  },
 };
 
 export default article;

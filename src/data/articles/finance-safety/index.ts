@@ -23,6 +23,16 @@ import afterDeathAdmin from './after-death-admin';
 import pensionSplitDivorce from './pension-split-divorce';
 import retirementBudgetPlanning from './retirement-budget-planning';
 import careHomeCostGuide from './care-home-cost-guide';
+import medicalExpenseDeduction from './medical-expense-deduction';
+import willWritingGuide from './will-writing-guide';
+import familyCareLeave from './family-care-leave';
+import seniorInsuranceReview from './senior-insurance-review';
+import seniorTaxBenefit from './senior-tax-benefit';
+import careCostReduction from './care-cost-reduction';
+import digitalFinanceSafety from './digital-finance-safety';
+import seniorDepositProtection from './senior-deposit-protection';
+import powerOfAttorney from './power-of-attorney';
+import seniorSubscriptionCleanup from './senior-subscription-cleanup';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -48,4 +58,14 @@ export const financeSafetyArticles: ContentItem[] = [
   pensionSplitDivorce,
   retirementBudgetPlanning,
   careHomeCostGuide,
+  medicalExpenseDeduction,
+  willWritingGuide,
+  familyCareLeave,
+  seniorInsuranceReview,
+  seniorTaxBenefit,
+  careCostReduction,
+  digitalFinanceSafety,
+  seniorDepositProtection,
+  powerOfAttorney,
+  seniorSubscriptionCleanup,
 ];

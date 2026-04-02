@@ -19,17 +19,17 @@ export const siteConfig = {
   siteAltName: '부모혜택 by 제이퍼',
 
   /**
-   * 운영 도메인 (출시 예정, 현재 미구매 상태)
+   * 운영 도메인
    * URL이 아닌 도메인만 필요한 곳에서 사용
    */
-  siteDomain: 'parentguide.kr',
+  siteDomain: 'bumohyetaek.kr',
 
   /**
    * 운영 사이트 전체 URL
    * canonical / og:url / sitemap은 이 값을 기준으로 생성.
    * 개발 중에는 getSiteUrl()을 통해 환경별로 분기할 것.
    */
-  productionSiteUrl: 'https://www.parentguide.kr',
+  productionSiteUrl: 'https://www.bumohyetaek.kr',
 
 
   /* ── 사이트 설명 ────────────────────────────────── */

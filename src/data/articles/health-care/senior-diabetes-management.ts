@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-diabetes-management',
@@ -119,6 +120,19 @@ const article: ContentItem = {
     '이 글은 대한당뇨병학회 진료 지침과 국민건강보험공단 안내를 바탕으로 작성되었습니다. 혈당 목표와 약 처방은 개인 상태에 따라 다르므로 반드시 담당 의사와 상의하세요.',
 
   relatedSlugs: ['national-health-checkup-guide', 'senior-fall-prevention', 'health-insurance-limit'],
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: 'BMI 계산기',
+    url: 'https://www.jptcalc.kr/calc/health/bmi/',
+    openMode: 'new-tab',
+    category: 'health',
+    crossSiteTrackingKey: 'guide-diabetes-bmi',
+  },
+  calculatorCTA: {
+    text: '내 BMI 확인하기',
+    subText: `${siteConfig.calculatorSiteName} - 무료`,
+  },
 };
 
 export default article;

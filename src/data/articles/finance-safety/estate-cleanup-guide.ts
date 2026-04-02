@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'estate-cleanup-guide',
@@ -118,6 +119,19 @@ const article: ContentItem = {
     '유품 정리 업체의 서비스 품질과 비용은 업체마다 크게 다릅니다. 계약 전 반드시 견적서를 서면으로 받고, 추가 비용 발생 여부를 확인하세요.',
 
   relatedSlugs: ['funeral-preparation-guide', 'inheritance-gift-planning', 'survivor-pension'],
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '상속세 계산기',
+    url: 'https://www.jptcalc.kr/calc/realestate/inheritance/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-estate-inheritance-tax',
+  },
+  calculatorCTA: {
+    text: '상속세 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} - 무료`,
+  },
 };
 
 export default article;

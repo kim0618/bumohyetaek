@@ -36,7 +36,7 @@ export default function ContactPage() {
       <div className="box-info">
         <p className="box-title">이메일 문의</p>
         <p className="mt-1 mb-0">
-          <a href="mailto:parentguide@naver.com">parentguide@naver.com</a>
+          <a href="mailto:jptcalc@naver.com">jptcalc@naver.com</a>
         </p>
       </div>
 
