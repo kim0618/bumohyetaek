@@ -49,6 +49,11 @@ export const metadata: Metadata = {
     index:  process.env.NODE_ENV === 'production',
     follow: process.env.NODE_ENV === 'production',
   },
+  verification: {
+    other: {
+      'naver-site-verification': '7209a08ae6188ccc21410c2a49f70ac050f14d86',
+    },
+  },
 };
 
 export default function RootLayout({
