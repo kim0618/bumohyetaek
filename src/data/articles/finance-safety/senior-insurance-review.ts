@@ -110,7 +110,7 @@ const article: ContentItem = {
   cautionNote:
     '보험 해지는 되돌릴 수 없습니다. 전문 상담 없이 해지 결정을 내리지 말고, 반드시 보험사 또는 금융감독원 상담을 받은 후 결정하세요.',
 
-  relatedSlugs: ['health-insurance-claim', 'retirement-budget-planning', 'dementia-financial-management'],
+  relatedSlugs: ['health-insurance-claim', 'retirement-budget-planning', 'dementia-financial-management', 'senior-loss-insurance-guide'],
 };
 
 export default article;
