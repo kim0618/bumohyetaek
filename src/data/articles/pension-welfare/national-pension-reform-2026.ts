@@ -45,16 +45,6 @@ const article: ContentItem = {
     },
   ],
 
-  relatedCalculator: {
-    brand: '제이퍼 계산기',
-    name: '국민연금 계산기',
-    url: 'https://jptcalc.kr/national-pension',
-    openMode: 'new-tab',
-    category: 'finance',
-    crossSiteTrackingKey: 'guide-national-pension-reform-2026',
-  },
-  calculatorCTA: { text: '개혁 후 내 국민연금 예상 수령액 계산해보기' },
-
   sections: [
     {
       type: 'text',

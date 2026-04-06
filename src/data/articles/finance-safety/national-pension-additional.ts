@@ -26,18 +26,6 @@ const article: ContentItem = {
 
   relatedSlugs: ['national-pension-timing', 'national-pension-lump-sum', 'survivor-pension', 'retirement-budget-planning'],
 
-  relatedCalculator: {
-    brand: '제이퍼 계산기',
-    name: '국민연금 계산기',
-    url: 'https://jptcalc.kr/national-pension',
-    openMode: 'new-tab',
-    category: 'finance',
-  },
-  calculatorCTA: {
-    text: '국민연금 예상 수령액 계산해보기',
-    subText: '제이퍼 계산기에서 무료로 이용',
-  },
-
   officialSources: [
     {
       name: '국민연금공단 - 추후납부 안내',

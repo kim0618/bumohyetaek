@@ -35,7 +35,7 @@ const article: ContentItem = {
   relatedCalculator: {
     brand: '제이퍼 계산기',
     name: '퇴직금 계산기',
-    url: 'https://jptcalc.kr/retirement',
+    url: 'https://www.jptcalc.kr/calc/salary/severance/',
     openMode: 'new-tab',
     category: 'finance',
   },

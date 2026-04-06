@@ -43,16 +43,6 @@ const article: ContentItem = {
     },
   ],
 
-  relatedCalculator: {
-    brand: '제이퍼 계산기',
-    name: '건강보험료 계산기',
-    url: 'https://jptcalc.kr/health-insurance',
-    openMode: 'new-tab',
-    category: 'finance',
-    crossSiteTrackingKey: 'guide-retirement-health-insurance',
-  },
-  calculatorCTA: { text: '지역가입자 건강보험료 계산해보기' },
-
   sections: [
     {
       type: 'text',

@@ -207,15 +207,16 @@ TypeScript 타입: ContentItem (src/types/content.ts)
 ────────────────────────────────
 아래 계산기와 주제가 연관되면 relatedCalculator + calculatorCTA 반드시 입력.
 
-연결 가능한 계산기 목록 (jptcalc.kr):
-  기초연금       → https://jptcalc.kr/basic-pension
-  국민연금       → https://jptcalc.kr/national-pension
-  건강보험료     → https://jptcalc.kr/health-insurance
-  장기요양보험   → https://jptcalc.kr/long-term-care
-  퇴직금         → https://jptcalc.kr/severance-pay
-  상속세         → https://jptcalc.kr/inheritance-tax
-  증여세         → https://jptcalc.kr/gift-tax
-  실업급여       → https://jptcalc.kr/unemployment-benefit
+연결 가능한 계산기 목록 (www.jptcalc.kr):
+  퇴직금         → https://www.jptcalc.kr/calc/salary/severance/
+  실업급여       → https://www.jptcalc.kr/calc/salary/unemployment/
+  상속세         → https://www.jptcalc.kr/calc/realestate/inheritance/
+  증여세         → https://www.jptcalc.kr/calc/realestate/gift/
+  소득세         → https://www.jptcalc.kr/calc/tax/income-tax/
+  만 나이        → https://www.jptcalc.kr/calc/date/age/
+  BMI            → https://www.jptcalc.kr/calc/health/bmi/
+  기초대사량     → https://www.jptcalc.kr/calc/health/bmr/
+  예금이자       → https://www.jptcalc.kr/calc/finance/deposit/
 
 연결 조건:
 - 글 주제가 위 계산기와 직접 관련된 경우에만 연결
