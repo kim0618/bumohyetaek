@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-03-29',
-  updatedAt: '2026-03-29',
+  updatedAt: '2026-04-06',
   reviewStatus: 'current',
   effectiveDate: '2026-01-01',
 
@@ -76,6 +76,11 @@ const article: ContentItem = {
       type: 'warning',
       heading: '요양병원 장기 입원 주의',
       body: '요양병원은 장기 입원 시 건강보험 급여일수 제한이 생길 수 있습니다. 의료적 필요 없이 단순 돌봄 목적으로 장기 입원하면 급여 삭감 통보를 받을 수 있으므로, 상태가 안정되면 요양원 이전을 검토하는 것이 좋습니다.',
+    },
+    {
+      type: 'warning',
+      heading: '의료 안내 사항',
+      body: '이 글은 일반적인 건강 정보를 제공하며, 의학적 진단이나 치료를 대체하지 않습니다. 증상이 있거나 치료가 필요한 경우 반드시 의사와 상담하세요. 개인의 건강 상태에 따라 적합한 치료법이 다를 수 있습니다. 응급 상황 시 ☎ 119, 건강 상담은 ☎ 1577-1000(국민건강보험공단)으로 문의하세요.',
     },
   ],
 
