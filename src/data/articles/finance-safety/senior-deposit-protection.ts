@@ -123,7 +123,7 @@ const article: ContentItem = {
   cautionNote:
     '예금자보호 한도(5,000만 원)는 금융기관 파산 시 기준이며, 정상 영업 중에는 전액 출금 가능합니다. 원금 보장이 안 되는 투자 상품과 혼동하지 마세요.',
 
-  relatedSlugs: ['retirement-budget-planning', 'senior-tax-benefit', 'retirement-finance-checklist'],
+  relatedSlugs: ['retirement-budget-planning', 'senior-tax-benefit', 'retirement-finance-checklist', 'seizure-protected-account'],
 };
 
 export default article;
