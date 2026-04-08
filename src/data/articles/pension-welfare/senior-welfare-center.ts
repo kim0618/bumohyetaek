@@ -121,7 +121,7 @@ const article: ContentItem = {
   cautionNote:
     '경로당과 노인복지관의 프로그램, 이용 시간은 시설마다 다릅니다. 방문 전에 전화로 확인하거나 복지로에서 가까운 시설을 검색해보세요.',
 
-  relatedSlugs: ['senior-discount-guide', 'senior-job-program', 'elderly-care-service'],
+  relatedSlugs: ['senior-discount-guide', 'senior-job-program', 'elderly-care-service', 'senior-lifelong-education'],
 };
 
 export default article;

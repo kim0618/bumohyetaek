@@ -8,3 +8,9 @@ health-insurance-limit
 health-insurance-premium-reduction
 home-visiting-care
 hospice-palliative-care
+national-health-checkup-guide
+polypharmacy-management
+regional-health-checkup-support
+rehabilitation-insurance
+senior-assistive-device
+senior-cataract-surgery

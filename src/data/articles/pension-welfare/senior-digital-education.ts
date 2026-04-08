@@ -107,7 +107,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었습니다. 디지털 배움터 위치와 운영 일정은 변경될 수 있으니 가까운 주민센터 또는 디지털 배움터 누리집에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['senior-welfare-center', 'senior-discount-guide', 'senior-culture-voucher', 'senior-job-types'],
+  relatedSlugs: ['senior-welfare-center', 'senior-discount-guide', 'senior-culture-voucher', 'senior-job-types', 'senior-lifelong-education'],
 };
 
 export default article;
