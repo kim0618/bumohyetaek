@@ -29,6 +29,7 @@ const article: ContentItem = {
     'national-pension-additional',
     'survivor-pension',
     'basic-pension-application',
+    'national-pension-increase-strategy',
   ],
 
   officialSources: [

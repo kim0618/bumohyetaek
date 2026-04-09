@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-03-30',
+  updatedAt: '2026-04-09',
   reviewStatus: 'current',
 
   summary:
@@ -85,6 +85,11 @@ const article: ContentItem = {
         '다른 병원에서 받은 약과 중복 여부 확인: 약국에서 DUR(의약품안전사용서비스) 점검',
         '인슐린 주사 사용자는 보관 온도(2-8도 냉장)와 주사 부위 순환에 주의',
       ],
+    },
+    {
+      type: 'warning',
+      heading: '의료 안내 사항',
+      body: '이 글은 일반적인 건강 정보를 제공하며, 의학적 진단이나 치료를 대체하지 않습니다. 증상이 있거나 치료가 필요한 경우 반드시 의사와 상담하세요. 개인의 건강 상태에 따라 적합한 치료법이 다를 수 있습니다. 응급 상황 시 ☎ 119, 건강 상담은 ☎ 1577-1000(국민건강보험공단)으로 문의하세요.',
     },
     {
       type: 'summary',

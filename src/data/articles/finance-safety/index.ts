@@ -38,6 +38,7 @@ import retirementSeveranceChoice from './retirement-severance-choice';
 import retirementHealthInsurance from './retirement-health-insurance';
 import seniorLossInsuranceGuide from './senior-loss-insurance-guide';
 import seizureProtectedAccount from './seizure-protected-account';
+import nationalPensionIncreaseStrategy from './national-pension-increase-strategy';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -78,5 +79,6 @@ export const financeSafetyArticles: ContentItem[] = [
   retirementHealthInsurance,
   seniorLossInsuranceGuide,
   seizureProtectedAccount,
+  nationalPensionIncreaseStrategy,
 ];
 

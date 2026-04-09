@@ -14,3 +14,8 @@ regional-health-checkup-support
 rehabilitation-insurance
 senior-assistive-device
 senior-cataract-surgery
+senior-chronic-pain
+senior-cognitive-screening
+senior-dental-coverage
+senior-denture-implant
+senior-diabetes-management
