@@ -99,7 +99,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2025년 통계청 자료를 바탕으로 작성되었으며, 물가 변동과 정책 변경에 따라 수치가 달라질 수 있습니다. 구체적인 재정 설계는 금융감독원(1332) 또는 전문 재무설계사와 상담하시기 바랍니다.',
 
-  relatedSlugs: ['retirement-finance-checklist', 'housing-pension', 'national-pension-timing'],
+  relatedSlugs: ['retirement-finance-checklist', 'housing-pension', 'national-pension-timing', 'national-pension-increase-strategy'],
 };
 
 export default article;

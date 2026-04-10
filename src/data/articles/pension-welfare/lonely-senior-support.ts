@@ -107,7 +107,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었습니다. 서비스 내용과 지원 기준은 지역별·예산별로 다를 수 있으니 주민센터 또는 ☎ 129에서 확인하세요.',
 
-  relatedSlugs: ['senior-customized-care', 'senior-emergency-alert', 'senior-free-meal', 'elderly-care-service'],
+  relatedSlugs: ['senior-customized-care', 'senior-emergency-alert', 'senior-free-meal', 'elderly-care-service', 'dementia-family-respite'],
 };
 
 export default article;

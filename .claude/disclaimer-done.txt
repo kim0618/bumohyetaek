@@ -24,3 +24,8 @@ senior-emergency-response
 senior-exercise-guide
 senior-eye-health
 senior-fall-prevention
+senior-hearing-aid
+senior-hypertension
+senior-incontinence
+senior-knee-surgery
+senior-mental-health

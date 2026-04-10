@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'senior',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-04-02',
+  updatedAt: '2026-04-11',
   reviewStatus: 'current',
 
   summary:
@@ -90,6 +90,11 @@ const article: ContentItem = {
       type: 'warning',
       heading: '수술 전 확인해야 할 사항',
       body: '인공관절은 평균 15-20년의 수명을 가지므로 70세 이상에서 수술받는 경우 재수술 가능성이 낮습니다. 반면 60대 초반의 활동적인 환자는 재수술을 고려해야 할 수 있습니다. 수술 전 혈액검사, 심장·폐 기능 검사 등 전신 상태 평가가 필수입니다. [[senior-diabetes-management|당뇨병]]이나 [[senior-hypertension|고혈압]] 등 만성질환을 가진 경우 수술 위험도가 높아지므로 담당 의사와 충분히 상담하세요.',
+    },
+    {
+      type: 'warning',
+      heading: '의료 안내 사항',
+      body: '이 글은 일반적인 건강 정보를 제공하며, 의학적 진단이나 치료를 대체하지 않습니다. 증상이 있거나 치료가 필요한 경우 반드시 의사와 상담하세요. 개인의 건강 상태에 따라 적합한 치료법이 다를 수 있습니다. 응급 상황 시 ☎ 119, 건강 상담은 ☎ 1577-1000(국민건강보험공단)으로 문의하세요.',
     },
   ],
 

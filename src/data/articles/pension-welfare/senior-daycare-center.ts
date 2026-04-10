@@ -117,7 +117,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었습니다. 장기요양 급여 기준과 본인 부담 비율은 변경될 수 있으니 국민건강보험공단(☎ 1577-1000)에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['long-term-care-grade', 'elderly-care-service', 'senior-customized-care', 'emergency-care-service'],
+  relatedSlugs: ['long-term-care-grade', 'elderly-care-service', 'senior-customized-care', 'emergency-care-service', 'dementia-family-respite'],
 };
 
 export default article;

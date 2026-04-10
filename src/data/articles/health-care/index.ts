@@ -38,6 +38,7 @@ import seniorStrokePrevention from './senior-stroke-prevention';
 import seniorOsteoporosis from './senior-osteoporosis';
 import seniorChronicPain from './senior-chronic-pain';
 import regionalHealthCheckupSupport from './regional-health-checkup-support';
+import seniorPneumoniaPrevention from './senior-pneumonia-prevention';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -78,4 +79,5 @@ export const healthCareArticles: ContentItem[] = [
   seniorOsteoporosis,
   seniorChronicPain,
   regionalHealthCheckupSupport,
+  seniorPneumoniaPrevention,
 ];

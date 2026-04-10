@@ -130,7 +130,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 국민건강보험공단 및 건강보험심사평가원 안내를 바탕으로 작성되었습니다. 급여 기준과 본인부담률은 변경될 수 있으므로 국민건강보험공단(1577-1000)에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['senior-dental-coverage', 'national-health-checkup-guide', 'health-insurance-limit'],
+  relatedSlugs: ['senior-dental-coverage', 'national-health-checkup-guide', 'health-insurance-limit', 'senior-pneumonia-prevention'],
 };
 
 export default article;
