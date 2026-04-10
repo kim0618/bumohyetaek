@@ -19,3 +19,8 @@ senior-cognitive-screening
 senior-dental-coverage
 senior-denture-implant
 senior-diabetes-management
+senior-driving-license
+senior-emergency-response
+senior-exercise-guide
+senior-eye-health
+senior-fall-prevention

@@ -103,7 +103,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2025년 기준 정보를 바탕으로 작성되었습니다. 등급 기준과 급여 내용은 변경될 수 있으니 신청 전 국민건강보험공단(1577-1000)에 확인하시기 바랍니다.',
 
-  relatedSlugs: ['national-health-checkup-guide', 'care-facility-comparison', 'senior-dental-coverage'],
+  relatedSlugs: ['national-health-checkup-guide', 'care-facility-comparison', 'senior-dental-coverage', 'dementia-family-respite'],
   // relatedCalculator: 장기요양 계산기는 애드센스 승인 후 추가 예정
 };
 

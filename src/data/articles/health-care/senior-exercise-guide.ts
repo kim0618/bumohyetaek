@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'senior',
 
   createdAt: '2026-03-31',
-  updatedAt: '2026-03-31',
+  updatedAt: '2026-04-10',
   reviewStatus: 'current',
 
   summary:
@@ -86,6 +86,11 @@ const article: ContentItem = {
       type: 'warning',
       heading: '운동 전 반드시 확인하세요',
       body: '심장 질환, 뇌혈관 질환, 심한 골다공증이 있는 분은 반드시 의사와 상담 후 운동을 시작하세요. 급격한 고강도 운동은 오히려 위험할 수 있습니다. 운동 중 어지러움, 가슴 통증, 심한 숨참이 나타나면 즉시 중단하고 휴식하세요.',
+    },
+    {
+      type: 'warning',
+      heading: '의료 안내 사항',
+      body: '이 글은 일반적인 건강 정보를 제공하며, 의학적 진단이나 치료를 대체하지 않습니다. 증상이 있거나 치료가 필요한 경우 반드시 의사와 상담하세요. 개인의 건강 상태에 따라 적합한 치료법이 다를 수 있습니다. 응급 상황 시 ☎ 119, 건강 상담은 ☎ 1577-1000(국민건강보험공단)으로 문의하세요.',
     },
   ],
 

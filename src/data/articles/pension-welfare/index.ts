@@ -38,6 +38,7 @@ import nationalPensionCredit from './national-pension-credit';
 import seniorSocialServiceVoucher from './senior-social-service-voucher';
 import nationalPensionReform2026 from './national-pension-reform-2026';
 import seniorLifelongEducation from './senior-lifelong-education';
+import dementiaFamilyRespite from './dementia-family-respite';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -78,4 +79,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   seniorSocialServiceVoucher,
   nationalPensionReform2026,
   seniorLifelongEducation,
+  dementiaFamilyRespite,
 ];
