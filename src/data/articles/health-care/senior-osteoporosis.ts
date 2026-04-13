@@ -7,7 +7,7 @@ const article: ContentItem = {
   template: 'standard',
   targetUser: 'both',
   createdAt: '2026-04-04',
-  updatedAt: '2026-04-04',
+  updatedAt: '2026-04-13',
   reviewStatus: 'current',
   order: 36,
 
@@ -134,6 +134,11 @@ const article: ContentItem = {
         '골다공증 치료는 3~5년 장기 지속 필요',
         '골절 후 재골절 위험 5배 - 치료와 낙상 예방 동시에',
       ],
+    },
+    {
+      type: 'warning',
+      heading: '의료 안내 사항',
+      body: '이 글은 일반적인 건강 정보를 제공하며, 의학적 진단이나 치료를 대체하지 않습니다. 증상이 있거나 치료가 필요한 경우 반드시 의사와 상담하세요. 개인의 건강 상태에 따라 적합한 치료법이 다를 수 있습니다. 응급 상황 시 ☎ 119, 건강 상담은 ☎ 1577-1000(국민건강보험공단)으로 문의하세요.',
     },
   ],
 };

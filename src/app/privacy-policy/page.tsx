@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
     <PolicyPageShell
       title="개인정보처리방침"
       subtitle="부모혜택이 수집하는 정보와 그 처리 방법을 안내합니다."
-      updatedAt="2026년 3월"
+      updatedAt="2026년 4월"
     >
 
       <p>
@@ -126,11 +126,21 @@ export default function PrivacyPolicyPage() {
         안내합니다.
       </p>
 
-      <h2>8. 문의</h2>
+      <h2>8. 개인정보보호 책임자</h2>
+      <ul>
+        <li><strong>책임자</strong>: 제이퍼(JPTR) 대표</li>
+        <li><strong>이메일</strong>: jptcalc@naver.com</li>
+      </ul>
       <p>
-        개인정보 처리에 관한 문의 사항은{' '}
-        <a href="/contact">문의 페이지</a>를 통해 알려주세요.
+        개인정보 처리에 관한 문의, 불만 처리, 피해 구제는 위 연락처 또는{' '}
+        <a href="/contact">문의 페이지</a>를 통해 접수하실 수 있습니다.
+        또한 개인정보 침해에 대한 신고나 상담이 필요하신 경우 아래 기관에
+        문의하실 수 있습니다.
       </p>
+      <ul>
+        <li>개인정보침해 신고센터 (privacy.kisa.or.kr / ☎ 118)</li>
+        <li>개인정보 분쟁조정위원회 (www.kopico.go.kr / ☎ 1833-6972)</li>
+      </ul>
 
     </PolicyPageShell>
   );

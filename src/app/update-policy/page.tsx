@@ -12,7 +12,7 @@ export default function UpdatePolicyPage() {
     <PolicyPageShell
       title="업데이트 정책"
       subtitle="부모혜택 정보의 관리 주기와 현행성 표시 방식을 설명합니다."
-      updatedAt="2025년 3월"
+      updatedAt="2026년 4월"
     >
 
       <p>

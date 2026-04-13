@@ -12,7 +12,7 @@ export default function DisclaimerPage() {
     <PolicyPageShell
       title="면책 고지"
       subtitle="부모혜택 정보 이용 시 알아두셔야 할 사항입니다."
-      updatedAt="2025년 3월"
+      updatedAt="2026년 4월"
     >
 
       <p>

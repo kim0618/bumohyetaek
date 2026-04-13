@@ -50,9 +50,16 @@ export default function AboutPage() {
       <h2>누가 만드나요?</h2>
       <p>
         부모혜택은 제이퍼(JPTR) 팀이 운영합니다. 제이퍼는 생활 속 실용 정보와
-        금융·건강 계산 도구를 함께 제공하는 팀으로, 계산기 서비스인
-        제이퍼 계산기(jptcalc.kr)도 함께 운영하고 있습니다.
+        금융·건강 계산 도구를 함께 제공하는 팀으로, 계산기 서비스인{' '}
+        <a href="https://www.jptcalc.kr" target="_blank" rel="noopener noreferrer">
+          제이퍼 계산기(jptcalc.kr)
+        </a>도 함께 운영하고 있습니다.
       </p>
+      <ul>
+        <li><strong>운영</strong>: 제이퍼(JPTR)</li>
+        <li><strong>이메일</strong>: jptcalc@naver.com</li>
+        <li><strong>연계 서비스</strong>: 제이퍼 계산기 (www.jptcalc.kr)</li>
+      </ul>
       <p>
         부모혜택은 광고 수익이나 제품 추천을 위해 만들어진 사이트가 아닙니다.
         복지·건강·은퇴 분야의 정보가 복잡하고 어렵게 느껴지는 현실에서,

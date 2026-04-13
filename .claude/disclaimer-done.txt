@@ -29,3 +29,11 @@ senior-hypertension
 senior-incontinence
 senior-knee-surgery
 senior-mental-health
+senior-nutrition-guide
+senior-oral-health
+senior-osteoporosis
+senior-physical-therapy
+senior-pneumonia-prevention
+senior-sleep-health
+senior-stroke-prevention
+senior-vaccination

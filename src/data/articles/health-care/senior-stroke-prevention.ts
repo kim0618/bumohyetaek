@@ -7,7 +7,7 @@ const article: ContentItem = {
   template: 'standard',
   targetUser: 'both',
   createdAt: '2026-04-03',
-  updatedAt: '2026-04-03',
+  updatedAt: '2026-04-13',
   reviewStatus: 'current',
   order: 35,
 
@@ -124,6 +124,11 @@ const article: ContentItem = {
         '증상이 사라져도 반드시 응급실 방문',
         '뇌졸중 후 3~6개월 재활 치료 집중 기간',
       ],
+    },
+    {
+      type: 'warning',
+      heading: '의료 안내 사항',
+      body: '이 글은 일반적인 건강 정보를 제공하며, 의학적 진단이나 치료를 대체하지 않습니다. 증상이 있거나 치료가 필요한 경우 반드시 의사와 상담하세요. 개인의 건강 상태에 따라 적합한 치료법이 다를 수 있습니다. 응급 상황 시 ☎ 119, 건강 상담은 ☎ 1577-1000(국민건강보험공단)으로 문의하세요.',
     },
   ],
 };

@@ -118,7 +118,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었습니다. 지원 기준과 공사 범위는 지역과 예산에 따라 다를 수 있으니 거주지 주민센터 또는 ☎ 129에서 확인하세요.',
 
-  relatedSlugs: ['housing-benefit', 'basic-livelihood-benefit', 'energy-voucher', 'near-poverty-benefits'],
+  relatedSlugs: ['housing-benefit', 'basic-livelihood-benefit', 'energy-voucher', 'senior-public-housing'],
 };
 
 export default article;
