@@ -3,9 +3,9 @@ import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'medical-expense-deduction',
-  title: '부모님 의료비 세액공제 방법과 공제 한도 계산법 총정리 (2025년 기준)',
+  title: '부모님 의료비 세액공제 방법과 공제 한도 계산법 총정리 (2026년 기준)',
   seoTitle: '부모님 의료비 세액공제 - 공제 한도·대상·신청 방법',
-  seoDescription: '부모님 병원비를 대신 냈다면 연말정산에서 세액공제를 받을 수 있습니다. 공제 대상 의료비, 한도 계산법, 신청 방법을 2025년 기준으로 정리했습니다.',
+  seoDescription: '부모님 병원비를 대신 냈다면 연말정산에서 세액공제를 받을 수 있습니다. 공제 대상 의료비, 한도 계산법, 신청 방법을 2026년 기준으로 정리했습니다.',
   category: 'finance-safety',
   template: 'standard',
   targetUser: 'family',

@@ -11,7 +11,7 @@ const article: ContentItem = {
 
   createdAt: '2026-03-30',
   updatedAt: '2026-03-30',
-  effectiveDate: '2025-01-01',
+  effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
   summary:
@@ -69,7 +69,7 @@ const article: ContentItem = {
       items: [
         '장애 정도: 장애인복지법에 따른 "장애 정도가 심한 장애인" (종전 1~3급에 해당)',
         '연령: 만 18세 이상 (만 65세 생일이 속하는 달 전월까지)',
-        '소득인정액: 단독가구 월 약 130만 원 이하, 부부가구 월 약 208만 원 이하 (2025년 기준 선정기준액)',
+        '소득인정액: 단독가구 월 약 130만 원 이하, 부부가구 월 약 208만 원 이하 (2026년 기준 선정기준액)',
       ],
     },
     {
@@ -128,7 +128,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 기준 선정기준액과 지급액을 바탕으로 작성되었습니다. 매년 기준이 변경되므로 신청 전 국민연금공단(☎ 1355) 또는 보건복지상담센터(☎ 129)에서 최신 정보를 확인하세요.',
+    '이 글은 2026년 기준 선정기준액과 지급액을 바탕으로 작성되었습니다. 매년 기준이 변경되므로 신청 전 국민연금공단(☎ 1355) 또는 보건복지상담센터(☎ 129)에서 최신 정보를 확인하세요.',
 
   relatedSlugs: ['disability-registration', 'basic-pension-application', 'basic-livelihood-benefit'],
 };

@@ -12,7 +12,7 @@ export default function EditorialPolicyPage() {
     <PolicyPageShell
       title="편집 원칙"
       subtitle="부모혜택이 정보를 작성하고 관리하는 기준입니다."
-      updatedAt="2025년 3월"
+      updatedAt="2026년 4월"
     >
 
       <p>

@@ -11,7 +11,7 @@ const article: ContentItem = {
 
   createdAt: '2026-03-30',
   updatedAt: '2026-03-30',
-  effectiveDate: '2025-01-01',
+  effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
   summary:
@@ -115,7 +115,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 기준 정보를 바탕으로 작성되었습니다. 부양의무자 기준 완화 범위와 선정 기준은 매년 변경될 수 있으니 신청 전 주민센터 또는 보건복지상담센터(129)에서 확인하시기 바랍니다.',
+    '이 글은 2026년 기준 정보를 바탕으로 작성되었습니다. 부양의무자 기준 완화 범위와 선정 기준은 매년 변경될 수 있으니 신청 전 주민센터 또는 보건복지상담센터(129)에서 확인하시기 바랍니다.',
 
   relatedSlugs: ['basic-livelihood-benefit', 'medical-aid-system', 'housing-benefit'],
 };

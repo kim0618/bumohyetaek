@@ -12,7 +12,7 @@ export default function SourcePolicyPage() {
     <PolicyPageShell
       title="정보 출처 기준"
       subtitle="부모혜택이 어떤 자료를 근거로 정보를 작성하는지 설명합니다."
-      updatedAt="2025년 3월"
+      updatedAt="2026년 4월"
     >
 
       <p>

@@ -126,7 +126,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 질병관리청 기준으로 작성되었습니다. 접종 대상과 지원 범위는 매년 변경될 수 있으므로 접종 전 예방접종도우미(nip.kdca.go.kr)에서 최신 정보를 확인하세요.',
+    '이 글은 2026년 질병관리청 기준으로 작성되었습니다. 접종 대상과 지원 범위는 매년 변경될 수 있으므로 접종 전 예방접종도우미(nip.kdca.go.kr)에서 최신 정보를 확인하세요.',
 
   relatedSlugs: ['national-health-checkup-guide', 'cancer-screening-guide', 'senior-pneumonia-prevention'],
 };

@@ -3,9 +3,9 @@ import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-tax-benefit',
-  title: '65세 이상 노인 세금 감면 혜택과 절세 방법 총정리 (2025년 기준)',
+  title: '65세 이상 노인 세금 감면 혜택과 절세 방법 총정리 (2026년 기준)',
   seoTitle: '노인 세금 감면 혜택 - 소득공제·재산세·취득세 감면 총정리',
-  seoDescription: '65세 이상 어르신을 위한 각종 세금 감면 혜택을 정리했습니다. 소득세 공제부터 재산세·자동차세 감면, 상속·증여세 특례까지 2025년 기준으로 안내합니다.',
+  seoDescription: '65세 이상 어르신을 위한 각종 세금 감면 혜택을 정리했습니다. 소득세 공제부터 재산세·자동차세 감면, 상속·증여세 특례까지 2026년 기준으로 안내합니다.',
   category: 'finance-safety',
   template: 'standard',
   targetUser: 'both',

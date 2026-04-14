@@ -104,7 +104,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 기준으로 작성되었습니다. 지자체별 면허 반납 혜택과 인지능력 검사 기관은 변경될 수 있으므로 도로교통공단(1577-1120) 또는 주민센터에서 확인하세요.',
+    '이 글은 2026년 기준으로 작성되었습니다. 지자체별 면허 반납 혜택과 인지능력 검사 기관은 변경될 수 있으므로 도로교통공단(1577-1120) 또는 주민센터에서 확인하세요.',
 
   relatedSlugs: ['dementia-care-center', 'senior-discount-guide', 'national-health-checkup-guide'],
 };

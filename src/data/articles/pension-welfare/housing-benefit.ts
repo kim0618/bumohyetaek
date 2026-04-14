@@ -11,7 +11,7 @@ const article: ContentItem = {
 
   createdAt: '2025-03-05',
   updatedAt: '2026-04-14',
-  effectiveDate: '2025-01-01',
+  effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
   summary:
@@ -56,8 +56,8 @@ const article: ContentItem = {
     },
     {
       type: 'info',
-      heading: '2025년 선정 기준',
-      body: '소득인정액이 기준 중위소득 48% 이하인 가구가 대상입니다. 1인 가구 기준 월 약 106만 원 이하(2025년 기준)이면 신청 자격이 됩니다. 재산도 소득으로 환산해 합산하므로, 정확한 수급 여부는 주민센터에서 확인하세요. 주거급여는 [[support-obligation-standard|부양의무자 기준]]이 없어 자녀 소득과 무관하게 신청할 수 있습니다.',
+      heading: '2026년 선정 기준',
+      body: '소득인정액이 기준 중위소득 48% 이하인 가구가 대상입니다. 1인 가구 기준 월 약 106만 원 이하(2026년 기준)이면 신청 자격이 됩니다. 재산도 소득으로 환산해 합산하므로, 정확한 수급 여부는 주민센터에서 확인하세요. 주거급여는 [[support-obligation-standard|부양의무자 기준]]이 없어 자녀 소득과 무관하게 신청할 수 있습니다.',
     },
     {
       type: 'text',
@@ -122,7 +122,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 1월 기준 정보를 바탕으로 작성되었습니다. 기준 중위소득과 지원 금액은 매년 변경되므로 신청 전 주민센터 또는 주거급여콜센터(☎ 1600-0777)에서 최신 내용을 확인하세요.',
+    '이 글은 2026년 기준 정보를 바탕으로 작성되었습니다. 기준 중위소득과 지원 금액은 매년 변경되므로 신청 전 주민센터 또는 주거급여콜센터(☎ 1600-0777)에서 최신 내용을 확인하세요.',
 
   relatedSlugs: ['basic-pension-application', 'elderly-care-service', 'senior-public-housing'],
 };

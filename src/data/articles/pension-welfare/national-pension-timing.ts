@@ -95,7 +95,7 @@ const article: ContentItem = {
   faq: [
     {
       question: '조기수령 중에 취업하면 연금이 정지되나요?',
-      answer: '조기노령연금 수령 중 소득이 일정 기준(월 286만 원, 2025년 기준)을 초과하면 연금 지급이 정지될 수 있습니다. 재취업 전에 국민연금공단에 문의하세요.',
+      answer: '조기노령연금 수령 중 소득이 일정 기준(월 286만 원, 2026년 기준)을 초과하면 연금 지급이 정지될 수 있습니다. 재취업 전에 국민연금공단에 문의하세요.',
     },
     {
       question: '연기수령 중에 사망하면 어떻게 되나요?',
@@ -108,7 +108,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 기준으로 작성되었습니다. 수령 기준 연령, 감액률, 소득 기준은 법령 개정에 따라 변경될 수 있습니다. 개인별 상황에 맞는 결정을 위해 국민연금공단(1355) 상담을 권장합니다.',
+    '이 글은 2026년 기준으로 작성되었습니다. 수령 기준 연령, 감액률, 소득 기준은 법령 개정에 따라 변경될 수 있습니다. 개인별 상황에 맞는 결정을 위해 국민연금공단(1355) 상담을 권장합니다.',
 
   relatedSlugs: ['basic-pension-application', 'housing-pension', 'survivor-pension', 'national-pension-lump-sum', 'pension-income-tax', 'national-pension-reform-2026', 'national-pension-increase-strategy'],
 

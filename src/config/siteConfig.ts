@@ -35,7 +35,7 @@ export const siteConfig = {
   /* ── 사이트 설명 ────────────────────────────────── */
 
   /** 핵심 설명 (meta description, og:description 기본값) */
-  siteDescription: '부모님과 시니어가 꼭 알아야 할 복지·건강보험·은퇴 실무 가이드',
+  siteDescription: '기초연금·국민연금·장기요양·건강검진까지, 부모님과 시니어가 실제로 신청하고 활용할 수 있는 복지·건강보험·은퇴 실무 가이드. 보건복지부 등 공식 출처 기반 2026년 최신 정보 제공.',
 
   /** 보조 설명 (홈 히어로, 푸터, 소개 페이지 등) */
   siteSubDescription:

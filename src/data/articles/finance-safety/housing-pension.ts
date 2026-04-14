@@ -11,7 +11,7 @@ const article: ContentItem = {
 
   createdAt: '2025-03-08',
   updatedAt: '2026-04-14',
-  effectiveDate: '2025-01-01',
+  effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
   summary:
@@ -47,7 +47,7 @@ const article: ContentItem = {
     },
     {
       type: 'info',
-      heading: '2025년 신청 자격',
+      heading: '2026년 신청 자격',
       body: '아래 조건을 모두 충족해야 신청할 수 있습니다.',
     },
     {
@@ -61,7 +61,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '월 수령액 예시 (종신지급형 기준)',
-      body: '집값과 나이에 따라 월 수령액이 달라집니다. 만 70세, 주택 가격 3억 원 기준 약 월 92만 원, 5억 원 기준 약 월 153만 원 수준입니다 (2025년 기준). 정확한 금액은 주택금융공사 홈페이지에서 무료로 모의계산할 수 있습니다.',
+      body: '집값과 나이에 따라 월 수령액이 달라집니다. 만 70세, 주택 가격 3억 원 기준 약 월 92만 원, 5억 원 기준 약 월 153만 원 수준입니다 (2026년 기준). 정확한 금액은 주택금융공사 홈페이지에서 무료로 모의계산할 수 있습니다.',
     },
     {
       type: 'numbered-list',
@@ -125,7 +125,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 1월 기준 정보를 바탕으로 작성되었습니다. 수령액과 자격 기준은 변경될 수 있으니 신청 전 한국주택금융공사(1688-8114)에서 최신 내용을 확인하시기 바랍니다.',
+    '이 글은 2026년 1월 기준 정보를 바탕으로 작성되었습니다. 수령액과 자격 기준은 변경될 수 있으니 신청 전 한국주택금융공사(1688-8114)에서 최신 내용을 확인하시기 바랍니다.',
 
   relatedSlugs: ['prevent-voice-phishing', 'retirement-finance-checklist'],
   // relatedCalculator: 주택연금 계산기는 애드센스 승인 후 추가 예정

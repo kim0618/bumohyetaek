@@ -104,7 +104,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 기준으로 작성되었습니다. 시설별 비용·입주 조건은 운영 기관과 지역에 따라 다르며, 정확한 내용은 해당 시설이나 보건복지부(129)에 문의하시기 바랍니다.',
+    '이 글은 2026년 기준으로 작성되었습니다. 시설별 비용·입주 조건은 운영 기관과 지역에 따라 다르며, 정확한 내용은 해당 시설이나 보건복지부(129)에 문의하시기 바랍니다.',
 
   relatedSlugs: ['long-term-care-grade', 'home-visiting-care', 'housing-benefit', 'senior-public-housing'],
 };

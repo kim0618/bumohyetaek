@@ -135,7 +135,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 국민건강보험공단 안내 기준으로 작성되었습니다. 검진 대상 기준과 항목은 매년 변경될 수 있으므로 국민건강보험공단(1577-1000) 또는 건강iN에서 최신 정보를 확인하시기 바랍니다.',
+    '이 글은 2026년 국민건강보험공단 안내 기준으로 작성되었습니다. 검진 대상 기준과 항목은 매년 변경될 수 있으므로 국민건강보험공단(1577-1000) 또는 건강iN에서 최신 정보를 확인하시기 바랍니다.',
 
   relatedSlugs: ['long-term-care-grade', 'cancer-screening-guide', 'senior-hearing-aid', 'regional-health-checkup-support'],
 

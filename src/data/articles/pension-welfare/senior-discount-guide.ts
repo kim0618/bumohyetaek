@@ -106,7 +106,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 기준으로 작성되었습니다. 지역별·기관별로 혜택 범위와 적용 기준이 다를 수 있으니 이용 전 해당 기관에 확인하시기 바랍니다.',
+    '이 글은 2026년 기준으로 작성되었습니다. 지역별·기관별로 혜택 범위와 적용 기준이 다를 수 있으니 이용 전 해당 기관에 확인하시기 바랍니다.',
 
   relatedSlugs: ['basic-pension-application', 'housing-benefit', 'senior-vaccination', 'senior-job-program', 'senior-driving-license'],
 };

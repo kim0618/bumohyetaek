@@ -11,7 +11,7 @@ const article: ContentItem = {
 
   createdAt: '2025-03-01',
   updatedAt: '2026-04-14',
-  effectiveDate: '2025-01-01',
+  effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
   summary:
@@ -117,7 +117,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 1월 기준 정보를 바탕으로 작성되었습니다. 서비스 내용과 대상 기준은 지역 및 예산에 따라 다를 수 있으니 주민센터에서 확인하시기 바랍니다.',
+    '이 글은 2026년 기준 정보를 바탕으로 작성되었습니다. 서비스 내용과 대상 기준은 지역 및 예산에 따라 다를 수 있으니 주민센터에서 확인하시기 바랍니다.',
 
   relatedSlugs: ['long-term-care-grade', 'basic-pension-application', 'care-type-selection', 'senior-fall-prevention'],
 };

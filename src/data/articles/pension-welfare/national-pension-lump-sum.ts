@@ -99,7 +99,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2025년 기준으로 작성되었습니다. 반환일시금 이율, 임의계속가입 보험료 기준은 변경될 수 있으므로 국민연금공단(1355)에서 개인 상황에 맞는 정확한 안내를 받으세요.',
+    '이 글은 2026년 기준으로 작성되었습니다. 반환일시금 이율, 임의계속가입 보험료 기준은 변경될 수 있으므로 국민연금공단(1355)에서 개인 상황에 맞는 정확한 안내를 받으세요.',
 
   relatedSlugs: ['national-pension-timing', 'basic-pension-application', 'survivor-pension'],
 };
