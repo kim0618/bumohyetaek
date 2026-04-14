@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2025-03-20',
-  updatedAt: '2025-03-20',
+  updatedAt: '2026-04-14',
   reviewStatus: 'current',
 
   summary:

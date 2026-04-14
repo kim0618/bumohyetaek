@@ -3,6 +3,8 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'senior-travel-support',
   title: '65세 이상 시니어 여행 바우처 및 무료·할인 여행 신청 방법 총정리',
+  seoTitle: '65세 이상 무료 여행 지원 - 시니어 여행 바우처·프로그램 신청 방법',
+  seoDescription: '만 65세 이상을 위한 무료 여행 프로그램, 관광 바우처, 교통비 지원 정보를 정리했습니다. 기초연금 수급자 우선 지원 및 지자체별 추가 혜택까지 안내합니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',
@@ -13,6 +15,8 @@ const article: ContentItem = {
 
   summary:
     '만 65세 이상이라면 정부·지자체의 다양한 여행 지원을 받을 수 있습니다. 무료 여행 프로그램, 관광 바우처, 교통비 지원까지 신청 방법과 대상을 정리했습니다.',
+  heroDescription:
+    '만 65세 이상이라면 정부와 지자체가 제공하는 다양한 여행 지원 혜택을 받을 수 있습니다. 기초연금 수급자는 관광 바우처 우선 지원 대상이며, 지자체별로 추가 여행 지원금도 있습니다. 무료 여행 프로그램 종류와 신청 방법을 정리했습니다.',
 
   keyPoints: [
     '한국관광공사 열린관광 및 노인 무료 여행 프로그램 운영',

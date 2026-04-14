@@ -3,6 +3,8 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'retirement-severance-choice',
   title: '퇴직금 일시금 vs 퇴직연금 선택 - 세금과 노후 생활비 비교 가이드',
+  seoTitle: '퇴직금 일시금 vs 연금 선택 - 세금·노후소득 비교 가이드 2026',
+  seoDescription: '퇴직금을 일시금으로 받을지 연금으로 나눌지 선택할 때 세금 차이가 30%까지 납니다. IRP 활용법, 연금 수령 기간별 절세 효과를 비교했습니다.',
   category: 'finance-safety',
   template: 'comparison',
   targetUser: 'both',
@@ -13,6 +15,8 @@ const article: ContentItem = {
 
   summary:
     '퇴직할 때 받는 퇴직금, 일시금으로 받을지 연금으로 나눠 받을지 선택이 중요합니다. 세금 차이, 노후 소득 안정성, IRP 활용법까지 비교해 현명한 선택을 도와드립니다.',
+  heroDescription:
+    '퇴직금은 받는 방식에 따라 세금이 최대 30%까지 달라집니다. IRP에 이전해 연금으로 나눠 받으면 퇴직소득세를 크게 줄일 수 있습니다. 일시금과 연금의 세금 차이, 노후 소득 안정성, 현명한 선택 기준을 비교했습니다.',
 
   keyPoints: [
     '퇴직연금 수령 시 세금 30% 절감 - 일시금보다 유리',

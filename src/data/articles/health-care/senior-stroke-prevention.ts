@@ -3,6 +3,8 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'senior-stroke-prevention',
   title: '65세 이상 노인 뇌졸중 전조증상 7가지와 예방·대처법 총정리',
+  seoTitle: '노인 뇌졸중 전조증상 7가지와 즉각 대처법 - 골든타임 4.5시간',
+  seoDescription: '뇌졸중 전조증상 7가지와 발생 시 대처법, 고혈압·당뇨 등 위험 요인 관리법을 정리했습니다. 골든타임 4.5시간 내 119 신고가 생명을 좌우합니다.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'both',
@@ -13,6 +15,8 @@ const article: ContentItem = {
 
   summary:
     '뇌졸중은 빠른 대처가 생명을 좌우합니다. 노인에게 흔한 뇌졸중 전조증상 7가지와 발생 시 즉각 대처법, 평소 예방 습관을 정리했습니다.',
+  heroDescription:
+    '뇌졸중은 골든타임 4.5시간 내 치료를 받느냐에 따라 후유증이 크게 달라집니다. 노인에게 자주 나타나는 전조증상 7가지를 미리 알아두면 빠른 대처가 가능합니다. 발생 시 즉각 대처법과 고혈압·당뇨 등 위험 요인 관리법을 정리했습니다.',
 
   keyPoints: [
     '전조증상 발생 즉시 119 신고 - 골든타임 4.5시간',

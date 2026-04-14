@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2025-03-10',
-  updatedAt: '2025-03-20',
+  updatedAt: '2026-04-14',
   reviewStatus: 'current',
 
   summary:

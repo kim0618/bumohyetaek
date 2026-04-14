@@ -3,6 +3,8 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'senior-osteoporosis',
   title: '노인 골다공증 예방과 치료 - 뼈 건강 지키는 방법 총정리',
+  seoTitle: '노인 골다공증 예방과 치료 - 원인·검진·치료 지원 총정리',
+  seoDescription: '골다공증 예방법, 국가건강검진 무료 골밀도 검사 활용법, 치료 방법을 정리했습니다. 만 54세·66세 여성 무료 검사, 칼슘·비타민D 섭취, 낙상 예방까지 총정리.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'both',
@@ -13,6 +15,8 @@ const article: ContentItem = {
 
   summary:
     '골다공증은 노년기 골절의 주요 원인으로 낙상 한 번에 심각한 부상으로 이어질 수 있습니다. 골다공증 위험 요인, 예방법, 국가 검진 활용법, 치료 지원까지 정리했습니다.',
+  heroDescription:
+    '골다공증은 초기에 증상이 없어 넘어지기 전까지 모르는 경우가 많습니다. 국가건강검진을 통해 무료로 골밀도 검사를 받을 수 있으며, 칼슘·비타민D 섭취와 근력 운동이 핵심 예방법입니다. 위험 요인 확인부터 치료 지원 제도까지 정리했습니다.',
 
   keyPoints: [
     '국가건강검진으로 만 54세·66세 여성 골밀도 검사 무료 제공',
