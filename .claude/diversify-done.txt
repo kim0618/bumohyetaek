@@ -5,3 +5,10 @@ national-health-checkup-guide:3
 senior-vaccination:6
 prevent-voice-phishing:2
 housing-pension:1
+basic-livelihood-benefit:2
+energy-voucher:5
+long-term-care-grade:3
+care-type-selection:6
+senior-exercise-guide:4
+digital-finance-safety:7
+senior-financial-protection:1
