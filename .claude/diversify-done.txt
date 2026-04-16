@@ -12,3 +12,10 @@ care-type-selection:6
 senior-exercise-guide:4
 digital-finance-safety:7
 senior-financial-protection:1
+disability-pension:2
+housing-benefit:5
+survivor-pension:1
+senior-dental-coverage:3
+senior-hypertension:6
+retirement-finance-checklist:4
+smishing-prevention:7

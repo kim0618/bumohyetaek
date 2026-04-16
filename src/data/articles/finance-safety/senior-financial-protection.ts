@@ -115,7 +115,7 @@ const article: ContentItem = {
   cautionNote:
     '각 은행의 서비스 명칭과 세부 내용은 다를 수 있습니다. 정확한 서비스 내용은 거래 은행 고객센터 또는 금융감독원(1332)에 문의하세요.',
 
-  relatedSlugs: ['prevent-voice-phishing', 'adult-guardianship', 'dementia-financial-management', 'seizure-protected-account', 'senior-loan-guarantee-risk'],
+  relatedSlugs: ['prevent-voice-phishing', 'adult-guardianship', 'dementia-financial-management', 'senior-consumer-rights', 'senior-loan-guarantee-risk'],
 };
 
 export default article;

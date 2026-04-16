@@ -133,7 +133,7 @@ const article: ContentItem = {
   cautionNote:
     '보이스피싱 수법은 계속 진화합니다. 금융감독원 공식 홈페이지(fss.or.kr)에서 최신 사기 수법 정보를 주기적으로 확인하세요.',
 
-  relatedSlugs: ['housing-pension', 'retirement-finance-checklist'],
+  relatedSlugs: ['housing-pension', 'retirement-finance-checklist', 'senior-consumer-rights'],
   // relatedCalculator: 이 글은 계산기 연동 해당 없음
 };
 

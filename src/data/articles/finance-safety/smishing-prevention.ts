@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-03-30',
+  updatedAt: '2026-04-16',
   reviewStatus: 'current',
 
   summary:
@@ -37,8 +37,8 @@ const article: ContentItem = {
   sections: [
     {
       type: 'text',
-      heading: '스미싱이란?',
-      body: '스미싱(Smishing)은 SMS(문자) + Phishing(피싱)의 합성어입니다. 사기범이 택배 회사, 은행, 정부기관을 사칭해 문자를 보내고, 문자 안의 링크를 누르면 악성 앱이 설치되거나 개인정보가 유출됩니다. [[prevent-voice-phishing|보이스피싱]]이 전화를 이용한다면 스미싱은 문자를 이용하는 사기입니다. 스미싱 문자는 언뜻 보면 진짜 기관의 문자와 구별이 어렵습니다. 발신번호가 070·010·국제번호(+)로 시작하거나, 링크 주소가 공식 도메인이 아닌 경우(예: nhis.or.kr 대신 nhs-kr.com 등 유사 도메인)라면 의심하세요. [[senior-financial-protection|고령자 금융 보호 서비스]]를 미리 설정해두면 추가 피해를 막는 데 도움이 됩니다.',
+      heading: '보이스피싱 vs 스미싱, 어떻게 다를까?',
+      body: '전화로 속이는 보이스피싱과 문자로 속이는 스미싱 중 어떤 것이 더 위험할까요? 피해 규모로는 보이스피싱이 크지만, 스미싱은 링크 한 번 잘못 누르는 것만으로 악성 앱이 설치되어 개인정보가 통째로 빠져나갈 수 있습니다. [[prevent-voice-phishing|보이스피싱]]이 전화 통화 중 판단력을 흐린다면, 스미싱은 택배·건강검진·정부 지원금을 사칭한 문자로 클릭을 유도합니다. 발신번호가 070·010·국제번호(+)로 시작하거나, 링크 주소가 공식 도메인이 아닌 유사 도메인(예: nhis.or.kr 대신 nhs-kr.com)이라면 의심하세요. [[senior-financial-protection|고령자 금융 보호 서비스]]를 미리 설정해두면 추가 피해를 막는 데 도움이 됩니다.',
     },
     {
       type: 'list',
@@ -94,15 +94,6 @@ const article: ContentItem = {
       ],
     },
     {
-      type: 'list',
-      heading: '신고 시 필요한 서류 (실제 금전 피해 발생 시)',
-      items: [
-        '피해 문자 스크린샷',
-        '신분증',
-        '피해 금액 증빙(계좌 이체 내역 등)',
-      ],
-    },
-    {
       type: 'info',
       heading: '주요 신고 연락처',
       body: '경찰청 사이버수사대 ☎ 182, 한국인터넷진흥원(KISA) ☎ 118로 신고하세요.',
@@ -125,12 +116,17 @@ const article: ContentItem = {
       answer:
         '통신사 고객센터(SKT 114, KT 100, LGU+ 101)에 전화해 "소액결제 한도를 0원으로 설정해 달라"고 요청하면 됩니다. 스미싱 피해로 발생하는 소액결제를 원천 차단하는 가장 확실한 방법이며, 필요할 때 언제든 다시 한도를 늘릴 수 있습니다.',
     },
+    {
+      question: '아이폰도 스미싱 피해를 입을 수 있나요?',
+      answer:
+        '아이폰(iOS)은 안드로이드에 비해 앱 설치 경로가 제한되어 악성 앱 설치 위험이 낮지만, 완전히 안전한 것은 아닙니다. 스미싱 링크를 통해 가짜 로그인 페이지로 유도되면 Apple ID, 은행 계정 등의 개인정보가 유출될 수 있습니다. iOS도 항상 최신 버전으로 업데이트하고, 문자 속 링크는 누르지 않는 원칙을 지키세요.',
+    },
   ],
 
   cautionNote:
     '스미싱 수법은 계속 진화합니다. KISA 인터넷보호나라(boho.or.kr) 또는 금융감독원(fss.or.kr)에서 최신 사기 유형을 주기적으로 확인하세요.',
 
-  relatedSlugs: ['prevent-voice-phishing', 'senior-phone-plan', 'adult-guardianship'],
+  relatedSlugs: ['prevent-voice-phishing', 'senior-phone-plan', 'adult-guardianship', 'senior-consumer-rights'],
 };
 
 export default article;
