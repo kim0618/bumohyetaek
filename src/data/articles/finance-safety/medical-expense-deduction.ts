@@ -32,14 +32,15 @@ const article: ContentItem = {
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
-    name: '종합소득세 계산기',
-    url: 'https://www.jptcalc.kr/calc/tax/income-tax/',
+    name: '의료비 세액공제 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/medical-expense/',
     openMode: 'new-tab',
     category: 'finance',
+    crossSiteTrackingKey: 'guide-medical-expense-deduction',
   },
   calculatorCTA: {
-    text: '부모님 의료비 세액공제 절세액 계산하기',
-    subText: '제이퍼 계산기에서 무료로 이용',
+    text: '부모님 의료비 세액공제액 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
   officialSources: [

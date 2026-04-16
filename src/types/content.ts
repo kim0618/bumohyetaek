@@ -90,8 +90,6 @@ export interface FAQ {
  *
  * 설계 원칙:
  * - 현재 공개된 계산기만 연결 대상 (임의 URL 생성 금지)
- * - 금융·이자 / 건강 카테고리만 우선 연결
- * - 시니어 특화 계산기는 애드센스 승인 완료 후 추가
  * - relatedCalculator 값이 없으면 CTA를 노출하지 않음
  */
 export interface RelatedCalculator {
@@ -108,8 +106,9 @@ export interface RelatedCalculator {
    *
    * finance - 금융·이자 (예금, 적금, 복리, 대출, 투자수익률)
    * health  - 건강 (BMI, 기초대사량, 체지방률, 칼로리, 적정체중)
+   * pension - 연금·복지 (국민연금, 기초연금, 장기요양, 연금소득세, 노후생활비)
    */
-  category: 'finance' | 'health';
+  category: 'finance' | 'health' | 'pension';
   /**
    * 교차 사이트 추적 키 (향후 UTM 또는 자체 추적에 활용)
    * 현재 단계에서는 설계만 가능, 실제 값은 추후 입력

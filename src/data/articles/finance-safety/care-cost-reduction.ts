@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'care-cost-reduction',
@@ -112,6 +113,19 @@ const article: ContentItem = {
 
   cautionNote:
     '장기요양 등급이 없으면 정부 지원 서비스 이용이 어렵습니다. 부모님 상태 변화 시 바로 재신청하고, 등급 변경도 신청할 수 있습니다.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-care-cost-reduction',
+  },
+  calculatorCTA: {
+    text: '장기요양 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['long-term-care-grade', 'care-type-selection', 'care-home-cost-guide'],
 };

@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'care-facility-comparison',
@@ -105,6 +106,19 @@ const article: ContentItem = {
 
   cautionNote:
     '시설 비용과 운영 방식은 기관별·지역별로 다릅니다. 입소 전 반드시 해당 시설에 직접 확인하고, 계약서 내용을 꼼꼼히 검토하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-care-facility-comparison',
+  },
+  calculatorCTA: {
+    text: '시설별 본인부담금 비교해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['long-term-care-grade', 'home-visiting-care', 'senior-housing-guide'],
 };

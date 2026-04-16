@@ -114,15 +114,15 @@ const article: ContentItem = {
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
-    name: '만 나이 계산기',
-    url: 'https://www.jptcalc.kr/calc/date/age/',
+    name: '국민연금 수령액 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/national-pension/',
     openMode: 'new-tab',
-    category: 'finance',
-    crossSiteTrackingKey: 'guide-pension-timing-age',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-national-pension-timing',
   },
   calculatorCTA: {
-    text: '만 나이 확인하기',
-    subText: `${siteConfig.calculatorSiteName} - 무료`,
+    text: '국민연금 예상 수령액 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 };
 

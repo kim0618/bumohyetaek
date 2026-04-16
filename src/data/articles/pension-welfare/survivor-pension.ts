@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'survivor-pension',
@@ -128,6 +129,19 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 2026년 기준으로 작성되었습니다. 유족연금 지급률과 기준액은 변경될 수 있으므로 신청 전 국민연금공단(1355)에서 최신 정보를 확인하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '국민연금 수령액 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/national-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-survivor-pension',
+  },
+  calculatorCTA: {
+    text: '국민연금 예상 수령액 확인해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['basic-pension-application', 'funeral-preparation-guide', 'retirement-finance-checklist'],
 };

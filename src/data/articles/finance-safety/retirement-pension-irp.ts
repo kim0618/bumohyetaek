@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'retirement-pension-irp',
@@ -116,6 +117,19 @@ const article: ContentItem = {
 
   cautionNote:
     '세율과 공제 기준은 변경될 수 있습니다. 개인 상황에 따라 절세 방법이 다르므로 수령 전 가입 금융기관 또는 세무사와 상담을 권장합니다.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '연금소득세 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/pension-tax/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-retirement-pension-irp',
+  },
+  calculatorCTA: {
+    text: '연금 수령 시 세금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['national-pension-timing', 'retirement-finance-checklist', 'housing-pension'],
 };

@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-assistive-device',
@@ -115,6 +116,19 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었으며 급여 품목과 기준은 변경될 수 있습니다. 정확한 지원 내용은 국민건강보험공단(1577-1000) 또는 보건복지상담센터(129)에서 확인하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-senior-assistive-device',
+  },
+  calculatorCTA: {
+    text: '복지용구 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['senior-hearing-aid', 'care-type-selection', 'home-visiting-care', 'senior-fall-prevention'],
 };

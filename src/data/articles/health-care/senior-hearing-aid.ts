@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-hearing-aid',
@@ -122,6 +123,19 @@ const article: ContentItem = {
 
   cautionNote:
     '보청기 급여 기준과 지원 한도는 변경될 수 있습니다. 구입 전 건강보험공단(1577-1000)에서 최신 기준을 반드시 확인하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '의료비 세액공제 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/medical-expense/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-senior-hearing-aid',
+  },
+  calculatorCTA: {
+    text: '보청기 의료비 세액공제 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['national-health-checkup-guide', 'health-insurance-limit', 'senior-dental-coverage'],
 };

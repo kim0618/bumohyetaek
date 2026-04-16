@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-cataract-surgery',
@@ -104,6 +105,19 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었으며 의학적 진단을 대체하지 않습니다. 수술 비용과 급여 기준은 병원 종별 및 개인 상황에 따라 다를 수 있으니 국민건강보험공단(1577-1000)에서 확인하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '의료비 세액공제 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/medical-expense/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-senior-cataract-surgery',
+  },
+  calculatorCTA: {
+    text: '백내장 수술비 세액공제 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['senior-eye-health', 'health-insurance-limit', 'senior-diabetes-management'],
 };

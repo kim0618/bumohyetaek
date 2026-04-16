@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'health-insurance-claim',
@@ -118,6 +119,19 @@ const article: ContentItem = {
 
   cautionNote:
     '실손보험 세대 구분과 자기부담금 비율은 약관에 따라 세부적으로 다를 수 있습니다. 정확한 보장 내용은 본인의 보험 증권과 보험사 고객센터를 통해 확인하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '의료비 세액공제 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/medical-expense/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-health-insurance-claim',
+  },
+  calculatorCTA: {
+    text: '의료비 세액공제액 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['health-insurance-limit', 'retirement-finance-checklist', 'prevent-voice-phishing'],
 };

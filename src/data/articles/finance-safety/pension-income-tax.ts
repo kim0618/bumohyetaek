@@ -115,15 +115,15 @@ const article: ContentItem = {
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
-    name: '종합소득세 계산기',
-    url: 'https://www.jptcalc.kr/calc/tax/income-tax/',
+    name: '연금소득세 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/pension-tax/',
     openMode: 'new-tab',
-    category: 'finance',
-    crossSiteTrackingKey: 'guide-pension-tax-income',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-pension-income-tax',
   },
   calculatorCTA: {
-    text: '종합소득세 계산해보기',
-    subText: `${siteConfig.calculatorSiteName} - 무료`,
+    text: '연금소득세 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 };
 

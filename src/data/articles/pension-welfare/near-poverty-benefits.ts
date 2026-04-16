@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'near-poverty-benefits',
@@ -128,6 +129,19 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 2026년 기준 중위소득과 혜택 항목을 바탕으로 작성되었습니다. 기준 금액과 혜택 범위는 매년 변경되므로 신청 전 보건복지상담센터(☎ 129) 또는 주민센터에서 확인하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '기초연금 수급 판정 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/basic-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-near-poverty-benefits',
+  },
+  calculatorCTA: {
+    text: '기초연금 수급 자격 확인해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['basic-livelihood-benefit', 'medical-aid-system', 'energy-voucher'],
 };

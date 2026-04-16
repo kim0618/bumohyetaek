@@ -138,14 +138,14 @@ const article: ContentItem = {
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
-    name: '예금 이자 계산기',
-    url: 'https://www.jptcalc.kr/calc/finance/deposit/',
+    name: '노후 생활비 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/retirement-living/',
     openMode: 'new-tab',
-    category: 'finance',
-    crossSiteTrackingKey: 'guide-retirement-checklist-deposit',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-retirement-finance-checklist',
   },
   calculatorCTA: {
-    text: '예금 이자 계산해보기',
+    text: '노후 필요 생활비 계산해보기',
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 };

@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'support-obligation-standard',
@@ -116,6 +117,19 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 2026년 기준 정보를 바탕으로 작성되었습니다. 부양의무자 기준 완화 범위와 선정 기준은 매년 변경될 수 있으니 신청 전 주민센터 또는 보건복지상담센터(129)에서 확인하시기 바랍니다.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '기초연금 수급 판정 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/basic-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-support-obligation',
+  },
+  calculatorCTA: {
+    text: '기초연금 수급 자격 확인해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['basic-livelihood-benefit', 'medical-aid-system', 'housing-benefit'],
 };

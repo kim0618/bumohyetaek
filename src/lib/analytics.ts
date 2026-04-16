@@ -24,6 +24,7 @@
  * jptcalc_click          - 제이퍼 계산기 이동 (카테고리 무관 통합)
  * jptcalc_finance_click  - 제이퍼 금융 계산기 이동
  * jptcalc_health_click   - 제이퍼 건강 계산기 이동
+ * jptcalc_pension_click  - 제이퍼 연금·복지 계산기 이동
  * pdf_download_click     - PDF 다운로드 버튼 클릭
  * home_cta_click         - 홈 히어로 CTA 클릭
  */
@@ -41,7 +42,7 @@ export interface JptcalcParams {
    */
   tracking_key: string;
   /** 계산기 카테고리 */
-  category: 'finance' | 'health';
+  category: 'finance' | 'health' | 'pension';
   /** 이 CTA가 노출된 페이지 유형 */
   context: 'guide' | 'hub' | 'home';
   /** 해당 페이지의 slug (article slug 또는 hub slug) */
@@ -103,6 +104,7 @@ export interface EventParamMap {
   jptcalc_click:         JptcalcParams;
   jptcalc_finance_click: JptcalcParams;
   jptcalc_health_click:  JptcalcParams;
+  jptcalc_pension_click: JptcalcParams;
   pdf_download_click:    PdfDownloadParams;
   home_cta_click:        HomeCtaParams;
 }
@@ -149,5 +151,7 @@ export function trackJptcalcClick(params: JptcalcParams): void {
     trackEvent('jptcalc_finance_click', params);
   } else if (params.category === 'health') {
     trackEvent('jptcalc_health_click', params);
+  } else if (params.category === 'pension') {
+    trackEvent('jptcalc_pension_click', params);
   }
 }

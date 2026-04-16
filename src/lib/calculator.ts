@@ -102,5 +102,7 @@ export function makeCalculatorCTA(
 export function getCalculatorSectionLabel(
   category: RelatedCalculator['category'],
 ): string {
-  return category === 'health' ? '건강 계산기 활용하기' : '금융 계산기 활용하기';
+  if (category === 'health') return '건강 계산기 활용하기';
+  if (category === 'pension') return '연금·복지 계산기 활용하기';
+  return '금융 계산기 활용하기';
 }

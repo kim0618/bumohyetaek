@@ -34,16 +34,15 @@ const article: ContentItem = {
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
-    name: '만 나이 계산기',
-    url: 'https://www.jptcalc.kr/calc/date/age/',
+    name: '기초연금 수급 판정 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/basic-pension/',
     openMode: 'new-tab',
-    category: 'finance',
-    crossSiteTrackingKey: 'guide-pension-reduction-age',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-basic-pension-reduction',
   },
-
   calculatorCTA: {
-    text: '기초연금 수급 나이 계산해보기',
-    subText: `${siteConfig.calculatorSiteName} - 무료`,
+    text: '기초연금 감액 여부 확인해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
   officialSources: [

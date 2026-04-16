@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'dementia-family-respite',
@@ -136,6 +137,19 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었습니다. 치매가족 휴가제의 지원 일수, 비용 기준은 지자체 예산과 정책 변경에 따라 달라질 수 있으므로 관할 치매안심센터(1899-9988)에서 최신 정보를 확인하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-dementia-family-respite',
+  },
+  calculatorCTA: {
+    text: '장기요양 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

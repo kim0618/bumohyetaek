@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-dental-coverage',
@@ -99,6 +100,19 @@ const article: ContentItem = {
 
   cautionNote:
     '급여 기준과 본인부담률은 변경될 수 있으며, 비급여 항목(뼈이식, 치조골 이식 등)은 별도 비용이 발생합니다. 치료 전 담당 치과에서 급여·비급여 항목을 반드시 확인하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '의료비 세액공제 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/medical-expense/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-senior-dental-coverage',
+  },
+  calculatorCTA: {
+    text: '치과 의료비 세액공제 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['health-insurance-limit', 'national-health-checkup-guide', 'senior-vaccination'],
 };

@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'care-home-cost-guide',
@@ -116,6 +117,19 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 2026년 기준 정보입니다. 장기요양보험 수가와 본인부담금 비율은 매년 변경될 수 있으며, 실버타운 비용은 시설별로 큰 차이가 있으므로 반드시 개별 시설에 직접 문의하시기 바랍니다.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-care-home-cost',
+  },
+  calculatorCTA: {
+    text: '요양원 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['care-facility-comparison', 'long-term-care-grade', 'home-visiting-care'],
 };

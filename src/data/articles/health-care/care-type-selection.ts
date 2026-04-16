@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'care-type-selection',
@@ -105,6 +106,19 @@ const article: ContentItem = {
 
   cautionNote:
     '급여 기준과 본인부담률은 변경될 수 있습니다. 개인 상황에 맞는 서비스 선택은 국민건강보험공단 장기요양 담당자 또는 장기요양 기관에 상담하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-care-type-selection',
+  },
+  calculatorCTA: {
+    text: '등급별 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: ['long-term-care-grade', 'home-visiting-care', 'care-facility-comparison'],
 };

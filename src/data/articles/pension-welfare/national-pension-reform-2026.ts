@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'national-pension-reform-2026',
@@ -121,6 +122,19 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 2026년 4월 기준 국민연금법 개정 내용을 바탕으로 작성되었습니다. 세부 시행령과 기금운용 방안은 추가 확정될 수 있으므로, 정확한 내용은 국민연금공단(☎ 1355)에서 확인하시기 바랍니다.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '국민연금 수령액 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/national-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-national-pension-reform-2026',
+  },
+  calculatorCTA: {
+    text: '개편 후 예상 수령액 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 
   relatedSlugs: [
     'national-pension-timing',
