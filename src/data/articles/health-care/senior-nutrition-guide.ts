@@ -15,7 +15,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '노인 영양 부족은 면역력 저하와 근감소증의 주요 원인입니다. 필수 영양소와 균형 식단, 무료 급식과 식사 배달 서비스 신청법을 정리했습니다.',
+    '노인 영양 부족은 면역력 저하와 근감소증의 주요 원인입니다. 단백질 등 필수 영양소와 균형 잡힌 식단 구성법, 무료 급식과 식사 배달 서비스 신청법을 정리했습니다.',
   heroDescription:
     '잘 먹는 것이 건강의 기본입니다. 혼자 식사 준비가 어려운 어르신을 위한 무료 급식과 배달 서비스를 활용하세요.',
 
@@ -109,7 +109,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 3월 기준으로 작성되었습니다. 무료 급식 및 식사 배달 서비스의 대상과 운영 방식은 지자체별로 다를 수 있으므로 주민센터 또는 보건복지상담센터(129)에서 확인하세요.',
 
-  relatedSlugs: ['senior-fall-prevention', 'senior-diabetes-management', 'national-health-checkup-guide', 'polypharmacy-management'],
+  relatedSlugs: ['senior-fall-prevention', 'senior-diabetes-management', 'national-health-checkup-guide', 'polypharmacy-management', 'senior-digestive-health'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

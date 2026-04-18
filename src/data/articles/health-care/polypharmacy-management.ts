@@ -21,8 +21,7 @@ const article: ContentItem = {
   keyPoints: [
     '5종 이상 약물 동시 복용(다제약물)은 부작용 위험 증가',
     '약 봉투 챙겨가기(Brown Bag Review)로 중복 처방 확인',
-    'DUR(의약품안전사용서비스)로 약물 상호작용 자동 점검',
-    '국민건강보험공단 복약상담 서비스 무료 이용 가능',
+    'DUR(의약품안전사용서비스)과 건보공단 복약상담으로 안전 점검',
   ],
 
   tags: ['다제약물', '약복용관리', '복약상담', 'DUR', '노인건강', '약물부작용'],
@@ -84,17 +83,12 @@ const article: ContentItem = {
     {
       type: 'tip',
       heading: '국민건강보험공단 복약상담 서비스',
-      body: '국민건강보험공단은 6종 이상 약물을 90일 이상 복용하는 어르신에게 무료 복약상담 서비스를 제공합니다. 약사가 직접 전화하거나 방문해 복용 중인 약을 점검하고, 불필요한 약 줄이기를 도와줍니다. 건강보험공단(1577-1000)에 문의하거나, 공단에서 대상자에게 직접 연락이 옵니다.',
+      body: '국민건강보험공단은 6종 이상 약물을 90일 이상 복용하는 어르신에게 무료 복약상담 서비스를 제공합니다. 약사가 직접 전화하거나 방문해 복용 중인 약을 점검하고, 불필요한 약 줄이기를 도와줍니다. 건강보험공단(☎ 1577-1000)에 문의하거나, 공단에서 대상자에게 직접 연락이 옵니다. DUR 점검 관련 문의도 같은 번호 또는 ☎ 129(보건복지상담센터)로 가능합니다.',
     },
     {
       type: 'warning',
       heading: '이런 증상이 나타나면 약 부작용을 의심하세요',
       body: '새로운 약을 시작한 후 어지러움, 메스꺼움, 발진, 소화불량, 극심한 졸음, 혼란 등이 나타나면 약 부작용일 수 있습니다. 증상이 심하면 즉시 처방한 병원에 연락하세요. 가벼운 증상이라도 다음 진료 시 반드시 말씀하세요.',
-    },
-    {
-      type: 'info',
-      heading: '문의처',
-      body: 'DUR(의약품안전사용서비스) 점검 및 복약상담 관련 문의: ☎ 1577-1000 (국민건강보험공단) 또는 ☎ 129 (보건복지상담센터)',
     },
     {
       type: 'warning',
@@ -124,7 +118,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 건강보험심사평가원과 국민건강보험공단 안내를 바탕으로 작성되었습니다. 약 복용과 관련된 결정은 반드시 담당 의사 또는 약사와 상의하세요. 임의로 약을 줄이거나 중단하지 마세요.',
 
-  relatedSlugs: ['national-health-checkup-guide', 'senior-fall-prevention', 'senior-diabetes-management'],
+  relatedSlugs: ['national-health-checkup-guide', 'senior-fall-prevention', 'senior-diabetes-management', 'senior-digestive-health'],
 };
 
 export default article;

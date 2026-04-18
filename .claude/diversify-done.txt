@@ -26,3 +26,10 @@ senior-fall-prevention:3
 senior-diabetes-management:6
 retirement-budget-planning:4
 will-writing-guide:7
+dementia-family-respite:1
+advance-directive:2
+adult-guardianship:3
+disability-registration:5
+cancer-screening-guide:1
+after-death-admin:2
+elder-abuse-prevention:3
