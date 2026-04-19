@@ -33,3 +33,10 @@ disability-registration:5
 cancer-screening-guide:1
 after-death-admin:2
 elder-abuse-prevention:3
+medical-aid-system:4
+emergency-welfare-support:5
+senior-free-meal:6
+polypharmacy-management:7
+senior-mental-health:1
+jeonse-fraud-prevention:2
+senior-insurance-review:3

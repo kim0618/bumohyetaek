@@ -137,7 +137,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['national-health-checkup-guide', 'health-insurance-limit', 'senior-dental-coverage'],
+  relatedSlugs: ['national-health-checkup-guide', 'health-insurance-limit', 'senior-dental-coverage', 'senior-dizziness-vertigo'],
 };
 
 export default article;

@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-04-08',
+  updatedAt: '2026-04-19',
   reviewStatus: 'current',
 
   summary:
@@ -45,8 +45,8 @@ const article: ContentItem = {
   sections: [
     {
       type: 'text',
-      heading: '다제약물이란?',
-      body: '다제약물(Polypharmacy)은 5종 이상의 약물을 동시에 복용하는 것을 말합니다. 고혈압, 당뇨, 관절염, 고지혈증 등 만성질환이 여러 개인 어르신이 각 질환별로 약을 처방받으면 쉽게 5종을 넘기게 됩니다. 10종 이상은 "과다 다제약물"이라 하며, 약물 부작용 위험이 2-3배 이상 높아집니다. [[national-health-checkup-guide|국가건강검진]] 결과를 가지고 주치의와 약 전반을 점검하는 것이 좋습니다.',
+      heading: '하루 5종 vs 하루 10종, 부작용 차이는?',
+      body: '하루 5종의 약을 복용하는 어르신과 10종 이상을 복용하는 어르신을 비교하면, 약물 부작용 발생 위험은 2-3배 이상 벌어진다는 연구 결과가 많습니다. 이는 단순히 약 개수의 문제가 아니라 간과 신장의 대사 부담, 약물 간 상호작용, 복약 누락/중복 위험이 함께 증가하기 때문입니다. 고혈압, 당뇨, 관절염, 고지혈증 등 만성질환이 여러 개인 어르신이 각 질환별로 약을 처방받으면 쉽게 5종을 넘기게 됩니다. 10종 이상은 "과다 다제약물"이라 하며, 낙상·섬망·입원 위험까지 동반 상승합니다. [[national-health-checkup-guide|국가건강검진]] 결과를 가지고 주치의와 약 전반을 점검하는 것이 좋습니다.',
     },
     {
       type: 'list',
@@ -113,12 +113,17 @@ const article: ContentItem = {
       answer:
         '네, 매우 중요합니다. 식전-식후 구분, 약 사이 간격은 약효와 부작용에 영향을 줍니다. 예를 들어 갑상선약(레보티록신)은 공복에 단독 복용해야 하고, 칼슘제와 철분제는 간격을 두고 복용해야 합니다. 약국에서 복약 지도를 받을 때 꼼꼼히 확인하세요.',
     },
+    {
+      question: '약을 깜빡 잊고 거른 경우 두 배로 먹어도 될까요?',
+      answer:
+        '두 배 복용은 위험합니다. 일반적으로 다음 복용 시간이 얼마 남지 않았으면 그 회차는 건너뛰고 다음 정해진 시간에 평소 용량만 복용하는 것이 안전합니다. 혈압약·당뇨약 같은 만성질환 약은 하루 거른다고 바로 문제가 생기지는 않지만, 항응고제·항경련제처럼 혈중 농도가 중요한 약은 반드시 약사나 담당 의사에게 문의해 지시를 받으세요.',
+    },
   ],
 
   cautionNote:
     '이 글은 건강보험심사평가원과 국민건강보험공단 안내를 바탕으로 작성되었습니다. 약 복용과 관련된 결정은 반드시 담당 의사 또는 약사와 상의하세요. 임의로 약을 줄이거나 중단하지 마세요.',
 
-  relatedSlugs: ['national-health-checkup-guide', 'senior-fall-prevention', 'senior-diabetes-management', 'senior-digestive-health'],
+  relatedSlugs: ['national-health-checkup-guide', 'senior-fall-prevention', 'senior-diabetes-management', 'senior-digestive-health', 'senior-dizziness-vertigo'],
 };
 
 export default article;
