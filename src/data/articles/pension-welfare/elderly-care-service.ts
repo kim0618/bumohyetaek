@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'elderly-care-service',
@@ -120,6 +121,19 @@ const article: ContentItem = {
     '이 글은 2026년 기준 정보를 바탕으로 작성되었습니다. 서비스 내용과 대상 기준은 지역 및 예산에 따라 다를 수 있으니 주민센터에서 확인하시기 바랍니다.',
 
   relatedSlugs: ['long-term-care-grade', 'basic-pension-application', 'care-type-selection', 'senior-fall-prevention'],
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-elderly-care-service',
+  },
+  calculatorCTA: {
+    text: '장기요양 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

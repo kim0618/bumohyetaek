@@ -14,6 +14,7 @@ const article: ContentItem = {
   updatedAt: '2026-04-14',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
+  quizId: 'basic-pension',
 
   summary:
     '만 65세 이상 소득 하위 70%라면 기초연금을 받을 수 있습니다. 단독가구 최대 월 349,700원, 자격 조건과 신청 방법을 한눈에 정리했습니다.',

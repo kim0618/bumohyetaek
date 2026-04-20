@@ -94,6 +94,26 @@ export interface HomeCtaParams {
   cta_position: string;
 }
 
+/** 자가진단 퀴즈 시작 파라미터 */
+export interface QuizStartParams {
+  /** 퀴즈 식별자 (예: 'basic-pension', 'long-term-care') */
+  quiz_id: string;
+  /** 퀴즈가 삽입된 글 slug */
+  article_slug: string;
+}
+
+/** 자가진단 퀴즈 완료 파라미터 */
+export interface QuizCompleteParams {
+  /** 퀴즈 식별자 */
+  quiz_id: string;
+  /** 퀴즈가 삽입된 글 slug */
+  article_slug: string;
+  /** 판정 결과 티어 */
+  result_tier: 'high' | 'medium' | 'low' | 'ineligible';
+  /** 퀴즈 소요 시간 (초) */
+  duration_sec: number;
+}
+
 
 /* ── 이벤트 이름 → 파라미터 타입 매핑 ───────────────────────────── */
 
@@ -107,6 +127,8 @@ export interface EventParamMap {
   jptcalc_pension_click: JptcalcParams;
   pdf_download_click:    PdfDownloadParams;
   home_cta_click:        HomeCtaParams;
+  quiz_start:            QuizStartParams;
+  quiz_complete:         QuizCompleteParams;
 }
 
 export type EventName = keyof EventParamMap;

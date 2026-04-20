@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'ltci-bath-nursing-service',
@@ -119,6 +120,19 @@ const article: ContentItem = {
 
   cautionNote:
     '급여 비용과 본인 부담률은 매년 조정될 수 있습니다. 이용 전 국민건강보험공단(☎ 1577-1000)에서 최신 정보를 확인하세요.',
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-ltci-bath-nursing',
+  },
+  calculatorCTA: {
+    text: '장기요양 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

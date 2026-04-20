@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-job-program',
@@ -111,6 +112,19 @@ const article: ContentItem = {
     '이 글은 2026년 기준으로 작성되었습니다. 모집 시기와 활동비는 지역·사업 유형에 따라 다를 수 있으므로 가까운 주민센터나 시니어클럽에 문의해 정확한 내용을 확인하세요.',
 
   relatedSlugs: ['basic-pension-application', 'elderly-care-service'],
+
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '노후 생활비 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/retirement-living/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-senior-job-program',
+  },
+  calculatorCTA: {
+    text: '노후 필요 생활비 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

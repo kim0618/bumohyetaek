@@ -18,6 +18,7 @@ import {
   ShareButtons,
 } from '@/components/content';
 import { PdfDownloadCard } from '@/components/download';
+import { Quiz } from '@/components/quiz';
 
 interface Props {
   item: ContentItem;
@@ -131,6 +132,11 @@ export default function GuideTemplate({ item, relatedArticles, relatedDownloads 
         {/* ── 5. 본문 ──────────────────────────────────────────── */}
         {item.sections && item.sections.length > 0 && (
           <ContentBody sections={item.sections} template={item.template} />
+        )}
+
+        {/* ── 자가진단 퀴즈 ─────────────────────────────────────── */}
+        {item.quizId && (
+          <Quiz quizId={item.quizId} articleSlug={item.slug} />
         )}
 
         {/*

@@ -13,6 +13,7 @@ const article: ContentItem = {
   createdAt: '2025-02-01',
   updatedAt: '2026-04-15',
   reviewStatus: 'current',
+  quizId: 'long-term-care',
 
   summary:
     '부모님이 일상생활에 도움이 필요하다면 장기요양보험 등급 신청을 먼저 해야 합니다. 1~5등급 기준, 신청 절차, 받을 수 있는 서비스를 정리했습니다.',

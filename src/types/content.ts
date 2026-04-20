@@ -286,6 +286,12 @@ export interface ContentItem {
   /* ── 계산기 연동 (optional) ───────────────────── */
 
   /**
+   * 자가진단 퀴즈 ID (src/data/quizzes/index.ts에 등록된 키)
+   * 값이 있으면 본문 하단에 Quiz 컴포넌트 노출
+   */
+  quizId?: string;
+
+  /**
    * 연결할 제이퍼 계산기 정보
    * 값이 없으면 CTA 버튼을 노출하지 않음
    */
