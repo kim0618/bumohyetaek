@@ -29,7 +29,7 @@ const article: ContentItem = {
 
   hubKey: ['retirement-income'],
 
-  relatedSlugs: ['national-pension-timing', 'national-pension-lump-sum', 'survivor-pension', 'retirement-budget-planning', 'national-pension-increase-strategy'],
+  relatedSlugs: ['national-pension-timing', 'national-pension-lump-sum', 'national-pension-voluntary', 'retirement-budget-planning', 'national-pension-increase-strategy'],
 
   officialSources: [
     {

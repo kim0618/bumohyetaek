@@ -10,7 +10,7 @@ const article: ContentItem = {
   template: 'policy',
   targetUser: 'both',
   createdAt: '2026-04-04',
-  updatedAt: '2026-04-04',
+  updatedAt: '2026-04-20',
   reviewStatus: 'current',
   order: 35,
 
@@ -32,7 +32,7 @@ const article: ContentItem = {
   relatedSlugs: [
     'national-pension-timing',
     'national-pension-additional',
-    'survivor-pension',
+    'national-pension-voluntary',
     'basic-pension-application',
     'national-pension-increase-strategy',
   ],
@@ -66,6 +66,11 @@ const article: ContentItem = {
       answer:
         '크레딧 기간만큼 국민연금 가입 기간이 늘어나 월 수령액이 증가합니다. 예를 들어 출산크레딧으로 12개월이 추가되면 가입 기간 1년이 늘어나는 효과가 있습니다. 정확한 금액 변화는 ☎ 1355(국민연금공단)에 문의하거나 국민연금공단 홈페이지의 예상연금 조회 서비스를 이용하세요.',
     },
+    {
+      question: '출산크레딧은 자녀가 이미 성인이어도 적용되나요?',
+      answer:
+        '자녀의 현재 나이와 관계없이 2008년 1월 1일 이후에 출생한 자녀가 있으면 크레딧이 적용됩니다. 자녀가 이미 성인이 되었어도 출생 요건을 충족하면 혜택을 받을 수 있습니다. 연금 수급 시점에 자동으로 반영되므로 지금 당장 별도로 준비할 사항은 없습니다. 크레딧 반영 예상 여부가 궁금하면 국민연금공단(☎ 1355)에 미리 문의해두는 것이 좋습니다.',
+    },
   ],
 
   cautionNote:
@@ -77,7 +82,7 @@ const article: ContentItem = {
     {
       type: 'text',
       heading: '국민연금 크레딧 제도란?',
-      body: '국민연금 크레딧 제도는 출산이나 군복무처럼 보험료를 납부하기 어려운 사회적 상황에 있었던 기간을 국민연금 가입 기간으로 인정해주는 제도입니다. 가입 기간이 늘어나면 [[national-pension-timing|연금 수령 시기]]를 앞당기거나 월 수령액을 높일 수 있어 노후 준비에 실질적인 도움이 됩니다.',
+      body: '크레딧 혜택을 받으려면 직접 신청해야 한다고 생각하기 쉽지만, 실제로는 연금을 처음 받기 시작할 때 자동으로 반영됩니다. 국민연금 크레딧 제도는 출산이나 군복무처럼 보험료를 내기 어려웠던 기간을 가입 기간으로 인정해주는 제도입니다. 출산크레딧은 둘째 자녀부터 최대 50개월, 군복무크레딧은 최대 6개월까지 추가로 인정됩니다. 가입 기간이 늘어나면 [[national-pension-timing|연금 수령 시기]]를 앞당기거나 월 수령액을 높일 수 있어 노후 준비에 실질적인 도움이 됩니다.',
     },
     {
       type: 'list',

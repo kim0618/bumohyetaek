@@ -40,3 +40,10 @@ polypharmacy-management:7
 senior-mental-health:1
 jeonse-fraud-prevention:2
 senior-insurance-review:3
+national-pension-reform-2026:4
+national-pension-credit:5
+senior-dizziness-vertigo:6
+senior-digestive-health:7
+senior-shingles-prevention:1
+care-cost-reduction:2
+inheritance-gift-planning:3
