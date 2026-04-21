@@ -79,4 +79,13 @@ FAQ answer는 구체적 수치/기준 포함, 3문장 이상.
 6. diversify-done.txt에 `slug:패턴번호` 추가
 7. 결과 요약: 수정한 글 7개 목록 (slug, 변경 내용, 사용 패턴) + 남은 글 수
 
+
+## 완료 후 로그 기록
+
+스킬 실행이 완료되면 반드시 아래 명령으로 `skill-log.json`에 기록한다:
+
+```bash
+python3 -c "import json,datetime; logs=json.load(open('/home/tjd618/skill-log.json')); now=datetime.datetime.now(); logs.insert(0,{'date':now.strftime('%Y-%m-%d'),'time':now.strftime('%H:%M'),'project':'bumohyetaek','skill':'diversify'}); open('/home/tjd618/skill-log.json','w').write(json.dumps(logs,ensure_ascii=False,indent=2))"
+```
+
 $ARGUMENTS

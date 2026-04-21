@@ -270,4 +270,13 @@ text + list만 쓰지 않는다. 글마다 아래 중 2개 이상 포함:
 ### 4. 결과 요약
 모든 작업 완료 후 추가한 파일 목록, 주요 섹션 구성, FAQ 수, 도입부 패턴, 빌드 결과를 요약해서 알려준다.
 
+
+## 완료 후 로그 기록
+
+스킬 실행이 완료되면 반드시 아래 명령으로 `skill-log.json`에 기록한다:
+
+```bash
+python3 -c "import json,datetime; logs=json.load(open('/home/tjd618/skill-log.json')); now=datetime.datetime.now(); logs.insert(0,{'date':now.strftime('%Y-%m-%d'),'time':now.strftime('%H:%M'),'project':'bumohyetaek','skill':'bumo-content'}); open('/home/tjd618/skill-log.json','w').write(json.dumps(logs,ensure_ascii=False,indent=2))"
+```
+
 $ARGUMENTS

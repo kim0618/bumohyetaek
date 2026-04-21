@@ -47,3 +47,10 @@ senior-digestive-health:7
 senior-shingles-prevention:1
 care-cost-reduction:2
 inheritance-gift-planning:3
+lonely-senior-support:4
+care-facility-comparison:7
+medical-expense-deduction:2
+senior-digital-education:5
+senior-driving-license:1
+senior-tax-benefit:6
+support-obligation-standard:3

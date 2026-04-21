@@ -114,7 +114,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 기준으로 작성되었습니다. 장제급여 금액, 사망신고 절차는 변경될 수 있으며 지자체마다 다를 수 있습니다. 구체적인 사항은 주민센터 또는 해당 기관에 문의하세요.',
 
-  relatedSlugs: ['survivor-pension', 'inheritance-gift-planning', 'adult-guardianship'],
+  relatedSlugs: ['funeral-service-contract', 'survivor-pension', 'inheritance-gift-planning', 'adult-guardianship'],
 };
 
 export default article;

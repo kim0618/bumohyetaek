@@ -41,6 +41,7 @@ import seizureProtectedAccount from './seizure-protected-account';
 import nationalPensionIncreaseStrategy from './national-pension-increase-strategy';
 import seniorLoanGuaranteeRisk from './senior-loan-guarantee-risk';
 import seniorConsumerRights from './senior-consumer-rights';
+import funeralServiceContract from './funeral-service-contract';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -84,5 +85,6 @@ export const financeSafetyArticles: ContentItem[] = [
   nationalPensionIncreaseStrategy,
   seniorLoanGuaranteeRisk,
   seniorConsumerRights,
+  funeralServiceContract,
 ];
 
