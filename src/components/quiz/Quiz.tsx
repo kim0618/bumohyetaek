@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import type { QuizResult, ResultTier } from './types';
 import { getQuizById } from '@/data/quizzes';
-import { trackEvent } from '@/lib/analytics';
+import { trackEvent, trackJptcalcClick } from '@/lib/analytics';
+import { buildCalculatorUrl } from '@/lib/calculator';
 
 interface Props {
   quizId: string;
@@ -104,16 +105,44 @@ export default function Quiz({ quizId, articleSlug }: Props) {
         <p className="text-gray-700 mb-4">{result.description}</p>
         <p className="text-sm text-gray-500 mb-5">{result.disclaimer}</p>
         <div className="flex flex-wrap gap-3">
-          {result.ctaUrl && result.ctaText && (
-            <a
-              href={result.ctaUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
-              {result.ctaText}
-            </a>
-          )}
+          {result.ctaUrl && result.ctaText && (() => {
+            const hasCalcMeta = !!(
+              result.ctaCalculatorName &&
+              result.ctaCalculatorCategory &&
+              result.ctaCrossSiteTrackingKey
+            );
+            const href = hasCalcMeta
+              ? buildCalculatorUrl({
+                  brand: '',
+                  name: result.ctaCalculatorName!,
+                  url: result.ctaUrl,
+                  openMode: 'new-tab',
+                  category: result.ctaCalculatorCategory!,
+                  crossSiteTrackingKey: result.ctaCrossSiteTrackingKey!,
+                })
+              : result.ctaUrl;
+            const onCtaClick = hasCalcMeta
+              ? () => trackJptcalcClick({
+                  calculator_name: result.ctaCalculatorName!,
+                  tracking_key:    result.ctaCrossSiteTrackingKey!,
+                  category:        result.ctaCalculatorCategory!,
+                  context:         'guide',
+                  context_slug:    articleSlug,
+                  position:        'inline',
+                })
+              : undefined;
+            return (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+                onClick={onCtaClick}
+              >
+                {result.ctaText}
+              </a>
+            );
+          })()}
           <button onClick={handleReset} className="btn-outline">
             다시 진단하기
           </button>

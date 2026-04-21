@@ -92,6 +92,9 @@ const longTermCareQuiz: QuizConfig = {
         disclaimer: DISCLAIMER,
         ctaText: '장기요양 본인부담금 계산해보기',
         ctaUrl: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+        ctaCalculatorName: '장기요양 본인부담금 계산기',
+        ctaCalculatorCategory: 'pension',
+        ctaCrossSiteTrackingKey: 'quiz-long-term-care',
       };
     }
 
@@ -103,6 +106,9 @@ const longTermCareQuiz: QuizConfig = {
         disclaimer: DISCLAIMER,
         ctaText: '장기요양 본인부담금 계산해보기',
         ctaUrl: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+        ctaCalculatorName: '장기요양 본인부담금 계산기',
+        ctaCalculatorCategory: 'pension',
+        ctaCrossSiteTrackingKey: 'quiz-long-term-care',
       };
     }
 

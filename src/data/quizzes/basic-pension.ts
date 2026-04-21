@@ -97,6 +97,9 @@ const basicPensionQuiz: QuizConfig = {
         disclaimer: DISCLAIMER,
         ctaText: '기초연금 계산기로 정확히 확인',
         ctaUrl: 'https://www.jptcalc.kr/calc/pension-welfare/basic-pension/',
+        ctaCalculatorName: '기초연금 계산기',
+        ctaCalculatorCategory: 'pension',
+        ctaCrossSiteTrackingKey: 'quiz-basic-pension',
       };
     }
 
@@ -117,6 +120,9 @@ const basicPensionQuiz: QuizConfig = {
         disclaimer: DISCLAIMER,
         ctaText: '기초연금 계산기로 예상 수령액 확인',
         ctaUrl: 'https://www.jptcalc.kr/calc/pension-welfare/basic-pension/',
+        ctaCalculatorName: '기초연금 계산기',
+        ctaCalculatorCategory: 'pension',
+        ctaCrossSiteTrackingKey: 'quiz-basic-pension',
       };
     }
 
@@ -129,6 +135,9 @@ const basicPensionQuiz: QuizConfig = {
         disclaimer: DISCLAIMER,
         ctaText: '기초연금 계산기로 정확히 확인',
         ctaUrl: 'https://www.jptcalc.kr/calc/pension-welfare/basic-pension/',
+        ctaCalculatorName: '기초연금 계산기',
+        ctaCalculatorCategory: 'pension',
+        ctaCrossSiteTrackingKey: 'quiz-basic-pension',
       };
     }
 

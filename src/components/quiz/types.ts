@@ -21,6 +21,13 @@ export interface QuizResult {
   disclaimer: string;
   ctaText?: string;
   ctaUrl?: string;
+  /**
+   * CTA가 jptcalc 계산기로 이동하는 경우 트래킹 메타데이터.
+   * 세 필드가 모두 있으면 UTM 자동 부착 + trackJptcalcClick() 발송.
+   */
+  ctaCalculatorName?: string;
+  ctaCalculatorCategory?: 'finance' | 'health' | 'pension';
+  ctaCrossSiteTrackingKey?: string;
 }
 
 export interface QuizConfig {
