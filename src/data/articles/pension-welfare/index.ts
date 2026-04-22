@@ -42,6 +42,7 @@ import dementiaFamilyRespite from './dementia-family-respite';
 import seniorPublicHousing from './senior-public-housing';
 import ltciBathNursingService from './ltci-bath-nursing-service';
 import nationalPensionVoluntary from './national-pension-voluntary';
+import nationalPensionWorkDeduction from './national-pension-work-deduction';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -86,4 +87,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   seniorPublicHousing,
   ltciBathNursingService,
   nationalPensionVoluntary,
+  nationalPensionWorkDeduction,
 ];

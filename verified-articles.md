@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 19 / 124 (15.3%)
-- P1 health-care: 19 / 42
+- 감사 완료: 26 / 126 (20.6%)
+- P1 health-care: 26 / 42
 - P2 policy+수치: 0 / N
 - P3 계산기 연결: 0 / N
-- P4 finance-safety: 0 / 41
-- P5 기타: 0 / 41
-- 마지막 업데이트: 2026-04-21
+- P4 finance-safety: 0 / 42
+- P5 기타: 0 / 42
+- 마지막 업데이트: 2026-04-22
 
 ## 감사 완료 목록
 
@@ -30,3 +30,10 @@
 - senior-sleep-health (2026-04-21 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(nhis.or.kr), 내부 링크 실존)
 - senior-physical-therapy (2026-04-21 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(hira.or.kr/nhis.or.kr), 내부 링크 4개 실존)
 - senior-osteoporosis (2026-04-21 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(kdca.go.kr/ksbmr.org/nhis.or.kr), 내부 링크 5개 실존)
+- senior-driving-license (2026-04-22 감사, P1, 이상 없음 - warning 2개, officialSources URL 정상(koroad.or.kr/efine.go.kr), 내부 링크 1개+relatedSlugs 3개 실존)
+- care-facility-comparison (2026-04-22 감사, P1, 이상 없음 - warning 2개, officialSources URL 정상(longtermcare.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), 내부 링크 실존)
+- senior-oral-health (2026-04-22 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(nhis.or.kr/hira.or.kr), 내부 링크 4개+relatedSlugs 4개 실존)
+- senior-nutrition-guide (2026-04-22 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/health/bmr/), 내부 링크+relatedSlugs 5개 실존)
+- senior-pneumonia-prevention (2026-04-22 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(kdca.go.kr/nhis.or.kr), 내부 링크+relatedSlugs 4개 실존)
+- senior-knee-surgery (2026-04-22 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(nhis.or.kr/hira.or.kr), jptcalc URL 실존(/calc/health/bmi/), relatedSlugs 4개 실존)
+- senior-incontinence (2026-04-22 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(ksci.or.kr/nhis.or.kr), 내부 링크+relatedSlugs 3개 실존)

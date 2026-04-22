@@ -151,7 +151,7 @@ const article: ContentItem = {
     'national-pension-timing',
     'national-pension-credit',
     'national-pension-additional',
-    'basic-pension-application',
+    'national-pension-work-deduction',
   ],
 };
 
