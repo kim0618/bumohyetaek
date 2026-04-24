@@ -63,6 +63,7 @@
 - 각 `officialSources[].url`을 부모 Claude가 WebFetch로 200 응답 확인 (subagent 판정 신뢰 금지)
 - 404·리다이렉트·접근 차단 보고
 - `name`과 `url` 매칭 확인 (예: `name: '보건복지부'`인데 URL이 국민연금공단이면 오류)
+- **TLD로 국가 추정 금지**: `.org`·`.com`·`.net` 도메인이 외국 기관이라고 단정하지 말 것. URL 값만 보고하고 실제 접속 판정은 부모 Claude가 WebFetch로 직접 수행 (예: `ophthalmology.org`는 한국 대한안과학회 공식 도메인)
 
 **D. relatedCalculator URL 실존성**
 - `/home/tjd618/jptcalc/calc/` 하위 폴더 구조와 대조
@@ -143,3 +144,11 @@
 - **slug 변경 절대 금지** (URL·sitemap·RSS·외부 피드 전부 깨짐)
 - 글 수정 후 `npm run build`는 사용자 요청 시에만 실행
 - `/bumo-content`, `/diversify`, `/new-analysis` 스킬로 글이 수정되면 재감사 대상이 될 수 있으나, 1차 패스 완료까지는 무시
+
+## 완료 후 로그 기록
+
+스킬 실행이 완료되면 반드시 아래 명령으로 `skill-log.json`에 기록한다:
+
+```bash
+python3 -c "import json,datetime; logs=json.load(open('/home/tjd618/skill-log.json')); now=datetime.datetime.now(); logs.insert(0,{'date':now.strftime('%Y-%m-%d'),'time':now.strftime('%H:%M'),'project':'bumohyetaek','skill':'audit'}); open('/home/tjd618/skill-log.json','w').write(json.dumps(logs,ensure_ascii=False,indent=2))"
+```
