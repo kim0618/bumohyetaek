@@ -148,7 +148,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['basic-livelihood-benefit', 'medical-aid-system', 'energy-voucher'],
+  relatedSlugs: ['basic-livelihood-benefit', 'medical-aid-system', 'energy-voucher', 'high-oil-price-relief'],
 };
 
 export default article;

@@ -98,7 +98,7 @@ const article: ContentItem = {
   cautionNote:
     '지원 금액과 신청 기간은 매년 변경될 수 있습니다. 에너지바우처 공식 사이트(energyvoucher.or.kr) 또는 주민센터에서 해당 연도 기준을 확인하세요.',
 
-  relatedSlugs: ['basic-livelihood-benefit', 'housing-benefit', 'basic-pension-application'],
+  relatedSlugs: ['basic-livelihood-benefit', 'housing-benefit', 'basic-pension-application', 'high-oil-price-relief'],
 };
 
 export default article;

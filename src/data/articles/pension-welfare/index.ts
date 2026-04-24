@@ -43,6 +43,7 @@ import seniorPublicHousing from './senior-public-housing';
 import ltciBathNursingService from './ltci-bath-nursing-service';
 import nationalPensionVoluntary from './national-pension-voluntary';
 import nationalPensionWorkDeduction from './national-pension-work-deduction';
+import highOilPriceRelief from './high-oil-price-relief';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -88,4 +89,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   ltciBathNursingService,
   nationalPensionVoluntary,
   nationalPensionWorkDeduction,
+  highOilPriceRelief,
 ];

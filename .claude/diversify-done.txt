@@ -61,3 +61,10 @@ senior-physical-therapy:6
 senior-sleep-health:2
 senior-incontinence:5
 pension-split-divorce:3
+emergency-care-service:4
+senior-welfare-center:6
+senior-assistive-device:1
+senior-oral-health:5
+dementia-care-center:7
+power-of-attorney:2
+utility-bill-discount:3

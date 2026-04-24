@@ -109,7 +109,7 @@ const article: ContentItem = {
   cautionNote:
     '긴급복지지원은 일시적 지원 제도입니다. 지속적인 어려움이 있다면 기초생활수급자 신청 등 정규 복지 제도를 함께 알아보세요. 의료비 지원이 필요하다면 [[medical-aid-system|의료급여 제도]]도 확인해보세요.',
 
-  relatedSlugs: ['basic-livelihood-benefit', 'housing-benefit', 'basic-pension-application'],
+  relatedSlugs: ['basic-livelihood-benefit', 'housing-benefit', 'basic-pension-application', 'high-oil-price-relief'],
 };
 
 export default article;
