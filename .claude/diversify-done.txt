@@ -67,4 +67,10 @@ senior-assistive-device:1
 senior-oral-health:5
 dementia-care-center:7
 power-of-attorney:2
-utility-bill-discount:3
+national-pension-voluntary:5
+national-pension-work-deduction:6
+senior-hearing-aid:7
+senior-denture-implant:1
+funeral-service-contract:2
+utility-bill-discount:4
+senior-phone-plan:3

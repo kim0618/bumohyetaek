@@ -108,7 +108,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 기준으로 작성되었습니다. 소득분위별 상한액은 매년 조정되며, 비급여 항목은 상한제 적용 대상이 아닙니다. 정확한 금액은 건강보험공단(1577-1000)에서 확인하세요.',
 
-  relatedSlugs: ['long-term-care-grade', 'national-health-checkup-guide', 'home-visiting-care', 'senior-housing-guide'],
+  relatedSlugs: ['long-term-care-grade', 'national-health-checkup-guide', 'critical-illness-copay-reduction', 'home-visiting-care'],
 };
 
 export default article;

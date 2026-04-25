@@ -42,6 +42,7 @@ import seniorPneumoniaPrevention from './senior-pneumonia-prevention';
 import seniorShinglesPrevention from './senior-shingles-prevention';
 import seniorDigestiveHealth from './senior-digestive-health';
 import seniorDizzinessVertigo from './senior-dizziness-vertigo';
+import criticalIllnessCopayReduction from './critical-illness-copay-reduction';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -86,4 +87,5 @@ export const healthCareArticles: ContentItem[] = [
   seniorShinglesPrevention,
   seniorDigestiveHealth,
   seniorDizzinessVertigo,
+  criticalIllnessCopayReduction,
 ];

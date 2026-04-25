@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 33 / 127 (26.0%)
+- 감사 완료: 33 / 126 (26.2%)
 - P1 health-care: 33 / 42
 - P2 policy+수치: 0 / N
 - P3 계산기 연결: 0 / N
 - P4 finance-safety: 0 / 42
-- P5 기타: 0 / 43
-- 마지막 업데이트: 2026-04-24
+- P5 기타: 0 / 42
+- 마지막 업데이트: 2026-04-25
 
 ## 감사 완료 목록
 
@@ -37,10 +37,10 @@
 - senior-pneumonia-prevention (2026-04-22 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(kdca.go.kr/nhis.or.kr), 내부 링크+relatedSlugs 4개 실존)
 - senior-knee-surgery (2026-04-22 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(nhis.or.kr/hira.or.kr), jptcalc URL 실존(/calc/health/bmi/), relatedSlugs 4개 실존)
 - senior-incontinence (2026-04-22 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(ksci.or.kr/nhis.or.kr), 내부 링크+relatedSlugs 3개 실존)
-- senior-hearing-aid (2026-04-24 감사, P1, 이상 없음 - warning 1개+cautionNote, officialSources URL 정상(nhis.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 5개 실존)
-- senior-eye-health (2026-04-24 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 재검증(ophthalmology.org=대한안과학회 한국 공식 URL 확인), 내부 링크+relatedSlugs 3개 실존)
-- senior-emergency-response (2026-04-24 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(e-gen.or.kr/kdca.go.kr), 내부 링크+relatedSlugs 4개 실존)
-- senior-denture-implant (2026-04-24 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(nhis.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 3개 실존)
-- senior-cognitive-screening (2026-04-24 감사, P1, 이상 없음 - warning 1개+cautionNote, officialSources URL 정상(nid.or.kr/mohw.go.kr), 내부 링크+relatedSlugs 3개 실존)
-- senior-chronic-pain (2026-04-24 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(nhis.or.kr/hira.or.kr), 내부 링크+relatedSlugs 5개 실존)
-- senior-cataract-surgery (2026-04-24 감사, P1, 이상 없음 - warning 1개+cautionNote, officialSources URL 재검증(ophthalmology.org=대한안과학회 한국 공식 URL 확인), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 3개 실존)
+- senior-hearing-aid (2026-04-25 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(nhis.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 6개 실존)
+- senior-eye-health (2026-04-25 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(nhis.or.kr/ophthalmology.org=대한안과학회), 내부 링크+relatedSlugs 3개 실존)
+- senior-emergency-response (2026-04-25 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(e-gen.or.kr/kdca.go.kr), 내부 링크+relatedSlugs 4개 실존)
+- senior-denture-implant (2026-04-25 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(nhis.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 3개 실존)
+- senior-cognitive-screening (2026-04-25 감사, P1, 이상 없음 - warning+cautionNote, officialSources URL 정상(nid.or.kr/mohw.go.kr), 내부 링크+relatedSlugs 3개 실존)
+- senior-chronic-pain (2026-04-25 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(nhis.or.kr/hira.or.kr), 내부 링크+relatedSlugs 5개 실존)
+- senior-cataract-surgery (2026-04-25 감사, P1, 이상 없음 - warning+cautionNote, officialSources URL 정상(ophthalmology.org=대한안과학회/nhis.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 3개 실존)
