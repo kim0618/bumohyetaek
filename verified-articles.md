@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 33 / 126 (26.2%)
-- P1 health-care: 33 / 42
+- 감사 완료: 40 / 129 (31.0%)
+- P1 health-care: 40 / 43
 - P2 policy+수치: 0 / N
 - P3 계산기 연결: 0 / N
 - P4 finance-safety: 0 / 42
-- P5 기타: 0 / 42
-- 마지막 업데이트: 2026-04-25
+- P5 기타: 0 / 44
+- 마지막 업데이트: 2026-04-26
 
 ## 감사 완료 목록
 
@@ -44,3 +44,10 @@
 - senior-cognitive-screening (2026-04-25 감사, P1, 이상 없음 - warning+cautionNote, officialSources URL 정상(nid.or.kr/mohw.go.kr), 내부 링크+relatedSlugs 3개 실존)
 - senior-chronic-pain (2026-04-25 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(nhis.or.kr/hira.or.kr), 내부 링크+relatedSlugs 5개 실존)
 - senior-cataract-surgery (2026-04-25 감사, P1, 이상 없음 - warning+cautionNote, officialSources URL 정상(ophthalmology.org=대한안과학회/nhis.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 3개 실존)
+- critical-illness-copay-reduction (2026-04-26 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(nhis.or.kr/hira.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 5개 실존)
+- senior-assistive-device (2026-04-26 감사, P1, 이상 없음 - warning, officialSources URL 정상(nhis.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), 내부 링크+relatedSlugs 4개 실존)
+- dementia-care-center (2026-04-26 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(nid.or.kr/mohw.go.kr), 내부 링크 3개+relatedSlugs 4개 실존)
+- rehabilitation-insurance (2026-04-26 감사, P1, 이상 없음 - cautionNote+warning 3개, officialSources URL 정상(hira.or.kr/nhis.or.kr), 내부 링크+relatedSlugs 3개 실존)
+- hospice-palliative-care (2026-04-26 감사, P1, 이상 없음 - warning 2개, officialSources URL 정상(hospice.go.kr/nhis.or.kr), 내부 링크 1개+relatedSlugs 3개 실존, "반드시 의사와 상담"은 의료 면책 표준 문구로 유지)
+- home-visiting-care (2026-04-26 감사, P1, 이슈 1건 수정: [A] 본문 line 55 월 한도액 수치 정정 "2등급 156만/3등급 133만" → "2등급 233만/3등급 153만" (long-term-care-grade.ts 2026 기준값 2,331,200원/1,528,200원과 정합))
+- health-insurance-premium-reduction (2026-04-26 감사, P1, 이상 없음 - cautionNote+warning, officialSources URL 정상(nhis.or.kr/mohw.go.kr), 내부 링크 1개+relatedSlugs 3개 실존)

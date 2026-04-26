@@ -128,7 +128,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 일반적인 정보 제공을 목적으로 작성되었으며 개인의 상황에 따라 세금과 법적 처리 방법이 크게 달라질 수 있습니다. 구체적인 상속·증여 계획은 세무사 또는 변호사와 상담하세요.',
 
-  relatedSlugs: ['retirement-finance-checklist', 'housing-pension'],
+  relatedSlugs: ['retirement-finance-checklist', 'housing-pension', 'home-sale-tax-exemption'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

@@ -42,6 +42,7 @@ import nationalPensionIncreaseStrategy from './national-pension-increase-strateg
 import seniorLoanGuaranteeRisk from './senior-loan-guarantee-risk';
 import seniorConsumerRights from './senior-consumer-rights';
 import funeralServiceContract from './funeral-service-contract';
+import homeSaleTaxExemption from './home-sale-tax-exemption';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -86,5 +87,6 @@ export const financeSafetyArticles: ContentItem[] = [
   seniorLoanGuaranteeRisk,
   seniorConsumerRights,
   funeralServiceContract,
+  homeSaleTaxExemption,
 ];
 
