@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 40 / 129 (31.0%)
-- P1 health-care: 40 / 43
-- P2 policy+수치: 0 / N
+- 감사 완료: 47 / 130 (36.2%)
+- P1 health-care: 43 / 43 (완료)
+- P2 policy+수치: 4 / N
 - P3 계산기 연결: 0 / N
 - P4 finance-safety: 0 / 42
 - P5 기타: 0 / 44
-- 마지막 업데이트: 2026-04-26
+- 마지막 업데이트: 2026-04-27
 
 ## 감사 완료 목록
 
@@ -51,3 +51,10 @@
 - hospice-palliative-care (2026-04-26 감사, P1, 이상 없음 - warning 2개, officialSources URL 정상(hospice.go.kr/nhis.or.kr), 내부 링크 1개+relatedSlugs 3개 실존, "반드시 의사와 상담"은 의료 면책 표준 문구로 유지)
 - home-visiting-care (2026-04-26 감사, P1, 이슈 1건 수정: [A] 본문 line 55 월 한도액 수치 정정 "2등급 156만/3등급 133만" → "2등급 233만/3등급 153만" (long-term-care-grade.ts 2026 기준값 2,331,200원/1,528,200원과 정합))
 - health-insurance-premium-reduction (2026-04-26 감사, P1, 이상 없음 - cautionNote+warning, officialSources URL 정상(nhis.or.kr/mohw.go.kr), 내부 링크 1개+relatedSlugs 3개 실존)
+- health-insurance-limit (2026-04-27 감사, P1, 이상 없음 - warning 2개, officialSources URL 정상(nhis.or.kr), 내부 링크 1개 실존)
+- caregiver-certification (2026-04-27 감사, P1, 이슈 1건 수정: [G] "2024년 기준 처우 개선 정책에 따라" → "처우 개선 정책에 따라 ~지속 인상되고 있습니다" 상대 시점 제거)
+- regional-health-checkup-support (2026-04-27 감사, P1, 이상 없음 - warning 존재, officialSources URL 정상(nhis.or.kr/mohw.go.kr/gov.kr), 내부 링크 2개+relatedSlugs 4개 실존)
+- ltci-bath-nursing-service (2026-04-27 감사, P2, 이상 없음 - 3등급 한도액 1,528,200원 정확, "반드시"는 법적 절차·계약 확인 맥락으로 적절, officialSources URL 정상(longtermcare.or.kr/nhis.or.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), 내부 링크+relatedSlugs 4개 실존)
+- senior-culture-voucher (2026-04-27 감사, P2, 이상 없음 - 지원금액 13만원 정확, officialSources URL 정상(munhwanuri.or.kr/mcst.go.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/date/age/), 내부 링크 2개+relatedSlugs 4개 실존)
+- national-pension-voluntary (2026-04-27 감사, P2, 이상 없음 - "반드시"는 warning 섹션 제목으로 적절, officialSources URL 정상(nps.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 4개 실존)
+- national-pension-work-deduction (2026-04-27 감사, P2, 이상 없음 - A값 299만원/5단계 감액 구간 기술 정확, officialSources URL 정상(nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 4개 실존)

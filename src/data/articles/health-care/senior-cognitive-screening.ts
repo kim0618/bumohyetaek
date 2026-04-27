@@ -144,7 +144,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 중앙치매센터와 보건복지부 안내를 바탕으로 작성되었습니다. 인지기능 검사 결과는 반드시 전문 의료진이 해석해야 하며, 이 글은 의학적 진단을 대체하지 않습니다. 검사 절차와 도구는 지역 치매안심센터마다 일부 다를 수 있습니다.',
 
-  relatedSlugs: ['dementia-care-center', 'national-health-checkup-guide', 'senior-mental-health'],
+  relatedSlugs: ['dementia-care-center', 'national-health-checkup-guide', 'senior-mental-health', 'senior-thyroid-health'],
 };
 
 export default article;
