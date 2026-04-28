@@ -88,3 +88,10 @@ national-pension-additional:7
 home-sale-tax-exemption:2
 senior-customized-care:4
 senior-nutrition-guide:5
+senior-job-types:6
+senior-transport-discount:1
+senior-pneumonia-prevention:4
+senior-knee-surgery:3
+senior-thyroid-health:7
+retirement-pension-irp:2
+senior-consumer-rights:5

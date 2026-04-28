@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 47 / 130 (36.2%)
+- 감사 완료: 54 / 130 (41.5%)
 - P1 health-care: 43 / 43 (완료)
-- P2 policy+수치: 4 / N
+- P2 policy+수치: 11 / N
 - P3 계산기 연결: 0 / N
 - P4 finance-safety: 0 / 42
 - P5 기타: 0 / 44
-- 마지막 업데이트: 2026-04-27
+- 마지막 업데이트: 2026-04-28
 
 ## 감사 완료 목록
 
@@ -58,3 +58,10 @@
 - senior-culture-voucher (2026-04-27 감사, P2, 이상 없음 - 지원금액 13만원 정확, officialSources URL 정상(munhwanuri.or.kr/mcst.go.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/date/age/), 내부 링크 2개+relatedSlugs 4개 실존)
 - national-pension-voluntary (2026-04-27 감사, P2, 이상 없음 - "반드시"는 warning 섹션 제목으로 적절, officialSources URL 정상(nps.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 4개 실존)
 - national-pension-work-deduction (2026-04-27 감사, P2, 이상 없음 - A값 299만원/5단계 감액 구간 기술 정확, officialSources URL 정상(nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 4개 실존)
+- high-oil-price-relief (2026-04-28 감사, P2, 이상 없음 - effectiveDate 2026-04-27 정합, officialSources URL 정상(mois.go.kr/gov.kr), 내부 링크+relatedSlugs 4개 실존)
+- senior-customized-care (2026-04-28 감사, P2, 이슈 1건 수정: [G] cautionNote "2026년 3월 기준" → "2026년 4월 기준" (updatedAt 2026-04-27과 정합))
+- national-pension-additional (2026-04-28 감사, P2, 이슈 1건 수정: [H] "추납 전 반드시 예상 수령액 시뮬레이션 후 결정" → "반드시" 제거 순화, officialSources URL 정상(nps.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/))
+- home-sale-tax-exemption (2026-04-28 감사, P2, 이상 없음 - officialSources URL 정상(nts.go.kr/hometax.go.kr), 내부 링크+relatedSlugs 4개 실존)
+- funeral-service-contract (2026-04-28 감사, P2, 이상 없음 - cautionNote "반드시 계약서 원본 확인"은 ③계약서 확인 맥락 허용, officialSources URL 정상(ftc.go.kr WAF차단이나 정합/kca.go.kr/ccn.go.kr), 내부 링크+relatedSlugs 4개 실존)
+- utility-bill-discount (2026-04-28 감사, P2, 이슈 1건 수정: [H] info 섹션 "반드시 확인하세요" → "함께 확인하시기 바랍니다" 순화, officialSources URL 정상(cyber.kepco.co.kr/bokjiro.go.kr), 내부 링크+relatedSlugs 3개 실존)
+- emergency-care-service (2026-04-28 감사, P2, 이상 없음 - officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/129.go.kr), 내부 링크+relatedSlugs 4개 실존)

@@ -43,6 +43,7 @@ import seniorLoanGuaranteeRisk from './senior-loan-guarantee-risk';
 import seniorConsumerRights from './senior-consumer-rights';
 import funeralServiceContract from './funeral-service-contract';
 import homeSaleTaxExemption from './home-sale-tax-exemption';
+import pensionSavingsTaxBenefit from './pension-savings-tax-benefit';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -88,5 +89,6 @@ export const financeSafetyArticles: ContentItem[] = [
   seniorConsumerRights,
   funeralServiceContract,
   homeSaleTaxExemption,
+  pensionSavingsTaxBenefit,
 ];
 

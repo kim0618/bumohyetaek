@@ -118,7 +118,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2026년 3월 기준으로 작성되었습니다. 서비스 내용과 대상 기준은 지역 및 예산에 따라 변경될 수 있으니 주민센터 또는 복지로에서 최신 정보를 확인하시기 바랍니다.',
+    '이 글은 2026년 4월 기준으로 작성되었습니다. 서비스 내용과 대상 기준은 지역 및 예산에 따라 변경될 수 있으니 주민센터 또는 복지로에서 최신 정보를 확인하시기 바랍니다.',
 
   relatedSlugs: ['elderly-care-service', 'senior-emergency-alert', 'senior-free-meal', 'long-term-care-grade', 'dementia-family-respite'],
 

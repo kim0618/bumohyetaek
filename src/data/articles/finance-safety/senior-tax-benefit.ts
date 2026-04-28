@@ -139,7 +139,7 @@ const article: ContentItem = {
   cautionNote:
     '세금 감면 혜택은 매년 세법 개정에 따라 요건과 한도가 바뀔 수 있습니다. 국세청(nts.go.kr) 또는 ☎ 126으로 최신 기준을 확인하세요.',
 
-  relatedSlugs: ['pension-income-tax', 'inheritance-gift-planning', 'medical-expense-deduction', 'home-sale-tax-exemption'],
+  relatedSlugs: ['pension-savings-tax-benefit', 'pension-income-tax', 'inheritance-gift-planning', 'medical-expense-deduction', 'home-sale-tax-exemption'],
 };
 
 export default article;

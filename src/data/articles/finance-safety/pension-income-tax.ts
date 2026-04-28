@@ -116,7 +116,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 일반적인 안내 목적으로 작성되었습니다. 개인 소득 구성과 연금 종류에 따라 유리한 과세 방식이 달라지므로 세무사 상담을 통해 정확한 절세 방법을 확인하세요. 세법은 매년 개정될 수 있습니다.',
 
-  relatedSlugs: ['national-pension-timing', 'retirement-pension-irp', 'retirement-finance-checklist'],
+  relatedSlugs: ['pension-savings-tax-benefit', 'national-pension-timing', 'retirement-pension-irp', 'retirement-finance-checklist'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
