@@ -44,6 +44,7 @@ import seniorDigestiveHealth from './senior-digestive-health';
 import seniorDizzinessVertigo from './senior-dizziness-vertigo';
 import criticalIllnessCopayReduction from './critical-illness-copay-reduction';
 import seniorThyroidHealth from './senior-thyroid-health';
+import seniorHeartHealth from './senior-heart-health';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -90,4 +91,5 @@ export const healthCareArticles: ContentItem[] = [
   seniorDizzinessVertigo,
   criticalIllnessCopayReduction,
   seniorThyroidHealth,
+  seniorHeartHealth,
 ];

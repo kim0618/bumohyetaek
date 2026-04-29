@@ -9,7 +9,7 @@ const article: ContentItem = {
   template: 'policy',
   targetUser: 'both',
   createdAt: '2026-04-03',
-  updatedAt: '2026-04-03',
+  updatedAt: '2026-04-29',
   reviewStatus: 'current',
   order: 34,
 
@@ -64,6 +64,11 @@ const article: ContentItem = {
       answer:
         '[[senior-transport-discount|노인 교통비 할인]]과 연계하면 KTX·버스 할인을 함께 받을 수 있습니다. 만 65세 이상은 도시철도(지하철) 무료 이용이 가능하며, 일부 지자체는 여행용 교통비를 별도 지원합니다.',
     },
+    {
+      question: '문화누리카드 잔액을 여행 비용으로 쓸 수 있나요?',
+      answer:
+        '문화누리카드는 숙박·관광·체험 등 여행 관련 가맹점에서 사용할 수 있습니다. 연간 지원 금액(2026년 기준 13만 원)을 숙박비, 입장료, 체험 프로그램 등에 활용 가능합니다. 문화누리 앱 또는 누리집(munhwanuri.or.kr)에서 여행 관련 가맹점을 미리 확인하면 편리합니다.',
+    },
   ],
 
   cautionNote:
@@ -75,7 +80,7 @@ const article: ContentItem = {
     {
       type: 'text',
       heading: '시니어가 받을 수 있는 여행 지원 종류',
-      body: '65세 이상 어르신을 위한 여행 지원은 크게 세 가지로 나뉩니다. 첫째, 정부·공공기관이 운영하는 단체 여행 프로그램, 둘째, 여행 경비를 지원하는 바우처·상품권, 셋째, 교통·숙박 할인 혜택입니다. [[senior-culture-voucher|문화누리카드]]와 함께 활용하면 여행 비용을 크게 줄일 수 있습니다.',
+      body: '만 65세 이상 인구가 전체의 20%를 넘어선 지금, 시니어 여행 수요를 겨냥한 정부·지자체 지원 사업도 꾸준히 늘고 있습니다. 단체 여행 프로그램, 여행 경비 바우처·상품권, 교통·숙박 할인까지 크게 세 가지로 나뉩니다. [[senior-culture-voucher|문화누리카드]]와 함께 활용하면 여행 비용을 더욱 줄일 수 있습니다.',
     },
     {
       type: 'list',

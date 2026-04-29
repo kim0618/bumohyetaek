@@ -92,9 +92,11 @@
 
 **H. 애드센스 리스크 문체**
 - em dash(—) 사용 (하이픈으로 교체)
-- 단정 표현 ("100% 받을 수 있다", "무조건"). 단, "반드시"는 아래 맥락이면 **허용**: ①`type: 'warning'` 섹션(heading·body 모두), ②법적·절차적 의무 서술("방문간호지시서를 반드시 발급받아야"), ③계약서·서류 확인 안내. 이 세 맥락 외에서만 이슈로 보고.
+- 단정 표현 ("100% 받을 수 있다", "무조건"). 단, **아래 맥락은 허용**:
+  - "반드시": ①`type: 'warning'` 섹션(heading·body 모두), ②법적·절차적 의무 서술("방문간호지시서를 반드시 발급받아야"), ③계약서·서류 확인 안내
+  - "무조건": `faq[].question` 필드에서 반박형 질문으로 쓰인 경우 (예: "일시금이 무조건 불리한가요?" → 답변이 "꼭 그렇지 않습니다"로 가정을 반박하는 구조). **단, `answer` 필드나 `sections` body에서 단정 주장으로 쓰이면 이슈.**
 - AI 인사 도입부 ("안녕하세요! 오늘은")
-- 본문 내 `- 항목` 하이픈 리스트 (list/numbered-list 섹션으로 교체)
+- 본문 내 `- 항목` 하이픈 리스트 (list/numbered-list 섹션으로 교체). `warning`·`info`·`tip` 섹션의 `body` 필드에 `\n-` 패턴이 있어도 동일하게 이슈로 보고.
 - 개인정보 입력 유도 (주민번호·계좌번호 요구 표현)
 
 ### Step 2: 이슈 확인 및 수정 (부모 Claude)
@@ -108,6 +110,14 @@
 - 수정 후 영향 범위 확인: 예) 기초연금 금액 변경 시 `summary` / `keyPoints` / `sections` / `seoDescription` 전부 동기화
 
 ### Step 3: 감사 완료 기록
+
+**P순위 "완료" 선언 전 카운트 검증**: verified-articles.md 통계에서 특정 순위를 "완료"로 표시하기 전, 실제 파일 수와 대조할 것.
+
+```bash
+# 예: P1(health-care) 완료 선언 전
+find /home/tjd618/bumohyetaek/src/data/articles/health-care -name "*.ts" ! -name "index.ts" | wc -l
+# → 실제 파일 수와 verified-articles.md의 P1 완료 수가 일치해야 선언 가능
+```
 
 `/home/tjd618/bumohyetaek/verified-articles.md`에 추가:
 

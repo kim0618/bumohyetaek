@@ -28,7 +28,7 @@ const article: ContentItem = {
 
   hubKey: ['health-checkup'],
 
-  relatedSlugs: ['senior-hypertension', 'senior-diabetes-management', 'senior-fall-prevention', 'national-health-checkup-guide', 'senior-dizziness-vertigo'],
+  relatedSlugs: ['senior-heart-health', 'senior-hypertension', 'senior-diabetes-management', 'national-health-checkup-guide', 'senior-dizziness-vertigo'],
 
   officialSources: [
     {

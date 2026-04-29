@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 54 / 130 (41.5%)
-- P1 health-care: 43 / 43 (완료)
-- P2 policy+수치: 11 / N
+- 감사 완료: 61 / 130 (46.9%)
+- P1 health-care: 44 / 44 (완료)
+- P2 policy+수치: 17 / N
 - P3 계산기 연결: 0 / N
 - P4 finance-safety: 0 / 42
 - P5 기타: 0 / 44
-- 마지막 업데이트: 2026-04-28
+- 마지막 업데이트: 2026-04-29
 
 ## 감사 완료 목록
 
@@ -65,3 +65,10 @@
 - funeral-service-contract (2026-04-28 감사, P2, 이상 없음 - cautionNote "반드시 계약서 원본 확인"은 ③계약서 확인 맥락 허용, officialSources URL 정상(ftc.go.kr WAF차단이나 정합/kca.go.kr/ccn.go.kr), 내부 링크+relatedSlugs 4개 실존)
 - utility-bill-discount (2026-04-28 감사, P2, 이슈 1건 수정: [H] info 섹션 "반드시 확인하세요" → "함께 확인하시기 바랍니다" 순화, officialSources URL 정상(cyber.kepco.co.kr/bokjiro.go.kr), 내부 링크+relatedSlugs 3개 실존)
 - emergency-care-service (2026-04-28 감사, P2, 이상 없음 - officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/129.go.kr), 내부 링크+relatedSlugs 4개 실존)
+- senior-thyroid-health (2026-04-29 감사, P1, 이상 없음 - warning+cautionNote 존재, officialSources URL 정상(thyroid.or.kr WAF차단이나 정합/nhis.or.kr), 내부 링크 2개+relatedSlugs 4개 실존)
+- pension-savings-tax-benefit (2026-04-29 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, 세액공제율 16.5%/13.2% 정확, officialSources URL 정상(100lifeplan.fss.or.kr/hometax.go.kr), jptcalc URL 실존(/calc/tax/income-tax/), 내부 링크+relatedSlugs 4개 실존)
+- retirement-pension-irp (2026-04-29 감사, P2, 이상 없음 - FAQ "일시금이 무조건 불리한가요?"는 반박형 질문이므로 단정 표현 해당 없음, officialSources URL 정상(100lifeplan.fss.or.kr/nts.go.kr), jptcalc URL 실존(/calc/pension-welfare/pension-tax/), 내부 링크+relatedSlugs 4개 실존)
+- senior-consumer-rights (2026-04-29 감사, P2, 이슈 1건 수정: [H] warning 섹션 body "\n- 항목" 하이픈 리스트 4개 → "①②③④" 인라인 형식으로 교체, officialSources URL 정상(kca.go.kr/ftc.go.kr/ccn.go.kr), 내부 링크+relatedSlugs 3개 실존)
+- senior-job-types (2026-04-29 감사, P2, 이상 없음 - 공익활동형 월 27만원/사회서비스형 월 59.4만원 2026 수치 정확, officialSources URL 정상(kordi.or.kr/seniorro.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/date/age/), 내부 링크+relatedSlugs 4개 실존)
+- near-poverty-benefits (2026-04-29 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/129.go.kr), jptcalc URL 실존(/calc/pension-welfare/basic-pension/), 내부 링크+relatedSlugs 4개 실존)
+- pension-split-divorce (2026-04-29 감사, P2, 이상 없음 - 혼인 5년/분할 50% 수치 정확, effectiveDate 2026-01-01 정합, officialSources URL 정상(nps.or.kr), 내부 링크+relatedSlugs 3개 실존)
