@@ -4,9 +4,9 @@ import { siteConfig } from '@/config/siteConfig';
 const article: ContentItem = {
   slug: 'dementia-family-respite',
   title: '치매가족 휴가제 - 돌봄 가족을 위한 단기보호 지원 안내',
-  seoTitle: '치매가족 휴가제 신청 방법 - 단기보호 지원과 이용 절차',
+  seoTitle: '치매가족 휴가제 신청 방법 - 연 6일 단기보호 지원과 이용 절차',
   seoDescription:
-    '치매가족 휴가제를 이용하면 치매 환자를 최대 6일간 단기보호시설에 맡기고 가족이 휴식할 수 있습니다. 신청 자격, 이용 절차, 비용 부담 기준을 정리했습니다.',
+    '치매 환자 가족이 연 6일까지 단기보호시설을 이용할 수 있는 치매가족 휴가제. 치매안심센터에 등록된 환자가 대상이며, 신청 자격, 이용 절차, 본인 부담 기준을 확인하세요.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',

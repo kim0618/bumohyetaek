@@ -3,9 +3,9 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'senior-lifelong-education',
   title: '시니어 평생교육 프로그램 이용 안내 - 노인대학·문해교육·취미교육',
-  seoTitle: '시니어 평생교육 프로그램 신청 방법 - 노인대학, 문해교육, 취미교육',
+  seoTitle: '시니어 평생교육 신청 방법 - 만 60세 이상 노인대학·문해교육 무료 프로그램',
   seoDescription:
-    '어르신을 위한 평생교육 프로그램 종류와 신청 방법을 안내합니다. 노인대학, 문해교육, 취미·건강 교육 등 무료 프로그램을 노인복지관, 평생학습관에서 이용할 수 있습니다.',
+    '만 60세 이상 어르신은 노인대학, 문해교육, 취미·건강 교육 등 다양한 평생교육 프로그램을 무료로 이용할 수 있습니다. 노인복지관, 평생학습관, 주민센터에서 신청할 수 있는 방법을 살펴봅니다.',
   category: 'pension-welfare',
   template: 'standard',
   targetUser: 'both',

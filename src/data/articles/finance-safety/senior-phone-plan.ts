@@ -3,8 +3,8 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'senior-phone-plan',
   title: '고령자 휴대폰 요금제 비교와 선택 가이드',
-  seoTitle: '고령자 휴대폰 요금제 비교 - 알뜰폰 시니어 요금제 선택법',
-  seoDescription: '부모님 휴대폰 요금을 줄이려면 알뜰폰이나 시니어 전용 요금제를 활용하세요. 데이터 사용량 기준 요금제 선택법과 통신비 감면 제도를 정리했습니다.',
+  seoTitle: '고령자 휴대폰 요금제 비교 - 알뜰폰·시니어 요금제로 통신비 줄이는 법',
+  seoDescription: '부모님 휴대폰 요금을 줄이려면 알뜰폰이나 통신사 시니어 요금제를 활용하세요. 데이터 사용량 기준 요금제 선택법, 만 65세 이상 통신비 감면 제도, 신청 절차까지 살펴보세요.',
   category: 'finance-safety',
   template: 'comparison',
   targetUser: 'family',

@@ -4,8 +4,8 @@ import { siteConfig } from '@/config/siteConfig';
 const article: ContentItem = {
   slug: 'national-pension-credit',
   title: '국민연금 크레딧 제도 - 출산·군복무 크레딧으로 연금 수령액 늘리기',
-  seoTitle: '국민연금 출산·군복무 크레딧 - 가입 기간 추가로 연금 늘리는 방법',
-  seoDescription: '출산크레딧으로 둘째부터 최대 50개월, 군복무크레딧으로 최대 6개월을 추가 인정받을 수 있습니다. 국민연금 크레딧 제도의 조건과 자동 반영 방법을 정리했습니다.',
+  seoTitle: '국민연금 크레딧 - 출산 50개월·군복무 6개월 가입기간 추가 받는 방법',
+  seoDescription: '둘째 아이 출산 시 최대 50개월, 군복무 시 최대 6개월의 국민연금 가입 기간을 추가로 인정받을 수 있는 크레딧 제도. 자동 반영 조건과 신청 방법, 예상 수령액 증가분을 함께 살펴봅니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',

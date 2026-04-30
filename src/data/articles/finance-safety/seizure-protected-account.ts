@@ -3,9 +3,9 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'seizure-protected-account',
   title: '행복지킴이 통장 개설 방법과 압류 방지 보호 범위 안내',
-  seoTitle: '행복지킴이 통장 - 압류 방지 계좌 개설과 보호 대상 총정리',
+  seoTitle: '행복지킴이 통장 압류 방지 - 국세·지방세 예외와 보호 대상 정리',
   seoDescription:
-    '기초연금, 국민연금 등 정부 수급액을 채권자 압류로부터 보호하는 행복지킴이 통장 개설 방법, 보호 범위, 신청 절차를 안내합니다.',
+    '행복지킴이 통장은 기초연금, 국민연금, 실업급여 등 법정 수급액을 채권자 압류로부터 보호하는 전용 계좌입니다. 국세·지방세 강제집행은 예외이며, 전국 시중은행과 우체국에서 무료로 개설할 수 있습니다.',
   category: 'finance-safety',
   template: 'policy',
   targetUser: 'both',

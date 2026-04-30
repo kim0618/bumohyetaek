@@ -4,8 +4,8 @@ import { siteConfig } from '@/config/siteConfig';
 const article: ContentItem = {
   slug: 'home-visiting-care',
   title: '방문요양 서비스 신청 방법과 이용 비용',
-  seoTitle: '방문요양 신청 방법 - 장기요양등급별 비용과 이용 절차',
-  seoDescription: '장기요양등급을 받은 어르신이라면 방문요양 서비스를 이용할 수 있습니다. 등급별 월 한도액, 본인 부담금, 요양보호사 매칭 방법과 신청 절차를 정리했습니다.',
+  seoTitle: '방문요양 비용·신청 방법 - 장기요양 등급별 본인부담금과 이용 절차',
+  seoDescription: '장기요양 등급을 받은 어르신은 방문요양 서비스를 이용할 수 있습니다. 등급별 월 한도액, 본인 부담금 기준, 요양보호사 매칭 방법과 국민건강보험공단 신청 절차까지 한눈에 확인할 수 있습니다.',
   category: 'health-care',
   template: 'policy',
   targetUser: 'both',
