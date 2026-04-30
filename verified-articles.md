@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 61 / 130 (46.9%)
-- P1 health-care: 44 / 44 (완료)
-- P2 policy+수치: 17 / N
+- 감사 완료: 68 / 134 (50.7%)
+- P1 health-care: 45 / 45 (완료)
+- P2 policy+수치: 23 / N
 - P3 계산기 연결: 0 / N
-- P4 finance-safety: 0 / 42
+- P4 finance-safety: 8 / 45 (P2로 감사 완료 포함, 신규 inheritance-debt-rejection 미감사)
 - P5 기타: 0 / 44
-- 마지막 업데이트: 2026-04-29
+- 마지막 업데이트: 2026-04-30
 
 ## 감사 완료 목록
 
@@ -72,3 +72,10 @@
 - senior-job-types (2026-04-29 감사, P2, 이상 없음 - 공익활동형 월 27만원/사회서비스형 월 59.4만원 2026 수치 정확, officialSources URL 정상(kordi.or.kr/seniorro.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/date/age/), 내부 링크+relatedSlugs 4개 실존)
 - near-poverty-benefits (2026-04-29 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/129.go.kr), jptcalc URL 실존(/calc/pension-welfare/basic-pension/), 내부 링크+relatedSlugs 4개 실존)
 - pension-split-divorce (2026-04-29 감사, P2, 이상 없음 - 혼인 5년/분할 50% 수치 정확, effectiveDate 2026-01-01 정합, officialSources URL 정상(nps.or.kr), 내부 링크+relatedSlugs 3개 실존)
+- senior-heart-health (2026-04-30 감사, P1, 이상 없음 - cautionNote+warning 2개 존재, officialSources URL 정상(koreancirc.or.kr/nhis.or.kr), 내부 링크 4개+relatedSlugs 실존)
+- senior-travel-support (2026-04-30 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(visitkorea.or.kr/mcst.go.kr/bokjiro.go.kr), 내부 링크 3개+relatedSlugs 실존)
+- veterans-senior-benefit (2026-04-30 감사, P2, 이슈 2건 수정: [C] officialSources 중복 콜센터 항목 제거 후 전화번호 note에 통합, [H] tip 섹션 "반드시 보훈청에 문의" → "꼭 보훈청에 문의"로 순화)
+- national-pension-lump-sum (2026-04-30 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(nps.or.kr/fss.or.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 6개 실존)
+- lonely-senior-support (2026-04-30 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/1661-2129.or.kr), 내부 링크 3개+relatedSlugs 5개 실존)
+- support-obligation-standard (2026-04-30 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, 생계급여 부양의무자 기준 수치 정확, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/129.go.kr), jptcalc URL 실존(/calc/pension-welfare/basic-pension/), 내부 링크+relatedSlugs 3개 실존)
+- senior-digital-education (2026-04-30 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(www.디지털배움터.kr/msit.go.kr/nia.or.kr), 내부 링크 2개+relatedSlugs 5개 실존)

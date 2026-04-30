@@ -129,7 +129,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 일반적인 안내를 목적으로 합니다. 상속 관련 기한과 절차는 개인 상황에 따라 다를 수 있으므로 세무사·법무사 또는 법률구조공단(132)에 상담하는 것을 권장합니다.',
 
-  relatedSlugs: ['funeral-preparation-guide', 'survivor-pension', 'inheritance-gift-planning'],
+  relatedSlugs: ['funeral-preparation-guide', 'survivor-pension', 'inheritance-gift-planning', 'inheritance-debt-rejection'],
 };
 
 export default article;

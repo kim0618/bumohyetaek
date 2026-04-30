@@ -44,6 +44,7 @@ import seniorConsumerRights from './senior-consumer-rights';
 import funeralServiceContract from './funeral-service-contract';
 import homeSaleTaxExemption from './home-sale-tax-exemption';
 import pensionSavingsTaxBenefit from './pension-savings-tax-benefit';
+import inheritanceDebtRejection from './inheritance-debt-rejection';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -90,5 +91,6 @@ export const financeSafetyArticles: ContentItem[] = [
   funeralServiceContract,
   homeSaleTaxExemption,
   pensionSavingsTaxBenefit,
+  inheritanceDebtRejection,
 ];
 

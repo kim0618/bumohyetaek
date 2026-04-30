@@ -102,3 +102,10 @@ critical-illness-copay-reduction:7
 retirement-severance-choice:3
 pension-savings-tax-benefit:2
 health-insurance-claim:5
+senior-emergency-alert:4
+senior-public-housing:6
+senior-heart-health:1
+senior-cataract-surgery:7
+funeral-preparation-guide:3
+senior-housing-guide:2
+care-home-cost-guide:5

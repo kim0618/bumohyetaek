@@ -113,7 +113,7 @@ const article: ContentItem = {
   cautionNote:
     '유품 정리 업체의 서비스 품질과 비용은 업체마다 크게 다릅니다. 계약 전 반드시 견적서를 서면으로 받고, 추가 비용 발생 여부를 확인하세요.',
 
-  relatedSlugs: ['funeral-preparation-guide', 'inheritance-gift-planning', 'survivor-pension'],
+  relatedSlugs: ['funeral-preparation-guide', 'inheritance-gift-planning', 'survivor-pension', 'inheritance-debt-rejection'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
