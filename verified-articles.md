@@ -83,6 +83,6 @@
 - senior-public-housing (2026-05-01 감사, P2, 이상 없음 - officialSources URL 정상(lh.or.kr/myhome.go.kr/bokjiro.go.kr), 내부 링크+relatedSlugs 4개 실존)
 - national-pension-reform-2026 (2026-05-01 감사, P2, 이상 없음 - 보험료율 9→13% 단계적 인상/소득대체율 43% 수치 일관, officialSources URL 정상(nps.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 4개 실존 [F항 note: policy template이나 numbered-list 섹션 없어 HowTo JSON-LD 미생성 - 구조 이슈는 감사 범위 외])
 - national-pension-credit (2026-05-01 감사, P2, 이상 없음 - 출산크레딧(둘째 12개월/셋째 18개월/최대 50개월)·군복무크레딧(6개월) 수치 정확, effectiveDate 2026-01-01 정합, officialSources URL 정상(nps.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 5개 실존)
-- emergency-welfare-support (2026-05-01 감사, P2, 이슈 0건 수정 | 의심 항목 1건 사용자 보고: [A] L47 "기준 중위소득 75% 이하 1인 가구 약 167만 원" = 2024년 기준 중위소득 75% 값으로 의심 - 2026년 기준은 약 179만원 이상 예상되나 공식 확인 필요)
+- emergency-welfare-support (2026-05-01 감사+수정, P2, 이슈 2건 수정: [A] L47 "1인 가구 약 167만 원" → "1인 가구 약 192만 원" (2026년 기준 중위소득 75% 1,923,179원), L53 "1인 가구 월 약 71만 원" → "1인 가구 월 약 78만 원" (2026년 생계지원 783,000원). 출처: 보건복지부 보도자료, 서울시 긴급복지)
 - medical-aid-system (2026-05-01 감사, P2, 이슈 1건 수정: [G] L49 "2024년 기준 의료급여 수급권자는 약 151만 명" → "2024년 기준" 라벨 및 구체 수치 제거, 전 국민 약 3% 수준 표현으로 중립화)
 - adult-guardianship (2026-05-01 감사, P2, 이상 없음 - 신청 기간(3개월 이내) 없음(성년후견은 기간 제한 없음), 법적 절차 보장 단정 표현 없음, officialSources URL 정상(efamily.scourt.go.kr/help-me.kr), 내부 링크+relatedSlugs 7개 실존)
