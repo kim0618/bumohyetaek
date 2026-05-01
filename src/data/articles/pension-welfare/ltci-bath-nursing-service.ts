@@ -31,7 +31,7 @@ const article: ContentItem = {
   hubKey: ['prepare-care', 'government-benefits'],
   relatedSlugs: [
     'long-term-care-grade',
-    'home-visiting-care',
+    'ltci-welfare-equipment',
     'senior-daycare-center',
     'dementia-family-respite',
   ],

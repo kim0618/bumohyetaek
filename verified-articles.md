@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 68 / 134 (50.7%)
+- 감사 완료: 75 / 134 (56.0%)
 - P1 health-care: 45 / 45 (완료)
-- P2 policy+수치: 23 / N
+- P2 policy+수치: 30 / N (미감사 P2 다수 잔여)
 - P3 계산기 연결: 0 / N
-- P4 finance-safety: 8 / 45 (P2로 감사 완료 포함, 신규 inheritance-debt-rejection 미감사)
+- P4 finance-safety: 10 / 45 (P2 분류 포함)
 - P5 기타: 0 / 44
-- 마지막 업데이트: 2026-04-30
+- 마지막 업데이트: 2026-05-01
 
 ## 감사 완료 목록
 
@@ -79,3 +79,10 @@
 - lonely-senior-support (2026-04-30 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/1661-2129.or.kr), 내부 링크 3개+relatedSlugs 5개 실존)
 - support-obligation-standard (2026-04-30 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, 생계급여 부양의무자 기준 수치 정확, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/129.go.kr), jptcalc URL 실존(/calc/pension-welfare/basic-pension/), 내부 링크+relatedSlugs 3개 실존)
 - senior-digital-education (2026-04-30 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(www.디지털배움터.kr/msit.go.kr/nia.or.kr), 내부 링크 2개+relatedSlugs 5개 실존)
+- inheritance-debt-rejection (2026-05-01 감사, P2, 이상 없음 - 3개월 이내 신청 기간 정확, officialSources URL 정상(scourt.go.kr/gov.kr), 내부 링크+relatedSlugs 4개 실존)
+- senior-public-housing (2026-05-01 감사, P2, 이상 없음 - officialSources URL 정상(lh.or.kr/myhome.go.kr/bokjiro.go.kr), 내부 링크+relatedSlugs 4개 실존)
+- national-pension-reform-2026 (2026-05-01 감사, P2, 이상 없음 - 보험료율 9→13% 단계적 인상/소득대체율 43% 수치 일관, officialSources URL 정상(nps.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 4개 실존 [F항 note: policy template이나 numbered-list 섹션 없어 HowTo JSON-LD 미생성 - 구조 이슈는 감사 범위 외])
+- national-pension-credit (2026-05-01 감사, P2, 이상 없음 - 출산크레딧(둘째 12개월/셋째 18개월/최대 50개월)·군복무크레딧(6개월) 수치 정확, effectiveDate 2026-01-01 정합, officialSources URL 정상(nps.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 5개 실존)
+- emergency-welfare-support (2026-05-01 감사, P2, 이슈 0건 수정 | 의심 항목 1건 사용자 보고: [A] L47 "기준 중위소득 75% 이하 1인 가구 약 167만 원" = 2024년 기준 중위소득 75% 값으로 의심 - 2026년 기준은 약 179만원 이상 예상되나 공식 확인 필요)
+- medical-aid-system (2026-05-01 감사, P2, 이슈 1건 수정: [G] L49 "2024년 기준 의료급여 수급권자는 약 151만 명" → "2024년 기준" 라벨 및 구체 수치 제거, 전 국민 약 3% 수준 표현으로 중립화)
+- adult-guardianship (2026-05-01 감사, P2, 이상 없음 - 신청 기간(3개월 이내) 없음(성년후견은 기간 제한 없음), 법적 절차 보장 단정 표현 없음, officialSources URL 정상(efamily.scourt.go.kr/help-me.kr), 내부 링크+relatedSlugs 7개 실존)

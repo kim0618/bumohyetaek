@@ -109,3 +109,10 @@ senior-cataract-surgery:7
 funeral-preparation-guide:3
 senior-housing-guide:2
 care-home-cost-guide:5
+senior-housing-renovation:3
+senior-legal-aid:7
+dementia-financial-management:1
+emergency-medical-fund:4
+family-care-leave:6
+health-insurance-limit:2
+health-insurance-premium-reduction:5
