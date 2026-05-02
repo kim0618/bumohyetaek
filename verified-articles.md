@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 75 / 134 (56.0%)
+- 감사 완료: 82 / 135 (60.7%) | 회귀 수정 1건 (adult-guardianship)
 - P1 health-care: 45 / 45 (완료)
-- P2 policy+수치: 30 / N (미감사 P2 다수 잔여)
+- P2 policy+수치: 37 / N (미감사 P2 다수 잔여)
 - P3 계산기 연결: 0 / N
 - P4 finance-safety: 10 / 45 (P2 분류 포함)
 - P5 기타: 0 / 44
-- 마지막 업데이트: 2026-05-01
+- 마지막 업데이트: 2026-05-02
 
 ## 감사 완료 목록
 
@@ -86,3 +86,12 @@
 - emergency-welfare-support (2026-05-01 감사+수정, P2, 이슈 2건 수정: [A] L47 "1인 가구 약 167만 원" → "1인 가구 약 192만 원" (2026년 기준 중위소득 75% 1,923,179원), L53 "1인 가구 월 약 71만 원" → "1인 가구 월 약 78만 원" (2026년 생계지원 783,000원). 출처: 보건복지부 보도자료, 서울시 긴급복지)
 - medical-aid-system (2026-05-01 감사, P2, 이슈 1건 수정: [G] L49 "2024년 기준 의료급여 수급권자는 약 151만 명" → "2024년 기준" 라벨 및 구체 수치 제거, 전 국민 약 3% 수준 표현으로 중립화)
 - adult-guardianship (2026-05-01 감사, P2, 이상 없음 - 신청 기간(3개월 이내) 없음(성년후견은 기간 제한 없음), 법적 절차 보장 단정 표현 없음, officialSources URL 정상(efamily.scourt.go.kr/help-me.kr), 내부 링크+relatedSlugs 7개 실존)
+  - **2026-05-02 회귀 수정**: [C] '법원 후견포털' help-me.kr → scourt.go.kr 교체 (help-me.kr은 사설 법무법인). cautionNote 내 'help-me.kr' 텍스트 'scourt.go.kr'로 동기화. 회귀 트리거: dementia-financial-management 감사에서 동일 URL 오류 발견
+  - **2026-05-02 사후 검증 보강**: dementia-financial-management 본문 텍스트(FAQ L91 + cautionNote L108)에 잔존하던 "법원 후견포털" 명칭을 "대법원(scourt.go.kr)"로 통일. URL 교체만으로는 부족 - 본문 텍스트 검색 필요성 확인되어 audit 스킬 Step 5에 부연 텍스트 grep 룰 추가
+- dementia-financial-management (2026-05-02 감사, P2, 이슈 1건 수정: [C] officialSources '대법원 후견포털' URL help-me.kr → scourt.go.kr 교체 (help-me.kr은 사설 법무법인), fss.or.kr 정상, 내부 링크+relatedSlugs 3개 실존)
+- family-care-leave (2026-05-02 감사, P2, 이상 없음 - officialSources URL 정상(moel.go.kr/ei.go.kr), 내부 링크+relatedSlugs 3개 실존)
+- emergency-medical-fund (2026-05-02 감사, P2, 이상 없음 - cautionNote 존재, officialSources URL 정상(mohw.go.kr/nhis.or.kr), 내부 링크+relatedSlugs 3개 실존)
+- ltci-welfare-equipment (2026-05-02 감사, P2, 이상 없음 - warning+cautionNote 존재, officialSources URL 정상(longtermcare.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), 내부 링크+relatedSlugs 4개 실존, [H] "반드시" 1건 법규 기반 절차 설명으로 유지)
+- senior-housing-renovation (2026-05-02 감사, P2, 이상 없음 - cautionNote 존재(2026년 4월 기준), officialSources URL 정상(mohw.go.kr/bokjiro.go.kr, khuf.or.kr WSL 타임아웃이나 실존 추정), 내부 링크+relatedSlugs 4개 실존, [H] "반드시 사전 동의" 계약 절차 표현으로 유지)
+- senior-legal-aid (2026-05-02 감사, P2, 이슈 1건 수정: [G] cautionNote "2026년 4월 기준" → "2026년 5월 기준" (updatedAt 2026-05-01 정합), officialSources URL 정상(klac.or.kr/moj.go.kr), 내부 링크+relatedSlugs 4개 실존)
+- dementia-family-respite (2026-05-02 감사, P2, 이상 없음 - warning+cautionNote 존재, officialSources URL 정상(nid.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), 내부 링크+relatedSlugs 4개 실존)

@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-03-29',
-  updatedAt: '2026-05-01',
+  updatedAt: '2026-05-02',
   reviewStatus: 'current',
   effectiveDate: '2026-01-01',
 
@@ -32,7 +32,7 @@ const article: ContentItem = {
 
   officialSources: [
     { name: '금융감독원', url: 'https://www.fss.or.kr', note: '금융 소비자 보호 안내' },
-    { name: '대법원 후견포털', url: 'https://www.help-me.kr', note: '성년후견 신청 안내' },
+    { name: '대법원', url: 'https://www.scourt.go.kr', note: '성년후견 신청 안내' },
   ],
 
   sections: [
@@ -88,7 +88,7 @@ const article: ContentItem = {
   faq: [
     {
       question: '부모님이 이미 치매가 심한데 통장 관리는 어떻게 하나요?',
-      answer: '이미 의사 결정 능력이 없다면 가족이 임의로 관리하기보다 법원에 성년후견 신청을 하는 것이 안전합니다. 가족이 임의로 재산을 관리하면 나중에 횡령 문제가 될 수 있습니다. 법원 후견포털이나 법률구조공단(132)에 문의하세요.',
+      answer: '이미 의사 결정 능력이 없다면 가족이 임의로 관리하기보다 법원에 성년후견 신청을 하는 것이 안전합니다. 가족이 임의로 재산을 관리하면 나중에 횡령 문제가 될 수 있습니다. 대법원(scourt.go.kr)이나 법률구조공단(132)에 문의하세요.',
     },
     {
       question: '치매 안심 신탁은 어느 은행에서 가능한가요?',
@@ -105,7 +105,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '재산 관리와 후견 관련 사항은 개인 상황에 따라 법적 처리 방법이 다릅니다. 중요한 결정 전 법률구조공단(132) 또는 법원 후견포털에서 전문 상담을 받으세요.',
+    '재산 관리와 후견 관련 사항은 개인 상황에 따라 법적 처리 방법이 다릅니다. 중요한 결정 전 법률구조공단(132) 또는 대법원(scourt.go.kr)에서 전문 상담을 받으세요.',
 
   relatedSlugs: ['adult-guardianship', 'prevent-voice-phishing', 'inheritance-gift-planning'],
 };

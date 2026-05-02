@@ -123,7 +123,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['retirement-finance-checklist', 'housing-pension', 'national-pension-timing', 'national-pension-increase-strategy'],
+  relatedSlugs: ['retirement-finance-checklist', 'housing-pension', 'farmland-pension', 'national-pension-timing', 'national-pension-increase-strategy'],
 };
 
 export default article;

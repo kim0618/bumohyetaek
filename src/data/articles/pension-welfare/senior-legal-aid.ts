@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-05-01',
+  updatedAt: '2026-05-02',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
@@ -118,7 +118,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2026년 4월 기준으로 작성되었습니다. 법률 지원 대상 기준과 서비스 범위는 변경될 수 있으니 대한법률구조공단(☎ 132) 또는 해당 기관에 직접 문의하세요.',
+    '이 글은 2026년 5월 기준으로 작성되었습니다. 법률 지원 대상 기준과 서비스 범위는 변경될 수 있으니 대한법률구조공단(☎ 132) 또는 해당 기관에 직접 문의하세요.',
 
   relatedSlugs: ['elder-abuse-prevention', 'senior-welfare-center', 'basic-livelihood-benefit', 'support-obligation-standard'],
 };

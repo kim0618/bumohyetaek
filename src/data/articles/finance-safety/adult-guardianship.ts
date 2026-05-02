@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2025-03-10',
-  updatedAt: '2026-04-18',
+  updatedAt: '2026-05-02',
   reviewStatus: 'current',
 
   summary:
@@ -36,8 +36,8 @@ const article: ContentItem = {
       note: '후견 관련 서류 발급',
     },
     {
-      name: '법원 후견포털',
-      url: 'https://www.help-me.kr',
+      name: '대법원',
+      url: 'https://www.scourt.go.kr',
       note: '성년후견 신청 안내 및 양식',
     },
   ],
@@ -125,7 +125,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 일반적인 정보 안내 목적으로 작성되었습니다. 실제 후견 신청은 개인 상황에 따라 절차가 달라질 수 있으니 법원 후견포털(help-me.kr) 또는 법률구조공단(132)에 문의해 정확한 안내를 받으세요.',
+    '이 글은 일반적인 정보 안내 목적으로 작성되었습니다. 실제 후견 신청은 개인 상황에 따라 절차가 달라질 수 있으니 대법원(scourt.go.kr) 또는 법률구조공단(132)에 문의해 정확한 안내를 받으세요.',
 
   relatedSlugs: ['inheritance-gift-planning', 'funeral-preparation-guide', 'prevent-voice-phishing', 'dementia-financial-management'],
 };

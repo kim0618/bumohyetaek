@@ -134,7 +134,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 일반적인 노후 재정 점검 가이드이며 개인의 상황에 따라 적합한 방법이 다를 수 있습니다. 구체적인 재정 계획은 전문가 상담을 통해 수립하시기 바랍니다.',
 
-  relatedSlugs: ['housing-pension', 'prevent-voice-phishing', 'basic-pension-application', 'retirement-pension-irp', 'pension-income-tax'],
+  relatedSlugs: ['housing-pension', 'farmland-pension', 'basic-pension-application', 'retirement-pension-irp', 'pension-income-tax'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

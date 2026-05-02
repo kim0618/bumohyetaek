@@ -116,3 +116,11 @@ emergency-medical-fund:4
 family-care-leave:6
 health-insurance-limit:2
 health-insurance-premium-reduction:5
+inheritance-debt-rejection:4
+seizure-protected-account:6
+senior-loss-insurance-guide:7
+hospice-palliative-care:1
+senior-cognitive-screening:3
+senior-lifelong-education:5
+senior-social-service-voucher:2
+farmland-pension:5
