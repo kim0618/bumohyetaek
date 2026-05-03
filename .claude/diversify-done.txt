@@ -124,3 +124,10 @@ senior-cognitive-screening:3
 senior-lifelong-education:5
 senior-social-service-voucher:2
 farmland-pension:5
+ltci-welfare-equipment:6
+regional-health-checkup-support:4
+rehabilitation-insurance:1
+senior-chronic-pain:3
+national-pension-increase-strategy:7
+senior-deposit-protection:2
+senior-subscription-cleanup:5

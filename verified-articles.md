@@ -1,13 +1,13 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 82 / 135 (60.7%) | 회귀 수정 1건 (adult-guardianship)
+- 감사 완료: 89 / 136 (65.4%) | 회귀 수정 3건 (adult-guardianship, basic-livelihood-benefit, disability-pension)
 - P1 health-care: 45 / 45 (완료)
-- P2 policy+수치: 37 / N (미감사 P2 다수 잔여)
+- P2 policy+수치: 44 / N (미감사 P2 다수 잔여)
 - P3 계산기 연결: 0 / N
 - P4 finance-safety: 10 / 45 (P2 분류 포함)
 - P5 기타: 0 / 44
-- 마지막 업데이트: 2026-05-02
+- 마지막 업데이트: 2026-05-03
 
 ## 감사 완료 목록
 
@@ -95,3 +95,12 @@
 - senior-housing-renovation (2026-05-02 감사, P2, 이상 없음 - cautionNote 존재(2026년 4월 기준), officialSources URL 정상(mohw.go.kr/bokjiro.go.kr, khuf.or.kr WSL 타임아웃이나 실존 추정), 내부 링크+relatedSlugs 4개 실존, [H] "반드시 사전 동의" 계약 절차 표현으로 유지)
 - senior-legal-aid (2026-05-02 감사, P2, 이슈 1건 수정: [G] cautionNote "2026년 4월 기준" → "2026년 5월 기준" (updatedAt 2026-05-01 정합), officialSources URL 정상(klac.or.kr/moj.go.kr), 내부 링크+relatedSlugs 4개 실존)
 - dementia-family-respite (2026-05-02 감사, P2, 이상 없음 - warning+cautionNote 존재, officialSources URL 정상(nid.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), 내부 링크+relatedSlugs 4개 실존)
+- seizure-protected-account (2026-05-03 감사, P2, 이슈 1건 수정: [G] keyPoints "반드시 별도 통장 사용" → "별도 통장으로 분리 관리 필요" 단정 표현 완화, officialSources URL 정상(mohw.go.kr/fss.or.kr), numbered-list 신청 절차 존재)
+- farmland-pension (2026-05-03 감사, P2, 이상 없음 - 농지연금 수치 정합(만 60세/종신·기간형/30억 이하), officialSources URL 정상(ekr.or.kr/fplove.or.kr/mafra.go.kr), 내부 링크+relatedSlugs 4개 실존)
+- senior-social-service-voucher (2026-05-03 감사, P2, 이슈 1건 수정: [G] cautionNote "반드시 확인하세요" → "최신 내용을 확인하시기 바랍니다" 완화, officialSources URL 정상(socialservice.or.kr/bokjiro.go.kr/mohw.go.kr), 내부 링크+relatedSlugs 4개 실존)
+- disability-registration (2026-05-03 감사, P2, 이상 없음 - 2019년 장애 등급제 폐지 기술 정확, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/nps.or.kr), 내부 링크+relatedSlugs 실존)
+- senior-daycare-center (2026-05-03 감사, P2, 이상 없음 - 장기요양 1-5등급 본인부담 15% 정확, jptcalc URL 실존(/calc/pension-welfare/long-term-care/), officialSources URL 정상(nhis.or.kr/longtermcare.or.kr/mohw.go.kr), 내부 링크+relatedSlugs 5개 실존)
+- basic-pension-reduction (2026-05-03 감사, P2, 이슈 3건 수정: [A] 기준연금액 334,810원→349,700원, 연계 감액 기준(150%) 502,215원→524,550원, 부부 감액 예시 26만4천→27만9760원; [G] "반드시 보장되므로"→"법적으로 보장되므로", "반드시 확인하세요"→"확인하시기 바랍니다")
+- housing-benefit (2026-05-03 감사, P2, 이슈 2건 수정: [A] 선정기준 1인가구 "106만원"→"약 123만원"(2026년 기준 중위소득 48%), 수선유지급여 경보수 457만→590만/중보수 849만→1,090만/대보수 1,241만→1,590만원, officialSources URL 정상(myhome.go.kr×2/bokjiro.go.kr), [B] 주거급여콜센터 URL은 마이홈과 동일 도메인으로 note에 전화번호 명시되어 있어 정합)
+  - **2026-05-03 회귀 수정**: basic-livelihood-benefit.ts info 섹션 급여 선정선 3개 수치 동기화(생계 71만→82만, 의료 89만→103만, 주거 106만→123만)
+  - **2026-05-03 회귀 수정 (검증 세션)**: disability-pension.ts 장애인연금 기초급여 334,810원→349,700원 (3곳: keyPoints L25, info body L75, summary items L107) + 본문 "최대 약 42만 원"→"약 44만 원"(2곳: heading L55, body L56) + seoDescription "약 40만 원"→"약 44만 원". 장애인연금 종합 감사(선정기준액 130만/208만 검증 등)는 다음 정식 audit 사이클에서 진행

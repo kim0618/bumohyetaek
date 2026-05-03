@@ -114,7 +114,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 3월 기준으로 작성되었습니다. 무료 급식 및 식사 배달 서비스의 대상과 운영 방식은 지자체별로 다를 수 있으므로 주민센터 또는 보건복지상담센터(129)에서 확인하세요.',
 
-  relatedSlugs: ['senior-fall-prevention', 'senior-diabetes-management', 'national-health-checkup-guide', 'polypharmacy-management', 'senior-digestive-health'],
+  relatedSlugs: ['senior-fall-prevention', 'senior-diabetes-management', 'national-health-checkup-guide', 'polypharmacy-management', 'senior-sarcopenia'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

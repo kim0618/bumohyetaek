@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-04-02',
+  updatedAt: '2026-05-03',
   reviewStatus: 'current',
 
   summary:
@@ -46,7 +46,7 @@ const article: ContentItem = {
     {
       type: 'text',
       heading: '부모님 자동결제, 왜 정리해야 할까?',
-      body: '많은 어르신들이 오래전 가입한 보험, 잡지 구독, 각종 멤버십 요금을 계속 납부하고 있습니다. 특히 지인 권유로 가입한 정기 배송 서비스나 스마트폰 앱 구독료가 누적되는 경우도 많습니다. 연간 수십만 원이 불필요하게 나가는 경우가 흔하므로, [[retirement-budget-planning|노후 예산 점검]]의 첫걸음으로 자동결제 정리를 시작하세요.',
+      body: '부모님이 구독 서비스를 거의 이용하지 않는다고 생각하기 쉽지만, 실제로 통장 내역을 들여다보면 매달 빠져나가는 자동결제가 5개 이상인 경우도 흔합니다. 오래전 지인 권유로 가입한 정기 배송, 잊고 있던 앱 구독, 이미 중단했는데 계속 청구되는 서비스까지 - 연간 수십만 원이 쌓이는 경우가 많습니다. 한 번 확인하면 대부분 당일 해지가 가능합니다. [[retirement-budget-planning|노후 예산 점검]]의 첫걸음으로 자동결제 정리를 시작하세요.',
     },
     {
       type: 'numbered-list',

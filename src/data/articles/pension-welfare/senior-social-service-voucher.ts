@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-05',
-  updatedAt: '2026-05-02',
+  updatedAt: '2026-05-03',
   reviewStatus: 'current',
 
   summary:
@@ -131,7 +131,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '이 글은 2026년 1월 기준 사회서비스 전자바우처 제도를 바탕으로 작성되었습니다. 서비스 내용과 소득 기준은 매년 변경될 수 있으므로, 신청 전 주민센터 또는 보건복지상담센터(☎ 129)에서 반드시 확인하세요.',
+    '이 글은 2026년 1월 기준 사회서비스 전자바우처 제도를 바탕으로 작성되었습니다. 서비스 내용과 소득 기준은 매년 변경될 수 있으므로, 신청 전 주민센터 또는 보건복지상담센터(☎ 129)에서 최신 내용을 확인하시기 바랍니다.',
 
   relatedSlugs: [
     'senior-customized-care',

@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-07',
-  updatedAt: '2026-05-02',
+  updatedAt: '2026-05-03',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
@@ -24,7 +24,7 @@ const article: ContentItem = {
   keyPoints: [
     '기초연금·국민연금·실업급여 등 법정 수급액 압류 방지 전용 계좌',
     '전국 시중은행·우체국에서 무료 개설 가능',
-    '일반 예금과 섞이면 보호 불가 - 반드시 별도 통장 사용',
+    '일반 예금과 섞이면 보호 불가 - 별도 통장으로 분리 관리 필요',
   ],
 
   tags: ['행복지킴이통장', '압류방지', '기초연금보호', '채무자보호', '수급자통장'],
