@@ -1,13 +1,14 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 89 / 136 (65.4%) | 회귀 수정 3건 (adult-guardianship, basic-livelihood-benefit, disability-pension)
+- 감사 완료: 96 / 135 (71.1%) | 회귀 수정 3건 (adult-guardianship, basic-livelihood-benefit, disability-pension)
 - P1 health-care: 45 / 45 (완료)
-- P2 policy+수치: 44 / N (미감사 P2 다수 잔여)
+- P2 policy+수치: 51 / N (미감사 P2 잔여)
 - P3 계산기 연결: 0 / N
 - P4 finance-safety: 10 / 45 (P2 분류 포함)
 - P5 기타: 0 / 44
-- 마지막 업데이트: 2026-05-03
+- 마지막 업데이트: 2026-05-04
+- AdSense 신청 D-17 (2026-05-21 목표)
 
 ## 감사 완료 목록
 
@@ -104,3 +105,27 @@
 - housing-benefit (2026-05-03 감사, P2, 이슈 2건 수정: [A] 선정기준 1인가구 "106만원"→"약 123만원"(2026년 기준 중위소득 48%), 수선유지급여 경보수 457만→590만/중보수 849만→1,090만/대보수 1,241만→1,590만원, officialSources URL 정상(myhome.go.kr×2/bokjiro.go.kr), [B] 주거급여콜센터 URL은 마이홈과 동일 도메인으로 note에 전화번호 명시되어 있어 정합)
   - **2026-05-03 회귀 수정**: basic-livelihood-benefit.ts info 섹션 급여 선정선 3개 수치 동기화(생계 71만→82만, 의료 89만→103만, 주거 106만→123만)
   - **2026-05-03 회귀 수정 (검증 세션)**: disability-pension.ts 장애인연금 기초급여 334,810원→349,700원 (3곳: keyPoints L25, info body L75, summary items L107) + 본문 "최대 약 42만 원"→"약 44만 원"(2곳: heading L55, body L56) + seoDescription "약 40만 원"→"약 44만 원". 장애인연금 종합 감사(선정기준액 130만/208만 검증 등)는 다음 정식 audit 사이클에서 진행
+- basic-livelihood-benefit (2026-05-04 감사, P2, 이슈 1건 수정: [G] FAQ L106 답변 "1인 가구는 2026년 월 약 71만 원→약 82만 원" + "약 51만 원→약 62만 원"(L47 본문 생계급여 선정선과 동기화). 2026 기준 중위소득 정합(1인 가구 ~256만 × 32% = 약 82만), officialSources URL 정상(bokjiro.go.kr/mohw.go.kr))
+- disability-pension (2026-05-04 감사, P2, 이상 없음 - 회귀 수정 후 349,700원/약 44만 원/선정기준액 130만·208만 정합, officialSources URL 정상(mohw.go.kr/nps.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), numbered-list+heading 정합, 내부 링크+relatedSlugs 3개 실존)
+- survivor-pension (2026-05-04 감사, P2, 이상 없음 - 가입기간별 지급률(40/50/60%)·기초연금 50% 감액·중복수급 30% 추가지급 규칙 정확, officialSources URL 정상(nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), numbered-list+heading 정합, 내부 링크+relatedSlugs 4개 실존)
+- long-term-care-grade (2026-05-04 감사, P2, 이슈 4건 수정: [A] L66 1등급 한도액 2,512,900원→2,545,400원, L69 4등급 1,409,700원→1,403,800원, L70 5등급 1,208,900원→1,209,500원, L71 인지지원 676,320원→729,100원. 보건복지부 2026 고시 기준값과 정합. **이 글은 다른 글의 참조 기준값 문서**, 회귀 grep으로 다른 글에 잔존 없음 확인. 3등급 1,528,200원·2등급 2,331,200원은 정상)
+- energy-voucher (2026-05-04 감사, P2, 이슈 1건 수정: [C] energyvoucher.or.kr → energyv.or.kr 3곳 일괄 수정 (officialSources L34/본문 L68/cautionNote L99). DNS 해석 실패로 도메인 자체 미존재 확인, 정확한 한국에너지공단 공식 에너지바우처 사이트는 www.energyv.or.kr ("시원한 여름 따뜻한 겨울 에너지바우처"))
+- elderly-care-service (2026-05-04 감사, P2, 이상 없음 - 노인맞춤돌봄서비스 effectiveDate 2026-01-01 정합, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), numbered-list+heading '신청 방법' 정합, 내부 링크 3개+relatedSlugs 4개 실존)
+- basic-pension-application (2026-05-04 감사, P2, 이상 없음 - 기초연금 349,700원/부부 279,760원/선정기준액 247만·395.2만/연계감액 기준 약 52만(524,550원) 수치 모두 정합, effectiveDate 2026-01-01, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/basic-pension/) [F note: L70 numbered-list에 heading 없어 HowTo JSON-LD 미생성 - 구조 이슈는 감사 범위 외, national-pension-reform-2026 사례 참조])
+
+## 2026-05-04 사후 검증·보강 세션
+
+오늘 작성·수정된 글 7편 + 신규 분석 글 2편을 사후 검증하여 사실 오류 발견·수정. Step 5b(신규 글 사후 cross-reference) 절차 신설 계기.
+
+**발견·정정한 오류**:
+- [ltci-short-term-care] 단기보호 한도일수 "1회 15일"→**"월 9일+연 4회 추가 9일"**, 인지지원등급 "이용 불가"→**"이용 가능"** (방문요양만 불가). 출처: 보건복지부, 케어스토어. 기존 verified `care-type-selection`에 정확한 정보가 있었으나 cross-reference 누락.
+- [dementia-family-action-plan] 치매 치료관리비 "저소득 72만원"→**"연 36만원 단일, 중위소득 140% 이하"**, 면허반납 "교통카드 10만원 + 보험료 할인"→**"지자체별 차이, 서울시 70세+ 20만원 (보험료 할인은 면허 없으면 자보 가입 불가하므로 부정확)"**
+- [national-pension-break-even] 한국인 기대수명 80.6/86.5→**80.8/86.6** (통계청 2024 생명표). 손익분기점 6개 시나리오 계산식은 모두 정확.
+- [senior-emergency-response] 대한적십자사 ☎1365→**☎1577-8179** (1365는 자원봉사 통합번호)
+
+**스킬·문서 보강**:
+- policy-data-points.md: 3.10 단기보호 한도일수, 3.11 단기보호 이용 등급, 4.5 치매 치료관리비, 4.6 면허반납 인센티브 신규 추가. 옛/오류 값 패턴 기록.
+- /audit 스킬 Step 5b 신설: 신규 글 사후 cross-reference로 verified 글 충돌 자동 검출.
+- /bumo-content 스킬: 작성 전 cross-reference 단계 신설 (policy-data-points.md 검색 + 유사 verified 글 grep + WebSearch 공식 확인).
+
+**교훈**: 새 글 작성 시 grep 한 번으로 기존 verified 글의 동일 주제 서술을 확인하면 오류를 처음부터 피할 수 있음.

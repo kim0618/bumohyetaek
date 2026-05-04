@@ -158,6 +158,29 @@
 
 **P0 처리 원칙**: 다음 `/audit` 실행 시 `[재감사 필요]` 태그가 있는 글을 우선순위 분류보다 먼저 7편에 포함.
 
+### Step 5b: 신규 글 사후 cross-reference (verified 글 충돌 검출)
+
+`/bumo-content`, `/new-analysis`로 작성된 미감사 신규 글에 **이미 verified된 글의 사실과 충돌하는 서술**이 들어갔을 가능성을 검출하는 절차.
+
+**근거**: 2026-05-04 ltci-short-term-care 작성 시 "1회 최대 15일", "인지지원등급 이용 불가"로 잘못 작성. 기존 verified 글 care-type-selection에는 정확한 정보("1~5등급 및 인지지원등급 모두 이용 가능")가 있었으나 새 글이 충돌. 사후 검증으로 발견.
+
+**자동 실행 조건**: 매 감사 사이클마다 createdAt 또는 updatedAt이 마지막 감사 이후로 변경된 글이 있으면 다음 절차 실행.
+
+**검증 절차**:
+
+1. 새 글의 핵심 정책 수치(금액·한도일수·등급·대상)를 추출
+2. 동일 키워드를 verified-articles.md 등록 글 전체에서 grep:
+   ```bash
+   grep -rn "키워드" /home/tjd618/bumohyetaek/src/data/articles/ | grep -v 새글slug
+   ```
+3. verified 글에서 발견된 서술이 새 글과 충돌하면:
+   - 공식 출처로 사실 재확인 (WebSearch + WebFetch)
+   - 새 글이 틀렸으면 → P0 큐에 강제 추가 + 즉시 정정
+   - verified 글이 틀렸으면 → 해당 verified 글에 `[재감사 필요: 사유]` 태그 추가
+4. policy-data-points.md의 알려진 옛/오류 값 패턴과 새 글 본문을 grep으로 대조. 매칭되면 즉시 정정.
+
+**최우선 검증 키워드**: 단기보호·인지지원등급·기초연금·국민연금·장기요양 한도액·중위소득·치매 치료관리비·면허 반납.
+
 ## 주의사항
 
 - subagent는 반드시 Explore(read-only) 사용해 임의 수정 차단
@@ -167,6 +190,7 @@
 - **slug 변경 절대 금지** (URL·sitemap·RSS·외부 피드 전부 깨짐)
 - 글 수정 후 `npm run build`는 사용자 요청 시에만 실행
 - `/bumo-content`, `/diversify`, `/new-analysis` 스킬로 글이 수정되면 재감사 대상이 될 수 있으나, 1차 패스 완료까지는 무시
+- **단, 신규 글이 verified 글과 충돌하는 사실을 담은 경우는 예외**: 1차 패스와 무관하게 즉시 Step 5b 절차로 검증·정정 (YMYL 신뢰도 직접 영향)
 
 ### 공식 출처 URL 블랙리스트 (사설 사이트가 공식 기관명으로 등록된 사례)
 

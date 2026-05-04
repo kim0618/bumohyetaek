@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2025-02-01',
-  updatedAt: '2026-04-15',
+  updatedAt: '2026-05-04',
   reviewStatus: 'current',
   quizId: 'long-term-care',
 
@@ -63,12 +63,12 @@ const article: ContentItem = {
     {
       type: 'list',
       items: [
-        '1등급: 최중증 - 일상생활 전반에 도움 필요 (95점 이상) / 2026년 월 한도액 2,512,900원',
+        '1등급: 최중증 - 일상생활 전반에 도움 필요 (95점 이상) / 2026년 월 한도액 2,545,400원',
         '2등급: 중증 - 상당 부분 도움 필요 (75~95점 미만) / 월 한도액 2,331,200원',
         '3등급: 중등증 - 일부 도움 필요 (60~75점 미만) / 월 한도액 1,528,200원',
-        '4등급: 경증 - 일정 부분 도움 필요 (51~60점 미만) / 월 한도액 1,409,700원',
-        '5등급: 치매 특별등급 (45~51점 미만, 치매 진단 필수) / 월 한도액 1,208,900원',
-        '인지지원등급: 경도 치매 (45점 미만, 치매 진단 필수) / 월 한도액 676,320원',
+        '4등급: 경증 - 일정 부분 도움 필요 (51~60점 미만) / 월 한도액 1,403,800원',
+        '5등급: 치매 특별등급 (45~51점 미만, 치매 진단 필수) / 월 한도액 1,209,500원',
+        '인지지원등급: 경도 치매 (45점 미만, 치매 진단 필수) / 월 한도액 729,100원',
       ],
     },
     {
@@ -120,7 +120,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 기준 정보를 바탕으로 작성되었습니다. 등급 기준과 급여 내용은 변경될 수 있으니 신청 전 국민건강보험공단(1577-1000)에 확인하시기 바랍니다.',
 
-  relatedSlugs: ['national-health-checkup-guide', 'care-facility-comparison', 'ltci-bath-nursing-service', 'ltci-welfare-equipment'],
+  relatedSlugs: ['national-health-checkup-guide', 'care-facility-comparison', 'ltci-bath-nursing-service', 'ltci-short-term-care'],
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
     name: '장기요양 본인부담금 계산기',

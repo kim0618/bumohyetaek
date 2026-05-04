@@ -45,6 +45,8 @@ import nationalPensionVoluntary from './national-pension-voluntary';
 import nationalPensionWorkDeduction from './national-pension-work-deduction';
 import highOilPriceRelief from './high-oil-price-relief';
 import ltciWelfareEquipment from './ltci-welfare-equipment';
+import ltciShortTermCare from './ltci-short-term-care';
+import nationalPensionBreakEven from './national-pension-break-even';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -92,4 +94,6 @@ export const pensionWelfareArticles: ContentItem[] = [
   nationalPensionWorkDeduction,
   highOilPriceRelief,
   ltciWelfareEquipment,
+  ltciShortTermCare,
+  nationalPensionBreakEven,
 ];

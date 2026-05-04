@@ -32,7 +32,7 @@ const article: ContentItem = {
   relatedSlugs: [
     'long-term-care-grade',
     'ltci-welfare-equipment',
-    'senior-daycare-center',
+    'ltci-short-term-care',
     'dementia-family-respite',
   ],
   order: 41,

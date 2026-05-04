@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-03-29',
-  updatedAt: '2026-04-15',
+  updatedAt: '2026-05-04',
   reviewStatus: 'current',
   effectiveDate: '2026-01-01',
 
@@ -31,7 +31,7 @@ const article: ContentItem = {
   order: 10,
 
   officialSources: [
-    { name: '에너지바우처 공식 사이트', url: 'https://www.energyvoucher.or.kr', note: '신청 안내 및 잔액 조회' },
+    { name: '에너지바우처 공식 사이트', url: 'https://www.energyv.or.kr', note: '신청 안내 및 잔액 조회' },
     { name: '복지로', url: 'https://www.bokjiro.go.kr', note: '온라인 신청' },
   ],
 
@@ -65,7 +65,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '바우처 실제 사용 방법',
-      body: '에너지바우처는 국민행복카드(바우처 카드) 형태로 발급됩니다. 전기요금은 한국전력 홈페이지·앱·지로 납부 시 카드번호를 입력하거나, 한전 고객센터(123)에 전화해 등록하면 자동 차감됩니다. 도시가스는 가스회사 홈페이지 또는 앱에서 카드를 등록하면 요금 청구 시 자동으로 차감됩니다. 등유·연탄은 가맹 주유소나 연탄 배달 업체에서 구매 시 카드를 제시하면 됩니다. 잔액은 에너지바우처 공식 사이트(energyvoucher.or.kr)나 고객센터(1600-3190)에서 조회할 수 있습니다.',
+      body: '에너지바우처는 국민행복카드(바우처 카드) 형태로 발급됩니다. 전기요금은 한국전력 홈페이지·앱·지로 납부 시 카드번호를 입력하거나, 한전 고객센터(123)에 전화해 등록하면 자동 차감됩니다. 도시가스는 가스회사 홈페이지 또는 앱에서 카드를 등록하면 요금 청구 시 자동으로 차감됩니다. 등유·연탄은 가맹 주유소나 연탄 배달 업체에서 구매 시 카드를 제시하면 됩니다. 잔액은 에너지바우처 공식 사이트(energyv.or.kr)나 고객센터(1600-3190)에서 조회할 수 있습니다.',
     },
     {
       type: 'info',
@@ -96,7 +96,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '지원 금액과 신청 기간은 매년 변경될 수 있습니다. 에너지바우처 공식 사이트(energyvoucher.or.kr) 또는 주민센터에서 해당 연도 기준을 확인하세요.',
+    '지원 금액과 신청 기간은 매년 변경될 수 있습니다. 에너지바우처 공식 사이트(energyv.or.kr) 또는 주민센터에서 해당 연도 기준을 확인하세요.',
 
   relatedSlugs: ['basic-livelihood-benefit', 'housing-benefit', 'basic-pension-application', 'high-oil-price-relief'],
 };

@@ -126,7 +126,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 기준 정보를 바탕으로 작성되었습니다. 치매안심센터 운영 시간과 제공 서비스는 지역에 따라 다를 수 있으니 방문 전 해당 센터에 확인하시기 바랍니다.',
 
-  relatedSlugs: ['long-term-care-grade', 'national-health-checkup-guide', 'senior-mental-health', 'dementia-financial-management'],
+  relatedSlugs: ['dementia-family-action-plan', 'long-term-care-grade', 'national-health-checkup-guide', 'dementia-financial-management'],
 };
 
 export default article;

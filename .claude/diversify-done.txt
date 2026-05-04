@@ -131,3 +131,8 @@ senior-chronic-pain:3
 national-pension-increase-strategy:7
 senior-deposit-protection:2
 senior-subscription-cleanup:5
+ltci-short-term-care:3
+senior-emergency-response:6
+senior-sarcopenia:1
+senior-loan-guarantee-risk:7
+senior-traffic-accident:4
