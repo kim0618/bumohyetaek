@@ -46,6 +46,8 @@ import homeSaleTaxExemption from './home-sale-tax-exemption';
 import pensionSavingsTaxBenefit from './pension-savings-tax-benefit';
 import inheritanceDebtRejection from './inheritance-debt-rejection';
 import farmlandPension from './farmland-pension';
+import voicePhishingRecovery from './voice-phishing-recovery';
+import seniorHomeDisposalComparison from './senior-home-disposal-comparison';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -94,5 +96,7 @@ export const financeSafetyArticles: ContentItem[] = [
   pensionSavingsTaxBenefit,
   inheritanceDebtRejection,
   farmlandPension,
+  voicePhishingRecovery,
+  seniorHomeDisposalComparison,
 ];
 

@@ -122,7 +122,7 @@ const article: ContentItem = {
   cautionNote:
     '보이스피싱범은 은행 직원을 사칭해 보안 앱 설치를 유도합니다. 전화로 앱 설치를 권유하면 즉시 끊고 은행 공식 번호로 확인하세요.',
 
-  relatedSlugs: ['smishing-prevention', 'prevent-voice-phishing', 'senior-financial-protection'],
+  relatedSlugs: ['voice-phishing-recovery', 'smishing-prevention', 'prevent-voice-phishing', 'senior-financial-protection'],
 };
 
 export default article;

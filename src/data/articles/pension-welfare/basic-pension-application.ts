@@ -133,7 +133,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 1월 기준 정보를 바탕으로 작성되었습니다. 선정기준액·수령액은 매년 변경될 수 있으니 신청 전 보건복지부 또는 주민센터에서 최신 내용을 확인하시기 바랍니다.',
 
-  relatedSlugs: ['national-pension-timing', 'senior-discount-guide', 'housing-pension'],
+  relatedSlugs: ['turning-65-benefit-guide', 'national-pension-timing', 'senior-discount-guide', 'housing-pension'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

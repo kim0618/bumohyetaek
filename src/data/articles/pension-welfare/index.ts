@@ -47,6 +47,7 @@ import highOilPriceRelief from './high-oil-price-relief';
 import ltciWelfareEquipment from './ltci-welfare-equipment';
 import ltciShortTermCare from './ltci-short-term-care';
 import nationalPensionBreakEven from './national-pension-break-even';
+import turning65BenefitGuide from './turning-65-benefit-guide';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -96,4 +97,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   ltciWelfareEquipment,
   ltciShortTermCare,
   nationalPensionBreakEven,
+  turning65BenefitGuide,
 ];

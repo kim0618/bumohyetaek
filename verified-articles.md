@@ -1,14 +1,14 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 96 / 135 (71.1%) | 회귀 수정 3건 (adult-guardianship, basic-livelihood-benefit, disability-pension)
-- P1 health-care: 45 / 45 (완료)
-- P2 policy+수치: 51 / N (미감사 P2 잔여)
-- P3 계산기 연결: 0 / N
+- 감사 완료: 103 / 135 (76.3%) | 회귀 수정 3건 (adult-guardianship, basic-livelihood-benefit, disability-pension)
+- P1 health-care: 47 / 47 (완료)
+- P2 policy+수치: 54 / N (미감사 P2 잔여)
+- P3 계산기 연결: 2 / N
 - P4 finance-safety: 10 / 45 (P2 분류 포함)
 - P5 기타: 0 / 44
-- 마지막 업데이트: 2026-05-04
-- AdSense 신청 D-17 (2026-05-21 목표)
+- 마지막 업데이트: 2026-05-05
+- AdSense 신청 D-16 (2026-05-21 목표)
 
 ## 감사 완료 목록
 
@@ -112,6 +112,13 @@
 - energy-voucher (2026-05-04 감사, P2, 이슈 1건 수정: [C] energyvoucher.or.kr → energyv.or.kr 3곳 일괄 수정 (officialSources L34/본문 L68/cautionNote L99). DNS 해석 실패로 도메인 자체 미존재 확인, 정확한 한국에너지공단 공식 에너지바우처 사이트는 www.energyv.or.kr ("시원한 여름 따뜻한 겨울 에너지바우처"))
 - elderly-care-service (2026-05-04 감사, P2, 이상 없음 - 노인맞춤돌봄서비스 effectiveDate 2026-01-01 정합, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), numbered-list+heading '신청 방법' 정합, 내부 링크 3개+relatedSlugs 4개 실존)
 - basic-pension-application (2026-05-04 감사, P2, 이상 없음 - 기초연금 349,700원/부부 279,760원/선정기준액 247만·395.2만/연계감액 기준 약 52만(524,550원) 수치 모두 정합, effectiveDate 2026-01-01, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/basic-pension/) [F note: L70 numbered-list에 heading 없어 HowTo JSON-LD 미생성 - 구조 이슈는 감사 범위 외, national-pension-reform-2026 사례 참조])
+- dementia-family-action-plan (2026-05-05 감사, P1, 이상 없음 - warning 2개+cautionNote 존재, 치매치료관리비 "연 36만원·중위소득 140%" 정확, 면허반납 "서울시 70세 이상 20만원·지자체별 차이" 명시, officialSources URL 정상(nid.or.kr/nhis.or.kr/mohw.go.kr), 내부 링크 6개+relatedSlugs 5개 실존)
+- senior-sarcopenia (2026-05-05 감사, P1, 이상 없음 - warning+cautionNote 존재, 악력 기준(남 28kg/여 18kg)+보행속도(1m/s) AWGS2019 기준 정확, officialSources URL 정상(geriatrics.or.kr/nhis.or.kr/kdca.go.kr), 내부 링크 2개+relatedSlugs 4개 실존)
+- ltci-short-term-care (2026-05-05 감사, P2, 이상 없음 - 단기보호 "월 9일+연 4회 추가 9일" 수정값 정확, 인지지원등급 이용 가능(방문요양만 불가) 정확, effectiveDate 2026-01-01 정합, officialSources URL 정상(longtermcare.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), 내부 링크+relatedSlugs 4개 실존)
+- senior-loan-guarantee-risk (2026-05-05 감사, P2, 이슈 1건 수정: [A] L83 "연간 5,000만 원 이하 직계 증여는 10년 합산 공제 한도 내에서" → "직계 증여는 10년 합산 5,000만 원 이하까지(미성년 2,000만 원)" 로 정확한 증여세 공제 구조 표현. officialSources URL 정상(fss.or.kr/kodit.co.kr/klac.or.kr), 내부 링크+relatedSlugs 3개 실존)
+- housing-pension (2026-05-05 감사, P2, 이상 없음 - 가입 나이 만 55세·공시가 12억 이하·만 70세 기준 3억→월 92만/5억→월 153만 수치 정합, effectiveDate 2026-01-01, officialSources URL 정상(hf.go.kr/fss.or.kr), 내부 링크 2개+relatedSlugs 3개 실존)
+- national-pension-break-even (2026-05-05 감사, P3, 이슈 1건 수정: [H] warning heading "반드시 확인할 것"→"꼭 확인할 것", body "반드시 문의하세요"→"미리 문의하세요" 완화. 기대수명 남 80.8/여 86.6세 정확, 손익분기점(조기 77세/연기 84세) 정합, officialSources URL 정상(nps.or.kr/csa.nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 5개 실존)
+- national-pension-increase-strategy (2026-05-05 감사, P3, 이상 없음 - 연기수령 연 7.2%/추납 최대 60회 분할/임의계속가입 만 65세까지/출산크레딧 최대 50개월/군복무 6개월 수치 정합, officialSources URL 정상(nps.or.kr×2), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 4개 실존)
 
 ## 2026-05-04 사후 검증·보강 세션
 
