@@ -136,7 +136,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었으며 의학적 진단이나 처방을 대체하지 않습니다. 혈압 목표치와 약물은 개인 상황에 따라 달라지므로 반드시 담당 의사와 상담하세요.',
 
-  relatedSlugs: ['senior-heart-health', 'senior-diabetes-management', 'national-health-checkup-guide', 'polypharmacy-management'],
+  relatedSlugs: ['senior-heart-health', 'senior-diabetes-management', 'national-health-checkup-guide', 'senior-kidney-health'],
 };
 
 export default article;

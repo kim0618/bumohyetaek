@@ -110,7 +110,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 기준으로 작성되었습니다. 수령 기준 연령, 감액률, 소득 기준은 법령 개정에 따라 변경될 수 있습니다. 개인별 상황에 맞는 결정을 위해 국민연금공단(1355) 상담을 권장합니다.',
 
-  relatedSlugs: ['national-pension-break-even', 'basic-pension-application', 'housing-pension', 'survivor-pension', 'national-pension-lump-sum', 'pension-income-tax', 'national-pension-reform-2026'],
+  relatedSlugs: ['national-pension-break-even', 'basic-pension-application', 'housing-pension', 'survivor-pension', 'retirement-income-strategy', 'pension-income-tax', 'national-pension-reform-2026'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

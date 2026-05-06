@@ -1,14 +1,14 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 103 / 135 (76.3%) | 회귀 수정 3건 (adult-guardianship, basic-livelihood-benefit, disability-pension)
+- 감사 완료: 110 / 143 (76.9%) | 회귀 수정 3건 (adult-guardianship, basic-livelihood-benefit, disability-pension)
 - P1 health-care: 47 / 47 (완료)
-- P2 policy+수치: 54 / N (미감사 P2 잔여)
-- P3 계산기 연결: 2 / N
-- P4 finance-safety: 10 / 45 (P2 분류 포함)
-- P5 기타: 0 / 44
-- 마지막 업데이트: 2026-05-05
-- AdSense 신청 D-16 (2026-05-21 목표)
+- P2 policy+수치: 55 / N
+- P3 계산기 연결: 8 / N
+- P4 finance-safety: 10 / 45 (P2/P3 분류 포함)
+- P5 기타: 0 / 10
+- 마지막 업데이트: 2026-05-06
+- AdSense 신청 D-15 (2026-05-21 목표)
 
 ## 감사 완료 목록
 
@@ -136,3 +136,10 @@
 - /bumo-content 스킬: 작성 전 cross-reference 단계 신설 (policy-data-points.md 검색 + 유사 verified 글 grep + WebSearch 공식 확인).
 
 **교훈**: 새 글 작성 시 grep 한 번으로 기존 verified 글의 동일 주제 서술을 확인하면 오류를 처음부터 피할 수 있음.
+- turning-65-benefit-guide (2026-05-06 감사, P2, 이슈 1건 수정: [E] 본문 내 [[senior-culture-voucher]] 내부 링크가 relatedSlugs에 누락 → 추가, officialSources URL 정상(basicpension.mohw.go.kr/longtermcare.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/date/age/), 기초연금 349,700원/부부 279,760원/선정기준액 247만·395.2만 정합, numbered-list+heading 정합)
+- senior-deposit-protection (2026-05-06 감사, P3, 이상 없음 - 예금자보호 5,000만원 정확, officialSources URL 정상(kdic.or.kr/fss.or.kr), jptcalc URL 실존(/calc/finance/deposit/), 내부 링크+relatedSlugs 4개 실존)
+- care-home-cost-guide (2026-05-06 감사, P3, 이슈 3건 수정: [H] items L95 "입소 전 반드시" → "반드시" 제거, FAQ L109 "반드시 확인하세요" → "꼭 확인하시기 바랍니다", cautionNote L119 "반드시 개별 시설에" → "반드시" 제거. officialSources URL 정상(nhis.or.kr/longtermcare.or.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), 내부 링크+relatedSlugs 3개 실존)
+- retirement-severance-choice (2026-05-06 감사, P3, 이슈 2건 수정: [H] FAQ L83 "반드시 전문가와 상담" → "반드시" 제거, info body L127 "반드시 검토하세요" → "검토하시기 바랍니다" 순화. officialSources URL 정상(nts.go.kr/fss.or.kr/moel.go.kr), jptcalc URL 실존(/calc/salary/severance/), 내부 링크+relatedSlugs 5개 실존)
+- health-insurance-claim (2026-05-06 감사, P3, 이상 없음 - 실손보험 세대별 구분(2009/2017/2021) 절대 시점 표현, officialSources URL 정상(fss.or.kr/knia.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 3개 실존)
+- pension-income-tax (2026-05-06 감사, P3, 이슈 4건 수정: [H] L49 heading "무조건 많다" → "비례해 많다", L60 "1,500만 원 초과 시 무조건" → "무조건" 제거, L79 heading "반드시 확인" → "확인 사항", L80 body "반드시 연금으로 수령하고" → "연금으로 수령하시기 바라며". officialSources URL 정상(nts.go.kr/fss.or.kr), jptcalc URL 실존(/calc/pension-welfare/pension-tax/), 내부 링크+relatedSlugs 4개 실존)
+- estate-cleanup-guide (2026-05-06 감사, P3, 이상 없음 - 상속포기 3개월 기한 정확, officialSources URL 정상(kca.go.kr/mohw.go.kr/soci.kr), jptcalc URL 실존(/calc/realestate/inheritance/), 내부 링크+relatedSlugs 4개 실존)

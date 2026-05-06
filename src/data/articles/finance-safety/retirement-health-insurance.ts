@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-05',
-  updatedAt: '2026-04-26',
+  updatedAt: '2026-05-06',
   reviewStatus: 'current',
 
   summary:
@@ -122,7 +122,7 @@ const article: ContentItem = {
     {
       question: '지역가입자 보험료는 어떻게 계산되나요?',
       answer:
-        '지역가입자 보험료는 소득, 재산(부동산·자동차 등)을 점수화해 산정합니다. 재직 중에는 월급의 7.09%(2026년 기준)를 회사와 반씩 부담하지만, 지역가입자로 전환되면 재산이 추가 반영되어 소득이 없어도 보험료가 나올 수 있습니다. 예상 보험료는 국민건강보험공단 홈페이지(nhis.or.kr) 보험료 계산기에서 미리 확인해볼 수 있습니다. ☎ 1577-1000',
+        '지역가입자 보험료는 소득, 재산(부동산·자동차 등)을 점수화해 산정합니다. 재직 중에는 월급의 7.19%(2026년 기준)를 회사와 반씩 부담하지만, 지역가입자로 전환되면 재산이 추가 반영되어 소득이 없어도 보험료가 나올 수 있습니다. 예상 보험료는 국민건강보험공단 홈페이지(nhis.or.kr) 보험료 계산기에서 미리 확인해볼 수 있습니다. ☎ 1577-1000',
     },
   ],
 
@@ -133,7 +133,7 @@ const article: ContentItem = {
     'retirement-finance-checklist',
     'retirement-budget-planning',
     'senior-insurance-review',
-    'pension-income-tax',
+    'retirement-health-insurance-comparison',
   ],
 };
 

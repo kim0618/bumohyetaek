@@ -48,6 +48,7 @@ import ltciWelfareEquipment from './ltci-welfare-equipment';
 import ltciShortTermCare from './ltci-short-term-care';
 import nationalPensionBreakEven from './national-pension-break-even';
 import turning65BenefitGuide from './turning-65-benefit-guide';
+import retirementIncomeStrategy from './retirement-income-strategy';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -98,4 +99,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   ltciShortTermCare,
   nationalPensionBreakEven,
   turning65BenefitGuide,
+  retirementIncomeStrategy,
 ];

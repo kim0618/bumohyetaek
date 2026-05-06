@@ -48,6 +48,7 @@ import inheritanceDebtRejection from './inheritance-debt-rejection';
 import farmlandPension from './farmland-pension';
 import voicePhishingRecovery from './voice-phishing-recovery';
 import seniorHomeDisposalComparison from './senior-home-disposal-comparison';
+import retirementHealthInsuranceComparison from './retirement-health-insurance-comparison';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -98,5 +99,6 @@ export const financeSafetyArticles: ContentItem[] = [
   farmlandPension,
   voicePhishingRecovery,
   seniorHomeDisposalComparison,
+  retirementHealthInsuranceComparison,
 ];
 

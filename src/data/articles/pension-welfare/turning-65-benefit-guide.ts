@@ -34,6 +34,7 @@ const article: ContentItem = {
     'senior-tax-benefit',
     'senior-customized-care',
     'national-health-checkup-guide',
+    'senior-culture-voucher',
   ],
   order: 48,
   isFeatured: false,
