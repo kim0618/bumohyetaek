@@ -117,7 +117,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 1월 기준으로 작성되었습니다. 대상 질환 목록과 본인부담률은 고시 변경에 따라 달라질 수 있습니다. 정확한 적용 여부는 건강보험공단(1577-1000) 또는 건강보험심사평가원(1644-2000)에서 확인하세요.',
 
-  relatedSlugs: ['health-insurance-limit', 'cancer-screening-guide', 'national-health-checkup-guide', 'senior-chronic-pain'],
+  relatedSlugs: ['health-insurance-limit', 'cancer-screening-guide', 'national-health-checkup-guide', 'senior-parkinson-care'],
 };
 
 export default article;

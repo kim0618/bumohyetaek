@@ -138,7 +138,7 @@ const article: ContentItem = {
   cautionNote:
     '장애 판정 기준과 복지 혜택은 변경될 수 있습니다. 자세한 사항은 거주지 주민센터 또는 보건복지상담센터(☎ 129)에 문의하세요.',
 
-  relatedSlugs: ['basic-livelihood-benefit', 'senior-discount-guide', 'medical-aid-system'],
+  relatedSlugs: ['basic-livelihood-benefit', 'senior-discount-guide', 'senior-parkinson-care'],
 };
 
 export default article;

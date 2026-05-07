@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2025-03-10',
-  updatedAt: '2026-04-20',
+  updatedAt: '2026-05-07',
   reviewStatus: 'current',
 
   summary:
@@ -75,7 +75,7 @@ const article: ContentItem = {
       items: [
         '자필증서 유언: 전문·날짜·주소·성명을 직접 쓰고 도장 날인 - 비용 없음, 분실 위험 있음',
         '공증 유언(공정증서 유언): 공증인 앞에서 구술 후 작성 - 법적 효력 강하고 원본 보존',
-        '법정상속분과 다르게 분배하려면 반드시 유언장 필요',
+        '법정상속분과 다르게 분배하려면 유언장 작성이 필요합니다',
         '유류분 주의: 배우자·자녀에게는 법정상속분의 1/2 최소 보장',
       ],
     },

@@ -1,14 +1,14 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 110 / 143 (76.9%) | 회귀 수정 3건 (adult-guardianship, basic-livelihood-benefit, disability-pension)
-- P1 health-care: 47 / 47 (완료)
+- 감사 완료: 117 / 146 (80.1%) | 회귀 수정 3건 (adult-guardianship, basic-livelihood-benefit, disability-pension)
+- P1 health-care: 48 / 48 (완료)
 - P2 policy+수치: 55 / N
-- P3 계산기 연결: 8 / N
+- P3 계산기 연결: 14 / N
 - P4 finance-safety: 10 / 45 (P2/P3 분류 포함)
 - P5 기타: 0 / 10
-- 마지막 업데이트: 2026-05-06
-- AdSense 신청 D-15 (2026-05-21 목표)
+- 마지막 업데이트: 2026-05-07
+- AdSense 신청 D-14 (2026-05-21 목표)
 
 ## 감사 완료 목록
 
@@ -143,3 +143,10 @@
 - health-insurance-claim (2026-05-06 감사, P3, 이상 없음 - 실손보험 세대별 구분(2009/2017/2021) 절대 시점 표현, officialSources URL 정상(fss.or.kr/knia.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 3개 실존)
 - pension-income-tax (2026-05-06 감사, P3, 이슈 4건 수정: [H] L49 heading "무조건 많다" → "비례해 많다", L60 "1,500만 원 초과 시 무조건" → "무조건" 제거, L79 heading "반드시 확인" → "확인 사항", L80 body "반드시 연금으로 수령하고" → "연금으로 수령하시기 바라며". officialSources URL 정상(nts.go.kr/fss.or.kr), jptcalc URL 실존(/calc/pension-welfare/pension-tax/), 내부 링크+relatedSlugs 4개 실존)
 - estate-cleanup-guide (2026-05-06 감사, P3, 이상 없음 - 상속포기 3개월 기한 정확, officialSources URL 정상(kca.go.kr/mohw.go.kr/soci.kr), jptcalc URL 실존(/calc/realestate/inheritance/), 내부 링크+relatedSlugs 4개 실존)
+- senior-kidney-health (2026-05-07 감사, P1, 이상 없음 - warning 섹션 존재, 전문의 안내 포함(신장내과·신장 전문 영양사), officialSources URL 정상(nhis.or.kr/kdca.go.kr/mohw.go.kr), 내부 링크 4개+relatedSlugs 정합)
+- retirement-income-strategy (2026-05-07 감사, P3, 이상 없음 - 기초연금 349,700원·기준연금액 150% 524,550원·국민연금 조기수령 -30%·연기 +36%·건강보험 피부양자 2,000만원 정합, officialSources URL 정상(nps.or.kr/nhis.or.kr/nts.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 정합)
+- senior-job-program (2026-05-07 감사, P3, [A] 의심 이슈 1건 - 사회서비스형 "월 최대 76만 원" vs verified senior-job-types.ts "~60만 원" 불일치, 수치 재검증 필요 (사용자 보고), officialSources URL 정상(kordi.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/retirement-living/), 내부 링크+relatedSlugs 정합)
+- senior-tax-benefit (2026-05-07 감사, P3, 이상 없음 - 노인 경로우대 추가공제 100만원·의료비 세액공제 15%·한도 700만원 기술 정확, officialSources URL 정상(nts.go.kr/mois.go.kr), jptcalc URL 실존(/calc/tax/income-tax/), 내부 링크+relatedSlugs 정합)
+- medical-expense-deduction (2026-05-07 감사, P3, 이상 없음 - 의료비 세액공제 15%·총급여 3% 초과분·한도 700만원·65세 이상 한도 없음 정확, officialSources URL 정상(hometax.go.kr/nts.go.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 정합)
+- inheritance-gift-planning (2026-05-07 감사, P3, 이슈 1건 수정: [H] items "법정상속분과 다르게 분배하려면 반드시 유언장 필요" → "유언장 작성이 필요합니다". officialSources URL 정상(hometax.go.kr/moleg.go.kr), jptcalc URL 실존(/calc/realestate/inheritance/), 내부 링크+relatedSlugs 정합)
+- will-writing-guide (2026-05-07 감사, P3, 이슈 2건 수정: [H] heroDescription "반드시 담아야 할 내용" → "꼭 담아야 할 내용", warning body "반드시 법률 전문가" → "꼭 법률 전문가", cautionNote "반드시 법률 전문가의 검토를 받으세요" → "법률 전문가의 검토를 받으시기 바랍니다". officialSources URL 정상(klac.or.kr/notary.or.kr), jptcalc URL 실존(/calc/realestate/inheritance/), 내부 링크+relatedSlugs 정합)

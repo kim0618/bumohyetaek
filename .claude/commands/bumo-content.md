@@ -293,6 +293,50 @@ text + list만 쓰지 않는다. 글마다 아래 중 2개 이상 포함:
 □ 제이퍼 계산기 연결 가능 여부 확인
 ```
 
+### 3-A. /audit 사전 회피 self-check (필수)
+
+작성 직후 아래 4가지를 grep·시각 검사로 직접 점검. 문제 발견 시 즉시 수정.
+**근거**: audit이 잡으면 같은 글을 두 번 만져야 함. 2026-05-07 senior-medical-cost-estimate에서 heroDescription "1억 원" vs 본문 "1억 5,000만 원" 수치 불일치 + "결론부터 말하면" 도입부 중복 발견 → self-check 절차 신설.
+
+**(1) 수치 일관성 검증** (가장 자주 누락되는 항목)
+- 글 내 같은 항목의 수치가 모두 일치하는지 확인
+- 점검 위치: `heroDescription` / `summary` / `keyPoints` / `sections[].body` / `sections[].items` / `seoDescription` / `faq[].answer`
+- 예시 catch: heroDescription "최소 1억 원" vs body "최소 1억 5,000만 원" 불일치
+- 검증 방법:
+  ```bash
+  # 글 안에 등장하는 모든 만 원/억 원 단위 수치 추출
+  grep -oE "[0-9,]+(만 원|억 원|만원|억원|%)" 새글파일 | sort | uniq -c
+  ```
+  같은 항목인데 다른 숫자가 나오면 즉시 통일
+
+**(2) 도입부 표현 중복 회피**
+- heroDescription 첫 문구(5~15자)와 본문 첫 섹션 body의 첫 문구가 겹치지 않는지
+- 예시 catch: heroDescription "결론부터 말하면..." + 본문 첫 섹션 body "결론부터 말하면..." (중복)
+- 수정 방향: heroDescription에 시그니처 표현을 두면, body는 다른 도입으로 시작
+
+**(3) cautionNote 끝맺음 패턴 분산**
+- 직전 5개 글의 cautionNote 끝맺음을 확인하고 다른 어휘 선택
+  ```bash
+  for f in $(ls -t /home/tjd618/bumohyetaek/src/data/articles/*/*.ts | grep -v index.ts | head -5); do
+    echo "=== $(basename $f) ==="
+    grep -A2 "cautionNote:" "$f" | tail -2 | head -1
+  done
+  ```
+- 흔한 끝맺음: "확인하세요" / "확인하시기 바랍니다" / "확인하시면 됩니다"
+- 분산 후보: "안내받을 수 있습니다" / "조회 가능합니다" / "상담받으시기 바랍니다" / "문의해 정확한 정보를 받으세요" / "검색해보세요"
+- 직전 5편 중 3편 이상이 같은 어휘면 다른 어휘 사용 (meta-diversify 사전 회피)
+
+**(4) seoDescription 시점 표현 회피**
+- `seoDescription`에는 "2026년 기준" 같은 명시적 연도 표현 넣지 말 것 (검색 CTR 저하)
+- title과 본문 cautionNote에서 시점 명시는 OK
+- seoDescription에는 "최신 기준", "현재 기준" 같은 상대 표현도 회피 - 그냥 사실 정보만
+
+**(5) "반드시" 사용 위치 점검**
+- `grep -n "반드시" 새글파일`로 위치 확인
+- 허용: health-care 의료 면책 warning 표준 문구 1회 (반드시 의사와 상담하세요)
+- 허용: 민법·법령 필수 요건 명시 (자필증서 유언은 반드시 자필 작성 등)
+- 금지: 일반 권고/조언 맥락 ("반드시 확인하세요" → "꼭 확인하시기 바랍니다", "반드시 신청하세요" → "신청하시기 바랍니다")
+
 ### 4. 정책 수치 마스터 리스트 자동 등록 (필수)
 
 `/refresh` 스킬과 연동. 새 글이 정책 수치를 포함하면 마스터 리스트에 자동 등록해 누락 방지.

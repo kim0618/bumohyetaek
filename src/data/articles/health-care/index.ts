@@ -48,6 +48,7 @@ import seniorHeartHealth from './senior-heart-health';
 import seniorSarcopenia from './senior-sarcopenia';
 import dementiaFamilyActionPlan from './dementia-family-action-plan';
 import seniorKidneyHealth from './senior-kidney-health';
+import seniorParkinsonCare from './senior-parkinson-care';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -98,4 +99,5 @@ export const healthCareArticles: ContentItem[] = [
   seniorSarcopenia,
   dementiaFamilyActionPlan,
   seniorKidneyHealth,
+  seniorParkinsonCare,
 ];
