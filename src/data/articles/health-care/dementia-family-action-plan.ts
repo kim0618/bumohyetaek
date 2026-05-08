@@ -126,7 +126,7 @@ const article: ContentItem = {
   relatedSlugs: [
     'dementia-care-center',
     'dementia-family-respite',
-    'long-term-care-grade',
+    'senior-80s-care-roadmap',
     'adult-guardianship',
     'dementia-financial-management',
   ],

@@ -139,7 +139,7 @@ const article: ContentItem = {
 
   relatedSlugs: [
     'senior-vaccination',
-    'senior-oral-health',
+    'senior-copd-management',
     'senior-nutrition-guide',
     'senior-emergency-response',
   ],

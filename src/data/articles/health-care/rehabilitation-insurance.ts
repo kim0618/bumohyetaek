@@ -123,7 +123,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 건강보험심사평가원 및 국민건강보험공단 안내를 바탕으로 작성되었습니다. 급여 기준과 산정특례 적용 범위는 변경될 수 있으므로 담당 의사 또는 건강보험공단(1577-1000)에서 확인하세요.',
 
-  relatedSlugs: ['health-insurance-limit', 'long-term-care-grade', 'home-visiting-care'],
+  relatedSlugs: ['health-insurance-limit', 'long-term-care-grade', 'home-visiting-care', 'senior-copd-management'],
 };
 
 export default article;
