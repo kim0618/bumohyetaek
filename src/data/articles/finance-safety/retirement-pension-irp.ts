@@ -117,7 +117,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['pension-savings-tax-benefit', 'national-pension-timing', 'retirement-finance-checklist', 'housing-pension'],
+  relatedSlugs: ['pension-savings-tax-benefit', 'national-pension-timing', 'retirement-finance-checklist', 'housing-pension', 'senior-annuity-insurance'],
 };
 
 export default article;

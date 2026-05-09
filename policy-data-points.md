@@ -440,6 +440,11 @@
   - 3.7 본인부담률 재가 (15%) ← ltci-cost-simulation
   - 3.8 본인부담률 시설 (20%) ← ltci-cost-simulation
 
+### 2026-05-09 - 신규 글 등록 (senior-annuity-insurance)
+- **영향 글 추가** (검색 패턴 매칭 결과):
+  - 6.6 연금소득세 분리과세 한도 (1,500만원) ← senior-annuity-insurance
+  - 6.7 사적연금 분리과세 세율 (5%/4%/3%, 소득세 기준) ← senior-annuity-insurance
+
 ### 2026-05-06 - 신규 글 작성 후 자기검증 정정
 - **2.1 직장 건강보험료율 정정**: 7.09% → **7.19%** (2026년 보건복지부 2025-08-28 공식 발표 기준)
   - 회귀 영향 글: retirement-health-insurance (verified 글), retirement-health-insurance-comparison (오늘 작성), policy-data-points.md

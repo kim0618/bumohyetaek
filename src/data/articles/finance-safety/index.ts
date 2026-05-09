@@ -50,6 +50,8 @@ import voicePhishingRecovery from './voice-phishing-recovery';
 import seniorHomeDisposalComparison from './senior-home-disposal-comparison';
 import retirementHealthInsuranceComparison from './retirement-health-insurance-comparison';
 import seniorMedicalCostEstimate from './senior-medical-cost-estimate';
+import seniorAnnuityInsurance from './senior-annuity-insurance';
+import retirementFinanceTimeline from './retirement-finance-timeline';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -102,5 +104,7 @@ export const financeSafetyArticles: ContentItem[] = [
   seniorHomeDisposalComparison,
   retirementHealthInsuranceComparison,
   seniorMedicalCostEstimate,
+  seniorAnnuityInsurance,
+  retirementFinanceTimeline,
 ];
 

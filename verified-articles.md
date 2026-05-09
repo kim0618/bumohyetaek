@@ -1,14 +1,14 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 124 / 149 (83.2%) | 회귀 수정 4건 (adult-guardianship, basic-livelihood-benefit, disability-pension, turning-65-benefit-guide)
-- P1 health-care: 49 / 49 (완료, senior-parkinson-care 추가)
-- P2 policy+수치: 60 / N
-- P3 계산기 연결: 14 / N
+- 감사 완료: 131 / 152 (86.2%) | 회귀 수정 4건 (adult-guardianship, basic-livelihood-benefit, disability-pension, turning-65-benefit-guide)
+- P1 health-care: 51 / 51 (완료, senior-80s-care-roadmap + senior-copd-management 추가)
+- P2 policy+수치: 61 / N
+- P3 계산기 연결: 18 / N
 - P4 finance-safety: 10 / 45 (P2/P3 분류 포함)
 - P5 기타: 0 / 10
-- 마지막 업데이트: 2026-05-08
-- AdSense 신청 D-13 (2026-05-21 목표)
+- 마지막 업데이트: 2026-05-09
+- AdSense 신청 D-12 (2026-05-21 목표)
 
 ## 감사 완료 목록
 
@@ -160,3 +160,10 @@
 - retirement-health-insurance (2026-05-08 감사, P2, 이슈 1건 수정: [A] keyPoints L23 "퇴직 후 2년간 직장보험료 수준으로 유지" → "퇴직 후 최대 3년간"(임의계속가입 2018년 개정 후 36개월=3년 정합, 본문 line 56·64의 "최대 36개월"과 일관). 피부양자 자격(연소득 2,000만/재산 5.4억) 정합, 직장가입자 보험료율 7.19% 2026 기준 정확, officialSources URL 정상(nhis.or.kr/bokjiro.go.kr), 내부 링크+relatedSlugs 4개 실존)
 - senior-job-types (2026-05-08 감사, P2, 이슈 3건 수정: [A] 사회서비스형 "월 약 59만 4,000원" → "월 약 76만 원 (월 60시간 활동, 주휴수당 포함)"(2026 보건복지부/한국노인인력개발원 기준 정합), summary "월 27만-약 60만 원" → "월 27만-약 76만 원", keyPoints "약 60만 원 이상" → "약 76만 원". officialSources URL 정상(kordi.or.kr/seniorro.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/date/age/), 내부 링크+relatedSlugs 4개 실존)
   - **2026-05-08 회귀 수정**: turning-65-benefit-guide.ts L108 "사회서비스형 월 59.4만원" → "사회서비스형 월 약 76만원" 동기화. 회귀 트리거: senior-job-program(P0 재감사)에서 사회서비스형 활동비 76만 확정에 따른 cross-reference
+- senior-80s-care-roadmap (2026-05-09 감사, P1, 이상 없음 - warning 섹션+cautionNote 존재, officialSources URL 정상(nhis.or.kr/lst.go.kr/klac.or.kr), 내부 링크 4개(ltci-application-timing-guide/advance-directive/dementia-family-action-plan/will-writing-guide)+relatedSlugs 4개 실존)
+- senior-copd-management (2026-05-09 감사, P1, 이상 없음 - warning+cautionNote 존재, officialSources URL 정상(health.kdca.go.kr/nhis.or.kr/lungkorea.org 200 확인-대한결핵및호흡기학회), 내부 링크 4개+relatedSlugs 4개 실존)
+- ltci-cost-simulation (2026-05-09 감사, P2, 이상 없음 - 3등급 한도 1,528,200원·재가 15%/시설 20% 정확, effectiveDate 2026-01-01 정합, relatedCalculator /calc/pension-welfare/long-term-care/ 실존, officialSources URL 정상(longtermcare.or.kr/nhis.or.kr), 내부 링크 5개+relatedSlugs 4개 실존)
+- care-cost-reduction (2026-05-09 감사, P3, 이상 없음 - officialSources URL 정상(longtermcare.or.kr/mohw.go.kr), relatedCalculator /calc/pension-welfare/long-term-care/ 실존, 내부 링크+relatedSlugs 정합)
+- retirement-budget-planning (2026-05-09 감사, P3, 이슈 3건 수정: [A] info body+FAQ "기초연금 최대 약 33만 원"→"약 35만 원"(349,700원 2026 기준, 2곳), "두 연금 합산 98만 원"→"약 100만 원"; [H] keyPoints "점검 필수"→"점검 필요". officialSources URL 정상(kostat.go.kr/fss.or.kr), relatedCalculator /calc/pension-welfare/retirement-living/ 실존)
+- retirement-finance-checklist (2026-05-09 감사, P3, [A] 의심 1건 - 본문 "국민연금 평균 수령액 월 약 60만 원"(연도 미명시) vs retirement-budget-planning "65만 원(2026년 기준)" 불일치. 수치 확인 후 동기화 필요(사용자 보고). 나머지 이슈 없음 - officialSources URL 정상(nps.or.kr/hf.go.kr/fss.or.kr), relatedCalculator /calc/pension-welfare/retirement-living/ 실존, numbered-list+heading HowTo 조건 만족)
+- prevent-voice-phishing (2026-05-09 감사, P3, 이슈 1건 수정: [H] FAQ "반드시 확인이 필요합니다."→"확인이 필요합니다." 단정 표현 완화. officialSources URL 정상(fss.or.kr/cyberbureau.police.go.kr), checklist+numbered-list HowTo 조건 만족, relatedSlugs 4개 실존)

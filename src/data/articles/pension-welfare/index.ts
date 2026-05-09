@@ -51,6 +51,7 @@ import turning65BenefitGuide from './turning-65-benefit-guide';
 import retirementIncomeStrategy from './retirement-income-strategy';
 import ltciApplicationTimingGuide from './ltci-application-timing-guide';
 import ltciCostSimulation from './ltci-cost-simulation';
+import basicPensionNationalPensionSimulation from './basic-pension-national-pension-simulation';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -104,4 +105,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   retirementIncomeStrategy,
   ltciApplicationTimingGuide,
   ltciCostSimulation,
+  basicPensionNationalPensionSimulation,
 ];

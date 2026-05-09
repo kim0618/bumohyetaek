@@ -134,6 +134,7 @@ const article: ContentItem = {
     'retirement-budget-planning',
     'senior-insurance-review',
     'retirement-health-insurance-comparison',
+    'retirement-finance-timeline',
   ],
 };
 
