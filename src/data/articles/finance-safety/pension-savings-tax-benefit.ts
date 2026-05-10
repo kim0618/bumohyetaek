@@ -125,7 +125,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['retirement-pension-irp', 'pension-income-tax', 'senior-tax-benefit', 'retirement-finance-checklist'],
+  relatedSlugs: ['retirement-pension-irp', 'pension-income-tax', 'senior-tax-benefit', 'retirement-finance-checklist', 'retirement-pension-3way-comparison'],
 };
 
 export default article;

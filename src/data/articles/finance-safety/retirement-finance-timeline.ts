@@ -149,6 +149,9 @@ const article: ContentItem = {
     'housing-pension',
     'will-writing-guide',
     'long-term-care-grade',
+    'pension-income-tax',
+    'retirement-pension-irp',
+    'senior-annuity-insurance',
   ],
 };
 

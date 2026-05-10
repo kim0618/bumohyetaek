@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-03-31',
-  updatedAt: '2026-04-27',
+  updatedAt: '2026-05-10',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
@@ -105,7 +105,7 @@ const article: ContentItem = {
     },
     {
       question: '장기요양등급을 받은 어르신도 이용할 수 있나요?',
-      answer: '장기요양 1-5등급 판정을 받으신 분은 대상에서 제외됩니다. 다만 인지지원등급 수급자는 일부 서비스를 이용할 수 있으니 주민센터에 문의하세요.',
+      answer: '장기요양 등급(1~5등급 및 인지지원등급)을 받으신 분은 노인맞춤돌봄서비스 대상에서 제외됩니다. 노인장기요양보험이 노인맞춤돌봄서비스의 선순위 제도이기 때문입니다. 다만 등급 외(A·B) 판정자나 등급 신청 중인 경우에는 신청이 가능합니다.',
     },
     {
       question: '서비스를 얼마나 자주 받을 수 있나요?',

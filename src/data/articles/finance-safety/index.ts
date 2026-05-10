@@ -52,6 +52,7 @@ import retirementHealthInsuranceComparison from './retirement-health-insurance-c
 import seniorMedicalCostEstimate from './senior-medical-cost-estimate';
 import seniorAnnuityInsurance from './senior-annuity-insurance';
 import retirementFinanceTimeline from './retirement-finance-timeline';
+import retirementPension3wayComparison from './retirement-pension-3way-comparison';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -106,5 +107,6 @@ export const financeSafetyArticles: ContentItem[] = [
   seniorMedicalCostEstimate,
   seniorAnnuityInsurance,
   retirementFinanceTimeline,
+  retirementPension3wayComparison,
 ];
 

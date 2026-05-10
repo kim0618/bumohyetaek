@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-05-03',
+  updatedAt: '2026-05-10',
   reviewStatus: 'current',
 
   summary:
@@ -111,7 +111,7 @@ const article: ContentItem = {
   ],
 
   cautionNote:
-    '자동결제 해지 후 다음 달 명세서를 반드시 확인해 해지가 정상적으로 처리됐는지 확인하세요. 해지 완료 전 마지막 결제가 1회 더 발생할 수 있습니다.',
+    '자동결제 해지 후 다음 달 명세서를 확인해 해지가 정상적으로 처리됐는지 점검하세요. 해지 완료 전 마지막 결제가 1회 더 발생할 수 있습니다.',
 
   relatedSlugs: ['retirement-budget-planning', 'senior-phone-plan', 'smishing-prevention'],
 };

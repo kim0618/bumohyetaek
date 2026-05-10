@@ -1,14 +1,15 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 131 / 152 (86.2%) | 회귀 수정 4건 (adult-guardianship, basic-livelihood-benefit, disability-pension, turning-65-benefit-guide)
-- P1 health-care: 51 / 51 (완료, senior-80s-care-roadmap + senior-copd-management 추가)
+- 감사 완료: 138 / 158 (87.3%) | 회귀 수정 7건 + /refresh 정정 4건 (인지지원등급 노인맞춤돌봄 제외 회귀 2건 추가: senior-customized-care, elderly-care-service)
+- P1 health-care: 51 / 52 (오늘 senior-prostate-health 추가, 미감사)
 - P2 policy+수치: 61 / N
 - P3 계산기 연결: 18 / N
-- P4 finance-safety: 10 / 45 (P2/P3 분류 포함)
+- P4 finance-safety: 17 / 45 (P2/P3 분류 포함)
 - P5 기타: 0 / 10
-- 마지막 업데이트: 2026-05-09
-- AdSense 신청 D-12 (2026-05-21 목표)
+- 미감사 신규 3편 (2026-05-10): senior-prostate-health, ltci-vs-customized-care-comparison, retirement-pension-3way-comparison
+- 마지막 업데이트: 2026-05-10
+- AdSense 신청 D-11 (2026-05-21 목표)
 
 ## 감사 완료 목록
 
@@ -60,7 +61,8 @@
 - national-pension-voluntary (2026-04-27 감사, P2, 이상 없음 - "반드시"는 warning 섹션 제목으로 적절, officialSources URL 정상(nps.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 4개 실존)
 - national-pension-work-deduction (2026-04-27 감사, P2, 이상 없음 - A값 299만원/5단계 감액 구간 기술 정확, officialSources URL 정상(nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 4개 실존)
 - high-oil-price-relief (2026-04-28 감사, P2, 이상 없음 - effectiveDate 2026-04-27 정합, officialSources URL 정상(mois.go.kr/gov.kr), 내부 링크+relatedSlugs 4개 실존)
-- senior-customized-care (2026-04-28 감사, P2, 이슈 1건 수정: [G] cautionNote "2026년 3월 기준" → "2026년 4월 기준" (updatedAt 2026-04-27과 정합))
+- senior-customized-care (2026-04-28 감사, P2, 이슈 1건 수정: [G] cautionNote "2026년 3월 기준" → "2026년 4월 기준")
+  - **2026-05-10 회귀 정정**: [A] FAQ "인지지원등급 수급자는 일부 서비스 이용 가능" → "장기요양 등급(1~5등급+인지지원) 모두 제외" (ltci-vs-customized-care-comparison 작성 중 발견 → easylaw.go.kr/보건복지부 공식 자료로 인지지원등급도 노인맞춤돌봄 제외 확인. 노인장기요양보험이 선순위 제도)
 - national-pension-additional (2026-04-28 감사, P2, 이슈 1건 수정: [H] "추납 전 반드시 예상 수령액 시뮬레이션 후 결정" → "반드시" 제거 순화, officialSources URL 정상(nps.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/))
 - home-sale-tax-exemption (2026-04-28 감사, P2, 이상 없음 - officialSources URL 정상(nts.go.kr/hometax.go.kr), 내부 링크+relatedSlugs 4개 실존)
 - funeral-service-contract (2026-04-28 감사, P2, 이상 없음 - cautionNote "반드시 계약서 원본 확인"은 ③계약서 확인 맥락 허용, officialSources URL 정상(ftc.go.kr WAF차단이나 정합/kca.go.kr/ccn.go.kr), 내부 링크+relatedSlugs 4개 실존)
@@ -72,6 +74,7 @@
 - senior-consumer-rights (2026-04-29 감사, P2, 이슈 1건 수정: [H] warning 섹션 body "\n- 항목" 하이픈 리스트 4개 → "①②③④" 인라인 형식으로 교체, officialSources URL 정상(kca.go.kr/ftc.go.kr/ccn.go.kr), 내부 링크+relatedSlugs 3개 실존)
 - senior-job-types (2026-04-29 감사, P2, 이상 없음 - 공익활동형 월 27만원/사회서비스형 월 59.4만원 2026 수치 정확, officialSources URL 정상(kordi.or.kr/seniorro.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/date/age/), 내부 링크+relatedSlugs 4개 실존)
 - near-poverty-benefits (2026-04-29 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/129.go.kr), jptcalc URL 실존(/calc/pension-welfare/basic-pension/), 내부 링크+relatedSlugs 4개 실존)
+  - **2026-05-10 /refresh 수정**: [A] 에너지바우처 "최대 약 19만 원"→"최대 약 30만 원"(energyv.or.kr 실측 295,200원 기준), 문화누리카드 "11만 원"→"13만 원"
 - pension-split-divorce (2026-04-29 감사, P2, 이상 없음 - 혼인 5년/분할 50% 수치 정확, effectiveDate 2026-01-01 정합, officialSources URL 정상(nps.or.kr), 내부 링크+relatedSlugs 3개 실존)
 - senior-heart-health (2026-04-30 감사, P1, 이상 없음 - cautionNote+warning 2개 존재, officialSources URL 정상(koreancirc.or.kr/nhis.or.kr), 내부 링크 4개+relatedSlugs 실존)
 - senior-travel-support (2026-04-30 감사, P2, 이상 없음 - effectiveDate 2026-01-01 정합, officialSources URL 정상(visitkorea.or.kr/mcst.go.kr/bokjiro.go.kr), 내부 링크 3개+relatedSlugs 실존)
@@ -109,8 +112,10 @@
 - disability-pension (2026-05-04 감사, P2, 이상 없음 - 회귀 수정 후 349,700원/약 44만 원/선정기준액 130만·208만 정합, officialSources URL 정상(mohw.go.kr/nps.or.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), numbered-list+heading 정합, 내부 링크+relatedSlugs 3개 실존)
 - survivor-pension (2026-05-04 감사, P2, 이상 없음 - 가입기간별 지급률(40/50/60%)·기초연금 50% 감액·중복수급 30% 추가지급 규칙 정확, officialSources URL 정상(nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), numbered-list+heading 정합, 내부 링크+relatedSlugs 4개 실존)
 - long-term-care-grade (2026-05-04 감사, P2, 이슈 4건 수정: [A] L66 1등급 한도액 2,512,900원→2,545,400원, L69 4등급 1,409,700원→1,403,800원, L70 5등급 1,208,900원→1,209,500원, L71 인지지원 676,320원→729,100원. 보건복지부 2026 고시 기준값과 정합. **이 글은 다른 글의 참조 기준값 문서**, 회귀 grep으로 다른 글에 잔존 없음 확인. 3등급 1,528,200원·2등급 2,331,200원은 정상)
-- energy-voucher (2026-05-04 감사, P2, 이슈 1건 수정: [C] energyvoucher.or.kr → energyv.or.kr 3곳 일괄 수정 (officialSources L34/본문 L68/cautionNote L99). DNS 해석 실패로 도메인 자체 미존재 확인, 정확한 한국에너지공단 공식 에너지바우처 사이트는 www.energyv.or.kr ("시원한 여름 따뜻한 겨울 에너지바우처"))
+- energy-voucher (2026-05-04 감사, P2, 이슈 1건 수정: [C] energyvoucher.or.kr → energyv.or.kr 3곳 일괄 수정)
+  - **2026-05-10 /refresh 수정**: [A] 지원 금액 "약 10만~20만 원"→"약 10만~30만 원"(2026년 1인 생계·의료급여 동절기 295,200원 기준, energyv.or.kr 실측)
 - elderly-care-service (2026-05-04 감사, P2, 이상 없음 - 노인맞춤돌봄서비스 effectiveDate 2026-01-01 정합, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), numbered-list+heading '신청 방법' 정합, 내부 링크 3개+relatedSlugs 4개 실존)
+  - **2026-05-10 회귀 정정**: [A] FAQ "인지지원등급 수급자는 일부 서비스 이용 가능" → "장기요양 등급(1~5등급+인지지원) 모두 제외" (senior-customized-care와 동일 패턴 회귀)
 - basic-pension-application (2026-05-04 감사, P2, 이상 없음 - 기초연금 349,700원/부부 279,760원/선정기준액 247만·395.2만/연계감액 기준 약 52만(524,550원) 수치 모두 정합, effectiveDate 2026-01-01, officialSources URL 정상(mohw.go.kr/bokjiro.go.kr/nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/basic-pension/) [F note: L70 numbered-list에 heading 없어 HowTo JSON-LD 미생성 - 구조 이슈는 감사 범위 외, national-pension-reform-2026 사례 참조])
 - dementia-family-action-plan (2026-05-05 감사, P1, 이상 없음 - warning 2개+cautionNote 존재, 치매치료관리비 "연 36만원·중위소득 140%" 정확, 면허반납 "서울시 70세 이상 20만원·지자체별 차이" 명시, officialSources URL 정상(nid.or.kr/nhis.or.kr/mohw.go.kr), 내부 링크 6개+relatedSlugs 5개 실존)
 - senior-sarcopenia (2026-05-05 감사, P1, 이상 없음 - warning+cautionNote 존재, 악력 기준(남 28kg/여 18kg)+보행속도(1m/s) AWGS2019 기준 정확, officialSources URL 정상(geriatrics.or.kr/nhis.or.kr/kdca.go.kr), 내부 링크 2개+relatedSlugs 4개 실존)
@@ -157,13 +162,23 @@
 - ltci-application-timing-guide (2026-05-08 감사, P2, 이상 없음 - 장기요양 등급별 월 한도 73만~254만 범위 표기(인지지원 729,100원~1등급 2,545,400원), 신청 절차 4단계 정합, officialSources URL 정상(longtermcare.or.kr/nhis.or.kr), jptcalc URL 실존(/calc/date/age/), 내부 링크 4개+relatedSlugs 정합)
 - national-pension-timing (2026-05-08 감사, P2, 이슈 3건 수정: [A] FAQ L94 조기노령연금 소득 기준 "월 286만 원, 2026년 기준" → "월 약 309만 원, 2026년 적용 A값(매년 7월 갱신)"(2025.07~2026.06 적용 A값 3,089,062원 정합); [A] L55 body "1년 앞당길 때마다 월 6%씩" → "1년 앞당길 때마다 6%씩"(연 6% 정확 표기); [H] L82 tip body "결정 전에 반드시 개인별 시뮬레이션을 해보세요" → "결정 전에 개인별 시뮬레이션을 해보시기 바랍니다". officialSources URL 정상(nps.or.kr/csa.nps.or.kr), jptcalc URL 실존(/calc/pension-welfare/national-pension/), 내부 링크+relatedSlugs 정합)
   - **2026-05-08 사후 재정정**: 1차 수정 시 "319만 원"(2026.07~ 적용 미래 A값)으로 잘못 기재 → "309만 원"(2025.07~2026.06 현재 적용 A값)으로 재정정. 사용자 재검증 요청 후 발견. policy-data-points.md 1.4 A값 항목도 동시 갱신
-- retirement-health-insurance (2026-05-08 감사, P2, 이슈 1건 수정: [A] keyPoints L23 "퇴직 후 2년간 직장보험료 수준으로 유지" → "퇴직 후 최대 3년간"(임의계속가입 2018년 개정 후 36개월=3년 정합, 본문 line 56·64의 "최대 36개월"과 일관). 피부양자 자격(연소득 2,000만/재산 5.4억) 정합, 직장가입자 보험료율 7.19% 2026 기준 정확, officialSources URL 정상(nhis.or.kr/bokjiro.go.kr), 내부 링크+relatedSlugs 4개 실존)
+- retirement-health-insurance (2026-05-08 감사, P2, 이슈 1건 수정: [A] keyPoints L23 "퇴직 후 2년간 직장보험료 수준으로 유지" → "퇴직 후 최대 3년간". officialSources URL 정상(nhis.or.kr/bokjiro.go.kr), 내부 링크+relatedSlugs 4개 실존)
+  - **2026-05-10 오류 수정 취소**: /refresh 가동 중 확인 결과 7.19%가 2026년 정확값(보건복지부 공식, 3년 만에 0.1%p 인상). audit 기준값(7.09%) 오류였음. 7.09%→7.19%로 재복구 완료.
 - senior-job-types (2026-05-08 감사, P2, 이슈 3건 수정: [A] 사회서비스형 "월 약 59만 4,000원" → "월 약 76만 원 (월 60시간 활동, 주휴수당 포함)"(2026 보건복지부/한국노인인력개발원 기준 정합), summary "월 27만-약 60만 원" → "월 27만-약 76만 원", keyPoints "약 60만 원 이상" → "약 76만 원". officialSources URL 정상(kordi.or.kr/seniorro.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/date/age/), 내부 링크+relatedSlugs 4개 실존)
   - **2026-05-08 회귀 수정**: turning-65-benefit-guide.ts L108 "사회서비스형 월 59.4만원" → "사회서비스형 월 약 76만원" 동기화. 회귀 트리거: senior-job-program(P0 재감사)에서 사회서비스형 활동비 76만 확정에 따른 cross-reference
 - senior-80s-care-roadmap (2026-05-09 감사, P1, 이상 없음 - warning 섹션+cautionNote 존재, officialSources URL 정상(nhis.or.kr/lst.go.kr/klac.or.kr), 내부 링크 4개(ltci-application-timing-guide/advance-directive/dementia-family-action-plan/will-writing-guide)+relatedSlugs 4개 실존)
 - senior-copd-management (2026-05-09 감사, P1, 이상 없음 - warning+cautionNote 존재, officialSources URL 정상(health.kdca.go.kr/nhis.or.kr/lungkorea.org 200 확인-대한결핵및호흡기학회), 내부 링크 4개+relatedSlugs 4개 실존)
 - ltci-cost-simulation (2026-05-09 감사, P2, 이상 없음 - 3등급 한도 1,528,200원·재가 15%/시설 20% 정확, effectiveDate 2026-01-01 정합, relatedCalculator /calc/pension-welfare/long-term-care/ 실존, officialSources URL 정상(longtermcare.or.kr/nhis.or.kr), 내부 링크 5개+relatedSlugs 4개 실존)
 - care-cost-reduction (2026-05-09 감사, P3, 이상 없음 - officialSources URL 정상(longtermcare.or.kr/mohw.go.kr), relatedCalculator /calc/pension-welfare/long-term-care/ 실존, 내부 링크+relatedSlugs 정합)
+  - **2026-05-10 /refresh 수정**: [A] 장기요양 등급별 한도 전체 구값(2024년) → 2026년 기준 일괄 정정. 1등급 2,069,900→2,545,400 / 2등급 1,869,600→2,331,200 / 3등급 1,455,800→1,528,200 / 4등급 1,341,800→1,403,800 / 5등급 1,151,600→1,209,500 / 인지지원 한도 729,100원 추가
 - retirement-budget-planning (2026-05-09 감사, P3, 이슈 3건 수정: [A] info body+FAQ "기초연금 최대 약 33만 원"→"약 35만 원"(349,700원 2026 기준, 2곳), "두 연금 합산 98만 원"→"약 100만 원"; [H] keyPoints "점검 필수"→"점검 필요". officialSources URL 정상(kostat.go.kr/fss.or.kr), relatedCalculator /calc/pension-welfare/retirement-living/ 실존)
 - retirement-finance-checklist (2026-05-09 감사, P3, [A] 의심 1건 - 본문 "국민연금 평균 수령액 월 약 60만 원"(연도 미명시) vs retirement-budget-planning "65만 원(2026년 기준)" 불일치. 수치 확인 후 동기화 필요(사용자 보고). 나머지 이슈 없음 - officialSources URL 정상(nps.or.kr/hf.go.kr/fss.or.kr), relatedCalculator /calc/pension-welfare/retirement-living/ 실존, numbered-list+heading HowTo 조건 만족)
 - prevent-voice-phishing (2026-05-09 감사, P3, 이슈 1건 수정: [H] FAQ "반드시 확인이 필요합니다."→"확인이 필요합니다." 단정 표현 완화. officialSources URL 정상(fss.or.kr/cyberbureau.police.go.kr), checklist+numbered-list HowTo 조건 만족, relatedSlugs 4개 실존)
+- retirement-finance-timeline (2026-05-10 감사, P4, 이슈 1건 수정: [E] sections body에 참조된 pension-income-tax·retirement-pension-irp·senior-annuity-insurance 3개가 relatedSlugs 누락 → 추가. officialSources URL 정상(nps.or.kr/nhis.or.kr), relatedCalculator /calc/date/age/ 실존, 정책 수치·시의성·문체 이상 없음)
+- senior-annuity-insurance (2026-05-10 감사, P4, 이상 없음 - heading "무조건 좋은 건 아닙니다"는 부정·경계 맥락으로 단정 표현 해당 아님. officialSources URL 정상(fss.or.kr/klia.or.kr), 내부 링크 4개+relatedSlugs 실존, 정책 수치 이슈 없음)
+- retirement-health-insurance-comparison (2026-05-10 감사, P4, 이상 없음 - 피부양자 재산 기준 9억 상한+5.4억~9억 구간 소득 조건 이중 서술은 정확. officialSources URL 정상(nhis.or.kr/hira.or.kr))
+  - **2026-05-10 /refresh 재확인**: audit 중 7.19%→7.09% 오수정 후 즉시 7.19%로 복구. 7.19%가 2026년 공식값(보건복지부 2025-08 발표, 3년 만에 인상). audit 기준값(7.09%)이 잘못된 정보였음.
+- senior-home-disposal-comparison (2026-05-10 감사, P4, 이상 없음 - keyPoints/body 내 " - " 연결어는 규칙상 허용(em dash 아닌 하이픈). officialSources URL 정상(hf.go.kr/hometax.go.kr), 내부 링크 4개+relatedSlugs 4개 실존, 주택연금 가입 기준 12억·만 55세 정확)
+- voice-phishing-recovery (2026-05-10 감사, P4, 이상 없음 - "2025년 기준 환급률 53%"는 출처 데이터 연도 표기이므로 정책 수치 이슈 아님. officialSources URL 정상(fss.or.kr/경찰청.go.kr), 내부 링크+relatedSlugs 실존, ☎ 번호 정확)
+- senior-traffic-accident (2026-05-10 감사, P4, 이슈 3건 수정: [H] "반드시 정밀검사 권장" → "정밀검사를 권장합니다", warning body "반드시 병원 정밀검사를 먼저 받으세요" → "병원 정밀검사를 먼저 받으세요", FAQ "연락처를 반드시 확보해두세요" → "연락처를 확보해두세요". officialSources URL 정상(knia.or.kr/ts2020.kr), 내부 링크+relatedSlugs 실존)
+- senior-subscription-cleanup (2026-05-10 감사, P4, 이슈 1건 수정: [H] cautionNote "반드시 확인해" → "확인해". officialSources URL 정상(payinfo.or.kr/fss.or.kr), 내부 링크+relatedSlugs 실존)

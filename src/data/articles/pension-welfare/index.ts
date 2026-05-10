@@ -52,6 +52,7 @@ import retirementIncomeStrategy from './retirement-income-strategy';
 import ltciApplicationTimingGuide from './ltci-application-timing-guide';
 import ltciCostSimulation from './ltci-cost-simulation';
 import basicPensionNationalPensionSimulation from './basic-pension-national-pension-simulation';
+import ltciVsCustomizedCareComparison from './ltci-vs-customized-care-comparison';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -106,4 +107,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   ltciApplicationTimingGuide,
   ltciCostSimulation,
   basicPensionNationalPensionSimulation,
+  ltciVsCustomizedCareComparison,
 ];

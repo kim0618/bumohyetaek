@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-03-29',
-  updatedAt: '2026-05-04',
+  updatedAt: '2026-05-10',
   reviewStatus: 'current',
   effectiveDate: '2026-01-01',
 
@@ -49,7 +49,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '지원 금액 (2026년 기준)',
-      body: '가구원 수와 등급에 따라 다릅니다. 1인 가구 기준 약 10만~20만 원 수준이며, 생계·의료급여 수급자가 주거·교육급여 수급자보다 지원액이 많습니다. 하절기(전기요금)와 동절기(가스·등유 등) 구분 없이 통합 바우처로 사용 가능합니다.',
+      body: '가구원 수와 등급에 따라 다릅니다. 1인 가구 기준 약 10만~30만 원 수준이며, 생계·의료급여 수급자가 주거·교육급여 수급자보다 지원액이 많습니다. 하절기(전기요금)와 동절기(가스·등유 등) 구분 없이 통합 바우처로 사용 가능합니다.',
     },
     {
       type: 'numbered-list',

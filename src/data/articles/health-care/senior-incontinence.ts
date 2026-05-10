@@ -115,7 +115,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었으며 의학적 진단을 대체하지 않습니다. 증상이 심하거나 갑자기 악화되면 반드시 비뇨의학과 전문의 진료를 받으세요.',
 
-  relatedSlugs: ['senior-fall-prevention', 'senior-mental-health', 'polypharmacy-management'],
+  relatedSlugs: ['senior-fall-prevention', 'senior-mental-health', 'polypharmacy-management', 'senior-prostate-health'],
 };
 
 export default article;

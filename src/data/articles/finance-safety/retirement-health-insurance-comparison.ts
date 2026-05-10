@@ -9,7 +9,7 @@ const article: ContentItem = {
   template: 'comparison',
   targetUser: 'both',
   createdAt: '2026-05-06',
-  updatedAt: '2026-05-06',
+  updatedAt: '2026-05-10',
   reviewStatus: 'current',
   summary:
     '퇴직 후 건강보험 처리 방법은 임의계속가입·지역가입자 전환·피부양자 등록 세 가지입니다. 소득과 재산 수준에 따라 유리한 방법이 달라지며, 피부양자 등록이 가능하다면 보험료 0원이 최선입니다.',
