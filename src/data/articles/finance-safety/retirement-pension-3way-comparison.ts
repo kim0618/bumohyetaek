@@ -109,6 +109,7 @@ const article: ContentItem = {
   relatedSlugs: [
     'pension-savings-tax-benefit',
     'retirement-pension-irp',
+    'irp-pension-savings-comparison',
     'senior-annuity-insurance',
     'pension-income-tax',
   ],

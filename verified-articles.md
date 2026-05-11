@@ -1,15 +1,15 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 138 / 158 (87.3%) | 회귀 수정 7건 + /refresh 정정 4건 (인지지원등급 노인맞춤돌봄 제외 회귀 2건 추가: senior-customized-care, elderly-care-service)
-- P1 health-care: 51 / 52 (오늘 senior-prostate-health 추가, 미감사)
+- 감사 완료: 138 / 160 (86.3%) | 회귀 수정 7건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건
+- P1 health-care: 51 / 52 (senior-prostate-health 미감사)
 - P2 policy+수치: 61 / N
 - P3 계산기 연결: 18 / N
 - P4 finance-safety: 17 / 45 (P2/P3 분류 포함)
 - P5 기타: 0 / 10
-- 미감사 신규 3편 (2026-05-10): senior-prostate-health, ltci-vs-customized-care-comparison, retirement-pension-3way-comparison
-- 마지막 업데이트: 2026-05-10
-- AdSense 신청 D-11 (2026-05-21 목표)
+- 미감사 신규 5편: senior-prostate-health, ltci-vs-customized-care-comparison, retirement-pension-3way-comparison (5/10), inheritance-partition-guide, irp-pension-savings-comparison (5/11)
+- 마지막 업데이트: 2026-05-11
+- AdSense 신청 D-10 (2026-05-21 목표)
 
 ## 감사 완료 목록
 
@@ -182,3 +182,14 @@
 - voice-phishing-recovery (2026-05-10 감사, P4, 이상 없음 - "2025년 기준 환급률 53%"는 출처 데이터 연도 표기이므로 정책 수치 이슈 아님. officialSources URL 정상(fss.or.kr/경찰청.go.kr), 내부 링크+relatedSlugs 실존, ☎ 번호 정확)
 - senior-traffic-accident (2026-05-10 감사, P4, 이슈 3건 수정: [H] "반드시 정밀검사 권장" → "정밀검사를 권장합니다", warning body "반드시 병원 정밀검사를 먼저 받으세요" → "병원 정밀검사를 먼저 받으세요", FAQ "연락처를 반드시 확보해두세요" → "연락처를 확보해두세요". officialSources URL 정상(knia.or.kr/ts2020.kr), 내부 링크+relatedSlugs 실존)
 - senior-subscription-cleanup (2026-05-10 감사, P4, 이슈 1건 수정: [H] cautionNote "반드시 확인해" → "확인해". officialSources URL 정상(payinfo.or.kr/fss.or.kr), 내부 링크+relatedSlugs 실존)
+
+## 2026-05-11 사후 검증 세션 (5/9-5/10 머지 충돌 해결 후)
+
+git pull 충돌로 5/9-5/10에 다른 환경 작업이 발견되어 오늘 작업의 상당 부분이 중복으로 확인됨. 다음 작업만 unique하게 보존하여 재적용:
+
+- **신규 글 2건 추가**: inheritance-partition-guide (상속 협의분할), irp-pension-savings-comparison (IRP vs 연금저축 2종 심층 비교)
+- **신규 글 1건 폐기**: basic-pension-deduction-simulation은 리모트 basic-pension-national-pension-simulation과 완전 중복으로 폐기
+- **care-cost-reduction 가족요양비 회귀 정정**: 월 15만 원(2010년대 중반 옛 값) → 월 약 23만 원(2025년 기준 233,400원). WebSearch로 보건복지부 고시 제2025-115호 확인. 적용 조건도 "1~2등급 동거 가족 돌봄" → "도서·벽지·천재지변 등 특수 상황(보건복지부 장관 인정)"으로 정정. 섹션 heading도 동시 수정
+- **relatedSlugs 업데이트**:
+  - retirement-pension-irp.ts: 'national-pension-timing' → 'irp-pension-savings-comparison' 교체
+  - retirement-pension-3way-comparison.ts: 'irp-pension-savings-comparison' 추가
