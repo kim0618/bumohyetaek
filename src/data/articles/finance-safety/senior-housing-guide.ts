@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2025-03-20',
-  updatedAt: '2026-04-30',
+  updatedAt: '2026-05-12',
   reviewStatus: 'current',
 
   summary:
@@ -21,7 +21,7 @@ const article: ContentItem = {
   keyPoints: [
     '건강하고 자립 가능하면 실버타운·노인복지주택, 돌봄 필요하면 요양원',
     '공공실버주택은 저렴하지만 대기 기간이 길어 미리 신청해야 함',
-    '입주 전 장기요양등급 여부, 보증금 환급 조건 반드시 확인',
+    '입주 전 장기요양등급 여부, 보증금 환급 조건 꼭 확인',
   ],
 
   tags: ['실버타운', '노인주거', '공공실버주택', '요양원', '노인복지주택'],
@@ -83,7 +83,7 @@ const article: ContentItem = {
     },
     {
       type: 'warning',
-      heading: '보증금 환급 조건을 반드시 확인하세요',
+      heading: '보증금 환급 조건을 꼭 확인하세요',
       body: '일부 민간 실버타운은 보증금 환급 시 시세 차익을 공제하거나 환급 시기가 늦어지는 경우가 있습니다. 계약 전 보증금 환급 조건과 퇴소 시 절차를 변호사 또는 법무사와 함께 검토하는 것을 권장합니다.',
     },
   ],

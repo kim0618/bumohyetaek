@@ -9,7 +9,7 @@ export const categories: Category[] = [
     slug: 'pension-welfare',
     label: '연금·복지·혜택',
     description:
-      '기초연금 수령 방법, 노인 복지급여, 정부 지원혜택 신청까지 단계별로 정리합니다.',
+      '기초연금·국민연금·노인 복지급여 신청 방법부터 65세 이후 받을 수 있는 정부 지원혜택까지 단계별로 정리합니다. 수급 자격 기준과 신청 절차를 쉽고 상세하게 안내하므로, 처음 신청하는 분도 어렵지 않게 따라할 수 있습니다.',
     href: '/category/pension-welfare',
   },
   {

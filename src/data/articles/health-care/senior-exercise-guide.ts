@@ -115,7 +115,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 일반적인 운동 가이드이며 개인의 건강 상태에 따라 적합한 운동이 다릅니다. 만성 질환이 있는 분은 반드시 의사와 상담 후 운동을 시작하세요.',
 
-  relatedSlugs: ['senior-fall-prevention', 'senior-diabetes-management', 'national-health-checkup-guide'],
+  relatedSlugs: ['senior-fall-prevention', 'senior-diabetes-management', 'national-health-checkup-guide', 'senior-spinal-stenosis'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

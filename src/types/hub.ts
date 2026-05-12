@@ -1,5 +1,10 @@
 import type { RelatedCalculator, CalculatorCTA, FAQ } from './content';
 
+export interface BackgroundSection {
+  heading: string;
+  body: string;
+}
+
 /**
  * 허브 페이지 상세 데이터
  *
@@ -42,4 +47,10 @@ export interface HubDetail {
 
   /** 허브 전용 FAQ */
   faq?: FAQ[];
+
+  /** 허브 도입 설명 (300자+). 헤더 아래에 렌더링. */
+  introText?: string;
+
+  /** 배경 지식 섹션 (1,500자+). 정책·통계·출처 포함. */
+  background?: BackgroundSection;
 }

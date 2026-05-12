@@ -5,7 +5,7 @@ import { getHubDetailBySlug } from '@/data/hubDetails';
 import { getContentByHubKey, getContentListItems } from '@/lib/content';
 import { HubTemplate } from '@/components/hub';
 import JsonLd from '@/components/seo/JsonLd';
-import { buildWebPageJsonLd, buildBreadcrumbJsonLd } from '@/lib/jsonld';
+import { buildWebPageJsonLd, buildBreadcrumbJsonLd, buildFaqPageJsonLd } from '@/lib/jsonld';
 import { buildHubMetadata } from '@/lib/seo';
 import { getDownloadsByHub } from '@/data/downloads';
 
@@ -48,6 +48,9 @@ export default async function HubPage({ params }: Props) {
       { name: '홈',           href: '/' },
       { name: hubData.title, href: `${hubData.href}/` },
     ]),
+    ...(detail.faq && detail.faq.length > 0
+      ? [buildFaqPageJsonLd(detail.faq)]
+      : []),
   ];
 
   return (

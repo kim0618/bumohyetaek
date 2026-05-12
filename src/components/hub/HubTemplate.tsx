@@ -55,6 +55,11 @@ export default function HubTemplate({ hub, detail, articles, relatedDownloads }:
           <p className="text-lg text-gray-600 leading-relaxed">
             {hub.description}
           </p>
+          {detail.introText && (
+            <p className="mt-4 text-gray-700 leading-relaxed">
+              {detail.introText}
+            </p>
+          )}
         </div>
       </section>
 
@@ -168,7 +173,19 @@ export default function HubTemplate({ hub, detail, articles, relatedDownloads }:
         />
       )}
 
-      {/* ── 8. 자주 묻는 질문 ───────────────────────────────────── */}
+      {/* ── 8. 배경 지식 ────────────────────────────────────────── */}
+      {detail.background && (
+        <section aria-labelledby="background-heading" className="box-info">
+          <h2 id="background-heading" className="mb-4">
+            {detail.background.heading}
+          </h2>
+          <div className="space-y-4 text-gray-800 leading-relaxed whitespace-pre-line">
+            {detail.background.body}
+          </div>
+        </section>
+      )}
+
+      {/* ── 9. 자주 묻는 질문 ───────────────────────────────────── */}
       {detail.faq && detail.faq.length > 0 && (
         <FAQSection items={detail.faq} />
       )}
