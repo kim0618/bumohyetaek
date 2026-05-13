@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-04-25',
+  updatedAt: '2026-05-13',
   reviewStatus: 'current',
 
   summary:
@@ -76,7 +76,7 @@ const article: ContentItem = {
       items: [
         '부모님 데이터 사용량 확인 → 적정 요금제 선택',
         '알뜰폰 전환 시 번호·스마트폰 모두 유지 가능',
-        '기초수급자·장애인은 통신비 감면 반드시 신청',
+        '기초수급자·장애인은 통신비 감면 꼭 신청',
       ],
     },
   ],

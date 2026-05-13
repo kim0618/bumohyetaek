@@ -16,7 +16,7 @@ export const categories: Category[] = [
     slug: 'health-care',
     label: '건강보험·검진·돌봄',
     description:
-      '건강보험 본인부담 절감, 국가검진 활용, 장기요양·돌봄 서비스 신청 방법을 안내합니다.',
+      '건강보험 본인부담 절감, 국가검진 활용, 장기요양·돌봄 서비스 신청 방법을 안내합니다. 만성질환 관리부터 요양원 입소 결정, 보조기기 급여까지 노인 건강 관련 실무 가이드를 모았습니다.',
     href: '/category/health-care',
   },
   {

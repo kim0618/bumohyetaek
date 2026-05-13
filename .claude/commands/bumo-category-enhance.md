@@ -19,15 +19,15 @@ bumohyetaek의 **카테고리 3개 + 허브 5개 = 8개 인덱스 페이지**를
 | 유형 | slug | 파일 | 현재 실질본문 | 목표 | 완료일 | 최종 본문 |
 |---|---|---|---|---|---|---|
 | 카테고리 | pension-welfare | `categories.ts` + `categoryDetails.ts` + page.tsx | thin | 5,000자+ | 2026-05-12 | 6개 시나리오, 정책개요, FAQ 8개, 교차링크 3개 |
-| 카테고리 | health-care | `categories.ts` + `categoryDetails.ts` + page.tsx | - | 5,000자+ | - | - |
+| 카테고리 | health-care | `categories.ts` + `categoryDetails.ts` + page.tsx | thin | 5,000자+ | 2026-05-13 | 6개 시나리오, 정책개요(장기요양 등급별 한도·검진 6종·산정특례), FAQ 7개, 교차링크 3개 |
 | 카테고리 | finance-safety | `categories.ts` + `categoryDetails.ts` + page.tsx | - | 5,000자+ | - | - |
 | 허브 | retirement-income | `hubDetails.ts` + `HubTemplate.tsx` | thin | 5,000자+ | 2026-05-12 | introText, 8 situations, 9 checklist, background, FAQ 8개, FAQPage JSON-LD |
 | 허브 | prepare-care | `hubDetails.ts` | - | 5,000자+ | - | - |
-| 허브 | government-benefits | `hubDetails.ts` | - | 5,000자+ | - | - |
+| 허브 | government-benefits | `hubDetails.ts` | thin | 5,000자+ | 2026-05-13 | introText, 8 situations, 3 featuredSlugs, 8 checklist, background(신청주의·에너지바우처·긴급복지), FAQ 7개 |
 | 허브 | health-checkup | `hubDetails.ts` | - | 5,000자+ | - | - |
 | 허브 | financial-safety | `hubDetails.ts` | - | 5,000자+ | - | - |
 
-**진행률: 2편 / 8편 (25%)**
+**진행률: 4편 / 8편 (50%)**
 
 작업 완료 시 이 표의 해당 행 **현재 실질본문·완료일·최종 본문** 칸을 즉시 갱신할 것.
 

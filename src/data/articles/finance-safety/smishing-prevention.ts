@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-04-16',
+  updatedAt: '2026-05-13',
   reviewStatus: 'current',
 
   summary:
@@ -109,7 +109,7 @@ const article: ContentItem = {
     {
       question: '부모님이 스미싱 문자와 진짜 문자를 구분하기 어려워해요.',
       answer:
-        '"링크가 포함된 문자는 무조건 자녀에게 먼저 보여주세요"라고 부탁해두세요. 자녀가 확인 후 진짜 여부를 판단하는 것이 가장 확실한 방법입니다.',
+        '"링크가 포함된 문자는 일단 자녀에게 먼저 보여주세요"라고 부탁해두세요. 자녀가 확인 후 진짜 여부를 판단하는 것이 가장 안전한 방법입니다.',
     },
     {
       question: '소액결제 차단은 어떻게 신청하나요?',
@@ -126,7 +126,7 @@ const article: ContentItem = {
   cautionNote:
     '스미싱 수법은 계속 진화합니다. KISA 인터넷보호나라(boho.or.kr) 또는 금융감독원(fss.or.kr)에서 최신 사기 유형을 주기적으로 확인하세요.',
 
-  relatedSlugs: ['prevent-voice-phishing', 'senior-phone-plan', 'adult-guardianship', 'senior-consumer-rights'],
+  relatedSlugs: ['prevent-voice-phishing', 'senior-phone-plan', 'senior-financial-protection', 'senior-consumer-rights'],
 };
 
 export default article;

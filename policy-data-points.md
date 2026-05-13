@@ -117,6 +117,26 @@
 - **변동 주기**: 법령 개정 시
 - **검색 패턴**: `9억`, `5.4억`, `과세표준.*9억`, `피부양자.*재산`
 
+### 2.8 본인부담 상한제 - 분위별 상한액
+
+> ⚠️ **기준 파일**: `/home/tjd618/bumohyetaek/src/data/articles/health-care/health-insurance-limit.ts`
+> 카테고리/허브 페이지에서 인용 시 이 파일을 1차 출처로 비교
+
+- **현재 값 (2026년 기준, 7분위)**:
+  - 1분위(하위 10%): 87만원
+  - 2~3분위: 108만원
+  - 4~5분위: 162만원
+  - 6~7분위: 303만원
+  - 8분위: 414만원
+  - 9분위: 514만원
+  - 10분위(상위 10%): 780만원
+- **공식 출처**: https://www.nhis.or.kr
+- **마지막 확인**: 2026-05-13
+- **변동 주기**: 매년 1월
+- **검색 패턴**: `87만`, `780만`, `상한액`, `본인부담.*상한`
+- **⚠️ 알려진 오류**: "808만원" (10분위 잘못된 값) → 2026-05-13 categoryDetails(health-care) 정정 완료
+- **영향 글**: health-insurance-limit (1차 출처), health-care 카테고리 페이지(categoryDetails.ts)
+
 ---
 
 ## 3. 장기요양 등급별 월 한도액 (변동 주기: 연 1회 / 1월)
@@ -426,6 +446,14 @@
 ---
 
 ## 변경 이력
+
+### 2026-05-13 - audit 7편 + 신규 글 senior-bedsore-prevention + 카테고리/허브 보강 사후 검증
+- **2.8 본인부담 상한제 신규 등재**: health-insurance-limit 글에서 분위별 상한액(7개 구간) 추출해 마스터 리스트 신설. 1차 출처 = health-insurance-limit.ts
+- **categoryDetails(health-care) 사후 정정**: 본인부담 상한제 10분위 "808만원" → **780만원** (생성 시 잘못된 추정값 입력, health-insurance-limit 원본과 비교해 정정). policyBody + FAQ 2곳 모두 수정
+- **hubDetails(government-benefits) 사후 정정**: 기준 중위소득 "30~50%" → **"32~50%"** (생계급여 시작이 32%이므로). background + FAQ 2곳 모두 수정
+- **digital-finance-safety 추가 정정**: warning body "이런 연락은 모두 사기입니다" → "거의 대부분 사기입니다" (heading만 수정되고 body 단정 표현 잔존했던 것 발견)
+- **신규 글 등록**: senior-bedsore-prevention (욕창 예방·가정 간호, health-care). 사용 수치(160만원 한도/15% 본인부담)는 이미 등재된 ltci-welfare-equipment 항목과 일치 확인
+- **audit 7편 처리**: funeral-preparation-guide, senior-phone-plan, senior-insurance-review, jeonse-fraud-prevention, after-death-admin, smishing-prevention, digital-finance-safety - 단정 표현·relatedSlugs 정정. 누적 152/160 (95%)
 
 ### 2026-05-11 - 검증 세션 + 신규 글 2건 등록 + 가족요양비 정정
 - **신규 글 등록 (2건)**:

@@ -53,6 +53,7 @@ import seniorCopdManagement from './senior-copd-management';
 import senior80sCareRoadmap from './senior-80s-care-roadmap';
 import seniorProstateHealth from './senior-prostate-health';
 import seniorSpinalStenosis from './senior-spinal-stenosis';
+import seniorBedsorePrevention from './senior-bedsore-prevention';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -108,4 +109,5 @@ export const healthCareArticles: ContentItem[] = [
   senior80sCareRoadmap,
   seniorProstateHealth,
   seniorSpinalStenosis,
+  seniorBedsorePrevention,
 ];
