@@ -138,9 +138,9 @@ const article: ContentItem = {
 
   relatedSlugs: [
     'long-term-care-grade',
+    'ltci-grade-reapplication',
     'care-type-selection',
     'elderly-care-service',
-    'senior-cognitive-screening',
   ],
 };
 
