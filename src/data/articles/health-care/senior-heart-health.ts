@@ -131,6 +131,7 @@ const article: ContentItem = {
     '이 글은 2026년 4월 기준으로 작성되었으며 의학적 진단이나 처방을 대체하지 않습니다. 심장 질환 진단과 치료는 전문의 상담이 필요합니다.',
 
   relatedSlugs: [
+    'senior-atrial-fibrillation',
     'senior-stroke-prevention',
     'senior-hypertension',
     'national-health-checkup-guide',
