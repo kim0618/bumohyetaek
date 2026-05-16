@@ -132,7 +132,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['long-term-care-grade', 'care-type-selection', 'care-home-cost-guide'],
+  relatedSlugs: ['long-term-care-grade', 'care-type-selection', 'care-home-cost-guide', 'ltci-family-caregiver-benefit'],
 };
 
 export default article;

@@ -54,6 +54,7 @@ import ltciCostSimulation from './ltci-cost-simulation';
 import basicPensionNationalPensionSimulation from './basic-pension-national-pension-simulation';
 import ltciVsCustomizedCareComparison from './ltci-vs-customized-care-comparison';
 import ltciGradeReapplication from './ltci-grade-reapplication';
+import ltciFamilyCaregiverBenefit from './ltci-family-caregiver-benefit';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -110,4 +111,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   basicPensionNationalPensionSimulation,
   ltciVsCustomizedCareComparison,
   ltciGradeReapplication,
+  ltciFamilyCaregiverBenefit,
 ];

@@ -46,6 +46,8 @@ done | sort -t'(' -k2 -n
 
 - retirement-finance-checklist (2026-05-15 보강, 항목별 보완 전략 text + 흔히 놓치는 실수 warning + FAQ 3개 추가)
 - elderly-care-service (2026-05-15 보강, 유형별 상세 text + 장기요양 비교 info + 주의사항 warning + FAQ 3개 추가)
+- senior-digital-education (2026-05-16 보강, 신청절차 numbered-list + 활용법 text + 정책현황 text + 사기주의 warning + FAQ 3개 추가, 82,815자)
+- senior-welfare-center (2026-05-16 보강, 맞춤추천 list + 복지관 첫방문 text + 찾기 info + 신청주의 warning + FAQ 3개 추가, 79,082자)
 
 ## 대상 글 (얇은 순서대로 작업)
 
