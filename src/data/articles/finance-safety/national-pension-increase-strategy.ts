@@ -35,7 +35,7 @@ const article: ContentItem = {
   relatedSlugs: [
     'national-pension-additional',
     'national-pension-timing',
-    'national-pension-credit',
+    'pension-income-sequence',
     'retirement-budget-planning',
   ],
 

@@ -48,6 +48,8 @@ done | sort -t'(' -k2 -n
 - elderly-care-service (2026-05-15 보강, 유형별 상세 text + 장기요양 비교 info + 주의사항 warning + FAQ 3개 추가)
 - senior-digital-education (2026-05-16 보강, 신청절차 numbered-list + 활용법 text + 정책현황 text + 사기주의 warning + FAQ 3개 추가, 82,815자)
 - senior-welfare-center (2026-05-16 보강, 맞춤추천 list + 복지관 첫방문 text + 찾기 info + 신청주의 warning + FAQ 3개 추가, 79,082자)
+- senior-dental-coverage (2026-05-17 보강, 임플란트치료단계 numbered-list + 비용시뮬레이션 text + 급여비급여구분 list + 주의 warning + FAQ 3개 추가, 82,407자)
+- senior-transport-discount (2026-05-17 보강, 지역별버스현황 list + 항공여객선 info + 조합활용법 text + 이사주의 warning + FAQ 3개 추가, 78,267자)
 
 ## 대상 글 (얇은 순서대로 작업)
 
