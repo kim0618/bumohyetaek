@@ -4,9 +4,9 @@ import { siteConfig } from '@/config/siteConfig';
 const article: ContentItem = {
   slug: 'national-pension-increase-strategy',
   title: '국민연금 수령액 늘리는 5가지 방법 - 추납·연기·임의가입 비교',
-  seoTitle: '국민연금 수령액 늘리는 5가지 방법 - 추납·연기연금·임의가입 비교',
+  seoTitle: '국민연금 수령액 늘리기 5가지 - 추납·연기연금 조건·효과 비교 가이드',
   seoDescription:
-    '국민연금 수령액이 적다면 추납, 연기연금, 임의가입, 임의계속가입, 크레딧 5가지 제도로 가입 기간과 수령액을 늘릴 수 있습니다. 각 제도의 자격 조건과 예상 증가액을 비교해 본인에게 맞는 전략을 찾아보세요.',
+    '월 평균 62만 원 수준인 국민연금, 추납·연기연금·임의가입·임의계속가입·크레딧으로 더 받을 수 있습니다. 과거 미납 기간이 있다면 추납이 가장 효과적이고, 다른 소득이 있다면 연기연금이 유리할 수 있습니다. 내 상황에 맞는 방법과 예상 수령액 증가분을 비교합니다.',
   category: 'finance-safety',
   template: 'comparison',
   targetUser: 'both',

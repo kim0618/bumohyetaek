@@ -26,7 +26,7 @@ const article: ContentItem = {
     'senior-diabetes-management',
     'senior-hypertension',
     'national-health-checkup-guide',
-    'polypharmacy-management',
+    'senior-gout-management',
   ],
   order: 48,
   officialSources: [

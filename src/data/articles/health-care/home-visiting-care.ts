@@ -4,8 +4,8 @@ import { siteConfig } from '@/config/siteConfig';
 const article: ContentItem = {
   slug: 'home-visiting-care',
   title: '방문요양 서비스 신청 방법과 이용 비용',
-  seoTitle: '방문요양 비용·신청 방법 - 장기요양 등급별 본인부담금과 이용 절차',
-  seoDescription: '장기요양 등급을 받은 어르신은 방문요양 서비스를 이용할 수 있습니다. 등급별 월 한도액, 본인 부담금 기준, 요양보호사 매칭 방법과 국민건강보험공단 신청 절차까지 한눈에 확인할 수 있습니다.',
+  seoTitle: '방문요양 신청 방법과 등급별 비용 - 2등급 월 233만원 한도, 본인부담 15%',
+  seoDescription: '장기요양 1~5등급을 받으면 방문요양 서비스를 이용할 수 있습니다. 2등급 기준 월 한도액은 약 233만 원이며 본인부담금은 재가급여의 15%입니다. 요양보호사 선택부터 국민건강보험공단(1577-1000) 신청까지 단계별로 안내합니다.',
   category: 'health-care',
   template: 'policy',
   targetUser: 'both',

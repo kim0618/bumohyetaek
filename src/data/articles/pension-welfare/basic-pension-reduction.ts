@@ -4,8 +4,8 @@ import { siteConfig } from '@/config/siteConfig';
 const article: ContentItem = {
   slug: 'basic-pension-reduction',
   title: '기초연금 감액 기준과 수급액을 최대한 늘리는 방법에 대한 완벽 정리',
-  seoTitle: '기초연금 감액 기준 - 국민연금 연계 감액, 부부 감액 총정리',
-  seoDescription: '기초연금 감액이 적용되는 국민연금 연계 감액, 부부 감액 기준을 설명하고, 수급액을 최대한 받을 수 있는 방법을 안내합니다. 감액 없이 전액 수령하는 조건도 확인하세요.',
+  seoTitle: '기초연금 감액 조건 - 국민연금 연계 감액, 부부 20% 감액 계산법',
+  seoDescription: '국민연금 수령액이 기초연금 기준액의 150%를 초과하면 연계 감액이 적용됩니다. 부부가 함께 수급하면 각자 수령액의 20%가 감액됩니다. 감액 없이 전액 수령하는 조건과 최소 수령액 보장 기준도 안내합니다.',
   category: 'pension-welfare',
   template: 'standard',
   targetUser: 'both',

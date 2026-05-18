@@ -3,8 +3,8 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'critical-illness-copay-reduction',
   title: '중증질환 산정특례 - 암·뇌혈관·심장질환 치료비를 5%로 낮추는 방법',
-  seoTitle: '중증질환 산정특례 신청 방법 - 암 치료비 본인부담 5%로 낮추기',
-  seoDescription: '암·뇌혈관·심장질환 진단 시 건강보험 본인부담률을 5~10%로 낮춰주는 산정특례 제도. 등록 절차, 적용 기간, 재등록 방법을 정리했습니다.',
+  seoTitle: '중증질환 산정특례 - 암·뇌혈관 본인부담 5%, 등록 방법과 5년 적용 기간',
+  seoDescription: '암·뇌혈관·심장·희귀질환을 진단받으면 건강보험 본인부담률이 5~10%로 낮아지는 산정특례를 등록할 수 있습니다. 담당 의사가 신청하거나 건강보험공단(1577-1000)에 직접 등록도 가능합니다. 적용 기간은 5년이며 재등록으로 연장할 수 있습니다.',
   category: 'health-care',
   template: 'policy',
   targetUser: 'both',

@@ -50,6 +50,8 @@ done | sort -t'(' -k2 -n
 - senior-welfare-center (2026-05-16 보강, 맞춤추천 list + 복지관 첫방문 text + 찾기 info + 신청주의 warning + FAQ 3개 추가, 79,082자)
 - senior-dental-coverage (2026-05-17 보강, 임플란트치료단계 numbered-list + 비용시뮬레이션 text + 급여비급여구분 list + 주의 warning + FAQ 3개 추가, 82,407자)
 - senior-transport-discount (2026-05-17 보강, 지역별버스현황 list + 항공여객선 info + 조합활용법 text + 이사주의 warning + FAQ 3개 추가, 78,267자)
+- senior-mental-health (2026-05-18 보강, 치매-우울증차이 text + 위험요인 list + 가족지원단계 numbered-list + 일상수칙 tip + FAQ 3개 추가, 85,725자)
+- senior-deposit-protection (2026-05-18 보강, 비보호상품안내 text + 불완전판매 warning + 분산단계 numbered-list + FAQ 2개 추가, 78,301자)
 
 ## 대상 글 (얇은 순서대로 작업)
 
