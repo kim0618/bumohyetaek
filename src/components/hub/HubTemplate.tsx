@@ -98,7 +98,7 @@ export default function HubTemplate({ hub, detail, articles, relatedDownloads }:
             {featuredArticles.map((article) => (
               <div
                 key={article.slug}
-                className="rounded-xl ring-2 ring-blue-200 bg-blue-50"
+                className="rounded-xl ring-2 ring-blue-200 bg-blue-50 [&>article]:h-full"
               >
                 <ArticleCard
                   item={article}

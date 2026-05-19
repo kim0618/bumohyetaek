@@ -51,10 +51,10 @@ export default function ArticleCard({ item, showBadge = true, isNew = false, sou
   }
 
   return (
-    <article className="card-link group p-0">
+    <article className="card-link group p-0 h-full">
       <Link
         href={`/guide/${item.slug}/`}
-        className="block p-5 no-underline text-inherit"
+        className="flex h-full flex-col p-5 no-underline text-inherit"
         onClick={handleClick}
       >
         {/* 배지 영역 */}
@@ -101,7 +101,7 @@ export default function ArticleCard({ item, showBadge = true, isNew = false, sou
         )}
 
         {/* 하단: 업데이트 날짜 + 더보기 */}
-        <div className="mt-3 flex items-center justify-between">
+        <div className="mt-auto pt-3 flex items-center justify-between">
           {item.updatedAt && (
             <span className="text-xs text-gray-500">
               {item.updatedAt.slice(0, 7).replace('-', '.')} 검토
