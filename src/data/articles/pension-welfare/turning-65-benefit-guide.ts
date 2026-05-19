@@ -35,6 +35,7 @@ const article: ContentItem = {
     'senior-customized-care',
     'national-health-checkup-guide',
     'senior-culture-voucher',
+    'nps-retirement-readiness-service',
   ],
   order: 48,
   isFeatured: false,

@@ -52,6 +52,8 @@ done | sort -t'(' -k2 -n
 - senior-transport-discount (2026-05-17 보강, 지역별버스현황 list + 항공여객선 info + 조합활용법 text + 이사주의 warning + FAQ 3개 추가, 78,267자)
 - senior-mental-health (2026-05-18 보강, 치매-우울증차이 text + 위험요인 list + 가족지원단계 numbered-list + 일상수칙 tip + FAQ 3개 추가, 85,725자)
 - senior-deposit-protection (2026-05-18 보강, 비보호상품안내 text + 불완전판매 warning + 분산단계 numbered-list + FAQ 2개 추가, 78,301자)
+- housing-benefit (2026-05-19 보강, 권역별 기준임대료 info + 권역분류 list + 실제 사례 text + 자주 헷갈리는 부분 warning + 관련 주거제도 info + FAQ 3개 추가, 81,685자)
+- senior-job-program (2026-05-19 보강, 유형별 참여 사례 text + 부가 혜택 list + 자주 헷갈리는 부분 warning + 관련 일자리 제도 info + FAQ 3개 추가, 82,262자)
 
 ## 대상 글 (얇은 순서대로 작업)
 

@@ -27,6 +27,7 @@ const article: ContentItem = {
     'basic-pension-reduction',
     'retirement-pension-irp',
     'pension-income-tax',
+    'nps-retirement-readiness-service',
   ],
   order: 49,
   officialSources: [
