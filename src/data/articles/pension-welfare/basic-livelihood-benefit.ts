@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'basic-livelihood-benefit',
   title: '기초생활수급자 신청 방법 - 생계·의료·주거급여 한번에 정리',
   seoTitle: '기초생활수급자 신청 방법 - 생계급여 의료급여 자격 조건',
-  seoDescription: '소득이 낮은 부모님이라면 기초생활수급자 신청으로 생계·의료·주거·교육급여를 받을 수 있습니다. 자격 조건과 신청 방법을 정리했습니다.',
+  seoDescription: '소득이 낮은 부모님이라면 기초생활수급자 신청으로 생계·의료·주거·교육급여를 받을 수 있습니다. 자격 조건과 신청 방법을 핵심만 짚었습니다.',
   category: 'pension-welfare',
   template: 'standard',
   targetUser: 'both',

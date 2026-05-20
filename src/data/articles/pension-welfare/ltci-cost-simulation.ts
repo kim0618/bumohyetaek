@@ -6,7 +6,7 @@ const article: ContentItem = {
   title: '장기요양 재가 vs 시설 비용 비교 - 3등급 기준 월 실비 시뮬레이션',
   seoTitle: '장기요양 재가 vs 요양원 비용 비교 - 등급별 월 실비 계산',
   seoDescription:
-    '장기요양 3등급 기준 재가급여 월 23만원 vs 요양원 입소 월 67만원. 서비스 조합별·소득 감경별 실제 납부액을 계산해 어떤 선택이 유리한지 정리했습니다.',
+    '장기요양 3등급 기준 재가급여 월 23만원 vs 요양원 입소 월 67만원. 서비스 조합별·소득 감경별 실제 납부액을 계산해 어떤 선택이 유리한지 한눈에 비교했습니다.',
   category: 'pension-welfare',
   template: 'comparison',
   targetUser: 'family',

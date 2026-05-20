@@ -5,7 +5,7 @@ const article: ContentItem = {
   slug: 'basic-pension-application',
   title: '기초연금 신청 방법과 수령 조건',
   seoTitle: '기초연금 신청 방법 - 자격 조건과 수령 금액',
-  seoDescription: '만 65세 이상 소득 하위 70%에 해당하면 기초연금을 받을 수 있습니다. 단독가구 최대 월 349,700원 수령 기준, 자격 조건, 주민센터·복지로 신청 방법을 정리했습니다.',
+  seoDescription: '만 65세 이상 소득 하위 70%에 해당하면 기초연금을 받을 수 있습니다. 단독가구 최대 월 349,700원 수령 기준, 자격 조건, 주민센터·복지로 신청 방법을 공식 기준으로 검증했습니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'senior',

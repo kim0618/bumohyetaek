@@ -5,7 +5,7 @@ const article: ContentItem = {
   slug: 'ltci-application-timing-guide',
   title: '장기요양 신청, 지금이 맞을까? - 신청 전 판단 기준 8가지',
   seoTitle: '장기요양 신청 타이밍 - 지금 해야 하는지 판단하는 8가지 기준',
-  seoDescription: '장기요양 신청 타이밍을 놓치면 서비스 공백이 생깁니다. 신청을 고려해야 하는 8가지 상황 신호, 등급 탈락 후 재신청 전략, 판정까지 걸리는 기간을 정리했습니다.',
+  seoDescription: '장기요양 신청 타이밍을 놓치면 서비스 공백이 생깁니다. 신청을 고려해야 하는 8가지 상황 신호, 등급 탈락 후 재신청 전략, 판정까지 걸리는 기간을 가족과 함께 챙기세요.',
   category: 'pension-welfare',
   template: 'checklist',
   targetUser: 'family',

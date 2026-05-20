@@ -296,7 +296,12 @@ python3 -c "import json,datetime; logs=json.load(open('/home/tjd618/skill-log.js
 
 작업 완료 시 `- {파일명} (YYYY-MM-DD, {카테고리}, {사용 어휘})` 형식으로 누적 기록.
 
-(아직 시작 전 - 5/22부터 추가)
+### 2026-05-20 (1일차, pension-welfare 5편)
+- basic-livelihood-benefit.ts (2026-05-20, pension-welfare, 핵심만 짚었습니다)
+- basic-pension-application.ts (2026-05-20, pension-welfare, 공식 기준으로 검증했습니다)
+- disability-registration.ts (2026-05-20, pension-welfare, 상황별로 살펴봤습니다)
+- ltci-application-timing-guide.ts (2026-05-20, pension-welfare, 가족과 함께 챙기세요)
+- ltci-cost-simulation.ts (2026-05-20, pension-welfare, 한눈에 비교했습니다)
 
 ---
 

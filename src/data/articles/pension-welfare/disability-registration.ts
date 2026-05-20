@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'disability-registration',
   title: '장애인 등록 방법과 복지 혜택 총정리',
   seoTitle: '장애인 등록 신청 방법 - 혜택과 복지카드 발급',
-  seoDescription: '장애 판정을 받았다면 장애인 등록으로 다양한 복지 혜택을 받을 수 있습니다. 등록 신청 절차, 장애 정도 심사, 복지카드 발급 방법과 주요 혜택을 정리했습니다.',
+  seoDescription: '장애 판정을 받았다면 장애인 등록으로 다양한 복지 혜택을 받을 수 있습니다. 등록 신청 절차, 장애 정도 심사, 복지카드 발급 방법과 주요 혜택을 상황별로 살펴봤습니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',
