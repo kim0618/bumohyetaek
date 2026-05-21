@@ -125,7 +125,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었습니다. 기초연금 기준연금액과 감액 기준은 매년 물가 등에 따라 조정되므로 국민연금공단(☎ 1355) 또는 복지로에서 최신 금액을 확인하세요.',
 
-  relatedSlugs: ['basic-pension-application', 'national-pension-timing', 'survivor-pension', 'near-poverty-benefits', 'basic-pension-national-pension-simulation'],
+  relatedSlugs: ['basic-pension-application', 'national-pension-timing', 'survivor-pension', 'near-poverty-benefits', 'basic-pension-national-pension-simulation', 'special-occupation-pension-basic-pension'],
 };
 
 export default article;

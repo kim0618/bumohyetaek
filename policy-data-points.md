@@ -558,6 +558,12 @@
 - /refresh 스킬 도입 준비
 - 첫 가동 대기 (5/8 audit 1차 완료 후)
 
+### 2026-05-21 - 신규 글 등록 (special-occupation-pension-basic-pension)
+- 신규 글 등록: special-occupation-pension-basic-pension (직역연금 수급자 기초연금 제외 조건 및 예외)
+- **영향 글 추가** (검색 패턴 매칭):
+  - 1.2 기초연금 선정기준액 (단독 247만원) ← special-occupation-pension-basic-pension
+  - 1.3 기초연금 선정기준액 (부부 395.2만원) ← special-occupation-pension-basic-pension
+
 ### 2026-05-16 - 신규 글 등록 (ltci-family-caregiver-benefit)
 - 영향 글 추가: [3.9 가족요양비] ← ltci-family-caregiver-benefit (233,400원/월 사용)
 

@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'health-insurance-premium-reduction',
   title: '건강보험료 경감 제도 - 저소득·장기요양·재난 감면 혜택',
   seoTitle: '건강보험료 경감 - 저소득 노인 감면 신청 방법',
-  seoDescription: '소득이 낮거나 장기 입원 중이라면 건강보험료를 최대 50% 경감받을 수 있습니다. 경감 대상, 신청 방법, 피부양자 등록 방법을 정리했습니다.',
+  seoDescription: '소득이 낮거나 장기 입원 중이라면 건강보험료를 최대 50% 경감받을 수 있습니다. 경감 대상, 신청 방법, 피부양자 등록 방법을 신청 전 확인하세요.',
   category: 'health-care',
   template: 'policy',
   targetUser: 'both',

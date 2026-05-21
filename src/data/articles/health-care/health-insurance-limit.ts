@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'health-insurance-limit',
   title: '건강보험 본인부담 상한제 - 병원비 환급받는 방법',
   seoTitle: '건강보험 본인부담 상한제 - 병원비 환급 신청 방법',
-  seoDescription: '연간 병원비가 일정 금액을 초과하면 건강보험공단에서 초과분을 돌려줍니다. 소득분위별 상한액, 환급 신청 방법, 자동 지급 여부를 정리했습니다.',
+  seoDescription: '연간 병원비가 일정 금액을 초과하면 건강보험공단에서 초과분을 돌려줍니다. 소득분위별 상한액, 환급 신청 방법, 자동 지급 여부를 공식 기준으로 검증했습니다.',
   category: 'health-care',
   template: 'policy',
   targetUser: 'both',
@@ -14,7 +14,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '1년 동안 병원비 본인부담금이 소득에 따른 상한액을 초과하면 건강보험공단이 초과분을 돌려줍니다. 소득분위별 상한액과 환급 신청 방법을 정리했습니다.',
+    '1년 동안 병원비 본인부담금이 소득에 따른 상한액을 초과하면 건강보험공단이 초과분을 돌려줍니다. 소득분위별 상한액과 환급 신청 방법을 핵심만 짚었습니다.',
   heroDescription:
     '큰 병에 걸리거나 장기 입원 시 병원비 걱정이 많습니다. 건강보험 본인부담 상한제를 알면 과도하게 낸 병원비를 돌려받을 수 있습니다.',
 

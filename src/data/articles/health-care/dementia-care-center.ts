@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'dementia-care-center',
   title: '치매안심센터 무료 서비스 이용 방법',
   seoTitle: '치매안심센터 이용 방법 - 무료 검진과 가족 지원',
-  seoDescription: '전국 256개 치매안심센터에서 치매 조기 검진과 돌봄 가족 지원을 무료로 받을 수 있습니다. 방문 절차, 인지선별검사, 치매 등록 후 약제비 지원 혜택을 정리했습니다.',
+  seoDescription: '전국 256개 치매안심센터에서 치매 조기 검진과 돌봄 가족 지원을 무료로 받을 수 있습니다. 방문 절차, 인지선별검사, 치매 등록 후 약제비 지원 혜택을 가족과 함께 챙기세요.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'family',

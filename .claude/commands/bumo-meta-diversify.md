@@ -303,6 +303,13 @@ python3 -c "import json,datetime; logs=json.load(open('/home/tjd618/skill-log.js
 - ltci-application-timing-guide.ts (2026-05-20, pension-welfare, 가족과 함께 챙기세요)
 - ltci-cost-simulation.ts (2026-05-20, pension-welfare, 한눈에 비교했습니다)
 
+### 2026-05-21 (2일차, health-care 5편)
+- health-insurance-limit.ts (2026-05-21, health-care, 공식 기준으로 검증했습니다 / summary: 핵심만 짚었습니다)
+- health-insurance-premium-reduction.ts (2026-05-21, health-care, 신청 전 확인하세요)
+- care-facility-comparison.ts (2026-05-21, health-care, 한눈에 비교했습니다 / summary: 상황별로 살펴봤습니다)
+- dementia-care-center.ts (2026-05-21, health-care, 가족과 함께 챙기세요)
+- senior-80s-care-roadmap.ts (2026-05-21, health-care, 미리 준비해 두세요 / summary: 가족과 함께 챙기세요)
+
 ---
 
 $ARGUMENTS

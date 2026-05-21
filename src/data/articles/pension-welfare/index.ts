@@ -56,6 +56,7 @@ import ltciVsCustomizedCareComparison from './ltci-vs-customized-care-comparison
 import ltciGradeReapplication from './ltci-grade-reapplication';
 import ltciFamilyCaregiverBenefit from './ltci-family-caregiver-benefit';
 import npsRetirementReadinessService from './nps-retirement-readiness-service';
+import specialOccupationPensionBasicPension from './special-occupation-pension-basic-pension';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -114,4 +115,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   ltciGradeReapplication,
   ltciFamilyCaregiverBenefit,
   npsRetirementReadinessService,
+  specialOccupationPensionBasicPension,
 ];
