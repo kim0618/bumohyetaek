@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'ltci-family-caregiver-benefit',
   title: '장기요양 가족요양비 신청 가이드 - 가족이 직접 돌볼 때 받는 현금급여',
   seoTitle: '장기요양 가족요양비 신청 방법과 지급 조건 - 월 233,400원',
-  seoDescription: '도서·벽지 거주 또는 특수 사유로 장기요양기관 이용이 어려운 경우, 가족이 직접 돌봄을 제공하면 월 233,400원의 가족요양비를 받을 수 있습니다. 지급 조건, 신청 절차, 가족인 요양보호사와의 차이를 정리했습니다.',
+  seoDescription: '도서·벽지 거주 또는 특수 사유로 장기요양기관 이용이 어려운 경우, 가족이 직접 돌봄을 제공하면 월 233,400원의 가족요양비를 받을 수 있습니다. 지급 조건, 신청 절차, 가족인 요양보호사와의 차이를 신청 전 확인하세요.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'family',

@@ -558,6 +558,11 @@
 - /refresh 스킬 도입 준비
 - 첫 가동 대기 (5/8 audit 1차 완료 후)
 
+### 2026-05-22 - 신규 글 등록 (severance-midterm-settlement)
+- 신규 글 등록: severance-midterm-settlement (퇴직금 중간정산 조건·세금·근속연수 리셋)
+- 수치 매칭 결과: 근속연수공제(100만/200만/250만/300만 원/년)는 소득세법 법정 조항으로 마스터 리스트 별도 등록 보류
+- 영향 글 추가: 없음 (기존 항목과 겹치는 정책 수치 없음)
+
 ### 2026-05-21 - 신규 글 등록 (special-occupation-pension-basic-pension)
 - 신규 글 등록: special-occupation-pension-basic-pension (직역연금 수급자 기초연금 제외 조건 및 예외)
 - **영향 글 추가** (검색 패턴 매칭):

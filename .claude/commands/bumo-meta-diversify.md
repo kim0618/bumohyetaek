@@ -310,6 +310,13 @@ python3 -c "import json,datetime; logs=json.load(open('/home/tjd618/skill-log.js
 - dementia-care-center.ts (2026-05-21, health-care, 가족과 함께 챙기세요)
 - senior-80s-care-roadmap.ts (2026-05-21, health-care, 미리 준비해 두세요 / summary: 가족과 함께 챙기세요)
 
+### 2026-05-22 (3일차, pension-welfare 5편)
+- energy-voucher.ts (2026-05-22, pension-welfare, 핵심만 짚었습니다)
+- housing-benefit.ts (2026-05-22, pension-welfare, 공식 기준으로 검증했습니다 / summary: 신청 전 확인하세요)
+- lonely-senior-support.ts (2026-05-22, pension-welfare, 상황별로 살펴봤습니다)
+- ltci-bath-nursing-service.ts (2026-05-22, pension-welfare, 가족과 함께 챙기세요)
+- ltci-family-caregiver-benefit.ts (2026-05-22, pension-welfare, 신청 전 확인하세요)
+
 ---
 
 $ARGUMENTS

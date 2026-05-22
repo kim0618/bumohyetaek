@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'energy-voucher',
   title: '에너지바우처·난방비 지원 - 저소득 어르신 신청 방법',
   seoTitle: '에너지바우처 신청 방법 - 저소득 노인 난방비 지원',
-  seoDescription: '기초생활수급자·차상위계층 어르신은 에너지바우처로 전기·가스·등유 요금을 지원받을 수 있습니다. 신청 자격과 방법을 정리했습니다.',
+  seoDescription: '기초생활수급자·차상위계층 어르신은 에너지바우처로 전기·가스·등유 요금을 지원받을 수 있습니다. 신청 자격과 방법의 핵심만 짚었습니다.',
   category: 'pension-welfare',
   template: 'standard',
   targetUser: 'both',

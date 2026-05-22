@@ -56,6 +56,7 @@ import retirementPension3wayComparison from './retirement-pension-3way-compariso
 import inheritancePartitionGuide from './inheritance-partition-guide';
 import irpPensionSavingsComparison from './irp-pension-savings-comparison';
 import pensionIncomeSequence from './pension-income-sequence';
+import severanceMidtermSettlement from './severance-midterm-settlement';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -114,5 +115,6 @@ export const financeSafetyArticles: ContentItem[] = [
   inheritancePartitionGuide,
   irpPensionSavingsComparison,
   pensionIncomeSequence,
+  severanceMidtermSettlement,
 ];
 

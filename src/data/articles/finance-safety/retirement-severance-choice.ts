@@ -29,11 +29,11 @@ const article: ContentItem = {
   hubKey: ['retirement-income', 'financial-safety'],
 
   relatedSlugs: [
+    'severance-midterm-settlement',
     'retirement-pension-irp',
     'retirement-budget-planning',
     'pension-income-tax',
     'national-pension-timing',
-    'senior-tax-benefit',
   ],
 
   relatedCalculator: {

@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'housing-benefit',
   title: '주거급여 신청 방법과 지원 금액 안내',
   seoTitle: '주거급여 신청 방법 - 대상·금액·신청 절차 총정리',
-  seoDescription: '기준 중위소득 48% 이하 가구라면 주거급여를 신청할 수 있습니다. 임차료 지원 금액, 자가 주택 수선비 기준, 주민센터 신청 방법을 한눈에 정리했습니다.',
+  seoDescription: '기준 중위소득 48% 이하 가구라면 주거급여를 신청할 수 있습니다. 임차료 지원 금액, 자가 주택 수선비 기준, 주민센터 신청 방법까지 공식 기준으로 검증했습니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',
@@ -15,7 +15,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '주거급여는 저소득 가구에 임차료 또는 집수리 비용을 지원하는 복지 제도입니다. 선정 요건과 지원 금액, 신청 방법을 정리했습니다.',
+    '주거급여는 저소득 가구에 임차료 또는 집수리 비용을 지원하는 복지 제도입니다. 선정 요건과 지원 금액, 절차까지 신청 전 확인하세요.',
   heroDescription:
     '주거급여는 기준 중위소득 48% 이하 가구에 임차료 또는 주택 수선비를 지원하는 국가 복지 제도입니다. 어르신 단독 가구도 신청할 수 있으며 매달 통장으로 임차료가 입금됩니다.',
 

@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'lonely-senior-support',
   title: '독거노인 종합지원 서비스 안내 - 신청 방법과 혜택 총정리',
   seoTitle: '독거노인 종합지원 서비스 신청 방법 - 돌봄, 안전, 응급 서비스',
-  seoDescription: '혼자 사는 어르신을 위한 독거노인 종합지원 서비스를 안내합니다. 안전 확인, 돌봄 서비스, 응급 알림, 일상생활 지원까지 신청 방법과 혜택을 한번에 정리했습니다.',
+  seoDescription: '혼자 사는 어르신을 위한 독거노인 종합지원 서비스를 안내합니다. 안전 확인, 돌봄 서비스, 응급 알림, 일상생활 지원까지 신청 방법과 혜택을 상황별로 살펴봤습니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',
