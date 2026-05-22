@@ -14,6 +14,14 @@ bumohyetaek 146편의 `seoDescription`·`summary` 마무리가 단 2개 어휘("
 - ❌ `seoTitle` 변경 금지 (영향 범위 너무 큼, 그대로 둔다)
 - ❌ `updatedAt`/`effectiveDate`/`reviewStatus` 변경 금지 (sitemap lastmod 변동 회피)
 - ❌ 본문 `sections` 변경 금지
+- ❌ **5/18 메타 2차 변경 7편 제외** (한 달 내 3회 변경 시 재평가 기간 누적되어 노출 회복 지연). 5/15~5/21 GSC 노출이 -95% 빠진 원인이 이 7편의 동시 메타 변경이므로, 회복 전까지 재변경 금지:
+  - seizure-protected-account.ts
+  - critical-illness-copay-reduction.ts
+  - home-visiting-care.ts
+  - national-pension-credit.ts
+  - national-pension-increase-strategy.ts
+  - basic-pension-reduction.ts
+  - national-pension-work-deduction.ts
 
 ## 캠페인 일정
 
@@ -83,6 +91,17 @@ import os, re, glob, datetime
 
 base = '/home/tjd618/bumohyetaek/src/data/articles'
 
+# 5/18 메타 2차 변경 7편 (한 달 내 3회 변경 회피, 재평가 기간 누적 방지)
+EXCLUDED_SLUGS = {
+    'seizure-protected-account.ts',
+    'critical-illness-copay-reduction.ts',
+    'home-visiting-care.ts',
+    'national-pension-credit.ts',
+    'national-pension-increase-strategy.ts',
+    'basic-pension-reduction.ts',
+    'national-pension-work-deduction.ts',
+}
+
 # 날짜 -> 카테고리 + 할당량 자동 매핑
 today = datetime.date.today().strftime('%m-%d')
 schedule = {
@@ -115,6 +134,7 @@ for cat, limit in quota.items():
     candidates = []
     for f in files:
         fname = os.path.basename(f)
+        if fname in EXCLUDED_SLUGS: continue  # 5/18 메타 2차 변경분 제외
         if f'- {fname} (' in done_section: continue  # 엄밀한 감지 (오탐 방지)
         c = open(f).read()
         desc_m = re.search(r"seoDescription:\s*['\"]([^'\"]*)['\"]", c)
