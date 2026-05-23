@@ -57,6 +57,7 @@ import seniorBedsorePrevention from './senior-bedsore-prevention';
 import seniorAtrialFibrillation from './senior-atrial-fibrillation';
 import seniorGoutManagement from './senior-gout-management';
 import seniorAnemiaManagement from './senior-anemia-management';
+import seniorHipFracture from './senior-hip-fracture';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -116,4 +117,5 @@ export const healthCareArticles: ContentItem[] = [
   seniorAtrialFibrillation,
   seniorGoutManagement,
   seniorAnemiaManagement,
+  seniorHipFracture,
 ];

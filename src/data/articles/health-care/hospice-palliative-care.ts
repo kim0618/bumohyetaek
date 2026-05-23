@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'hospice-palliative-care',
   title: '호스피스-완화의료 이용 안내 - 대상, 유형, 신청 방법',
   seoTitle: '호스피스-완화의료 이용 안내 - 대상과 신청 방법',
-  seoDescription: '말기 암 등 생명을 위협하는 질환 환자와 가족을 위한 호스피스-완화의료 서비스를 안내합니다. 입원형, 가정형, 자문형 유형별 차이와 건강보험 적용 범위를 정리했습니다.',
+  seoDescription: '말기 암 등 생명을 위협하는 질환 환자와 가족을 위한 호스피스-완화의료의 입원형, 가정형, 자문형 유형별 차이와 건강보험 적용 범위를 상황별로 살펴봤습니다.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'family',

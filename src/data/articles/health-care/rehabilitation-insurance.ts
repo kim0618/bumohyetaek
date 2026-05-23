@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'rehabilitation-insurance',
   title: '재활치료 건강보험 적용 범위와 절차',
   seoTitle: '재활치료 건강보험 적용 - 급여 항목과 신청 절차',
-  seoDescription: '뇌졸중, 골절, 관절 수술 후 재활치료에 건강보험이 적용됩니다. 급여 항목, 산정특례, 입원-외래 차이, 요양병원 재활 기준을 정리했습니다.',
+  seoDescription: '뇌졸중, 골절, 관절 수술 후 재활치료에 건강보험이 적용됩니다. 급여 항목, 산정특례, 입원-외래 차이, 요양병원 재활 적용 범위를 공식 기준으로 검증했습니다.',
   category: 'health-care',
   template: 'policy',
   targetUser: 'family',
@@ -14,7 +14,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '뇌졸중, 골절, 관절 수술 후 재활치료는 건강보험이 적용되어 비용 부담을 줄일 수 있습니다. 급여 항목과 산정특례 제도, 입원-외래 차이를 안내합니다.',
+    '뇌졸중, 골절, 관절 수술 후 재활치료는 건강보험이 적용되어 비용 부담을 줄일 수 있습니다. 급여 항목과 산정특례 제도, 입원-외래 차이를 신청 전 확인하세요.',
   heroDescription:
     '재활치료는 수술이나 뇌졸중 후 일상생활 복귀를 위해 반드시 필요합니다. 어떤 치료가 건강보험에 적용되는지, 어떻게 비용을 줄일 수 있는지 정리했습니다.',
 
@@ -123,7 +123,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 건강보험심사평가원 및 국민건강보험공단 안내를 바탕으로 작성되었습니다. 급여 기준과 산정특례 적용 범위는 변경될 수 있으므로 담당 의사 또는 건강보험공단(1577-1000)에서 확인하세요.',
 
-  relatedSlugs: ['health-insurance-limit', 'long-term-care-grade', 'home-visiting-care', 'senior-copd-management'],
+  relatedSlugs: ['senior-hip-fracture', 'health-insurance-limit', 'long-term-care-grade', 'home-visiting-care'],
 };
 
 export default article;

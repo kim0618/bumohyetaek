@@ -5,7 +5,7 @@ const article: ContentItem = {
   slug: 'care-type-selection',
   title: '재가급여 vs 시설급여 - 부모님 상황에 맞는 장기요양 서비스 선택',
   seoTitle: '재가급여 시설급여 차이 - 장기요양 서비스 선택 가이드',
-  seoDescription: '장기요양 등급을 받은 후 재가급여(집에서 돌봄)와 시설급여(요양원 입소) 중 선택해야 합니다. 비용과 서비스 차이, 선택 기준을 정리했습니다.',
+  seoDescription: '장기요양 등급을 받은 후 재가급여(집에서 돌봄)와 시설급여(요양원 입소) 중 선택해야 합니다. 비용과 서비스 차이, 선택 기준을 한눈에 비교했습니다.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'family',

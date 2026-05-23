@@ -29,11 +29,11 @@ const article: ContentItem = {
   hubKey: ['health-checkup'],
 
   relatedSlugs: [
+    'senior-hip-fracture',
     'senior-fall-prevention',
     'senior-knee-surgery',
     'national-health-checkup-guide',
     'senior-exercise-guide',
-    'senior-nutrition-guide',
   ],
 
   officialSources: [

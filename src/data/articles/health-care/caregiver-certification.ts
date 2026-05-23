@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'caregiver-certification',
   title: '요양보호사 자격증 취득 방법과 시험 준비 및 응시 절차 완전 안내',
   seoTitle: '요양보호사 자격증 취득 방법 - 교육 시간·시험·비용 총정리',
-  seoDescription: '요양보호사 자격증 취득에 필요한 교육 시간, 시험 과목, 응시 자격, 비용, 취업 연계까지 단계별로 정리했습니다. 가족을 돌보는 분들도 참고하세요.',
+  seoDescription: '요양보호사 자격증 취득에 필요한 교육 시간, 시험 과목, 응시 자격, 비용, 가족 요양보호 활용 방법까지 핵심만 짚었습니다.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'family',
@@ -14,7 +14,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '요양보호사 자격증은 노인 돌봄 현장 취업과 가족 요양보호에 필수 자격입니다. 교육 시간, 시험 일정, 비용, 국비 지원 여부까지 취득 절차를 상세히 안내합니다.',
+    '요양보호사 자격증은 노인 돌봄 현장 취업과 가족 요양보호에 필수 자격입니다. 교육 시간, 시험 일정, 비용, 국비 지원 여부까지 취득 절차를 미리 준비해 두세요.',
 
   heroDescription:
     '부모님을 직접 돌보거나 요양 분야에 취업을 원한다면 요양보호사 자격증이 첫걸음입니다.',

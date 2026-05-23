@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'advance-directive',
   title: '사전연명의료의향서 작성 방법과 등록 절차 및 신청 자격 완전 안내',
   seoTitle: '사전연명의료의향서 작성 방법 - 등록 절차와 필요 서류 안내',
-  seoDescription: '사전연명의료의향서 작성 방법, 등록기관, 필요 서류, 처리 기간, 취소·변경 방법까지 단계별로 정리했습니다. 연명의료 결정에 대해 미리 준비하세요.',
+  seoDescription: '사전연명의료의향서 작성 방법, 등록기관, 필요 서류, 처리 기간, 취소·변경 방법까지 단계별로 정리했습니다. 연명의료 결정에 대해 미리 준비해 두세요.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'senior',
@@ -14,7 +14,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '사전연명의료의향서는 임종 과정에서 연명의료를 받을지 미리 결정해두는 법적 문서입니다. 등록기관 방문부터 작성, 보관, 취소·변경까지 전 과정을 안내합니다.',
+    '사전연명의료의향서는 임종 과정에서 연명의료를 받을지 미리 결정해두는 법적 문서입니다. 등록기관 방문부터 작성, 보관, 취소·변경까지 전 과정을 핵심만 짚었습니다.',
 
   heroDescription:
     '연명의료에 대한 내 의사를 미리 남겨두는 것은 존엄한 삶의 마무리를 위한 소중한 준비입니다.',

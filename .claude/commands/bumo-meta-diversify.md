@@ -337,6 +337,13 @@ python3 -c "import json,datetime; logs=json.load(open('/home/tjd618/skill-log.js
 - ltci-bath-nursing-service.ts (2026-05-22, pension-welfare, 가족과 함께 챙기세요)
 - ltci-family-caregiver-benefit.ts (2026-05-22, pension-welfare, 신청 전 확인하세요)
 
+### 2026-05-23 (4일차, health-care 5편)
+- advance-directive.ts (2026-05-23, health-care, 미리 준비해 두세요 / summary: 핵심만 짚었습니다)
+- care-type-selection.ts (2026-05-23, health-care, 한눈에 비교했습니다)
+- caregiver-certification.ts (2026-05-23, health-care, 핵심만 짚었습니다 / summary: 미리 준비해 두세요)
+- hospice-palliative-care.ts (2026-05-23, health-care, 상황별로 살펴봤습니다)
+- rehabilitation-insurance.ts (2026-05-23, health-care, 공식 기준으로 검증했습니다 / summary: 신청 전 확인하세요)
+
 ---
 
 $ARGUMENTS
