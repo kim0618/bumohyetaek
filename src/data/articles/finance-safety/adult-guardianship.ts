@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'adult-guardianship',
   title: '성년후견제도 - 치매 부모님 재산 관리 방법',
   seoTitle: '성년후견제도 신청 방법 - 치매 부모님 재산 보호하기',
-  seoDescription: '치매로 의사 결정이 어려운 부모님을 위해 성년후견 또는 임의후견을 신청할 수 있습니다. 법원 신청 방법, 비용, 후견인의 역할을 정리했습니다.',
+  seoDescription: '치매로 의사 결정이 어려운 부모님을 위해 성년후견 또는 임의후견을 신청할 수 있습니다. 법원 신청 방법, 비용, 후견인의 역할을 신청 전 확인하세요.',
   category: 'finance-safety',
   template: 'policy',
   targetUser: 'both',
@@ -14,7 +14,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '치매나 뇌졸중으로 의사 결정 능력이 떨어진 부모님의 재산을 법적으로 보호하려면 성년후견제도를 활용할 수 있습니다. 종류와 신청 방법을 안내합니다.',
+    '치매나 뇌졸중으로 의사 결정 능력이 떨어진 부모님의 재산을 법적으로 보호하려면 성년후견제도를 활용할 수 있습니다. 종류와 신청 방법을 상황별로 살펴봤습니다.',
   heroDescription:
     '성년후견제도는 치매·뇌졸중 등으로 혼자 판단하기 어려운 어르신의 재산과 신상을 가족이나 전문가가 법적으로 관리할 수 있도록 돕는 제도입니다.',
 

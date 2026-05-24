@@ -141,7 +141,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 5월 기준으로 작성되었습니다. 농지 평가액 한도, 월 수령액, 자격 요건은 변경될 수 있으니 신청 전 농지은행 통합콜센터(☎ 1577-7770) 또는 농지연금포털(fplove.or.kr)에서 최신 내용을 확인하세요.',
 
-  relatedSlugs: ['housing-pension', 'national-pension-additional', 'retirement-finance-checklist', 'retirement-budget-planning'],
+  relatedSlugs: ['housing-farmland-pension-comparison', 'housing-pension', 'retirement-finance-checklist', 'retirement-budget-planning'],
 };
 
 export default article;

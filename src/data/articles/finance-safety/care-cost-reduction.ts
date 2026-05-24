@@ -5,7 +5,7 @@ const article: ContentItem = {
   slug: 'care-cost-reduction',
   title: '간병비 부담 줄이는 방법 총정리 - 지원 제도와 절약법',
   seoTitle: '간병비 부담 줄이는 방법 - 장기요양보험·간병비 지원 총정리',
-  seoDescription: '간병비는 노인 가구 최대 경제적 부담 중 하나입니다. 국가 지원 제도, 장기요양보험 활용법, 비용 절약 전략을 정리했습니다.',
+  seoDescription: '간병비는 노인 가구 최대 경제적 부담 중 하나입니다. 국가 지원 제도, 장기요양보험 활용법, 비용 절약 전략을 핵심만 짚었습니다.',
   category: 'finance-safety',
   template: 'standard',
   targetUser: 'both',
@@ -15,7 +15,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '간병비 부담이 크다면 장기요양보험과 각종 지원 제도를 먼저 활용하세요. 등급별 혜택, 간병비 절약법, 정부 지원 서비스를 한 번에 정리했습니다.',
+    '간병비 부담이 크다면 장기요양보험과 각종 지원 제도를 먼저 활용하세요. 등급별 혜택, 간병비 절약법, 정부 지원 서비스를 부모님 상황별로 비교해 보세요.',
   heroDescription:
     '간병비는 노인 의료비 중 가장 큰 부담 중 하나입니다. 장기요양등급을 받으면 방문요양, 요양보호사, 가족요양비 등 공적 지원을 활용해 간병 비용을 크게 줄일 수 있습니다. 지원 제도와 절약법을 정리했습니다.',
 

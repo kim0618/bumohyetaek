@@ -57,6 +57,7 @@ import inheritancePartitionGuide from './inheritance-partition-guide';
 import irpPensionSavingsComparison from './irp-pension-savings-comparison';
 import pensionIncomeSequence from './pension-income-sequence';
 import severanceMidtermSettlement from './severance-midterm-settlement';
+import housingFarmlandPensionComparison from './housing-farmland-pension-comparison';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -116,5 +117,6 @@ export const financeSafetyArticles: ContentItem[] = [
   irpPensionSavingsComparison,
   pensionIncomeSequence,
   severanceMidtermSettlement,
+  housingFarmlandPensionComparison,
 ];
 

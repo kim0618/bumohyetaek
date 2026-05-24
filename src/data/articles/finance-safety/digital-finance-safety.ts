@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'digital-finance-safety',
   title: '노인 모바일뱅킹 안전 이용 가이드 - 사기 예방과 설정법',
   seoTitle: '노인 모바일뱅킹 안전 이용법 - 사기 예방·보안 설정 가이드',
-  seoDescription: '부모님이 스마트폰 뱅킹을 이용한다면 보안 설정과 사기 예방 방법을 꼭 알려드리세요. 안전한 모바일뱅킹 설정 방법과 노인 맞춤 주의사항을 정리했습니다.',
+  seoDescription: '부모님이 스마트폰 뱅킹을 이용한다면 보안 설정과 사기 예방 방법을 꼭 알려드리세요. 안전한 모바일뱅킹 설정 방법과 노인 맞춤 주의사항을 부모님 상황별로 비교해 보세요.',
   category: 'finance-safety',
   template: 'standard',
   targetUser: 'both',

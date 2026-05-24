@@ -344,6 +344,13 @@ python3 -c "import json,datetime; logs=json.load(open('/home/tjd618/skill-log.js
 - hospice-palliative-care.ts (2026-05-23, health-care, 상황별로 살펴봤습니다)
 - rehabilitation-insurance.ts (2026-05-23, health-care, 공식 기준으로 검증했습니다 / summary: 신청 전 확인하세요)
 
+### 2026-05-24 (5일차, finance-safety 5편)
+- adult-guardianship.ts (2026-05-24, finance-safety, 신청 전 확인하세요 / summary: 상황별로 살펴봤습니다)
+- care-cost-reduction.ts (2026-05-24, finance-safety, 핵심만 짚었습니다 / summary: 부모님 상황별로 비교해 보세요)
+- dementia-financial-management.ts (2026-05-24, finance-safety, 가족과 함께 챙기세요)
+- digital-finance-safety.ts (2026-05-24, finance-safety, 부모님 상황별로 비교해 보세요)
+- emergency-medical-fund.ts (2026-05-24, finance-safety, 미리 준비해 두세요)
+
 ---
 
 $ARGUMENTS

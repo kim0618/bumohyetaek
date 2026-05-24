@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'emergency-medical-fund',
   title: '긴급 의료비 지원과 대출 제도 - 갑작스러운 입원에 대비하기',
   seoTitle: '긴급 의료비 지원 제도 - 의료비 대출 긴급복지 재난적의료비',
-  seoDescription: '갑작스러운 입원이나 수술로 의료비 부담이 클 때 활용할 수 있는 긴급복지 의료지원, 재난적 의료비, 의료비 대출 제도를 총정리했습니다.',
+  seoDescription: '갑작스러운 입원이나 수술로 의료비 부담이 클 때 활용할 수 있는 긴급복지 의료지원, 재난적 의료비, 의료비 대출 제도를 미리 준비해 두세요.',
   category: 'finance-safety',
   template: 'policy',
   targetUser: 'both',

@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'dementia-financial-management',
   title: '치매 부모님 금융 관리 - 사전에 준비해야 할 것들',
   seoTitle: '치매 부모님 통장 관리 - 금융 사전 준비와 피해 예방',
-  seoDescription: '치매가 진행되면 금융 사기 피해와 재산 분실 위험이 높아집니다. 사전에 준비할 수 있는 금융 관리 방법과 제도를 정리했습니다.',
+  seoDescription: '치매가 진행되면 금융 사기 피해와 재산 분실 위험이 높아집니다. 사전에 준비할 수 있는 금융 관리 방법과 제도를 가족과 함께 챙기세요.',
   category: 'finance-safety',
   template: 'standard',
   targetUser: 'family',
