@@ -5,7 +5,7 @@ const article: ContentItem = {
   title: '장기요양 등급 갱신 신청 방법 - 유효기간 만료 전 체크리스트',
   seoTitle: '장기요양 등급 갱신 신청 - 유효기간·서류·절차 총정리',
   seoDescription:
-    '장기요양 등급은 유효기간이 끝나기 전에 반드시 갱신 신청해야 합니다. 등급별 유효기간, 신청 가능 시기, 필요 서류, 이의신청 방법을 정리했습니다.',
+    '장기요양 등급은 유효기간이 끝나기 전에 반드시 갱신 신청해야 합니다. 등급별 유효기간, 신청 가능 시기, 필요 서류, 이의신청 방법을 미리 준비해 두세요.',
   category: 'pension-welfare',
   template: 'checklist',
   targetUser: 'family',
@@ -15,7 +15,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '장기요양 등급은 유효기간이 있어서 만료 전에 갱신 신청을 해야 서비스가 끊기지 않습니다. 등급별 유효기간(1등급 5년, 2~4등급 4년, 5등급·인지지원 2년)과 신청 절차, 이의신청 방법을 정리했습니다.',
+    '장기요양 등급은 유효기간이 있어서 만료 전에 갱신 신청을 해야 서비스가 끊기지 않습니다. 등급별 유효기간(1등급 5년, 2~4등급 4년, 5등급·인지지원 2년)과 신청 절차, 이의신청 방법을 가족과 함께 챙기세요.',
 
   heroDescription:
     '부모님이 장기요양 등급을 받으셨더라도, 유효기간 안에 갱신 신청을 하지 않으면 서비스가 자동으로 중단됩니다. 만료 90일 전부터 신청이 가능하며, 갱신을 놓치면 처음부터 다시 신청해야 합니다.',
@@ -31,10 +31,10 @@ const article: ContentItem = {
   hubKey: ['prepare-care', 'government-benefits'],
 
   relatedSlugs: [
+    'ltci-not-eligible-alternatives',
     'long-term-care-grade',
     'ltci-application-timing-guide',
     'ltci-cost-simulation',
-    'care-type-selection',
   ],
 
   order: 54,

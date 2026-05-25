@@ -351,6 +351,13 @@ python3 -c "import json,datetime; logs=json.load(open('/home/tjd618/skill-log.js
 - digital-finance-safety.ts (2026-05-24, finance-safety, 부모님 상황별로 비교해 보세요)
 - emergency-medical-fund.ts (2026-05-24, finance-safety, 미리 준비해 두세요)
 
+### 2026-05-25 (6일차, pension-welfare 5편)
+- ltci-grade-reapplication.ts (2026-05-25, pension-welfare, 미리 준비해 두세요 / summary: 가족과 함께 챙기세요)
+- ltci-not-eligible-alternatives.ts (2026-05-25, pension-welfare, 가족과 함께 챙기세요)
+- ltci-welfare-equipment.ts (2026-05-25, pension-welfare, 신청 전 확인하세요)
+- medical-aid-system.ts (2026-05-25, pension-welfare, 공식 기준으로 검증했습니다 / summary: 핵심만 짚었습니다)
+- national-pension-timing.ts (2026-05-25, pension-welfare, 부모님 상황별로 비교해 보세요 / summary: 한눈에 비교했습니다)
+
 ---
 
 $ARGUMENTS

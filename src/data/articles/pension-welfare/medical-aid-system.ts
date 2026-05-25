@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'medical-aid-system',
   title: '의료급여 1종·2종 혜택 - 기초수급자 병원비 지원',
   seoTitle: '의료급여 1종 2종 - 기초수급자 병원비 지원과 신청 방법',
-  seoDescription: '기초생활수급자로 선정되면 의료급여 1종 또는 2종을 받아 병원비를 거의 내지 않을 수 있습니다. 1종·2종 구분, 본인 부담금, 신청 방법을 정리했습니다.',
+  seoDescription: '기초생활수급자로 선정되면 의료급여 1종 또는 2종을 받아 병원비를 거의 내지 않을 수 있습니다. 1종·2종 구분, 본인 부담금, 신청 방법을 공식 기준으로 검증했습니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',
@@ -14,7 +14,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '기초생활수급자는 의료급여로 병원비 부담을 크게 줄일 수 있습니다. 1종과 2종의 차이, 본인 부담금 수준, 신청 절차를 정리했습니다.',
+    '기초생활수급자는 의료급여로 병원비 부담을 크게 줄일 수 있습니다. 1종과 2종의 차이, 본인 부담금 수준, 신청 절차를 핵심만 짚었습니다.',
   heroDescription:
     '의료급여는 기초생활보장 수급자의 의료비를 지원하는 제도입니다. 건강보험과 달리 본인 부담금이 매우 낮거나 없어, 병원비 걱정 없이 치료를 받을 수 있습니다.',
 
