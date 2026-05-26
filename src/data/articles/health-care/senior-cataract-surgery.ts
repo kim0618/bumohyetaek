@@ -5,7 +5,7 @@ const article: ContentItem = {
   slug: 'senior-cataract-surgery',
   title: '노인 백내장 수술 건강보험 적용 가이드 - 비용과 렌즈 선택 안내',
   seoTitle: '백내장 수술 건강보험 적용 - 노인 렌즈 종류와 본인부담금 안내',
-  seoDescription: '노인 백내장 수술 건강보험 급여 적용 조건, 단초점·다초점 렌즈 차이와 비용, 수술 후 관리 방법, 주의사항까지 체계적으로 정리했습니다.',
+  seoDescription: '노인 백내장 수술 건강보험 급여 적용 조건, 단초점·다초점 렌즈 차이와 비용, 수술 후 관리 방법, 주의사항까지 미리 준비해 두세요.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'senior',
@@ -15,7 +15,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '노인 백내장 수술은 건강보험 적용으로 본인부담금이 크게 줄어듭니다. 급여 조건, 단초점·다초점 렌즈 비교, 예상 비용, 수술 후 주의사항까지 한눈에 정리했습니다.',
+    '노인 백내장 수술은 건강보험 적용으로 본인부담금이 크게 줄어듭니다. 급여 조건, 단초점·다초점 렌즈 비교, 예상 비용, 수술 후 주의사항까지 가족과 함께 챙기세요.',
 
   heroDescription:
     '시야가 흐리고 밝은 빛이 눈부시다면 백내장을 의심해보세요. 수술 전 건강보험 혜택을 꼭 확인하세요.',

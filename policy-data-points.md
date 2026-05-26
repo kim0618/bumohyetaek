@@ -626,6 +626,11 @@
 ### 2026-05-16 - 신규 글 등록 (ltci-family-caregiver-benefit)
 - 영향 글 추가: [3.9 가족요양비] ← ltci-family-caregiver-benefit (233,400원/월 사용)
 
+### 2026-05-26 - 신규 글 등록 (hospital-nursing-care-integration)
+- 신규 글 등록: hospital-nursing-care-integration (간호간병통합서비스 완전 가이드)
+- **신규 항목 등록**: 간호간병통합서비스 운영 현황 (2025년 기준 822개 기관·약 8만 8,000병상)
+- **신규 항목 등록**: 간호간병통합서비스 사설 간병인 대비 절감액 (하루 약 9만 원, 2022년 기준 사설 간병인 ~101,000원 vs 통합서비스 ~22,340원)
+
 ### 2026-05-25 - 신규 글 등록 (ltci-not-eligible-alternatives)
 - 신규 글 등록: ltci-not-eligible-alternatives (장기요양 등급 외 판정 후 이의신청·대안 서비스)
 - **신규 항목 등록**: 4.7 노인맞춤돌봄서비스 지원 규모 (2026년 57만 6천명)

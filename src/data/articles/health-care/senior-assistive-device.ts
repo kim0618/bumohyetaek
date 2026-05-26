@@ -5,7 +5,7 @@ const article: ContentItem = {
   slug: 'senior-assistive-device',
   title: '노인 보조기기 건강보험과 장기요양 급여 지원 제도 및 신청 방법 안내',
   seoTitle: '노인 보조기기 급여 지원 - 건강보험·장기요양 신청 방법과 품목',
-  seoDescription: '지팡이, 휠체어, 보청기, 욕창예방 매트 등 노인 보조기기 건강보험 급여와 장기요양 복지용구 지원 품목, 신청 방법, 비용 안내를 정리했습니다.',
+  seoDescription: '지팡이, 휠체어, 보청기, 욕창예방 매트 등 노인 보조기기 건강보험 급여와 장기요양 복지용구 지원 품목, 신청 방법, 비용 안내를 핵심만 짚었습니다.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'senior',
@@ -15,7 +15,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '지팡이, 휠체어, 보청기, 욕창예방 매트 등 노인 보조기기는 건강보험과 장기요양보험에서 지원받을 수 있습니다. 품목별 급여 기준, 신청 방법, 본인부담금을 안내합니다.',
+    '지팡이, 휠체어, 보청기, 욕창예방 매트 등 노인 보조기기는 건강보험과 장기요양보험에서 지원받을 수 있습니다. 품목별 급여 기준, 신청 방법, 본인부담금을 상황별로 살펴봤습니다.',
 
   heroDescription:
     '일상생활 보조기기 하나가 삶의 질을 크게 바꿉니다. 건강보험과 장기요양보험 혜택을 꼭 활용하세요.',

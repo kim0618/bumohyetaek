@@ -120,7 +120,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['long-term-care-grade', 'home-visiting-care', 'care-facility-comparison'],
+  relatedSlugs: ['long-term-care-grade', 'home-visiting-care', 'care-facility-comparison', 'hospital-nursing-care-integration'],
 };
 
 export default article;
