@@ -58,6 +58,7 @@ import ltciFamilyCaregiverBenefit from './ltci-family-caregiver-benefit';
 import npsRetirementReadinessService from './nps-retirement-readiness-service';
 import specialOccupationPensionBasicPension from './special-occupation-pension-basic-pension';
 import ltciNotEligibleAlternatives from './ltci-not-eligible-alternatives';
+import nationalPensionOldAgeClaim from './national-pension-old-age-claim';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -118,4 +119,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   npsRetirementReadinessService,
   specialOccupationPensionBasicPension,
   ltciNotEligibleAlternatives,
+  nationalPensionOldAgeClaim,
 ];

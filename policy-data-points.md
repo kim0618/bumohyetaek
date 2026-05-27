@@ -54,6 +54,7 @@
 - **마지막 확인**: 2026-04-29
 - **변동 주기**: 법 개정 시 (현재 표 고정)
 - **검색 패턴**: `수급.*연령`, `1969년 이후.*65세`
+- **영향 글**: national-pension-old-age-claim, national-pension-timing
 
 ### 1.6 참전유공자 수당
 - **현재 값**: 약 40만원 (2026년 기준)
@@ -597,6 +598,11 @@
 - 마스터 리스트 초기 작성 (10개 카테고리, 약 50개 항목)
 - /refresh 스킬 도입 준비
 - 첫 가동 대기 (5/8 audit 1차 완료 후)
+
+### 2026-05-27 - 신규 글 등록 (national-pension-old-age-claim)
+- 신규 글 등록: national-pension-old-age-claim (국민연금 노령연금 청구 절차·서류·방법 가이드)
+- **영향 글 추가**: 1.5 노령연금 수급 개시 연령 ← national-pension-old-age-claim (출생연도별 만 61~65세 표 사용)
+- 수치 매칭 결과: 국민연금법 소멸시효 5년·청구 처리 30일은 절차 상수 - 마스터 리스트 별도 등록 보류 (변동 빈도 낮음, 사용자 승인 시 신규 등록 가능)
 
 ### 2026-05-24 - 신규 글 등록 (housing-farmland-pension-comparison)
 - 신규 글 등록: housing-farmland-pension-comparison (주택연금·농지연금 비교 가이드)

@@ -129,6 +129,7 @@ const article: ContentItem = {
   relatedSlugs: [
     'retirement-income-strategy',
     'national-pension-timing',
+    'national-pension-old-age-claim',
     'turning-65-benefit-guide',
     'basic-pension-application',
   ],

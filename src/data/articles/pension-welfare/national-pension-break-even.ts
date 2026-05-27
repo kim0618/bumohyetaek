@@ -130,6 +130,7 @@ const article: ContentItem = {
 
   relatedSlugs: [
     'national-pension-timing',
+    'national-pension-old-age-claim',
     'basic-pension-reduction',
     'survivor-pension',
     'national-pension-increase-strategy',

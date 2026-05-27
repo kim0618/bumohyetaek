@@ -5,7 +5,7 @@ const article: ContentItem = {
   slug: 'health-insurance-claim',
   title: '실손보험 청구 방법과 주의사항 - 세대별 차이와 간편 청구',
   seoTitle: '실손보험 청구 방법 - 세대별 차이 간편청구 주의사항',
-  seoDescription: '실손보험은 1-4세대까지 보장 범위와 자기부담금이 다릅니다. 세대별 차이를 이해하고 간편 청구 방법, 자주 하는 실수를 정리했습니다.',
+  seoDescription: '실손보험은 1-4세대까지 보장 범위와 자기부담금이 다릅니다. 세대별 차이를 이해하고 간편 청구 방법, 자주 하는 실수를 한눈에 비교했습니다.',
   category: 'finance-safety',
   template: 'standard',
   targetUser: 'both',

@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'family-care-leave',
   title: '가족돌봄휴직 제도와 급여 안내 - 신청 방법부터 복직 절차까지 총정리',
   seoTitle: '가족돌봄휴직 신청 방법 - 기간·급여·복직 절차 총정리',
-  seoDescription: '부모님 간병을 위해 직장을 떠날 필요는 없습니다. 가족돌봄휴직과 가족돌봄휴가 제도로 최대 90일 휴직하며 고용을 유지할 수 있습니다. 신청 방법과 급여를 정리했습니다.',
+  seoDescription: '부모님 간병을 위해 직장을 떠날 필요는 없습니다. 가족돌봄휴직과 가족돌봄휴가 제도로 최대 90일 휴직하며 고용을 유지할 수 있습니다. 신청 방법과 급여를 신청 전 확인하세요.',
   category: 'finance-safety',
   template: 'policy',
   targetUser: 'family',

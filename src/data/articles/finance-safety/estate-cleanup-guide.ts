@@ -5,7 +5,7 @@ const article: ContentItem = {
   slug: 'estate-cleanup-guide',
   title: '유품 정리 절차와 비용 가이드 - 마음의 준비부터 실무까지',
   seoTitle: '유품 정리 절차 비용 가이드 - 전문업체 DIY 비교',
-  seoDescription: '가족이 돌아가신 후 유품을 정리하는 시기, 전문 업체 비용, 직접 정리하는 방법, 감정적 준비까지 실질적인 정보를 정리했습니다.',
+  seoDescription: '가족이 돌아가신 후 유품을 정리하는 시기, 전문 업체 비용, 직접 정리하는 방법, 감정적 준비까지 실질적인 정보를 가족과 함께 챙기세요.',
   category: 'finance-safety',
   template: 'standard',
   targetUser: 'family',
@@ -15,7 +15,7 @@ const article: ContentItem = {
   reviewStatus: 'current',
 
   summary:
-    '가족이 돌아가신 후 유품 정리는 감정적으로도 실무적으로도 쉽지 않습니다. 적절한 시기, 전문 업체 활용법, 비용, 직접 정리하는 방법을 안내합니다.',
+    '가족이 돌아가신 후 유품 정리는 감정적으로도 실무적으로도 쉽지 않습니다. 적절한 시기, 전문 업체 활용법, 비용, 직접 정리하는 방법을 상황별로 살펴봤습니다.',
   heroDescription:
     '유품 정리는 서두를 필요가 없습니다. 충분히 슬퍼한 후, 준비가 되었을 때 시작하세요. 절차와 비용을 미리 알아두면 마음의 부담을 줄일 수 있습니다.',
 
