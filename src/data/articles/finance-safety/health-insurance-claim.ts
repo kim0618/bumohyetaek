@@ -138,7 +138,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['health-insurance-limit', 'retirement-finance-checklist', 'prevent-voice-phishing'],
+  relatedSlugs: ['health-insurance-limit', 'retirement-finance-checklist', 'prevent-voice-phishing', 'death-insurance-claim'],
 };
 
 export default article;

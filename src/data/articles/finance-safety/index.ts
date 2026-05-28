@@ -58,6 +58,7 @@ import irpPensionSavingsComparison from './irp-pension-savings-comparison';
 import pensionIncomeSequence from './pension-income-sequence';
 import severanceMidtermSettlement from './severance-midterm-settlement';
 import housingFarmlandPensionComparison from './housing-farmland-pension-comparison';
+import deathInsuranceClaim from './death-insurance-claim';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -118,5 +119,6 @@ export const financeSafetyArticles: ContentItem[] = [
   pensionIncomeSequence,
   severanceMidtermSettlement,
   housingFarmlandPensionComparison,
+  deathInsuranceClaim,
 ];
 

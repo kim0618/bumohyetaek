@@ -10,13 +10,13 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-04-19',
+  updatedAt: '2026-05-28',
   reviewStatus: 'current',
 
   summary:
     '부모님 보험을 한 번도 점검하지 않았다면 중복 가입이나 불필요한 납입이 있을 수 있습니다. 보험 조회 방법과 정리 기준, 유지해야 할 보험을 안내합니다.',
   heroDescription:
-    '오래된 보험에는 중복 보장이나 더 이상 필요 없는 특약이 포함된 경우가 많습니다. 내보험다보여 조회로 가입 현황을 한눈에 확인하고, 불필요한 보험을 정리하는 기준과 해지 전 체크 포인트를 안내합니다.',
+    '오래된 보험에는 중복 보장이나 더 이상 필요 없는 특약이 포함된 경우가 많습니다. 내보험찾아줌 조회로 가입 현황을 한눈에 확인하고, 불필요한 보험을 정리하는 기준과 해지 전 체크 포인트를 안내합니다.',
 
   keyPoints: [
     '생명보험협회·손해보험협회 홈페이지에서 내 모든 보험 한 번에 조회 가능',
@@ -31,8 +31,8 @@ const article: ContentItem = {
 
   officialSources: [
     {
-      name: '생명보험협회 내보험다보여',
-      url: 'https://www.insure.or.kr',
+      name: '생명보험협회 내보험찾아줌',
+      url: 'https://cont.insure.or.kr',
       note: '가입 보험 통합 조회',
     },
     {
@@ -52,7 +52,7 @@ const article: ContentItem = {
       type: 'numbered-list',
       heading: '내 보험 한 번에 조회하는 방법',
       items: [
-        '생명보험협회 「내보험다보여」(insure.or.kr) 접속 - 생명보험 전체 조회',
+        '생명보험협회 「내보험찾아줌」(cont.insure.or.kr) 접속 - 생명보험 전체 조회',
         '손해보험협회 「내보험조회」(knia.or.kr) 접속 - 손해보험 전체 조회',
         '금융감독원 「파인」(fine.fss.or.kr) 접속 - 생명·손해보험 통합 조회',
         '공인인증서 또는 휴대폰 본인인증 후 조회 (대리인 조회 시 위임장 필요)',
@@ -89,7 +89,7 @@ const article: ContentItem = {
       type: 'summary',
       heading: '핵심 요약',
       items: [
-        '내보험다보여 또는 파인(fine.fss.or.kr)에서 전체 보험 한 번에 조회',
+        '내보험찾아줌 또는 파인(fine.fss.or.kr)에서 전체 보험 한 번에 조회',
         '실손보험 1개 유지, 중복 가입 확인 후 해지 검토',
         '해지 전 환급금 확인 - 감액완납·납입유예 대안 먼저 검토',
       ],
@@ -122,7 +122,7 @@ const article: ContentItem = {
   cautionNote:
     '보험 해지는 되돌릴 수 없습니다. 전문 상담 없이 해지 결정을 내리지 말고, 반드시 보험사 또는 금융감독원 상담을 받은 후 결정하세요.',
 
-  relatedSlugs: ['health-insurance-claim', 'retirement-budget-planning', 'dementia-financial-management', 'senior-loss-insurance-guide'],
+  relatedSlugs: ['health-insurance-claim', 'death-insurance-claim', 'dementia-financial-management', 'senior-loss-insurance-guide'],
 };
 
 export default article;

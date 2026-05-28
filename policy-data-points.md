@@ -501,6 +501,12 @@
 
 ## 변경 이력
 
+### 2026-05-28 - 신규 글 등록 (death-insurance-claim)
+- 신규 글 등록: death-insurance-claim (사망보험금 청구 절차 완전 정리 - 소멸시효 3년)
+- 수치 매칭 결과: 소멸시효 3년(상법 제662조), 처리 기간 3영업일은 법령 기준값으로 마스터 리스트 별도 등록 보류
+- 영향 글 추가: 없음 (기존 항목과 직접 매칭되는 정책 수치 없음)
+- 연결 글 relatedSlugs 업데이트: after-death-admin, senior-insurance-review, health-insurance-claim
+
 ### 2026-05-13 - audit 7편 + 신규 글 senior-bedsore-prevention + 카테고리/허브 보강 사후 검증
 - **2.8 본인부담 상한제 신규 등재**: health-insurance-limit 글에서 분위별 상한액(7개 구간) 추출해 마스터 리스트 신설. 1차 출처 = health-insurance-limit.ts
 - **categoryDetails(health-care) 사후 정정**: 본인부담 상한제 10분위 "808만원" → **780만원** (생성 시 잘못된 추정값 입력, health-insurance-limit 원본과 비교해 정정). policyBody + FAQ 2곳 모두 수정
