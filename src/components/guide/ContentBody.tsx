@@ -1,9 +1,12 @@
 import type { ContentSection, ContentTemplate } from '@/types/content';
+import AffiliateBox from '@/components/content/AffiliateBox';
 
 interface Props {
   sections: ContentSection[];
   /** 템플릿 유형: checklist는 numbered-list를 단계별 스텝으로 렌더링 */
   template?: ContentTemplate;
+  /** 제휴(affiliate) 섹션 클릭 추적용 글 slug */
+  articleSlug?: string;
 }
 
 /**
@@ -33,11 +36,11 @@ function BodyText({ text, className }: { text: string; className?: string }) {
  * - warning       → .box-warning (주황 경고 박스)
  * - summary       → .box-summary (회색 요약 박스, 체크마크 목록)
  */
-export default function ContentBody({ sections, template }: Props) {
+export default function ContentBody({ sections, template, articleSlug }: Props) {
   return (
     <div>
       {sections.map((section, i) => (
-        <SectionBlock key={i} index={i} section={section} template={template} />
+        <SectionBlock key={i} index={i} section={section} template={template} articleSlug={articleSlug} />
       ))}
     </div>
   );
@@ -47,10 +50,12 @@ function SectionBlock({
   index,
   section,
   template,
+  articleSlug,
 }: {
   index: number;
   section: ContentSection;
   template?: ContentTemplate;
+  articleSlug?: string;
 }) {
   const { type, heading, body, items } = section;
   const isChecklist = template === 'checklist';
@@ -197,6 +202,12 @@ function SectionBlock({
         )}
       </div>
     );
+  }
+
+  /* ── affiliate ──────────────────────────────────────────────── */
+  if (type === 'affiliate') {
+    if (!section.affiliate) return null;
+    return <AffiliateBox affiliate={section.affiliate} articleSlug={articleSlug} />;
   }
 
   return null;

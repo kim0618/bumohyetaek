@@ -9,7 +9,7 @@ const article: ContentItem = {
   template: 'standard',
   targetUser: 'both',
   createdAt: '2026-04-04',
-  updatedAt: '2026-04-26',
+  updatedAt: '2026-05-29',
   reviewStatus: 'current',
   order: 36,
 
@@ -116,6 +116,15 @@ const article: ContentItem = {
         '금연·절주: 흡연은 뼈 밀도를 직접 낮추고, 음주는 칼슘 흡수를 방해',
         '낙상 예방: 미끄럼 방지 매트, 야간 조명 설치, 적절한 신발 착용',
       ],
+    },
+    {
+      type: 'affiliate',
+      affiliate: {
+        merchant: 'iHerb (칼슘·비타민D 보충제)',
+        url: 'https://newtip.net/click.php?m=iherb&a=A100704915&l=0000',
+        label: '칼슘·비타민D 보충제 보러 가기',
+        note: '식사만으로 칼슘·비타민D 섭취가 부족할 때 보충제를 활용하기도 합니다. 복용 중인 약이나 신장 질환이 있다면 섭취 전 의사와 상담하세요.',
+      },
     },
     {
       type: 'list',

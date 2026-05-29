@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-04-17',
+  updatedAt: '2026-05-29',
   reviewStatus: 'current',
 
   summary:
@@ -84,6 +84,15 @@ const article: ContentItem = {
         '다른 병원에서 받은 약과 중복 여부 확인: 약국에서 DUR(의약품안전사용서비스) 점검',
         '인슐린 주사 사용자는 보관 온도(2-8도 냉장)와 주사 부위 순환에 주의',
       ],
+    },
+    {
+      type: 'affiliate',
+      affiliate: {
+        merchant: '하이마트 (혈당측정기)',
+        url: 'https://lase.kr/click.php?m=himart&a=A100704915&l=0000',
+        label: '혈당측정기 보러 가기',
+        note: '자가 혈당 측정에 쓰는 혈당측정기와 검사지입니다. 측정 방법과 목표 수치는 진료 시 의료진과 확인하세요.',
+      },
     },
     {
       type: 'warning',

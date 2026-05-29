@@ -136,6 +136,7 @@ export interface CalculatorCTA {
  * tip           - 실천 팁 박스 (box-tip)
  * warning       - 주의사항 박스 (box-warning)
  * summary       - 핵심 요약 박스 (box-summary)
+ * affiliate     - 제휴 광고 박스 (AffiliateBox, section.affiliate 데이터 필요)
  */
 export type SectionType =
   | 'text'
@@ -144,7 +145,29 @@ export type SectionType =
   | 'info'
   | 'tip'
   | 'warning'
-  | 'summary';
+  | 'summary'
+  | 'affiliate';
+
+/**
+ * 제휴 링크 (LinkPrice 등 어필리에이트)
+ *
+ * 설계 원칙:
+ * - 정부 제도·연금·보험 안내 글에는 사용 금지 (YMYL 독자 신뢰 보호)
+ * - 생활관리·소비선택형 글에서 주제에 맞는 상품에만 1~2개
+ * - 광고 표기 의무: AffiliateBox가 "제휴 광고" 고지를 자동 표시
+ * - 과장·효능 보장·최저가 단정 문구 금지
+ *   (LinkPrice 약관: AI 콘텐츠에 허위·과장 표현 시 실적 무효 + 제휴 종료)
+ */
+export interface AffiliateLink {
+  /** 머천트/상품 표시명 (예: '대상웰라이프 뉴케어') */
+  merchant: string;
+  /** 제휴 링크 URL (LinkPrice 대표링크 또는 딥링크) */
+  url: string;
+  /** 버튼 문구 (사실 기반 - 효능 보장·최저가 단정 금지) */
+  label: string;
+  /** 보조 설명 (선택) */
+  note?: string;
+}
 
 /** 본문 섹션 */
 export interface ContentSection {
@@ -155,6 +178,8 @@ export interface ContentSection {
   body?: string;
   /** 목록 항목 (list / numbered-list 타입에서 사용) */
   items?: string[];
+  /** 제휴 링크 데이터 (affiliate 타입에서 사용) */
+  affiliate?: AffiliateLink;
 }
 
 

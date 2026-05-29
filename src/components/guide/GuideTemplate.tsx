@@ -131,7 +131,7 @@ export default function GuideTemplate({ item, relatedArticles, relatedDownloads 
 
         {/* ── 5. 본문 ──────────────────────────────────────────── */}
         {item.sections && item.sections.length > 0 && (
-          <ContentBody sections={item.sections} template={item.template} />
+          <ContentBody sections={item.sections} template={item.template} articleSlug={item.slug} />
         )}
 
         {/* ── 자가진단 퀴즈 ─────────────────────────────────────── */}

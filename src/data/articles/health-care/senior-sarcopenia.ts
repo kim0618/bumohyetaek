@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-05-03',
-  updatedAt: '2026-05-04',
+  updatedAt: '2026-05-29',
   reviewStatus: 'current',
 
   summary:
@@ -85,6 +85,15 @@ const article: ContentItem = {
       type: 'tip',
       heading: '단백질 식품 간단 참고',
       body: '달걀 1개 약 6g, 두부 100g 약 8g, 닭가슴살 100g 약 23g, 연두부 100g 약 5g, 우유 200ml 약 7g, 고등어 1토막(80g) 약 16g입니다. 60kg 어르신이라면 달걀 2개 + 두부 반 모 + 생선 1토막 + 우유 1잔 조합이 하루 권장량 달성에 도움이 됩니다. [[senior-nutrition-guide|어르신 영양 가이드]]에서 끼니별 식단 구성을 더 확인할 수 있습니다.',
+    },
+    {
+      type: 'affiliate',
+      affiliate: {
+        merchant: '대상웰라이프 뉴케어',
+        url: 'https://lase.kr/click.php?m=dswellife&a=A100704915&l=0000',
+        label: '단백질 보충 영양식 보러 가기',
+        note: '씹기 어렵거나 식사량이 적을 때 단백질 음료·영양식으로 보충하는 방법도 있습니다. 신장 기능 저하가 있다면 섭취 전 의사와 상담하세요.',
+      },
     },
     {
       type: 'warning',

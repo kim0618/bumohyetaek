@@ -10,7 +10,7 @@ const article: ContentItem = {
   template: 'policy',
   targetUser: 'both',
   createdAt: '2026-05-20',
-  updatedAt: '2026-05-20',
+  updatedAt: '2026-05-29',
   reviewStatus: 'current',
   order: 620,
 
@@ -91,6 +91,15 @@ const article: ContentItem = {
       type: 'tip',
       heading: '빈혈 예방을 돕는 식단 실천법',
       body: '철분이 풍부한 식품은 붉은 육류(소고기·돼지고기), 굴·조개, 두부·된장, 시금치·브로콜리입니다. 여기서 주의할 점이 하나 있는데요. 식물성 철분(비헴철)은 흡수율이 동물성의 3분의 1 수준이어서, 귤·딸기·토마토처럼 비타민C가 풍부한 음식을 함께 먹어야 흡수율이 올라갑니다. 반면 녹차·홍차의 타닌, 칼슘제, 제산제는 철분 흡수를 방해하므로 식사와 시간 간격을 두세요. 비타민B12는 육류·생선·유제품·달걀에 주로 들어 있습니다. 채식 위주 식사를 하는 분은 B12 결핍에 더 주의가 필요합니다. [[polypharmacy-management|여러 약을 복용 중]]이라면 복용 약 중 빈혈을 유발하는 것(NSAIDs, 양성자펌프억제제 장기복용 등)이 있는지 약사에게 확인해보세요.',
+    },
+    {
+      type: 'affiliate',
+      affiliate: {
+        merchant: 'iHerb (철분 보충제)',
+        url: 'https://newtip.net/click.php?m=iherb&a=A100704915&l=0000',
+        label: '철분 보충제 보러 가기',
+        note: '철결핍이 확인된 경우 철분 보충제가 도움이 될 수 있습니다. 빈혈 원인은 다양하므로 검사 후 의사 처방·상담을 먼저 받으세요.',
+      },
     },
     {
       type: 'warning',

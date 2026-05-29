@@ -27,6 +27,7 @@
  * jptcalc_pension_click  - 제이퍼 연금·복지 계산기 이동
  * pdf_download_click     - PDF 다운로드 버튼 클릭
  * home_cta_click         - 홈 히어로 CTA 클릭
+ * affiliate_click        - 제휴(어필리에이트) 링크 클릭
  */
 
 
@@ -114,6 +115,16 @@ export interface QuizCompleteParams {
   duration_sec: number;
 }
 
+/** 제휴(어필리에이트) 링크 클릭 파라미터 */
+export interface AffiliateClickParams {
+  /** 머천트/상품 표시명 (예: '대상웰라이프 뉴케어') */
+  merchant: string;
+  /** 클릭된 제휴 URL */
+  affiliate_url: string;
+  /** 제휴 블록이 삽입된 글 slug */
+  article_slug: string;
+}
+
 
 /* ── 이벤트 이름 → 파라미터 타입 매핑 ───────────────────────────── */
 
@@ -129,6 +140,7 @@ export interface EventParamMap {
   home_cta_click:        HomeCtaParams;
   quiz_start:            QuizStartParams;
   quiz_complete:         QuizCompleteParams;
+  affiliate_click:       AffiliateClickParams;
 }
 
 export type EventName = keyof EventParamMap;

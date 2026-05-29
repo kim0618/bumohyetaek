@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'senior',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-04-16',
+  updatedAt: '2026-05-29',
   reviewStatus: 'current',
 
   summary:
@@ -79,6 +79,15 @@ const article: ContentItem = {
       type: 'tip',
       heading: '가정 혈압 측정 기록 요령',
       body: '매일 같은 시간, 같은 팔로 측정하는 것이 정확한 비교에 도움됩니다. 측정값을 수첩이나 스마트폰 앱에 기록해두면 진료 시 의사가 약물 조절 판단에 활용할 수 있습니다. 아침(기상 후 1시간 이내, 약 복용 전)과 저녁(취침 전) 각 2회 측정이 권장됩니다.',
+    },
+    {
+      type: 'affiliate',
+      affiliate: {
+        merchant: '하이마트 (가정용 혈압계)',
+        url: 'https://lase.kr/click.php?m=himart&a=A100704915&l=0000',
+        label: '가정용 혈압계 보러 가기',
+        note: '집에서 아침·저녁 혈압을 기록하려면 자동 전자혈압계가 편리합니다. 손목형보다 팔뚝형이 측정 오차가 적습니다.',
+      },
     },
     {
       type: 'info',

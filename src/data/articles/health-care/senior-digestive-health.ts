@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-18',
-  updatedAt: '2026-04-20',
+  updatedAt: '2026-05-29',
   reviewStatus: 'current',
 
   summary:
@@ -85,6 +85,15 @@ const article: ContentItem = {
       type: 'tip',
       heading: '복용 약 점검이 해결의 열쇠일 수 있습니다',
       body: '노인 소화기 문제의 가장 흔한 원인 중 하나가 약물 부작용입니다. 여기서 주의할 점이 하나 있는데요. 자녀가 직접 약 목록을 정리해서 진료 시 의사에게 보여주는 것이 가장 빠릅니다. 철분제를 식후로 바꾸거나, 변비를 유발하는 칼슘제를 다른 제형으로 교체하는 것만으로 증상이 사라지는 경우도 많습니다. 약을 임의로 중단하지 말고, 반드시 담당 의사와 상의하세요.',
+    },
+    {
+      type: 'affiliate',
+      affiliate: {
+        merchant: 'iHerb (유산균·식이섬유)',
+        url: 'https://newtip.net/click.php?m=iherb&a=A100704915&l=0000',
+        label: '유산균·식이섬유 제품 보러 가기',
+        note: '변비·장 건강 관리에 유산균이나 식이섬유를 활용하기도 합니다. 증상이 2주 이상 지속되면 제품보다 진료가 먼저입니다.',
+      },
     },
     {
       type: 'warning',

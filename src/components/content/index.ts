@@ -12,6 +12,7 @@ export { default as KeyPointsBox }         from './KeyPointsBox';
 export { default as OfficialSourcesSection } from './OfficialSourcesSection';
 export { default as CautionBox }           from './CautionBox';
 export { default as CalculatorCTABox }     from './CalculatorCTABox';
+export { default as AffiliateBox }         from './AffiliateBox';
 export { default as PrintSummaryButton }   from './PrintSummaryButton';
 export { default as PrepareListBox }       from './PrepareListBox';
 export { default as HubGuideCard }         from './HubGuideCard';
