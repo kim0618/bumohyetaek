@@ -1,18 +1,27 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 170 / 177 (96.0%) | 회귀 수정 12건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준)
+- 감사 완료: 177 / 177 (100%) | 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거)
 - P1 health-care: 59 / 59 (완료)
-- P2 policy+수치: 65 / N
-- P3 계산기 연결: 21 / N
-- P4 finance-safety: 28 / N (P2/P3 분류 포함)
-- P5 기타: 8 / N
-- 미감사: 7편 (nps-retirement-readiness-service, special-occupation-pension-basic-pension, ltci-family-caregiver-benefit, death-insurance-claim, housing-farmland-pension-comparison, pension-income-sequence, severance-midterm-settlement)
-- 마지막 업데이트: 2026-05-28
-- AdSense 신청 D-5 (2026-06-02 목표)
+- P2 policy+수치: 65 / N (완료)
+- P3 계산기 연결: 21 / N (완료)
+- P4 finance-safety: 28 / N (완료, P2/P3 분류 포함)
+- P5 기타: 8 / N (완료)
+- 미감사: 0편 (전편 감사 완료)
+- 마지막 업데이트: 2026-05-29
+- AdSense 신청 D-4 (2026-06-02 목표)
 
 ## 감사 완료 목록
 
+- nps-retirement-readiness-service (2026-05-29 감사, P2, 이상 없음)
+- special-occupation-pension-basic-pension (2026-05-29 감사, P2, 이슈 1건 수정: [H] "무조건" → "일률적으로" 단정 표현 완화)
+- ltci-family-caregiver-benefit (2026-05-29 감사, P2, 이슈 1건 수정: [B] "반드시 필요합니다" → "필요합니다" 단정 표현 완화 | 가족요양비 금액 재검증 완료: 월 233,400원 정확 - 2026년 현재 KDI 경제정보센터·gov.kr·웰로(복지부 인용) 다수 출처 일치, 223,000원은 단일 블로그 오기. 본문 "(2025년 기준) + 매년 1월 조정" 표기 유지(2026 고시 본문 기계추출 불가, 변경 근거 없음))
+- death-insurance-claim (2026-05-29 감사, P4, 이상 없음)
+- housing-farmland-pension-comparison (2026-05-29 감사, P4, 이상 없음)
+- pension-income-sequence (2026-05-29 감사, P4, 이슈 1건 수정: [H] "개인적으로는...더 낫다고 봅니다" AI 1인칭 표현 제거)
+  - **2026-05-29 재검증 정정**: 직전 감사에서 세율을 3.3~5.5%→3~5%로 바꿨으나 이는 오판이었음. 3.3%는 실존 세율(소득세 3% + 지방소득세 0.3%)이고, 사이트 다수 패턴(3.3~5.5% 7편 vs 3~5% 3편)이 지방소득세 포함 표기. subagent의 "3.3% 없음" 판단이 틀림 → 4건 모두 3.3~5.5%/5.5%로 원복 (feedback_check_existing_before_change: 다수 패턴 준수)
+- severance-midterm-settlement (2026-05-29 감사, P4, 이상 없음)
+- national-pension-old-age-claim (2026-05-28 감사, P2+P3, 이상 없음 - **2026-05-29 회귀 수정**: [H] "개인적으로는...모바일이 편하다고 봅니다" AI 1인칭 표현 제거)
 - hospital-nursing-care-integration (2026-05-28 감사, P1, 이상 없음)
 - senior-hip-fracture (2026-05-28 감사, P1, 이상 없음)
 - senior-anemia-management (2026-05-28 감사, P1, 이상 없음)
