@@ -3,8 +3,8 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'senior-social-service-voucher',
   title: '노인 사회서비스 전자바우처 종류와 신청 방법 완벽 가이드',
-  seoTitle: '노인 사회서비스 전자바우처 신청 방법 - 가사간병·돌봄 이용권 안내',
-  seoDescription: '정부가 지급하는 노인 대상 사회서비스 전자바우처 종류와 신청 방법, 이용 절차를 정리했습니다. 가사간병방문지원, 노인맞춤돌봄, 장기요양 재가급여 이용권까지 한눈에 확인하세요.',
+  seoTitle: '노인 바우처 종류와 신청 방법 - 가사간병·맞춤돌봄 전자바우처',
+  seoDescription: '노인 대상 사회서비스 전자바우처에는 가사간병방문지원, 노인맞춤돌봄서비스, 장기요양 재가급여 이용권 등이 있습니다. 가사간병은 중위소득 70% 이하, 맞춤돌봄은 만 65세 이상 독거·취약노인이 대상입니다. 주민센터나 복지로에서 신청합니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',

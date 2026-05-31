@@ -4,14 +4,14 @@ import { siteConfig } from '@/config/siteConfig';
 const article: ContentItem = {
   slug: 'veterans-senior-benefit',
   title: '국가유공자 노인 혜택 총정리 - 연금, 의료, 생활 지원 안내',
-  seoTitle: '국가유공자 노인 혜택 총정리 - 보훈연금, 의료, 교통, 복지 지원',
-  seoDescription: '국가유공자 어르신이 받을 수 있는 보훈연금, 의료 감면, 교통 할인, 주거 지원 등 다양한 혜택을 한곳에 정리했습니다. 등록 방법과 신청 절차도 안내합니다.',
+  seoTitle: '국가유공자 노인 혜택 - 고령수당 자격·보훈연금·의료·교통 할인',
+  seoDescription: '국가유공자로 등록하면 보훈연금과 각종 수당, 의료비 감면, 교통 할인을 받습니다. 만 80세 이상은 고령수당이 추가 지급되며, 6·25·베트남전 참전유공자와 독립유공자 등 유형별로 혜택이 다릅니다. 지방보훈청(☎ 1811-1811)에서 신청합니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-04-29',
+  updatedAt: '2026-05-31',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
@@ -62,7 +62,7 @@ const article: ContentItem = {
       heading: '주요 보훈 급여 (연금·수당)',
       items: [
         '보훈연금: 상이등급에 따라 월 수십만 원-수백만 원 지급',
-        '참전유공자 수당: 6·25·베트남전 참전자에게 매월 지급 (2026년 기준 약 40만 원)',
+        '참전유공자 수당: 6·25·베트남전 참전자에게 매월 지급 (2026년 기준 월 49만 원)',
         '고령 수당: 만 80세 이상 고령 국가유공자에게 추가 지급',
         '사망 일시금·유족 연금: 유공자 사망 후 유족에게 지급',
         '생활 조정 수당: 생활이 어려운 유공자에게 추가 지원',

@@ -4,8 +4,8 @@ import { siteConfig } from '@/config/siteConfig';
 const article: ContentItem = {
   slug: 'national-pension-additional',
   title: '국민연금 추납제도로 빠진 기간 채우고 연금액 높이는 방법',
-  seoTitle: '국민연금 추납 신청 방법 - 빠진 납부 기간 채워 연금액 높이기',
-  seoDescription: '국민연금 납부예외·적용제외 기간을 추납으로 채우면 연금 수령액이 늘어납니다. 추납 대상 조건, 보험료 계산, 분할 납부(최대 60회) 방법까지 정리했습니다.',
+  seoTitle: '국민연금 추납 신청 방법 - 빠진 기간 채워 연금액 늘리기 (분할 최대 60회)',
+  seoDescription: '국민연금 납부예외·적용제외 기간이 있으면 추납으로 채워 연금 수령액을 늘릴 수 있습니다. 추납 대상 조건과 보험료 계산, 최대 60회 분할 납부 방법까지 담았습니다. 국민연금공단에서 예상 연금액을 무료로 확인할 수 있습니다.',
   category: 'finance-safety',
   template: 'policy',
   targetUser: 'both',

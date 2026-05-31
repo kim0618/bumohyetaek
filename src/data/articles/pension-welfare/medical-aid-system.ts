@@ -3,8 +3,8 @@ import type { ContentItem } from '@/types/content';
 const article: ContentItem = {
   slug: 'medical-aid-system',
   title: '의료급여 1종·2종 혜택 - 기초수급자 병원비 지원',
-  seoTitle: '의료급여 1종 2종 - 기초수급자 병원비 지원과 신청 방법',
-  seoDescription: '기초생활수급자로 선정되면 의료급여 1종 또는 2종을 받아 병원비를 거의 내지 않을 수 있습니다. 1종·2종 구분, 본인 부담금, 신청 방법을 공식 기준으로 검증했습니다.',
+  seoTitle: '기초수급자 의료혜택 - 의료급여 1종·2종 본인부담금과 병원비 지원',
+  seoDescription: '기초생활수급자는 의료급여 1종·2종으로 병원비를 거의 내지 않습니다. 1종은 입원 무료에 외래 1,000~2,000원, 2종은 입원비 10%를 부담합니다. 수급자로 선정되면 자동 적용되어 별도 신청이 필요 없습니다.',
   category: 'pension-welfare',
   template: 'policy',
   targetUser: 'both',

@@ -4,8 +4,8 @@ import { siteConfig } from '@/config/siteConfig';
 const article: ContentItem = {
   slug: 'care-home-cost-guide',
   title: '요양시설과 실버타운 비용 비교 가이드',
-  seoTitle: '요양시설 실버타운 비용 비교 - 등급별 본인부담금과 입주비',
-  seoDescription: '요양시설과 실버타운의 비용 구조, 장기요양보험 적용 여부, 등급별 본인부담금을 비교합니다. 부모님 상황에 맞는 시설 선택 기준과 입소 절차를 안내합니다.',
+  seoTitle: '요양원·실버타운 비용 비교 - 본인부담금 월 50~70만 원과 입주비',
+  seoDescription: '요양시설은 장기요양보험이 적용되어 본인부담금이 월 50~70만 원이지만, 실버타운은 등급 없이 입주하는 대신 월 150~400만 원 이상이 듭니다. 장기요양보험 적용 여부가 비용 차이의 핵심이며, 부모님 상황에 맞는 선택 기준을 담았습니다.',
   category: 'finance-safety',
   template: 'comparison',
   targetUser: 'family',
