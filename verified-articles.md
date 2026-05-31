@@ -1,18 +1,25 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 177 / 177 (100%) | 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거)
+- 감사 완료: 178 / 178 (100%) | 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거) + 5/31 문화누리카드 회귀 6편(15만원 + mnuri.kr 도메인) + 5/31 KTX 경로할인 요일 오류 정정 3편(senior-transport-discount "주말에도 적용"→"평일만", low-income/senior-travel-support "화~목"→"주중 월~금")
 - P1 health-care: 59 / 59 (완료)
-- P2 policy+수치: 65 / N (완료)
+- P2 policy+수치: 66 / N (완료, low-income-travel-support 추가)
 - P3 계산기 연결: 21 / N (완료)
 - P4 finance-safety: 28 / N (완료, P2/P3 분류 포함)
 - P5 기타: 8 / N (완료)
 - 미감사: 0편 (전편 감사 완료)
-- 마지막 업데이트: 2026-05-29
-- AdSense 신청 D-4 (2026-06-02 목표)
+- 마지막 업데이트: 2026-05-31
+- AdSense 신청 D-2 (2026-06-02 목표)
 
 ## 감사 완료 목록
 
+- low-income-travel-support (2026-05-31 감사, P2, 신규 글 전수 감사 + 2차 적대적 팩트체크 - 보완 4건: [A] KTX "화~목"→"주중(월~금,공휴일 제외)" 코레일 FAQ 확인, [H] 지자체 "5만~20만원" 거짓정밀 → "지역마다 상이" 완화, [H] 열린관광지 "감면+해설 제공" → "일부 관광지 제공하기도" 완화, [H] FAQ "무조건"→"누구나". 문화누리 15만원·mnuri.kr 정확, 위키링크 4개·relatedSlug 4개 실존, HowTo 충족)
+- senior-transport-discount (2026-05-31 **재감사 정정**, P3, [A] KTX 경로할인 "주말·공휴일에도 할인이 적용되며" → "평일(월~금, 공휴일 제외)에 적용, 주말·공휴일 제외" 정정. 근거: 코레일 공식 FAQ(info.korail.com) "주중(월~금요일, 공휴일 제외) 30%". 직전 verified 시 누락된 사실 오류 - updatedAt 갱신)
+- senior-culture-voucher (2026-05-31 재감사, P2, 회귀 수정: [A] 문화누리 13만→15만(summary/keyPoints/도입부/info 4곳), [C] munhwanuri.or.kr→mnuri.kr 5곳, [G] cautionNote "4월"→"5월" + updatedAt 갱신)
+- senior-travel-support (2026-05-31 재감사, P2, 회귀 수정: [A] FAQ 문화누리 13만→15만, [A] KTX "화~목"→"주중(월~금,공휴일 제외)", [C] munhwanuri.or.kr→mnuri.kr, [E] relatedSlugs에 low-income-travel-support 추가, [H] cautionNote "반드시 확인하세요"→"확인하시기 바랍니다", updatedAt 갱신)
+- near-poverty-benefits (2026-05-31 재감사, P2, 회귀 수정: [A] 문화누리 13만→15만, updatedAt 갱신)
+- senior-lifelong-education (2026-05-31 재감사, P5, 회귀 수정: [A] 문화누리 13만→15만, [H] "반드시 확인하세요"→"꼭 확인하시기 바랍니다", updatedAt 갱신)
+- turning-65-benefit-guide (2026-05-31 재감사, P2, 회귀 수정: [A] 문화누리 13만→15만, updatedAt 갱신)
 - nps-retirement-readiness-service (2026-05-29 감사, P2, 이상 없음)
 - special-occupation-pension-basic-pension (2026-05-29 감사, P2, 이슈 1건 수정: [H] "무조건" → "일률적으로" 단정 표현 완화)
 - ltci-family-caregiver-benefit (2026-05-29 감사, P2, 이슈 1건 수정: [B] "반드시 필요합니다" → "필요합니다" 단정 표현 완화 | 가족요양비 금액 재검증 완료: 월 233,400원 정확 - 2026년 현재 KDI 경제정보센터·gov.kr·웰로(복지부 인용) 다수 출처 일치, 223,000원은 단일 블로그 오기. 본문 "(2025년 기준) + 매년 1월 조정" 표기 유지(2026 고시 본문 기계추출 불가, 변경 근거 없음))

@@ -11,18 +11,18 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-04-26',
+  updatedAt: '2026-05-31',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
   summary:
-    '문화누리카드는 기초생활수급자·차상위계층 어르신에게 연간 약 13만 원의 문화·여행·체육 활동비를 지원합니다. 만 65세 이상이면 주민센터 또는 온라인으로 신청할 수 있습니다.',
+    '문화누리카드는 기초생활수급자·차상위계층 어르신에게 연간 15만 원의 문화·여행·체육 활동비를 지원합니다. 만 65세 이상이면 주민센터 또는 온라인으로 신청할 수 있습니다.',
 
   heroDescription:
     '문화누리카드는 소득이 낮은 어르신의 문화 생활을 지원하는 국가 복지 카드입니다. 신청 자격부터 지원 금액, 사용 가능한 가맹점까지 한 번에 안내합니다.',
 
   keyPoints: [
-    '기초생활수급자·차상위계층 대상 연간 13만 원 문화활동비 지원',
+    '기초생활수급자·차상위계층 대상 연간 15만 원 문화활동비 지원',
     '도서·영화·공연·여행·체육시설 등 다양한 가맹점에서 사용 가능',
     '주민센터 방문 또는 문화누리 홈페이지에서 신청',
   ],
@@ -47,7 +47,7 @@ const article: ContentItem = {
   },
 
   officialSources: [
-    { name: '문화누리', url: 'https://www.munhwanuri.or.kr', note: '문화누리카드 공식 신청 및 안내' },
+    { name: '문화누리', url: 'https://www.mnuri.kr', note: '문화누리카드 공식 신청 및 안내' },
     { name: '문화체육관광부', url: 'https://www.mcst.go.kr', note: '문화바우처 사업 제도 안내' },
     { name: '복지로', url: 'https://www.bokjiro.go.kr', note: '온라인 신청 서비스' },
   ],
@@ -56,7 +56,7 @@ const article: ContentItem = {
     {
       type: 'text',
       heading: '문화 활동을 즐기고 싶은데 비용이 부담되신다면?',
-      body: '공연 한 편, 책 한 권이 선뜻 지갑을 열기 어렵다면 문화누리카드를 알아보세요. [[basic-livelihood-benefit|기초생활보장 수급자]] 또는 [[near-poverty-benefits|차상위계층]]이라면 나이에 관계없이 연간 13만 원을 도서·영화·공연·여행·체육 활동에 자유롭게 쓸 수 있는 카드를 신청할 수 있습니다. 문화체육관광부가 운영하는 문화바우처 사업으로, 주민센터 방문 한 번으로 신청이 가능합니다.',
+      body: '공연 한 편, 책 한 권이 선뜻 지갑을 열기 어렵다면 문화누리카드를 알아보세요. [[basic-livelihood-benefit|기초생활보장 수급자]] 또는 [[near-poverty-benefits|차상위계층]]이라면 나이에 관계없이 연간 15만 원을 도서·영화·공연·여행·체육 활동에 자유롭게 쓸 수 있는 카드를 신청할 수 있습니다. 문화체육관광부가 운영하는 문화바우처 사업으로, 주민센터 방문 한 번으로 신청이 가능합니다.',
     },
     {
       type: 'list',
@@ -71,7 +71,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '2026년 지원 금액',
-      body: '2026년 문화누리카드 지원 금액은 1인당 연간 13만 원입니다. 카드 잔액은 해당 연도 내에 사용해야 하며, 미사용 잔액은 이월되지 않습니다. 지원 금액은 매년 예산에 따라 조정될 수 있으므로 문화누리 홈페이지(www.munhwanuri.or.kr) 또는 ☎ 1544-3412에서 최신 정보를 확인하세요.',
+      body: '2026년 문화누리카드 지원 금액은 1인당 연간 15만 원입니다. 만 60~64세는 1만 원이 추가돼 최대 16만 원까지 지급됩니다. 카드 잔액은 해당 연도 내에 사용해야 하며, 미사용 잔액은 이월되지 않습니다. 지원 금액은 매년 예산에 따라 조정될 수 있으므로 문화누리 홈페이지(www.mnuri.kr) 또는 ☎ 1544-3412에서 최신 정보를 확인하세요.',
     },
     {
       type: 'list',
@@ -88,7 +88,7 @@ const article: ContentItem = {
       type: 'numbered-list',
       heading: '신청 방법',
       items: [
-        '온라인: 문화누리 홈페이지(www.munhwanuri.or.kr) 또는 복지로(www.bokjiro.go.kr)에서 신청',
+        '온라인: 문화누리 홈페이지(www.mnuri.kr) 또는 복지로(www.bokjiro.go.kr)에서 신청',
         '방문: 거주지 읍·면·동 주민센터 또는 우체국에서 신청',
         '전화: ☎ 1544-3412로 신청 상담 가능',
         '신청 후 카드 발급까지 약 7-10일 소요',
@@ -118,14 +118,14 @@ const article: ContentItem = {
     },
     {
       question: '가맹점이 아닌 곳에서 결제하면 어떻게 되나요?',
-      answer: '문화누리 가맹점이 아닌 곳에서는 결제가 되지 않습니다. 사용 전 문화누리 홈페이지(munhwanuri.or.kr)나 앱에서 가맹점 여부를 먼저 확인하세요. 온라인 서점, 스트리밍 서비스 등 일부 온라인 가맹점도 있으니 범위가 생각보다 넓습니다. 문의: ☎ 1544-3412',
+      answer: '문화누리 가맹점이 아닌 곳에서는 결제가 되지 않습니다. 사용 전 문화누리 홈페이지(mnuri.kr)나 앱에서 가맹점 여부를 먼저 확인하세요. 온라인 서점, 스트리밍 서비스 등 일부 온라인 가맹점도 있으니 범위가 생각보다 넓습니다. 문의: ☎ 1544-3412',
     },
   ],
 
   cautionNote:
-    '이 글은 2026년 4월 기준으로 작성되었습니다. 지원 금액과 가맹점은 연도별로 변경될 수 있으니 문화누리 홈페이지(www.munhwanuri.or.kr)에서 최신 정보를 확인하세요.',
+    '이 글은 2026년 5월 기준으로 작성되었습니다. 지원 금액과 가맹점은 연도별로 변경될 수 있으니 문화누리 홈페이지(www.mnuri.kr)에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['basic-livelihood-benefit', 'near-poverty-benefits', 'senior-discount-guide', 'senior-welfare-center'],
+  relatedSlugs: ['basic-livelihood-benefit', 'near-poverty-benefits', 'low-income-travel-support', 'senior-discount-guide', 'senior-welfare-center'],
 };
 
 export default article;

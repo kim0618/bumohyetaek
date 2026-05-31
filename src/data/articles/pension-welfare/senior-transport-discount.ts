@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'senior',
 
   createdAt: '2026-03-31',
-  updatedAt: '2026-05-17',
+  updatedAt: '2026-05-31',
   reviewStatus: 'current',
 
   summary:
@@ -48,7 +48,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: 'KTX·SRT 경로 할인',
-      body: 'KTX와 SRT는 만 65세 이상 승객에게 일반석 기준 약 30% 할인을 제공합니다. 코레일 앱, 역 창구, SRT 앱에서 예매 시 경로 우대를 선택하세요. 주말·공휴일에도 할인이 적용되며, 특실은 할인 대상에서 제외될 수 있습니다. 문의: ☎ 1544-7788 (코레일 고객센터).',
+      body: 'KTX와 SRT는 만 65세 이상 승객에게 일반석 기준 약 30% 할인을 제공합니다. 코레일 앱, 역 창구, SRT 앱에서 예매 시 경로 우대를 선택하세요. 경로 할인은 평일(월~금, 공휴일 제외)에 적용되며 주말·공휴일에는 제외됩니다. 열차·노선에 따라 조건이 다를 수 있고, 특실은 할인 대상에서 제외될 수 있습니다. 문의: ☎ 1544-7788 (코레일 고객센터).',
     },
     {
       type: 'info',

@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-05-10',
+  updatedAt: '2026-05-31',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
@@ -88,7 +88,7 @@ const article: ContentItem = {
         '교육비 지원: 초·중·고 학비, 급식비, 교과서대 지원',
         '에너지바우처: 난방비·전기료 지원 ([[energy-voucher|에너지바우처]] 연 최대 약 30만 원)',
         'TV 수신료 면제: KBS 수신료 전액 면제',
-        '문화누리카드: 연간 13만 원 문화·여행·체육 활동비 지원',
+        '문화누리카드: 연간 15만 원 문화·여행·체육 활동비 지원',
         '급식비: 어린이·청소년 급식 지원, 노인 경로식당 우선 이용',
       ],
     },

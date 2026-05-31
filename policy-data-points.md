@@ -282,12 +282,13 @@
 ## 4. 복지/바우처 (변동 주기: 연 1회)
 
 ### 4.1 문화누리카드 지원금
-- **현재 값**: 연 13만원 (1인당)
-- **공식 출처**: https://www.munhwanuri.or.kr
-- **마지막 확인**: 2026-05-10
+- **현재 값**: 연 15만원 (1인당, 2026년). 만 60~64세는 1만원 추가(최대 16만원)
+- **공식 출처**: https://www.mnuri.kr (문체부 보도자료 2026-02-02, mcst.go.kr)
+- **마지막 확인**: 2026-05-31
 - **변동 주기**: 매년
-- **검색 패턴**: `문화누리`, `13만`
-- **⚠️ 알려진 옛 값**: 11만원 → 2026-05-10 near-poverty-benefits 정정 완료
+- **검색 패턴**: `문화누리`, `15만`, `13만`
+- **⚠️ 알려진 옛 값**: 11만원(2024) → 13만원(2025) → **15만원(2026)**. 2026-05-31 senior-culture-voucher/near-poverty-benefits/senior-travel-support/senior-lifelong-education/turning-65-benefit-guide 일괄 정정 완료
+- **영향 글**: low-income-travel-support, senior-culture-voucher, senior-travel-support, near-poverty-benefits, senior-lifelong-education, turning-65-benefit-guide
 
 ### 4.2 에너지바우처 (노인 단독가구)
 - **현재 값**: 약 30만원 (연간 총액, 1인 생계·의료급여 수급자 295,200원). 하절기·동절기 분리 지급 아님(사용 기간 내 자유 사용). 가구원수·수급 유형별 차이 있음
@@ -296,6 +297,15 @@
 - **변동 주기**: 매년
 - **검색 패턴**: `에너지바우처`, `19만`, `30만`
 - **⚠️ 알려진 옛 값**: 19만원 (2024년 이전 연간 총액) → 2026-05-10 energy-voucher/near-poverty-benefits 수정 완료
+
+### 4.2-b KTX·새마을호 경로(만 65세 이상) 할인
+- **현재 값**: 운임 30% 할인, **주중(월~금, 공휴일 제외)만 적용** - 주말·공휴일 제외. 일반실 기준(특실 제외 가능). SRT·열차별 조건 상이
+- **공식 출처**: 코레일 FAQ https://info.korail.com (key=817), https://www.korail.com/ticket/discountSystem
+- **마지막 확인**: 2026-05-31
+- **변동 주기**: 비정기
+- **검색 패턴**: `KTX.*30%`, `경로.*할인`, `화~목`(오류값), `주말.*할인`
+- **⚠️ 알려진 오류 값**: "화~목 30%"(요일 오류) / "주말·공휴일에도 할인 적용"(정반대 오류) → 2026-05-31 senior-transport-discount/senior-travel-support/low-income-travel-support 3편 정정 완료
+- **영향 글**: senior-transport-discount, senior-travel-support, low-income-travel-support
 
 ### 4.3 노인일자리 공익활동형 급여
 - **현재 값**: 월 27만원 (월 30시간)
@@ -495,11 +505,24 @@
 | 한국인 기대수명(2024) | 남 80.6 / 여 86.5 | **남 80.8 / 여 86.6** (통계청 생명표) | ✅ 2026-05-04 정정 |
 | 대한적십자사 전화 | 1365 | **1577-8179** (1365는 자원봉사 통합) | ✅ 2026-05-04 정정 |
 | 문화누리카드 | 11만원 | 13만원 | ✅ 2026-05-10 정정 |
+| 문화누리카드(2026) | 13만원 | **15만원** (60~64세 +1만, 문체부 2026-02-02) | ✅ 2026-05-31 정정 |
 | 노인일자리 사회서비스형 | 59만 4,000원 | **76만원** | ✅ 2026-05-08 정정 |
 
 ---
 
 ## 변경 이력
+
+### 2026-05-31 - 신규 글 등록 (low-income-travel-support) + 문화누리카드 회귀 정정
+- 신규 글 등록: low-income-travel-support (기초생활수급자 무료여행 - 자격·신청 방법, 문화누리카드/지자체/무장애 여행)
+- **4.1 문화누리카드 정정**: 13만원 → **15만원** (2026년 인상, 만 60~64세 +1만원 최대 16만원). 출처 문체부 보도자료 2026-02-02(mcst.go.kr) - 기존 마스터값 13만원은 2025년 값으로, 2026 인상분 미반영 상태였음
+- **회귀 일괄 정정(13만→15만)**: senior-culture-voucher(summary/keyPoints/info 본문), senior-travel-support(FAQ), near-poverty-benefits, senior-lifelong-education, turning-65-benefit-guide
+- **[C] 도메인 정정**: 레거시 `munhwanuri.or.kr` → 공식 `mnuri.kr` 전수 교체 (senior-culture-voucher 5곳 + senior-travel-support 1곳). 공식 확인: 정부24·구글플레이 앱ID `kr.mnuri.card.culture`. 4.1 출처 URL도 mnuri.kr로 갱신
+- **[G] updatedAt 갱신**: 사실 변경된 6편 모두 2026-05-31로 동기화 (dateModified SEO 신선도)
+- **[H] 단정 표현 완화**: senior-lifelong-education cautionNote "반드시 확인하세요" → "꼭 확인하시기 바랍니다"
+- **[A] KTX 경로할인 요일 오류 정정 (2차 검증)**: 코레일 공식 FAQ로 "주중(월~금, 공휴일 제외) 30%" 확인. senior-transport-discount "주말·공휴일에도 할인 적용"(정반대 오류) + senior-travel-support·low-income-travel-support "화~목"(요일 오류) 3편 정정. 신규 항목 4.2-b 등록
+- **[H] 신규 글 과장 완화**: low-income-travel-support 지자체 "5만~20만원" 거짓정밀 → "지역마다 상이", 열린관광지 "감면+해설 제공" → "일부 제공하기도", FAQ "무조건"→"누구나"
+- 영향 글 추가: 4.1 문화누리카드 ← low-income-travel-support / 4.2-b KTX 경로할인 ← 3편
+- 연결 글 relatedSlugs 업데이트: senior-travel-support, senior-culture-voucher
 
 ### 2026-05-28 - 신규 글 등록 (death-insurance-claim)
 - 신규 글 등록: death-insurance-claim (사망보험금 청구 절차 완전 정리 - 소멸시효 3년)

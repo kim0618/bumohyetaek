@@ -9,7 +9,7 @@ const article: ContentItem = {
   template: 'policy',
   targetUser: 'both',
   createdAt: '2026-04-03',
-  updatedAt: '2026-04-29',
+  updatedAt: '2026-05-31',
   reviewStatus: 'current',
   order: 34,
 
@@ -28,7 +28,7 @@ const article: ContentItem = {
 
   hubKey: ['government-benefits'],
 
-  relatedSlugs: ['senior-culture-voucher', 'senior-discount-guide', 'senior-transport-discount', 'basic-pension-application'],
+  relatedSlugs: ['low-income-travel-support', 'senior-culture-voucher', 'senior-discount-guide', 'senior-transport-discount', 'basic-pension-application'],
 
   officialSources: [
     {
@@ -67,12 +67,12 @@ const article: ContentItem = {
     {
       question: '문화누리카드 잔액을 여행 비용으로 쓸 수 있나요?',
       answer:
-        '문화누리카드는 숙박·관광·체험 등 여행 관련 가맹점에서 사용할 수 있습니다. 연간 지원 금액(2026년 기준 13만 원)을 숙박비, 입장료, 체험 프로그램 등에 활용 가능합니다. 문화누리 앱 또는 누리집(munhwanuri.or.kr)에서 여행 관련 가맹점을 미리 확인하면 편리합니다.',
+        '문화누리카드는 숙박·관광·체험 등 여행 관련 가맹점에서 사용할 수 있습니다. 연간 지원 금액(2026년 기준 15만 원)을 숙박비, 입장료, 체험 프로그램 등에 활용 가능합니다. 문화누리 앱 또는 누리집(mnuri.kr)에서 여행 관련 가맹점을 미리 확인하면 편리합니다.',
     },
   ],
 
   cautionNote:
-    '여행 지원 사업은 예산 소진 시 조기 마감될 수 있습니다. 신청 전 반드시 해당 기관에 잔여 여부를 확인하세요.',
+    '여행 지원 사업은 예산 소진 시 조기 마감될 수 있습니다. 신청 전 해당 기관에 잔여 여부를 확인하시기 바랍니다.',
 
   effectiveDate: '2026-01-01',
 
@@ -117,7 +117,7 @@ const article: ContentItem = {
     {
       type: 'tip',
       heading: '여행 비용을 더 줄이는 방법',
-      body: '시니어 여행 지원에 [[senior-discount-guide|노인 할인 혜택]]을 더하면 비용을 크게 줄일 수 있습니다. 국공립 박물관·미술관은 만 65세 이상 무료 입장이 많고, KTX는 화~목 30% 할인이 적용됩니다. 문화누리카드 잔액이 있다면 숙박·체험 프로그램에도 사용 가능합니다. 문의: ☎ 129(보건복지상담센터)',
+      body: '시니어 여행 지원에 [[senior-discount-guide|노인 할인 혜택]]을 더하면 비용을 크게 줄일 수 있습니다. 국공립 박물관·미술관은 만 65세 이상 무료 입장이 많고, KTX는 주중(월~금, 공휴일 제외) 30% 할인이 적용됩니다. 문화누리카드 잔액이 있다면 숙박·체험 프로그램에도 사용 가능합니다. 문의: ☎ 129(보건복지상담센터)',
     },
     {
       type: 'info',
