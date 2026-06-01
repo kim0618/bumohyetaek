@@ -24,10 +24,11 @@ npm run lint    # ESLint
 
 ## 배포 분담
 
-**Claude는 `npm run build`까지만 수행. rsync 배포는 사용자가 직접.**
+**Claude는 `npm run build`까지만 수행. 배포는 사용자가 직접.**
 
-- `rsync -avz --delete out/ {서버경로}` 같은 명령을 Claude가 자동 실행하지 않음.
-- 빌드 완료 후 결과 요약만 전달하고 사용자 배포 대기.
+- 배포처: Cloudflare Pages (프로젝트명 `bumohyetaek`, www.bumohyetaek.kr).
+- 배포 명령: `npx wrangler pages deploy out --project-name=bumohyetaek` (사용자가 직접 실행).
+- Claude는 빌드 완료 후 결과 요약만 전달하고 사용자 배포 대기.
 
 ## PDF 생성 프로세스
 

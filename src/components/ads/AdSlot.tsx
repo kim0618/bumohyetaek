@@ -46,12 +46,12 @@ import { useEffect } from 'react';
 const AD_UNIT_MAP = {
   /** 가이드 본문(ContentBody) 종료 직후 - 300x250 */
   'guide-mid-content':     { unit: 'DAN-LKDJ96K9RChRZb7i', width: 300, height: 250 },
-  /** 가이드 OfficialSources 이후 ~ FAQSection 사이 - 300x250 (2번째 유닛 발급 예정) */
-  'guide-after-sources':   { unit: '', width: 300, height: 250 },
-  /** 허브 전체 글 목록 하단 - 300x250 (유닛 발급 예정) */
-  'hub-after-articles':    { unit: '', width: 300, height: 250 },
-  /** 홈 카테고리 섹션 이후 - 300x250 (유닛 발급 예정) */
-  'home-after-categories': { unit: '', width: 300, height: 250 },
+  /** 가이드 OfficialSources 이후 ~ FAQSection 사이 - 300x250 */
+  'guide-after-sources':   { unit: 'DAN-zib7BO0tZfsyCyqY', width: 300, height: 250 },
+  /** 허브 전체 글 목록 하단 - 300x250 */
+  'hub-after-articles':    { unit: 'DAN-zFFAtha86RGc8tPu', width: 300, height: 250 },
+  /** 홈 카테고리 섹션 이후 - 300x250 */
+  'home-after-categories': { unit: 'DAN-06ZoHikusE6dxVmR', width: 300, height: 250 },
 } as const;
 
 export type AdPosition = keyof typeof AD_UNIT_MAP;
