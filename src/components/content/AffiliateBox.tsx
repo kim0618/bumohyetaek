@@ -38,8 +38,12 @@ export default function AffiliateBox({ affiliate, articleSlug }: Props) {
       role="complementary"
       aria-label="제휴 광고"
     >
-      <p className="mb-1 text-[11px] font-medium leading-none text-gray-400 select-none">
+      <p className="mb-1 text-[11px] font-medium leading-none text-gray-500 select-none">
         제휴 광고
+      </p>
+
+      <p className="mb-2 text-xs leading-snug text-gray-500">
+        이 글에는 제휴마케팅이 포함된 광고가 있으며, 링크를 통해 구매가 이루어지면 운영자가 커미션을 지급받습니다. 구매자가 추가로 부담하는 비용은 없습니다.
       </p>
 
       <p className="mt-1 mb-0 text-sm text-gray-700">

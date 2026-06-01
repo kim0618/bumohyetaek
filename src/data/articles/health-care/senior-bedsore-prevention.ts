@@ -69,6 +69,15 @@ const article: ContentItem = {
       ],
     },
     {
+      type: 'affiliate',
+      affiliate: {
+        merchant: '롯데온 (욕창방지방석·에어매트리스)',
+        url: 'https://linkmoa.kr/click.php?m=lotteon&a=A100704915&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.lotteon.com%2Fcsearch%2Fsearch%2Fsearch%3Frender%3Dsearch%26platform%3Dpc%26q%3D%25EC%259A%2595%25EC%25B0%25BD%25EB%25B0%25A9%25EC%25A7%2580%25EB%25B0%25A9%25EC%2584%259D%26mallId%3D1%26sort%3Dranking',
+        label: '욕창 예방 용품 보러 가기',
+        note: '오래 앉거나 누워 있는 시간이 길 때 압력을 분산하는 방석·매트리스가 도움이 될 수 있습니다. 이미 욕창이 생겼다면 자가 처치보다 의료진 상담이 우선입니다.',
+      },
+    },
+    {
       type: 'list',
       heading: '욕창 조기 발견 체크포인트',
       items: [

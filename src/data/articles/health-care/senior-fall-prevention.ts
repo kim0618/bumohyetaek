@@ -75,6 +75,15 @@ const article: ContentItem = {
       ],
     },
     {
+      type: 'affiliate',
+      affiliate: {
+        merchant: '롯데온 (미끄럼방지매트·안전손잡이)',
+        url: 'https://linkmoa.kr/click.php?m=lotteon&a=A100704915&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.lotteon.com%2Fcsearch%2Fsearch%2Fsearch%3Frender%3Dsearch%26platform%3Dpc%26q%3D%25EB%25AF%25B8%25EB%2581%2584%25EB%259F%25BC%25EB%25B0%25A9%25EC%25A7%2580%25EB%25A7%25A4%25ED%258A%25B8%26mallId%3D1%26sort%3Dranking',
+        label: '미끄럼방지 용품 보러 가기',
+        note: '욕실·현관 미끄럼방지매트나 안전손잡이는 집 안 낙상 위험을 줄이는 데 도움이 됩니다. 설치 위치와 규격을 집 구조에 맞게 확인하세요.',
+      },
+    },
+    {
       type: 'tip',
       heading: '낙상 예방 운동 - 주 3회 10분',
       body: '① 한 발 서기: 의자 잡고 한 발로 10초씩 서기 (좌우 각 5회) / ② 발뒤꿈치 들기: 서서 천천히 발뒤꿈치를 들어올리고 내리기 (10회 × 3세트) / ③ 앉았다 일어서기: 의자에서 천천히 일어서고 앉기 (10회 × 2세트). 이 세 가지만 꾸준히 해도 균형 감각과 하체 근력이 향상됩니다. 지역 낙상 예방 프로그램은 보건복지상담센터(☎ 129)에 문의하면 안내받을 수 있습니다.',

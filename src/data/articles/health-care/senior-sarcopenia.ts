@@ -90,7 +90,7 @@ const article: ContentItem = {
       type: 'affiliate',
       affiliate: {
         merchant: '대상웰라이프 뉴케어',
-        url: 'https://lase.kr/click.php?m=dswellife&a=A100704915&l=0000',
+        url: 'https://bestmore.net/click.php?m=dswellife&a=A100704915&l=0000',
         label: '단백질 보충 영양식 보러 가기',
         note: '씹기 어렵거나 식사량이 적을 때 단백질 음료·영양식으로 보충하는 방법도 있습니다. 신장 기능 저하가 있다면 섭취 전 의사와 상담하세요.',
       },

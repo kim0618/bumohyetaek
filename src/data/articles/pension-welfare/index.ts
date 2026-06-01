@@ -60,6 +60,8 @@ import specialOccupationPensionBasicPension from './special-occupation-pension-b
 import ltciNotEligibleAlternatives from './ltci-not-eligible-alternatives';
 import nationalPensionOldAgeClaim from './national-pension-old-age-claim';
 import lowIncomeTravelSupport from './low-income-travel-support';
+import nationalPensionBackPaymentStrategy from './national-pension-back-payment-strategy';
+import seniorVoucherComparison from './senior-voucher-comparison';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -122,4 +124,6 @@ export const pensionWelfareArticles: ContentItem[] = [
   ltciNotEligibleAlternatives,
   nationalPensionOldAgeClaim,
   lowIncomeTravelSupport,
+  nationalPensionBackPaymentStrategy,
+  seniorVoucherComparison,
 ];

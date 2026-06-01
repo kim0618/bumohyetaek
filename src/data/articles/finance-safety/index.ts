@@ -59,6 +59,7 @@ import pensionIncomeSequence from './pension-income-sequence';
 import severanceMidtermSettlement from './severance-midterm-settlement';
 import housingFarmlandPensionComparison from './housing-farmland-pension-comparison';
 import deathInsuranceClaim from './death-insurance-claim';
+import afterDeath30daysChecklist from './after-death-30days-checklist';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -120,5 +121,6 @@ export const financeSafetyArticles: ContentItem[] = [
   severanceMidtermSettlement,
   housingFarmlandPensionComparison,
   deathInsuranceClaim,
+  afterDeath30daysChecklist,
 ];
 

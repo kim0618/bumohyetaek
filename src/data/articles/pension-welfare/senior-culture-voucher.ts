@@ -125,7 +125,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 5월 기준으로 작성되었습니다. 지원 금액과 가맹점은 연도별로 변경될 수 있으니 문화누리 홈페이지(www.mnuri.kr)에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['basic-livelihood-benefit', 'near-poverty-benefits', 'low-income-travel-support', 'senior-discount-guide', 'senior-welfare-center'],
+  relatedSlugs: ['senior-voucher-comparison', 'basic-livelihood-benefit', 'near-poverty-benefits', 'low-income-travel-support', 'senior-discount-guide'],
 };
 
 export default article;

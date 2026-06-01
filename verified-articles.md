@@ -1,18 +1,26 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 178 / 178 (100%) | 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거) + 5/31 문화누리카드 회귀 6편(15만원 + mnuri.kr 도메인) + 5/31 KTX 경로할인 요일 오류 정정 3편(senior-transport-discount "주말에도 적용"→"평일만", low-income/senior-travel-support "화~목"→"주중 월~금")
+- 감사 완료: 181 / 181 (100%) | 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거) + 5/31 문화누리카드 회귀 6편(15만원 + mnuri.kr 도메인) + 5/31 KTX 경로할인 요일 오류 정정 3편 + 6/01 신규 글 3편 감사(추납전략 이상無, 바우처비교 5건 수정, 사망후30일 URL 1건) + 6/01 바우처 회귀 수정 3편(에너지바우처 금액·차상위 미포함, 노인맞춤돌봄 소득기준)
 - P1 health-care: 59 / 59 (완료)
-- P2 policy+수치: 66 / N (완료, low-income-travel-support 추가)
+- P2 policy+수치: 69 / N (완료, national-pension-back-payment-strategy + senior-voucher-comparison 추가)
 - P3 계산기 연결: 21 / N (완료)
-- P4 finance-safety: 28 / N (완료, P2/P3 분류 포함)
+- P4 finance-safety: 29 / N (완료, after-death-30days-checklist 추가)
 - P5 기타: 8 / N (완료)
 - 미감사: 0편 (전편 감사 완료)
-- 마지막 업데이트: 2026-05-31
-- AdSense 신청 D-2 (2026-06-02 목표)
+- 마지막 업데이트: 2026-06-01
+- AdSense 신청 D-1 (2026-06-02 목표)
 
 ## 감사 완료 목록
 
+- senior-voucher-comparison (2026-06-01 감사, P2, 신규 글 적대적 팩트체크 - 오류 5건 수정: [A] 에너지바우처 금액 "14~30만원"→가구원수별 295,200~701,300원(1~4인이상), [A] 에너지바우처 대상에 교육급여 추가·차상위 미포함 명시, [A] 노인맞춤돌봄 "소득 무관"→기초수급·차상위·기초연금 수급자 소득기준 존재, [A] 인지지원등급 재가급여 분리(방문요양 불가, 주야간보호·단기보호·복지용구만), [G] 문화누리 신청 "2~4월"→"2월부터 연중(11월말)". FAQ 차상위 에너지바우처 질문 교체. 추납 글과 함께 신규 작성분)
+- after-death-30days-checklist (2026-06-01 감사, P4, 신규 글 적대적 팩트체크 - 법률 수치 8개 전부 정확(사망신고 1개월·과태료 5만원·상속포기 3개월·특별한정승인·보험시효 3년·법률구조공단 132), 오류 1건 수정: [C] 안심상속 원스톱 URL gov.kr/portal/service/serviceInfo/PTR000050176(미등록 에러)→gov.kr/portal/onestopSvc/safeInheritance. pro-se.scourt.go.kr 유효)
+- national-pension-back-payment-strategy (2026-06-01 감사, P2, 신규 글 적대적 팩트체크 - 6개 핵심 사실 전부 정확(추납 60회·119개월·보험료율 9.5%/2033년 13%·분할납 정기예금이자 가산·기준월변경 2025.11.25·계산예시), officialSources nps.or.kr 공식 확인, 이상 없음)
+- energy-voucher (2026-06-01 **재감사 회귀 수정**, P2, [A] 지원금액 "1인 약 10만~30만원"→가구원수별 295,200/407,500/532,700/701,300원(2025년) 정정, [A] 사용기간 "동절기 12/1~4/30·하절기 7/1~9/30"→"2025년부터 동·하절기 통합 7.1~다음해 5.25" 정정. 근거: energyv.or.kr 공식. updatedAt 갱신)
+- senior-social-service-voucher (2026-06-01 **재감사 회귀 수정**, P2, [A] 도입부 "노인맞춤돌봄서비스처럼 소득과 무관하게 신청"→"기초수급·차상위·기초연금 수급자 중 돌봄 필요 어르신, 소득기준 있음" 정정. 근거: 보건복지부 2026 노인맞춤돌봄 사업안내. updatedAt 갱신)
+- near-poverty-benefits (2026-06-01 **재감사 회귀 수정**, P2, [A] 차상위 혜택 목록의 "에너지바우처 연 최대 약 30만원" 항목→"한전 전기요금 복지할인(에너지바우처는 기초수급자 대상이라 차상위 제외)" 교체. 에너지바우처는 4대급여 수급자만 대상이라 차상위 혜택 목록에 부적합. updatedAt 갱신)
+
+- national-pension-back-payment-strategy (2026-06-01 감사, P2, 이상 없음 - 보험료율 9.5%·추납 119개월·분할납 60회·계산 예시 수치 정확, officialSources nps.or.kr 공식 도메인 확인, 내부 링크 2개·relatedSlugs 4개 실존, seoDescription 90자·summary 113자 범위 내, 기존 verified 글과 수치 충돌 없음)
 - low-income-travel-support (2026-05-31 감사, P2, 신규 글 전수 감사 + 2차 적대적 팩트체크 - 보완 4건: [A] KTX "화~목"→"주중(월~금,공휴일 제외)" 코레일 FAQ 확인, [H] 지자체 "5만~20만원" 거짓정밀 → "지역마다 상이" 완화, [H] 열린관광지 "감면+해설 제공" → "일부 관광지 제공하기도" 완화, [H] FAQ "무조건"→"누구나". 문화누리 15만원·mnuri.kr 정확, 위키링크 4개·relatedSlug 4개 실존, HowTo 충족)
 - senior-transport-discount (2026-05-31 **재감사 정정**, P3, [A] KTX 경로할인 "주말·공휴일에도 할인이 적용되며" → "평일(월~금, 공휴일 제외)에 적용, 주말·공휴일 제외" 정정. 근거: 코레일 공식 FAQ(info.korail.com) "주중(월~금요일, 공휴일 제외) 30%". 직전 verified 시 누락된 사실 오류 - updatedAt 갱신)
 - senior-culture-voucher (2026-05-31 재감사, P2, 회귀 수정: [A] 문화누리 13만→15만(summary/keyPoints/도입부/info 4곳), [C] munhwanuri.or.kr→mnuri.kr 5곳, [G] cautionNote "4월"→"5월" + updatedAt 갱신)

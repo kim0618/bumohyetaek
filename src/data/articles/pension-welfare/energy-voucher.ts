@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-03-29',
-  updatedAt: '2026-05-10',
+  updatedAt: '2026-06-01',
   reviewStatus: 'current',
   effectiveDate: '2026-01-01',
 
@@ -49,7 +49,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '지원 금액 (2026년 기준)',
-      body: '가구원 수와 등급에 따라 다릅니다. 1인 가구 기준 약 10만~30만 원 수준이며, 생계·의료급여 수급자가 주거·교육급여 수급자보다 지원액이 많습니다. 하절기(전기요금)와 동절기(가스·등유 등) 구분 없이 통합 바우처로 사용 가능합니다.',
+      body: '가구원 수에 따라 1인 가구 295,200원, 2인 가구 407,500원, 3인 가구 532,700원, 4인 이상 가구 701,300원입니다(2025년 기준 연 지원액). 2025년부터 하절기(냉방)와 동절기(난방) 구분 없이 통합 바우처로 사용할 수 있습니다.',
     },
     {
       type: 'numbered-list',
@@ -70,7 +70,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '미사용 잔액은 어떻게 되나요?',
-      body: '에너지바우처 잔액은 지원 기간이 끝나면 소멸됩니다. 다음 연도로 이월되지 않으므로 사용 기간 내에 모두 사용하는 것이 중요합니다. 동절기 바우처는 보통 12월 1일부터 다음 해 4월 30일까지, 하절기 바우처는 7월 1일부터 9월 30일까지 사용 가능합니다. 잔액이 남아있다면 기간 말미에 전기·가스 요금 납부에 집중 활용하세요. 사용하지 못한 경우라도 환급은 되지 않으니 기간을 꼭 확인하세요.',
+      body: '에너지바우처 잔액은 지원 기간이 끝나면 소멸됩니다. 다음 연도로 이월되지 않으므로 사용 기간 내에 모두 사용하는 것이 중요합니다. 2025년부터 동·하절기가 통합되어 7월 1일부터 다음 해 5월 25일까지 자유롭게 나눠 사용할 수 있습니다. 잔액이 남아있다면 기간 말미에 전기·가스 요금 납부에 집중 활용하세요. 사용하지 못한 경우라도 환급은 되지 않으니 기간을 꼭 확인하세요.',
     },
     {
       type: 'tip',
@@ -98,7 +98,7 @@ const article: ContentItem = {
   cautionNote:
     '지원 금액과 신청 기간은 매년 변경될 수 있습니다. 에너지바우처 공식 사이트(energyv.or.kr) 또는 주민센터에서 해당 연도 기준을 확인하세요.',
 
-  relatedSlugs: ['basic-livelihood-benefit', 'housing-benefit', 'basic-pension-application', 'high-oil-price-relief'],
+  relatedSlugs: ['senior-voucher-comparison', 'basic-livelihood-benefit', 'housing-benefit', 'basic-pension-application'],
 };
 
 export default article;

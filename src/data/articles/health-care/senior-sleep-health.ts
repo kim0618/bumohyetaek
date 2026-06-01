@@ -67,6 +67,15 @@ const article: ContentItem = {
       ],
     },
     {
+      type: 'affiliate',
+      affiliate: {
+        merchant: '롯데온 (경추베개·수면용품)',
+        url: 'https://lpweb.kr/click.php?m=lotteon&a=A100704915&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.lotteon.com%2Fcsearch%2Fsearch%2Fsearch%3Frender%3Dsearch%26platform%3Dpc%26q%3D%25EA%25B2%25BD%25EC%25B6%2594%25EB%25B2%25A0%25EA%25B0%259C%26mallId%3D1%26sort%3Dranking',
+        label: '수면 베개 보러 가기',
+        note: '목과 어깨가 편한 경추베개는 수면 자세를 잡는 데 도움이 될 수 있습니다. 베개 교체만으로 불면증이 해결되지는 않으며, 증상이 지속되면 수면 위생 습관부터 점검하세요.',
+      },
+    },
+    {
       type: 'warning',
       heading: '수면제 장기 복용의 위험성',
       body: '수면제(벤조디아제핀 계열)를 장기 복용하면 약물 의존, 낙상 위험 증가, 인지 기능 저하, 주간 졸림 등 부작용이 생길 수 있습니다. 수면제는 의사 처방 하에 단기간만 사용하고, 가능하면 인지행동치료(CBT-I) 등 비약물 치료를 먼저 시도하세요. [[polypharmacy-management|다약제 복용]] 중인 분은 수면제 추가 전 반드시 담당 의사와 상담하세요.',

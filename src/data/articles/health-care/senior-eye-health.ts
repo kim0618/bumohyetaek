@@ -86,6 +86,15 @@ const article: ContentItem = {
       ],
     },
     {
+      type: 'affiliate',
+      affiliate: {
+        merchant: '롯데온 (인공눈물·돋보기)',
+        url: 'https://newtip.net/click.php?m=lotteon&a=A100704915&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.lotteon.com%2Fcsearch%2Fsearch%2Fsearch%3Frender%3Dsearch%26platform%3Dpc%26q%3D%25EC%259D%25B8%25EA%25B3%25B5%25EB%2588%2588%25EB%25AC%25BC%26mallId%3D1%26sort%3Dranking',
+        label: '눈 건강 용품 보러 가기',
+        note: '눈이 건조할 때 인공눈물을, 가까운 글씨가 안 보일 때 돋보기를 보조적으로 쓸 수 있습니다. 인공눈물은 방부제 여부를 확인하고, 시야 변화가 있으면 안과 검진을 먼저 받으세요.',
+      },
+    },
+    {
       type: 'warning',
       heading: '이런 증상이 나타나면 즉시 안과 방문',
       body: '갑작스러운 시력 저하, 눈앞에 커튼이 내려온 것 같은 느낌, 심한 눈 통증과 충혈, 빛 주위에 무지개 빛이 보이는 경우에는 응급 안과 질환일 수 있으니 즉시 안과를 방문하세요. 문의: ☎ 1577-1000 (국민건강보험공단) - 안과 수술 급여 기준 확인',

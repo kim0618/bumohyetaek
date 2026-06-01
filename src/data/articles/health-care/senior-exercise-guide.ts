@@ -88,6 +88,15 @@ const article: ContentItem = {
       body: '운동을 처음 시작하거나 오래 쉬었다면 5분짜리 루틴부터 해보세요. 의자에 앉아 일어서기 10회, 제자리 발 올리기 20회, 벽 짚고 종아리 들기 10회가 한 세트입니다. 이것만 하루 2세트 하면 2주 후 다리 힘이 달라지는 걸 느낄 수 있습니다. 익숙해지면 걷기 시간을 10분, 20분, 30분으로 점차 늘려가세요.',
     },
     {
+      type: 'affiliate',
+      affiliate: {
+        merchant: '롯데온 (세라밴드·실내자전거)',
+        url: 'https://lpweb.kr/click.php?m=lotteon&a=A100704915&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.lotteon.com%2Fcsearch%2Fsearch%2Fsearch%3Frender%3Dsearch%26platform%3Dpc%26q%3D%25EC%2584%25B8%25EB%259D%25BC%25EB%25B0%25B4%25EB%2593%259C%26mallId%3D1%26sort%3Dranking',
+        label: '홈트 운동 용품 보러 가기',
+        note: '세라밴드나 실내자전거 같은 가벼운 기구는 집에서 근력·유산소 운동을 이어가는 데 활용할 수 있습니다. 관절 질환이 있다면 강도를 의사와 상담해 정하세요.',
+      },
+    },
+    {
       type: 'warning',
       heading: '운동 전 반드시 확인하세요',
       body: '심장 질환, 뇌혈관 질환, 심한 골다공증이 있는 분은 반드시 의사와 상담 후 운동을 시작하세요. 급격한 고강도 운동은 오히려 위험할 수 있습니다. 운동 중 어지러움, 가슴 통증, 심한 숨참이 나타나면 즉시 중단하고 휴식하세요.',
