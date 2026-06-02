@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'special-occupation-pension-basic-pension',
@@ -133,6 +134,18 @@ const article: ContentItem = {
     'basic-pension-national-pension-simulation',
     'turning-65-benefit-guide',
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '기초연금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/basic-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-special-basic-pension',
+  },
+  calculatorCTA: {
+    text: '기초연금 예상 수령액 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

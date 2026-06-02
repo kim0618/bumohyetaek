@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'home-sale-tax-exemption',
@@ -131,6 +132,18 @@ const article: ContentItem = {
     'will-writing-guide',
     'housing-pension',
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '양도소득세 계산기',
+    url: 'https://www.jptcalc.kr/calc/realestate/capital-gains/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-home-sale-tax',
+  },
+  calculatorCTA: {
+    text: '양도소득세 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

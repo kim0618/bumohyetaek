@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'retirement-health-insurance',
@@ -136,6 +137,18 @@ const article: ContentItem = {
     'retirement-health-insurance-comparison',
     'retirement-finance-timeline',
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '4대보험 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/insurance-comparison/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-retire-health-ins',
+  },
+  calculatorCTA: {
+    text: '4대보험료 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

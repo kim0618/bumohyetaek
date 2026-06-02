@@ -3,6 +3,7 @@ import type { HubDetail } from '@/types/hub';
 import type { ContentListItem } from '@/types/content';
 import type { PdfDownload } from '@/types/download';
 import ArticleCard from '@/components/content/ArticleCard';
+import HubArticleList from '@/components/content/HubArticleList';
 import { PrepareListBox, CalculatorCTABox, FAQSection } from '@/components/content';
 import { PdfDownloadSection } from '@/components/download';
 import { AdSlot } from '@/components/ads';
@@ -116,15 +117,7 @@ export default function HubTemplate({ hub, detail, articles, relatedDownloads }:
           <h2 id="articles-heading" className="mb-5">
             관련 정보 모아보기
           </h2>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {otherArticles.map((article) => (
-              <ArticleCard
-                key={article.slug}
-                item={article}
-                sourceHub={{ slug: hub.slug, isFeatured: false }}
-              />
-            ))}
-          </div>
+          <HubArticleList items={otherArticles} hubSlug={hub.slug} />
         </section>
       )}
 

@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'ltci-family-caregiver-benefit',
@@ -131,6 +132,18 @@ const article: ContentItem = {
       ],
     },
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 비용 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-ltci-family-care',
+  },
+  calculatorCTA: {
+    text: '장기요양 비용 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

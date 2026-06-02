@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'health-insurance-premium-reduction',
@@ -116,6 +117,18 @@ const article: ContentItem = {
     '건강보험료 경감 기준은 매년 변경될 수 있습니다. 정확한 금액과 자격 여부는 국민건강보험공단(☎ 1577-1000)에 문의하거나 건강보험 홈페이지(nhis.or.kr)에서 확인하세요.',
 
   relatedSlugs: ['health-insurance-limit', 'basic-livelihood-benefit', 'national-health-checkup-guide'],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '4대보험 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/insurance-comparison/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-health-premium-reduction',
+  },
+  calculatorCTA: {
+    text: '4대보험료 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

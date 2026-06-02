@@ -82,6 +82,15 @@ const article: ContentItem = {
       body: '거동이 불편하여 경로식당을 이용하기 어려운 어르신은 도시락 배달 서비스를 신청할 수 있습니다. 주 5-7회 점심 또는 저녁 도시락을 집으로 배달해주며, 안부 확인도 함께 이루어집니다. 신청은 주민센터 또는 ☎ 129 (보건복지상담센터)로 문의하세요.',
     },
     {
+      type: 'affiliate',
+      affiliate: {
+        merchant: '대상웰라이프 (시니어 영양식)',
+        url: 'https://linkmoa.kr/click.php?m=dswellife&a=A100704915&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.wellife.co.kr%2Fproducts%2Fresult%3ForderBy%3DHITS%26sort%3DDESC%26query%3D%25EC%2598%2581%25EC%2596%2591%25EC%258B%259D',
+        label: '시니어 영양식 보러 가기',
+        note: '식사량이 줄거나 씹고 삼키기 어려워 영양이 부족할 때 영양식을 보조적으로 활용할 수 있습니다. 일반 식사가 우선이며, 당뇨·신장질환 등이 있으면 성분을 확인하고 의료진과 상의하세요.',
+      },
+    },
+    {
       type: 'warning',
       heading: '영양 보충제 복용 시 주의사항',
       body: '영양 보충제는 부족한 영양소를 보충하는 용도이지 식사를 대체할 수 없습니다. 특히 비타민A, 비타민D, 철분 등은 과다 섭취 시 간 손상, 신장 결석 등 부작용이 있습니다. [[polypharmacy-management|다약제 복용]] 중인 어르신은 반드시 의사·약사와 상담 후 영양제를 선택하세요.',
