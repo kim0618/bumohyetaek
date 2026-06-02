@@ -134,7 +134,7 @@ const article: ContentItem = {
   relatedSlugs: [
     'senior-physical-therapy',
     'senior-chronic-pain',
-    'senior-osteoporosis',
+    'senior-surgery-decision-guide',
     'senior-exercise-guide',
   ],
 };

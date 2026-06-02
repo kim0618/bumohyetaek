@@ -154,7 +154,7 @@ const article: ContentItem = {
     'senior-fall-prevention',
     'senior-osteoporosis',
     'rehabilitation-insurance',
-    'senior-knee-surgery',
+    'senior-surgery-decision-guide',
   ],
 };
 

@@ -172,7 +172,7 @@
 - **변동 주기**: 매년 1월
 - **검색 패턴**: `87만`, `780만`, `상한액`, `본인부담.*상한`
 - **⚠️ 알려진 오류**: "808만원" (10분위 잘못된 값) → 2026-05-13 categoryDetails(health-care) 정정 완료
-- **영향 글**: health-insurance-limit (1차 출처), health-care 카테고리 페이지(categoryDetails.ts)
+- **영향 글**: health-insurance-limit (1차 출처), health-care 카테고리 페이지(categoryDetails.ts), senior-surgery-decision-guide
 
 ---
 
@@ -450,6 +450,32 @@
 - **⚠️ 주의**: pension-income-tax는 소득세만(5%/4%/3%) 표기, retirement-income-strategy는 결합세율(5.5%/4.4%/3.3%) 표기. 둘 다 정확하나 표기 통일 필요 시 결합세율 권장.
 - **영향 글**: pension-income-sequence
 
+### 6.8 상속세 일괄공제
+- **현재 값**: 5억원 (기초공제 2억 + 인적공제 합산 대신 선택, 일괄 5억)
+- **공식 출처**: https://www.nts.go.kr
+- **마지막 확인**: 2026-06-02
+- **변동 주기**: 세법개정 시
+- **검색 패턴**: `일괄공제`, `5억.*공제`, `상속.*5억`
+- **⚠️ 주의**: 자녀공제 5억원 확대 개정안 국회 계류 중(2026-06 미통과). 통과 시 즉시 정정.
+- **영향 글**: inheritance-gift-planning, inheritance-vs-gift-tax-simulation
+
+### 6.9 증여세 면세 한도 (10년 합산)
+- **현재 값**: 자녀(성년) 1인당 5,000만원 / 미성년 2,000만원 / 배우자 6억원 (10년 단위)
+- **공식 출처**: https://www.nts.go.kr
+- **마지막 확인**: 2026-06-02
+- **변동 주기**: 세법개정 시
+- **검색 패턴**: `5,000만.*증여`, `증여.*면세`, `배우자.*6억`
+- **영향 글**: inheritance-gift-planning, inheritance-vs-gift-tax-simulation
+
+### 6.10 상속세 세율 (과세표준 구간별)
+- **현재 값**: 1억 이하 10%(누진공제 0) / 1~5억 20%(1천만) / 5~10억 30%(6천만) / 10~30억 40%(1.6억) / 30억 초과 50%(4.6억)
+- **공식 출처**: https://www.nts.go.kr
+- **마지막 확인**: 2026-06-02
+- **변동 주기**: 세법개정 시
+- **검색 패턴**: `상속세 세율`, `누진공제`, `40%.*1억6`
+- **⚠️ 주의**: 2024-12 최고세율 50%→40% 인하안 국회 부결. 현행 50% 유지.
+- **영향 글**: inheritance-vs-gift-tax-simulation
+
 ---
 
 ## 7. 교통/할인 (변동 주기: 사업자 정책)
@@ -531,6 +557,18 @@
 ---
 
 ## 변경 이력
+
+### 2026-06-02 - new-analysis 2편 + 검증 정정
+- 신규 글 등록: senior-surgery-decision-guide(고령 수술 결정 가이드), inheritance-vs-gift-tax-simulation(상속세 vs 사전증여 시뮬레이션)
+- **YMYL 정정**: senior-surgery-decision-guide 본인부담상한제 수치 오류 정정 ("1~2분위 87만/5분위 157만" → 마스터 2.8 기준 "1분위 87만/2~3분위 108만/4~5분위 162만")
+- **신규 항목 등록**: 6.8 상속세 일괄공제(5억), 6.9 증여세 면세한도(자녀 5천만/배우자 6억), 6.10 상속세 세율표
+- **영향 글 추가**: 2.8 본인부담상한제 ← senior-surgery-decision-guide
+- **역방향 relatedSlugs 보강**: 수술 4대 글(cataract/knee/hip-fracture/spinal-stenosis) → surgery-decision-guide, 상속 2글(gift-planning/will-writing) → inheritance-vs-gift-tax-simulation
+
+### 2026-06-02 - 신규 글 등록 (senior-island-travel-support)
+- 신규 글 등록: senior-island-travel-support (2026 시니어 섬여행지원금 신청 방법)
+- **신규 항목 등록**: 행안부 2026 섬 방문의 해 숙박비 지원 최대 10만 원 (연령 제한 없음, 인증 섬 88개, 7~8월 + 여수세계섬박람회 9.5~11.4)
+- **신규 항목 등록**: 전라남도 섬 여행 추가 환급 최대 10만 원 지역화폐 (20만 원 이상 지출 시, 행안부 지원금과 중복 가능)
 
 ### 2026-06-01 - 신규 글 3편 작성 + 적대적 팩트체크 회귀 정정
 - **신규 글 등록**: national-pension-back-payment-strategy(추납 일시납 vs 분할납, P2 감사 이상無), senior-voucher-comparison(노인 바우처 3종 비교), after-death-30days-checklist(사망후 30일 절차)

@@ -130,7 +130,7 @@ const article: ContentItem = {
   cautionNote:
     '유언장은 민법에서 정한 방식을 따르지 않으면 무효가 됩니다. 중요한 재산이 있는 경우 법률 전문가의 검토를 받으시기 바랍니다.',
 
-  relatedSlugs: ['inheritance-gift-planning', 'adult-guardianship', 'after-death-admin'],
+  relatedSlugs: ['inheritance-gift-planning', 'inheritance-vs-gift-tax-simulation', 'adult-guardianship', 'after-death-admin'],
 };
 
 export default article;

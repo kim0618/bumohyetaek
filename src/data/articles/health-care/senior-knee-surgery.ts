@@ -124,7 +124,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었으며 의학적 진단을 대체하지 않습니다. 건강보험 급여 기준과 본인부담금은 병원 종별, 개인 상황에 따라 다를 수 있으니 국민건강보험공단(1577-1000)에 확인하세요.',
 
-  relatedSlugs: ['senior-physical-therapy', 'rehabilitation-insurance', 'senior-diabetes-management', 'health-insurance-limit'],
+  relatedSlugs: ['senior-physical-therapy', 'rehabilitation-insurance', 'senior-surgery-decision-guide', 'health-insurance-limit'],
 };
 
 export default article;

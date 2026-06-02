@@ -60,6 +60,7 @@ import severanceMidtermSettlement from './severance-midterm-settlement';
 import housingFarmlandPensionComparison from './housing-farmland-pension-comparison';
 import deathInsuranceClaim from './death-insurance-claim';
 import afterDeath30daysChecklist from './after-death-30days-checklist';
+import inheritanceVsGiftTaxSimulation from './inheritance-vs-gift-tax-simulation';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -122,5 +123,6 @@ export const financeSafetyArticles: ContentItem[] = [
   housingFarmlandPensionComparison,
   deathInsuranceClaim,
   afterDeath30daysChecklist,
+  inheritanceVsGiftTaxSimulation,
 ];
 
