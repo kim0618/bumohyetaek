@@ -63,6 +63,8 @@ import lowIncomeTravelSupport from './low-income-travel-support';
 import nationalPensionBackPaymentStrategy from './national-pension-back-payment-strategy';
 import seniorVoucherComparison from './senior-voucher-comparison';
 import seniorIslandTravelSupport from './senior-island-travel-support';
+import parentMedicalAidApplication from './parent-medical-aid-application';
+import basicVsNearPovertyComparison from './basic-vs-near-poverty-comparison';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -128,4 +130,6 @@ export const pensionWelfareArticles: ContentItem[] = [
   nationalPensionBackPaymentStrategy,
   seniorVoucherComparison,
   seniorIslandTravelSupport,
+  parentMedicalAidApplication,
+  basicVsNearPovertyComparison,
 ];

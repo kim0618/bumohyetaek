@@ -136,7 +136,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['basic-livelihood-benefit', 'medical-aid-system', 'housing-benefit'],
+  relatedSlugs: ['basic-livelihood-benefit', 'medical-aid-system', 'parent-medical-aid-application', 'housing-benefit'],
 };
 
 export default article;

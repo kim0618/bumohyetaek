@@ -25,6 +25,7 @@ const article: ContentItem = {
   hubKey: ['financial-safety', 'retirement-income'],
   relatedSlugs: [
     'retirement-health-insurance',
+    'regional-health-insurance-calculation',
     'health-insurance-premium-reduction',
     'national-pension-timing',
     'retirement-budget-planning',

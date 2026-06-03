@@ -61,6 +61,7 @@ import housingFarmlandPensionComparison from './housing-farmland-pension-compari
 import deathInsuranceClaim from './death-insurance-claim';
 import afterDeath30daysChecklist from './after-death-30days-checklist';
 import inheritanceVsGiftTaxSimulation from './inheritance-vs-gift-tax-simulation';
+import regionalHealthInsuranceCalculation from './regional-health-insurance-calculation';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -124,5 +125,6 @@ export const financeSafetyArticles: ContentItem[] = [
   deathInsuranceClaim,
   afterDeath30daysChecklist,
   inheritanceVsGiftTaxSimulation,
+  regionalHealthInsuranceCalculation,
 ];
 

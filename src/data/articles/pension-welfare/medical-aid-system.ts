@@ -125,7 +125,7 @@ const article: ContentItem = {
   cautionNote:
     '의료급여 기준과 본인 부담금은 변경될 수 있습니다. 정확한 내용은 주민센터 또는 보건복지상담센터(129)에 문의하세요.',
 
-  relatedSlugs: ['basic-livelihood-benefit', 'health-insurance-limit', 'housing-benefit'],
+  relatedSlugs: ['basic-livelihood-benefit', 'parent-medical-aid-application', 'health-insurance-limit', 'housing-benefit'],
 };
 
 export default article;
