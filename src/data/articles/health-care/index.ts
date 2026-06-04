@@ -60,6 +60,7 @@ import seniorAnemiaManagement from './senior-anemia-management';
 import seniorHipFracture from './senior-hip-fracture';
 import hospitalNursingCareIntegration from './hospital-nursing-care-integration';
 import seniorSurgeryDecisionGuide from './senior-surgery-decision-guide';
+import seniorHealthCheckupRoadmap from './senior-health-checkup-roadmap';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -122,4 +123,5 @@ export const healthCareArticles: ContentItem[] = [
   seniorHipFracture,
   hospitalNursingCareIntegration,
   seniorSurgeryDecisionGuide,
+  seniorHealthCheckupRoadmap,
 ];

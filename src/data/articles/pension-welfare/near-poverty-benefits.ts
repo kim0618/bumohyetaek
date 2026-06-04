@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-06-01',
+  updatedAt: '2026-06-04',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
@@ -58,7 +58,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '차상위계층 선정 기준',
-      body: '소득인정액이 기준 중위소득 50% 이하이면 차상위계층에 해당합니다. 2026년 기준 1인 가구 약 111만 원, 2인 가구 약 184만 원, 4인 가구 약 286만 원 이하입니다. 소득인정액은 근로소득, 재산의 소득환산액 등을 합산해 산정합니다.',
+      body: '소득인정액이 기준 중위소득 50% 이하이면 차상위계층에 해당합니다. 2026년 기준 1인 가구 약 128만 원, 2인 가구 약 210만 원, 4인 가구 약 325만 원 이하입니다. 소득인정액은 근로소득, 재산의 소득환산액 등을 합산해 산정합니다.',
     },
     {
       type: 'list',
