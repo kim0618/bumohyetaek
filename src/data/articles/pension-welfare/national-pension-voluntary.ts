@@ -150,8 +150,8 @@ const article: ContentItem = {
   relatedSlugs: [
     'national-pension-timing',
     'national-pension-credit',
-    'national-pension-additional',
     'national-pension-work-deduction',
+    'national-pension-voluntary-vs-additional',
   ],
 };
 

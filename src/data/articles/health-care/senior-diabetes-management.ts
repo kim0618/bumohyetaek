@@ -132,7 +132,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 대한당뇨병학회 진료 지침과 국민건강보험공단 안내를 바탕으로 작성되었습니다. 혈당 목표와 약 처방은 개인 상태에 따라 다르므로 반드시 담당 의사와 상의하세요.',
 
-  relatedSlugs: ['national-health-checkup-guide', 'senior-fall-prevention', 'health-insurance-limit', 'senior-kidney-health'],
+  relatedSlugs: ['national-health-checkup-guide', 'senior-fall-prevention', 'health-insurance-limit', 'senior-kidney-health', 'senior-peripheral-neuropathy'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

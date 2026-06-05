@@ -143,7 +143,7 @@ const article: ContentItem = {
     'senior-exercise-guide',
     'senior-knee-surgery',
     'senior-physical-therapy',
-    'senior-shingles-prevention',
+    'senior-peripheral-neuropathy',
   ],
 };
 

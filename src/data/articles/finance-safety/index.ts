@@ -62,6 +62,7 @@ import deathInsuranceClaim from './death-insurance-claim';
 import afterDeath30daysChecklist from './after-death-30days-checklist';
 import inheritanceVsGiftTaxSimulation from './inheritance-vs-gift-tax-simulation';
 import regionalHealthInsuranceCalculation from './regional-health-insurance-calculation';
+import inheritancePreparationRoadmap from './inheritance-preparation-roadmap';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -126,5 +127,6 @@ export const financeSafetyArticles: ContentItem[] = [
   afterDeath30daysChecklist,
   inheritanceVsGiftTaxSimulation,
   regionalHealthInsuranceCalculation,
+  inheritancePreparationRoadmap,
 ];
 

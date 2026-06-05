@@ -67,6 +67,7 @@ import parentMedicalAidApplication from './parent-medical-aid-application';
 import basicVsNearPovertyComparison from './basic-vs-near-poverty-comparison';
 import nationalPensionAdditionalLocation from './national-pension-additional-location';
 import basicBenefit4typesComparison from './basic-benefit-4types-comparison';
+import nationalPensionVoluntaryVsAdditional from './national-pension-voluntary-vs-additional';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -136,4 +137,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   basicVsNearPovertyComparison,
   nationalPensionAdditionalLocation,
   basicBenefit4typesComparison,
+  nationalPensionVoluntaryVsAdditional,
 ];

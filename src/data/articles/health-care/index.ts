@@ -61,6 +61,7 @@ import seniorHipFracture from './senior-hip-fracture';
 import hospitalNursingCareIntegration from './hospital-nursing-care-integration';
 import seniorSurgeryDecisionGuide from './senior-surgery-decision-guide';
 import seniorHealthCheckupRoadmap from './senior-health-checkup-roadmap';
+import seniorPeripheralNeuropathy from './senior-peripheral-neuropathy';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -124,4 +125,5 @@ export const healthCareArticles: ContentItem[] = [
   hospitalNursingCareIntegration,
   seniorSurgeryDecisionGuide,
   seniorHealthCheckupRoadmap,
+  seniorPeripheralNeuropathy,
 ];
