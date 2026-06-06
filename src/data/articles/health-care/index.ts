@@ -62,6 +62,8 @@ import hospitalNursingCareIntegration from './hospital-nursing-care-integration'
 import seniorSurgeryDecisionGuide from './senior-surgery-decision-guide';
 import seniorHealthCheckupRoadmap from './senior-health-checkup-roadmap';
 import seniorPeripheralNeuropathy from './senior-peripheral-neuropathy';
+import seniorGlaucomaManagement from './senior-glaucoma-management';
+import healthCheckupPrivateVsNational from './health-checkup-private-vs-national';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -126,4 +128,6 @@ export const healthCareArticles: ContentItem[] = [
   seniorSurgeryDecisionGuide,
   seniorHealthCheckupRoadmap,
   seniorPeripheralNeuropathy,
+  seniorGlaucomaManagement,
+  healthCheckupPrivateVsNational,
 ];

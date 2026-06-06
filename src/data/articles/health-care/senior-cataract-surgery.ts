@@ -129,7 +129,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['senior-eye-health', 'health-insurance-limit', 'senior-diabetes-management', 'senior-surgery-decision-guide'],
+  relatedSlugs: ['senior-eye-health', 'senior-glaucoma-management', 'health-insurance-limit', 'senior-diabetes-management', 'senior-surgery-decision-guide'],
 };
 
 export default article;

@@ -132,7 +132,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 3월 기준으로 작성되었습니다. 건강보험 급여 기준과 수술비는 변경될 수 있으므로 국민건강보험공단(1577-1000)에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['national-health-checkup-guide', 'senior-diabetes-management', 'senior-fall-prevention'],
+  relatedSlugs: ['senior-glaucoma-management', 'senior-cataract-surgery', 'national-health-checkup-guide', 'senior-diabetes-management', 'senior-fall-prevention'],
 };
 
 export default article;

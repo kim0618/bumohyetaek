@@ -63,6 +63,7 @@ import afterDeath30daysChecklist from './after-death-30days-checklist';
 import inheritanceVsGiftTaxSimulation from './inheritance-vs-gift-tax-simulation';
 import regionalHealthInsuranceCalculation from './regional-health-insurance-calculation';
 import inheritancePreparationRoadmap from './inheritance-preparation-roadmap';
+import parentDependentDeductionSibling from './parent-dependent-deduction-sibling';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -128,5 +129,6 @@ export const financeSafetyArticles: ContentItem[] = [
   inheritanceVsGiftTaxSimulation,
   regionalHealthInsuranceCalculation,
   inheritancePreparationRoadmap,
+  parentDependentDeductionSibling,
 ];
 

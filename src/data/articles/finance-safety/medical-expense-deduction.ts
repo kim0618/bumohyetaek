@@ -143,7 +143,7 @@ const article: ContentItem = {
   cautionNote:
     '의료비 세액공제 요건은 매년 세법 개정에 따라 바뀔 수 있습니다. 국세청 홈택스(hometax.go.kr)에서 최신 기준을 확인하세요.',
 
-  relatedSlugs: ['pension-income-tax', 'health-insurance-claim', 'retirement-budget-planning'],
+  relatedSlugs: ['parent-dependent-deduction-sibling', 'pension-income-tax', 'health-insurance-claim', 'retirement-budget-planning'],
 };
 
 export default article;
