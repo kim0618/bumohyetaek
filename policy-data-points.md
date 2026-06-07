@@ -159,20 +159,20 @@
 > ⚠️ **기준 파일**: `/home/tjd618/bumohyetaek/src/data/articles/health-care/health-insurance-limit.ts`
 > 카테고리/허브 페이지에서 인용 시 이 파일을 1차 출처로 비교
 
-- **현재 값 (2026년 기준, 7분위)**:
-  - 1분위(하위 10%): 87만원
-  - 2~3분위: 108만원
-  - 4~5분위: 162만원
-  - 6~7분위: 303만원
-  - 8분위: 414만원
-  - 9분위: 514만원
-  - 10분위(상위 10%): 780만원
-- **공식 출처**: https://www.nhis.or.kr
-- **마지막 확인**: 2026-05-13
+- **현재 값 (2026년 기준, 7분위, 요양병원 120일 이하)**:
+  - 1분위(하위 10%): 90만원
+  - 2~3분위: 112만원
+  - 4~5분위: 173만원
+  - 6~7분위: 326만원
+  - 8분위: 446만원
+  - 9분위: 536만원
+  - 10분위(상위 10%): 843만원
+- **공식 출처**: https://www.nhis.or.kr (KB손해보험 본인부담상한제 표·병원협회 2026년도 안내 교차 확인)
+- **마지막 확인**: 2026-06-07
 - **변동 주기**: 매년 1월
-- **검색 패턴**: `87만`, `780만`, `상한액`, `본인부담.*상한`
-- **⚠️ 알려진 오류**: "808만원" (10분위 잘못된 값) → 2026-05-13 categoryDetails(health-care) 정정 완료
-- **영향 글**: health-insurance-limit (1차 출처), health-care 카테고리 페이지(categoryDetails.ts), senior-surgery-decision-guide
+- **검색 패턴**: `90만`, `843만`, `상한액`, `본인부담.*상한`
+- **⚠️ 구 값(2024년)**: 87/108/162/303/414/514/780만원 → 2026-06-07 전체 회귀 정정 완료. 이전 검색 패턴 `87만`·`780만`은 폐기
+- **영향 글**: health-insurance-limit (1차 출처), categoryDetails.ts, hubDetails.ts, senior-surgery-decision-guide, senior-surgery-cost-breakdown, senior-shingles-prevention, senior-pneumonia-prevention, senior-chronic-pain, senior-medical-cost-estimate, retirement-finance-checklist, emergency-medical-fund
 
 ---
 
@@ -763,3 +763,14 @@
 ### 2026-05-14 - 신규 글 등록 (ltci-grade-reapplication)
 - 신규 글 등록: ltci-grade-reapplication (장기요양 등급 갱신 신청 방법)
 - **신규 항목 등록**: 3.12 장기요양 인정 유효기간 (1등급 5년 / 2~4등급 4년 / 5등급·인지지원 2년, 2025년 6월 개정 기준)
+
+### 2026-06-07 - 본인부담상한제 2024→2026년 값 회귀 정정 (2.8)
+- **YMYL 회귀 오류 정정**: 마스터 2.8 본인부담상한액이 2024년 값(87~780만)을 "2026년 기준"으로 표기 중이었음. KB손해보험 공식 표·병원협회 2026년도 안내 교차 확인 후 2026년 값(90/112/173/326/446/536/843만)으로 정정
+- **정정 위치 14곳**: health-insurance-limit(분위표+updatedAt), categoryDetails.ts(2), hubDetails.ts(3), senior-surgery-decision-guide, senior-shingles-prevention, senior-pneumonia-prevention(2), senior-chronic-pain, senior-medical-cost-estimate(시뮬레이션 합계 488→499·979→982 재계산 포함), retirement-finance-checklist, emergency-medical-fund(하위 50% 표현 81-150만→90-173만 정정)
+- 발견 경위: senior-surgery-cost-breakdown(신규) 작성 검증 중 기존 사이트값과 공식값 충돌 발견
+
+### 2026-06-07 - 신규 글 등록 (couple-national-pension-strategy)
+- 신규 글 등록: couple-national-pension-strategy (부부 국민연금 둘 다 받을 때 중복조정·유족연금 선택 가이드)
+- **영향 글 추가**: 1.4 국민연금 A값 ← couple-national-pension-strategy (2026 수령액 기준 사용)
+- **영향 글 추가**: 1.5 노령연금 수급 개시 연령 ← couple-national-pension-strategy (노령연금 수급 기준 사용)
+- 수치 매칭: 유족연금 지급률 40%/50%/60% (가입 기간별) - 기존 survivor-pension과 일치 확인

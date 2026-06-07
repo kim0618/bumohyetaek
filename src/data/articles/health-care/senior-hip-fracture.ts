@@ -155,6 +155,7 @@ const article: ContentItem = {
     'senior-osteoporosis',
     'rehabilitation-insurance',
     'senior-surgery-decision-guide',
+    'senior-surgery-cost-breakdown',
   ],
 };
 

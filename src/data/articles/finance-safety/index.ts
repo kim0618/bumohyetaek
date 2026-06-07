@@ -64,6 +64,8 @@ import inheritanceVsGiftTaxSimulation from './inheritance-vs-gift-tax-simulation
 import regionalHealthInsuranceCalculation from './regional-health-insurance-calculation';
 import inheritancePreparationRoadmap from './inheritance-preparation-roadmap';
 import parentDependentDeductionSibling from './parent-dependent-deduction-sibling';
+import coupleNationalPensionStrategy from './couple-national-pension-strategy';
+import pensionTimingHealthInsuranceSim from './pension-timing-health-insurance-sim';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -130,5 +132,7 @@ export const financeSafetyArticles: ContentItem[] = [
   regionalHealthInsuranceCalculation,
   inheritancePreparationRoadmap,
   parentDependentDeductionSibling,
+  coupleNationalPensionStrategy,
+  pensionTimingHealthInsuranceSim,
 ];
 
