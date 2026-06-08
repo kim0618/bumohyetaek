@@ -71,7 +71,7 @@ const article: ContentItem = {
     {
       type: 'warning',
       heading: '기초연금과 동시 수령 시 감액 주의',
-      body: '유족연금을 받으면서 기초연금도 받는 경우, 기초연금액이 최대 50%까지 감액될 수 있습니다. 두 급여를 동시에 신청하기 전에 국민연금공단(1355)에 먼저 문의해 유리한 방법을 확인하세요. 배우자 사망 직후 생활비가 부족하다면 [[emergency-welfare-support|긴급복지지원]]을 먼저 신청해 빠른 도움을 받을 수 있습니다.',
+      body: '유족연금은 기초연금의 국민연금 연계감액(최대 50%) 대상이 아닙니다. 연계감액은 본인 노령연금 수급자에게만 적용됩니다. 다만 유족연금은 공적이전소득으로 소득인정액에 포함되어, 소득이 기초연금 선정기준액을 넘으면 기초연금이 줄거나 탈락할 수 있습니다. 두 급여를 함께 받으려면 국민연금공단(1355)에 먼저 문의해 확인하세요. 배우자 사망 직후 생활비가 부족하다면 [[emergency-welfare-support|긴급복지지원]]을 먼저 신청해 빠른 도움을 받을 수 있습니다.',
     },
     {
       type: 'list',
@@ -123,7 +123,7 @@ const article: ContentItem = {
     {
       question: '유족연금 수급 중 소득이 생기면 연금이 줄어드나요?',
       answer:
-        '유족연금은 소득 수준과 관계없이 일정 금액이 지급됩니다. 수급자가 취업하거나 사업 소득이 생겨도 유족연금 금액 자체가 감액되지는 않습니다. 다만 기초연금을 함께 받는 경우에는 기초연금 쪽이 최대 50% 감액될 수 있으므로, 두 급여를 동시에 수령하는 상황이라면 국민연금공단(☎ 1355)에 유리한 조합을 문의하세요.',
+        '유족연금은 소득 수준과 관계없이 일정 금액이 지급됩니다. 수급자가 취업하거나 사업 소득이 생겨도 유족연금 금액 자체가 감액되지는 않습니다. 다만 기초연금을 함께 받는 경우, 유족연금은 국민연금 연계감액 대상은 아니지만 소득인정액에 포함되어 기초연금이 줄어들 수 있으므로, 두 급여를 동시에 수령하는 상황이라면 국민연금공단(☎ 1355)에 유리한 조합을 문의하세요.',
     },
   ],
 
@@ -143,7 +143,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['couple-national-pension-strategy', 'basic-pension-application', 'funeral-preparation-guide', 'retirement-finance-checklist'],
+  relatedSlugs: ['couple-national-pension-strategy', 'basic-pension-application', 'funeral-preparation-guide', 'retirement-finance-checklist', 'survivor-vs-old-age-pension-choice'],
 };
 
 export default article;

@@ -68,6 +68,7 @@ import basicVsNearPovertyComparison from './basic-vs-near-poverty-comparison';
 import nationalPensionAdditionalLocation from './national-pension-additional-location';
 import basicBenefit4typesComparison from './basic-benefit-4types-comparison';
 import nationalPensionVoluntaryVsAdditional from './national-pension-voluntary-vs-additional';
+import survivorVsOldAgePensionChoice from './survivor-vs-old-age-pension-choice';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -138,4 +139,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   nationalPensionAdditionalLocation,
   basicBenefit4typesComparison,
   nationalPensionVoluntaryVsAdditional,
+  survivorVsOldAgePensionChoice,
 ];

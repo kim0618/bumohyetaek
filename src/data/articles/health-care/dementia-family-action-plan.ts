@@ -129,6 +129,7 @@ const article: ContentItem = {
     'senior-80s-care-roadmap',
     'adult-guardianship',
     'dementia-financial-management',
+    'dementia-care-stage-guide',
   ],
 };
 

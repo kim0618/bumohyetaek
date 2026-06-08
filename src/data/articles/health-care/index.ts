@@ -65,6 +65,8 @@ import seniorPeripheralNeuropathy from './senior-peripheral-neuropathy';
 import seniorGlaucomaManagement from './senior-glaucoma-management';
 import healthCheckupPrivateVsNational from './health-checkup-private-vs-national';
 import seniorSurgeryCostBreakdown from './senior-surgery-cost-breakdown';
+import seniorDehydration from './senior-dehydration';
+import dementiaCareStageGuide from './dementia-care-stage-guide';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -132,4 +134,6 @@ export const healthCareArticles: ContentItem[] = [
   seniorGlaucomaManagement,
   healthCheckupPrivateVsNational,
   seniorSurgeryCostBreakdown,
+  seniorDehydration,
+  dementiaCareStageGuide,
 ];
