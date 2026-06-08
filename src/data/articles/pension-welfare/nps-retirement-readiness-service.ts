@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'nps-retirement-readiness-service',
@@ -136,6 +137,18 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 노후준비지원법 및 국민연금공단 노후준비 서비스 운영 지침을 바탕으로 작성되었습니다. 지원센터 위치와 상담 방식은 지역별로 다를 수 있으므로 국민연금공단 ☎ 1355 또는 중앙노후준비지원센터에서 상담받으시기 바랍니다.',
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '노후 생활비 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/retirement-living/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-nps-retirement-readiness-service',
+  },
+  calculatorCTA: {
+    text: '필요한 노후 생활비 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

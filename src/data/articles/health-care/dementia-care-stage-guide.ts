@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'dementia-care-stage-guide',
@@ -139,6 +140,18 @@ const article: ContentItem = {
     'dementia-family-respite',
     'care-facility-comparison',
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-dementia-care-stage-guide',
+  },
+  calculatorCTA: {
+    text: '장기요양 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

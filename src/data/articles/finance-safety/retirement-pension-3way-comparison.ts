@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'retirement-pension-3way-comparison',
@@ -113,6 +114,18 @@ const article: ContentItem = {
     'senior-annuity-insurance',
     'pension-income-tax',
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '연금소득세 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/pension-tax/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-retirement-pension-3way-comparison',
+  },
+  calculatorCTA: {
+    text: '내 연금소득세 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

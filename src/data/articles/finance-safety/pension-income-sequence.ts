@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'pension-income-sequence',
@@ -122,6 +123,18 @@ const article: ContentItem = {
 
   cautionNote:
     '연금소득 과세 기준과 건강보험 피부양자 요건은 법령 개정에 따라 변경될 수 있습니다. 본인 상황에 맞는 최적 전략은 국세청(☎ 126) 또는 국민연금공단(☎ 1355)에 문의해 확인하세요.',
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '연금소득세 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/pension-tax/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-pension-income-sequence',
+  },
+  calculatorCTA: {
+    text: '내 연금소득세 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

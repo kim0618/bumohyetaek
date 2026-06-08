@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'pension-timing-health-insurance-sim',
@@ -126,6 +127,18 @@ const article: ContentItem = {
       body: '① 피부양자 기준: 공적연금 포함 연 소득 2,000만 원(월 167만 원) 이하\n② 예상 수령액 월 122만 원 이하: 연기수령(36% 증액)해도 유지 → 연기수령으로 총액 극대화\n③ 월 122~166만 원: 정상수령은 유지되나 연기수령 시 초과 위험 → 정상수령 권장\n④ 월 167~238만 원: 조기수령으로 피부양자 유지 가능 → 손익 비교 필수\n⑤ 월 239만 원 이상: 조기수령으로도 탈락 → 지역가입자 보험료 최소화 전략\n⑥ 사적연금(IRP·연금저축)은 건강보험 소득 미포함 - 적극 활용\n⑦ 문의: 건강보험공단 ☎ 1577-1000 / 국민연금공단 ☎ 1355',
     },
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '국민연금 수령액 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/national-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-pension-timing-health-insurance-sim',
+  },
+  calculatorCTA: {
+    text: '내 국민연금 예상 수령액 계산하기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

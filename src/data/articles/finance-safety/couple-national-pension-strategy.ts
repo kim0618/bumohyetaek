@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'couple-national-pension-strategy',
@@ -125,6 +126,18 @@ const article: ContentItem = {
       body: '① 부부 동시 수령: 국민연금 자체 감액 없음, 각자 전액 수령\n② 배우자 사망 후: 본인 연금+유족연금 30% vs 유족연금 전액 중 선택\n③ 유족연금 비율: 가입 기간 10년 미만 40% / 10~20년 50% / 20년 이상 60%\n④ 본인 연금이 유족연금의 70%보다 크면 선택 A, 작으면 선택 B가 유리\n⑤ 문의처: 국민연금공단 ☎ 1355',
     },
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '국민연금 수령액 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/national-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-couple-national-pension-strategy',
+  },
+  calculatorCTA: {
+    text: '내 국민연금 예상 수령액 계산하기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

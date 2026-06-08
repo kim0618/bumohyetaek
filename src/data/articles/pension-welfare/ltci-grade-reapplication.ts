@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'ltci-grade-reapplication',
@@ -126,6 +127,18 @@ const article: ContentItem = {
       body: '장기요양 갱신 신청은 만료 90일 전부터 가능합니다. 유효기간은 1등급 5년, 2~4등급 4년, 5등급·인지지원등급 2년(2025년 6월 개정)입니다. 서류는 갱신신청서와 신분증이면 기본은 되고, 공단 요청 시 의사소견서를 추가 제출합니다. 결과에 불복하면 90일 이내 이의신청이 가능합니다. 문의: ☎ 1577-1000(국민건강보험공단). [[ltci-cost-simulation|장기요양 비용 시뮬레이션]]으로 갱신 후 이용 비용도 미리 확인해보세요.',
     },
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-ltci-grade-reapplication',
+  },
+  calculatorCTA: {
+    text: '장기요양 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

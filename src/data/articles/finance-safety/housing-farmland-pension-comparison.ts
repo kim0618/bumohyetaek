@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'housing-farmland-pension-comparison',
@@ -120,6 +121,18 @@ const article: ContentItem = {
     'retirement-finance-checklist',
     'senior-home-disposal-comparison',
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '주택연금(역모기지) 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/housing-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-housing-farmland-pension-comparison',
+  },
+  calculatorCTA: {
+    text: '주택연금 예상 월 수령액 계산하기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

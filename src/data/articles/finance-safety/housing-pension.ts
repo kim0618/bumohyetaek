@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'housing-pension',
@@ -128,7 +129,18 @@ const article: ContentItem = {
     '이 글은 2026년 1월 기준 정보를 바탕으로 작성되었습니다. 수령액과 자격 기준은 변경될 수 있으니 신청 전 한국주택금융공사(1688-8114)에서 최신 내용을 확인하시기 바랍니다.',
 
   relatedSlugs: ['housing-farmland-pension-comparison', 'senior-home-disposal-comparison', 'retirement-finance-checklist', 'farmland-pension', 'senior-annuity-insurance'],
-  // relatedCalculator: 주택연금 계산기는 애드센스 승인 후 추가 예정
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '주택연금(역모기지) 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/housing-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-housing-pension',
+  },
+  calculatorCTA: {
+    text: '집값·나이로 예상 월 수령액 계산하기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

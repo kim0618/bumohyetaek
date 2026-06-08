@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'ltci-vs-customized-care-comparison',
@@ -116,6 +117,18 @@ const article: ContentItem = {
     'elderly-care-service',
     'ltci-application-timing-guide',
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-ltci-vs-customized-care-comparison',
+  },
+  calculatorCTA: {
+    text: '장기요양 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'inheritance-preparation-roadmap',
@@ -124,6 +125,18 @@ const article: ContentItem = {
   order: 60,
   cautionNote:
     '이 글은 2026년 현행법 기준으로 작성되었습니다. 증여세·상속세 기준은 세법 개정에 따라 바뀔 수 있으므로, 실행 전 ☎ 126(국세청) 또는 세무사 상담을 통해 최신 기준을 검토하시기 바랍니다.',
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '상속세 계산기',
+    url: 'https://www.jptcalc.kr/calc/realestate/inheritance/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-inheritance-preparation-roadmap',
+  },
+  calculatorCTA: {
+    text: '예상 상속세 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

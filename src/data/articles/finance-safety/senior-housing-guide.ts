@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-housing-guide',
@@ -111,6 +112,18 @@ const article: ContentItem = {
     '이 글은 2026년 기준으로 작성되었습니다. 시설별 비용·입주 조건은 운영 기관과 지역에 따라 다르며, 정확한 내용은 해당 시설이나 보건복지부(129)에 문의하시기 바랍니다.',
 
   relatedSlugs: ['long-term-care-grade', 'home-visiting-care', 'housing-benefit', 'senior-public-housing'],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '주택연금(역모기지) 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/housing-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-senior-housing-guide',
+  },
+  calculatorCTA: {
+    text: '내 집으로 받는 주택연금 계산하기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

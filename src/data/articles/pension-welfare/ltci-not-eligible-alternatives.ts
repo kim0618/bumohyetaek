@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'ltci-not-eligible-alternatives',
@@ -125,6 +126,18 @@ const article: ContentItem = {
       body: '① 통보일로부터 90일 이내 이의신청 - 추가 의사소견서·진단서 첨부. ② 노인맞춤돌봄서비스 신청(주민센터, ☎ 129). ③ 치매 진단이 있으면 치매안심센터(☎ 1899-9988) 등록 후 치매가족 휴가제 연계. ④ 갑작스러운 돌봄 공백 시 긴급돌봄서비스(☎ 129). ⑤ 상태 변화 시 즉시 재신청 - 최신 의사소견서 준비.',
     },
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '장기요양 본인부담금 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/long-term-care/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-ltci-not-eligible-alternatives',
+  },
+  calculatorCTA: {
+    text: '장기요양 본인부담금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

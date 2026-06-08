@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-home-disposal-comparison',
@@ -115,6 +116,18 @@ const article: ContentItem = {
 
   cautionNote:
     '양도세·증여세 기준, 주택연금 지급액, 기초연금 소득인정액 산정 방식은 매년 변경될 수 있습니다. 중요한 결정 전에 ☎ 126(국세청), ☎ 1688-8114(주택금융공사)에서 최신 기준을 확인하세요.',
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '주택연금(역모기지) 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/housing-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-senior-home-disposal-comparison',
+  },
+  calculatorCTA: {
+    text: '집을 지킬 때 받는 주택연금 계산하기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

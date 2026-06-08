@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'survivor-vs-old-age-pension-choice',
@@ -118,6 +119,18 @@ const article: ContentItem = {
     'basic-pension-reduction',
     'couple-national-pension-strategy',
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '국민연금 수령액 계산기',
+    url: 'https://www.jptcalc.kr/calc/pension-welfare/national-pension/',
+    openMode: 'new-tab',
+    category: 'pension',
+    crossSiteTrackingKey: 'guide-survivor-vs-old-age-pension-choice',
+  },
+  calculatorCTA: {
+    text: '내 국민연금 예상 수령액 계산하기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;
