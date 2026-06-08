@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'regional-health-insurance-calculation',
@@ -120,6 +121,18 @@ const article: ContentItem = {
 
   cautionNote:
     '이 글은 2026년 기준으로 작성되었습니다. 보험료율과 재산 점수당 단가는 매년 조정될 수 있으니, 정확한 보험료는 국민건강보험공단(☎ 1577-1000) 또는 nhis.or.kr 모의계산기에서 직접 조회해 확인하시기 바랍니다.',
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '지역가입자 건강보험료 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/regional-health-insurance/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-regional-health-insurance-calculation',
+  },
+  calculatorCTA: {
+    text: '내 지역 건강보험료 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

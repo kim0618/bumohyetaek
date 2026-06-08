@@ -121,14 +121,14 @@ const article: ContentItem = {
     '보험료 시뮬레이션 수치는 2026년 건강보험료율(7.19%) 기준 근사치이며, 실제 금액은 소득·재산 신고 내용에 따라 달라집니다. 정확한 금액은 국민건강보험공단(☎ 1577-1000)에서 확인하세요.',
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
-    name: '4대보험 계산기',
-    url: 'https://www.jptcalc.kr/calc/tax/insurance-comparison/',
+    name: '지역가입자 건강보험료 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/regional-health-insurance/',
     openMode: 'new-tab',
     category: 'finance',
     crossSiteTrackingKey: 'guide-retire-health-ins-compare',
   },
   calculatorCTA: {
-    text: '4대보험료 계산해보기',
+    text: '내 지역 건강보험료 계산해보기',
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 };

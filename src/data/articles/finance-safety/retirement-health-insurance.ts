@@ -139,14 +139,14 @@ const article: ContentItem = {
   ],
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
-    name: '4대보험 계산기',
-    url: 'https://www.jptcalc.kr/calc/tax/insurance-comparison/',
+    name: '지역가입자 건강보험료 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/regional-health-insurance/',
     openMode: 'new-tab',
     category: 'finance',
     crossSiteTrackingKey: 'guide-retire-health-ins',
   },
   calculatorCTA: {
-    text: '4대보험료 계산해보기',
+    text: '내 지역 건강보험료 계산해보기',
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 };
