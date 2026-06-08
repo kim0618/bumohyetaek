@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-surgery-decision-guide',
@@ -118,6 +119,18 @@ const article: ContentItem = {
       body: '고관절 골절은 빠른 수술이 생존율을 높입니다. 백내장은 단초점 렌즈로 급여 적용받으면 부담이 낮고 회복도 빠릅니다. 무릎 인공관절과 척추는 6개월 보존치료를 먼저 시도한 뒤 결정하는 것이 원칙입니다. 어떤 수술이든 마취과 포함 전신 평가를 먼저 받고, 수술 후 재활 계획까지 세운 뒤 진행하세요.',
     },
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '본인부담상한제 환급금 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/copay-ceiling/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-senior-surgery-decision-guide',
+  },
+  calculatorCTA: {
+    text: '수술비 환급금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

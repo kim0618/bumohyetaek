@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'emergency-medical-fund',
@@ -112,6 +113,18 @@ const article: ContentItem = {
     '각 지원 제도의 소득·재산 기준과 지원 금액은 매년 변경될 수 있습니다. 정확한 기준은 보건복지콜센터(129) 또는 국민건강보험공단(1577-1000)에 문의하세요.',
 
   relatedSlugs: ['emergency-welfare-support', 'health-insurance-limit', 'medical-aid-system'],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '본인부담상한제 환급금 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/copay-ceiling/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-emergency-medical-fund',
+  },
+  calculatorCTA: {
+    text: '내 병원비 환급금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;

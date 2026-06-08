@@ -1,4 +1,5 @@
 import type { ContentItem } from '@/types/content';
+import { siteConfig } from '@/config/siteConfig';
 
 const article: ContentItem = {
   slug: 'senior-surgery-cost-breakdown',
@@ -124,6 +125,18 @@ const article: ContentItem = {
       body: '① 백내장(단초점): 15~30만 원/안 - 가장 저렴. 다초점 선택 시 100~300만 원/안으로 급등\n② 슬관절 전치환술(한쪽): 수술·재활·간병 합산 약 400~550만 원\n③ 고관절 치환술: 수술·입원·간병 합산 약 800~900만 원 - 세 수술 중 최고\n④ 공통 절감: 본인부담상한제·저소득 지원·실손보험 청구 적극 활용\n⑤ 문의: 건강보험심사평가원 ☎ 1644-2000 / 건강보험공단 ☎ 1577-1000',
     },
   ],
+  relatedCalculator: {
+    brand: siteConfig.calculatorSiteName,
+    name: '본인부담상한제 환급금 계산기',
+    url: 'https://www.jptcalc.kr/calc/tax/copay-ceiling/',
+    openMode: 'new-tab',
+    category: 'finance',
+    crossSiteTrackingKey: 'guide-senior-surgery-cost-breakdown',
+  },
+  calculatorCTA: {
+    text: '수술비 환급금 계산해보기',
+    subText: `${siteConfig.calculatorSiteName} · 무료`,
+  },
 };
 
 export default article;
