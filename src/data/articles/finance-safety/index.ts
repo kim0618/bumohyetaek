@@ -66,6 +66,7 @@ import inheritancePreparationRoadmap from './inheritance-preparation-roadmap';
 import parentDependentDeductionSibling from './parent-dependent-deduction-sibling';
 import coupleNationalPensionStrategy from './couple-national-pension-strategy';
 import pensionTimingHealthInsuranceSim from './pension-timing-health-insurance-sim';
+import rentalIncomeTaxInsurance from './rental-income-tax-insurance';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -134,5 +135,6 @@ export const financeSafetyArticles: ContentItem[] = [
   parentDependentDeductionSibling,
   coupleNationalPensionStrategy,
   pensionTimingHealthInsuranceSim,
+  rentalIncomeTaxInsurance,
 ];
 

@@ -97,6 +97,20 @@
 - **검색 패턴**: `농지연금.*105만`, `농지연금.*175만`, `농지연금.*70만원`
 - **영향 글**: farmland-pension, housing-farmland-pension-comparison
 
+### 1.11 기초연금 소득인정액 계산 변수
+- **현재 값 (2026년)**:
+  - 근로소득 공제 정액: **116만원** (정액 공제 후 추가 30% 공제 = 70% 반영). 2025년 112만 → 2026년 116만
+  - 재산 소득환산율: **연 4% ÷ 12** (월 0.33%). ⚠️ 기초생활보장 생계급여(월 4.17%/연 50%)와 혼동 금지
+  - 기본재산액 공제: 대도시 1억 3,500만 / 중소도시 8,500만 / 농어촌 7,250만원
+  - 금융재산 기본공제: 2,000만원
+  - 고급 자동차 100% 환산 기준: 차량가액 **4,000만원 초과** (2026년 배기량 기준 폐지)
+- **공식 출처**: https://basicpension.mohw.go.kr (보건복지부 기초연금 사업안내·소득인정액 모의계산), 국가법령정보센터 고시
+- **마지막 확인**: 2026-06-09
+- **변동 주기**: 매년 1월 (근로소득 공제 정액은 최저임금 연동으로 매년 상승)
+- **검색 패턴**: `116만원`, `근로소득.*공제`, `1억 3,500만`, `8,500만`, `7,250만`, `4% ÷ 12`, `4,000만원.*자동차`
+- **⚠️ 알려진 옛 값**: 근로소득 공제 108만(2023년)·110만(2024)·112만(2025) / 고급차 3,000만원(옛 기준) → 2026-06-09 정정
+- **영향 글**: basic-pension-income-recognition
+
 ---
 
 ## 2. 건강보험 (변동 주기: 연 1회)
@@ -123,6 +137,7 @@
 - **마지막 확인**: 2026-04-29
 - **변동 주기**: 고시 변경 시
 - **검색 패턴**: `산정특례.*5%`, `본인부담.*5%`
+- **영향 글**: cancer-support-roadmap (암 산정특례 5년 5%·확진 30일 이내 등록)
 
 ### 2.4 산정특례 본인부담률 (희귀·중증난치)
 - **현재 값**: 10%
@@ -172,7 +187,7 @@
 - **변동 주기**: 매년 1월
 - **검색 패턴**: `90만`, `843만`, `상한액`, `본인부담.*상한`
 - **⚠️ 구 값(2024년)**: 87/108/162/303/414/514/780만원 → 2026-06-07 전체 회귀 정정 완료. 이전 검색 패턴 `87만`·`780만`은 폐기
-- **영향 글**: health-insurance-limit (1차 출처), categoryDetails.ts, hubDetails.ts, senior-surgery-decision-guide, senior-surgery-cost-breakdown, senior-shingles-prevention, senior-pneumonia-prevention, senior-chronic-pain, senior-medical-cost-estimate, retirement-finance-checklist, emergency-medical-fund
+- **영향 글**: health-insurance-limit (1차 출처), categoryDetails.ts, hubDetails.ts, senior-surgery-decision-guide, senior-surgery-cost-breakdown, senior-shingles-prevention, senior-pneumonia-prevention, senior-chronic-pain, senior-medical-cost-estimate, retirement-finance-checklist, emergency-medical-fund, cancer-support-roadmap
 
 ---
 
@@ -781,3 +796,25 @@
 - **영향 글 추가**: 1.4 국민연금 A값 ← couple-national-pension-strategy (2026 수령액 기준 사용)
 - **영향 글 추가**: 1.5 노령연금 수급 개시 연령 ← couple-national-pension-strategy (노령연금 수급 기준 사용)
 - 수치 매칭: 유족연금 지급률 40%/50%/60% (가입 기간별) - 기존 survivor-pension과 일치 확인
+
+### 2026-06-09 - 신규 글 등록 (rental-income-tax-insurance)
+- 신규 글 등록: rental-income-tax-insurance (주택임대소득 세금 신고와 건강보험료 영향)
+- **신규 항목 등록**: 주택임대소득 과세 기준 (소득세법, 변동 주기 법 개정 시)
+  - 분리과세 적용 상한: 연 임대수입 2,000만원 이하
+  - 분리과세 세율: 14%
+  - 필요경비율: 미등록 50%, 등록(세무서+지자체) 60%
+  - 기본공제: 미등록 200만원, 등록 400만원 (다른 종합소득 2,000만원 이하 조건)
+  - 미등록 피부양자 유지 임대수입 상한: 400만원 (소득금액 0원 분기점)
+  - 등록 피부양자 유지 임대수입 상한: 1,000만원 (소득금액 0원 분기점)
+  - 미신고 가산세: 납부세액의 20%
+  - 신고 기한: 매년 5월 31일 (일요일인 경우 다음 날)
+- 수치 성격: 소득세법 법정 조항 - 법 개정 시 변동, 연간 검증 필요
+
+### 2026-06-09 - 신규 글 2편 등록 + YMYL 수치 정정 (new-analysis 검증)
+- 신규 글 등록: cancer-support-roadmap (암 진단 후 의료비 지원 단계별 로드맵), basic-pension-income-recognition (기초연금 소득인정액 계산법)
+- **신규 항목 등록**: 1.11 기초연금 소득인정액 계산 변수 (근로소득 공제 116만·기본재산액 공제·환산율 4%·고급차 4,000만)
+- **영향 글 추가**: 2.3 산정특례 5% ← cancer-support-roadmap / 2.8 본인부담상한제 ← cancer-support-roadmap
+- **YMYL 작성 오류 자가 정정 (검증 단계 catch)**:
+  - basic-pension-income-recognition: 근로소득 공제 108만(2023 옛값)→116만(2026), 고급차 기준 3,000만→4,000만원으로 정정 (보건복지부 2026 사업안내·국가법령정보 고시 교차 확인)
+  - cancer-support-roadmap: 본인부담상한 상단값 "7분위 843만"→"10분위 843만"으로 정정 (843만은 최상위 10분위 값, 마스터 2.8과 일치)
+- 검증 도구 주의: WebSearch/서브에이전트가 기초연금 환산율(연 4%)을 생계급여(월 4.17%)와 혼동, 본인부담상한 2024년 값을 2026년으로 오인하는 사례 발생 → 마스터 리스트·공식 고시 교차검증으로 최종 확정
