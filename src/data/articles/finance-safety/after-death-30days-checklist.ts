@@ -32,7 +32,7 @@ const article: ContentItem = {
     'after-death-admin',
     'inheritance-debt-rejection',
     'death-insurance-claim',
-    'inheritance-partition-guide',
+    'dormant-financial-assets',
   ],
 
   officialSources: [

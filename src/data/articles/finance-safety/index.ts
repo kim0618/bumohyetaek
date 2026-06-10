@@ -67,6 +67,8 @@ import parentDependentDeductionSibling from './parent-dependent-deduction-siblin
 import coupleNationalPensionStrategy from './couple-national-pension-strategy';
 import pensionTimingHealthInsuranceSim from './pension-timing-health-insurance-sim';
 import rentalIncomeTaxInsurance from './rental-income-tax-insurance';
+import dormantFinancialAssets from './dormant-financial-assets';
+import irpEmergencyCashComparison from './irp-emergency-cash-comparison';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -136,5 +138,7 @@ export const financeSafetyArticles: ContentItem[] = [
   coupleNationalPensionStrategy,
   pensionTimingHealthInsuranceSim,
   rentalIncomeTaxInsurance,
+  dormantFinancialAssets,
+  irpEmergencyCashComparison,
 ];
 

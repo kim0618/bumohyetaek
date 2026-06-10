@@ -136,7 +136,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['long-term-care-grade', 'ltci-bath-nursing-service', 'health-insurance-limit', 'care-facility-comparison'],
+  relatedSlugs: ['long-term-care-grade', 'ltci-bath-nursing-service', 'home-to-facility-care-transition', 'care-facility-comparison'],
 };
 
 export default article;

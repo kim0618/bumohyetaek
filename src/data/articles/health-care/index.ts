@@ -68,6 +68,7 @@ import seniorSurgeryCostBreakdown from './senior-surgery-cost-breakdown';
 import seniorDehydration from './senior-dehydration';
 import dementiaCareStageGuide from './dementia-care-stage-guide';
 import cancerSupportRoadmap from './cancer-support-roadmap';
+import homeToFacilityCareTransition from './home-to-facility-care-transition';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -138,4 +139,5 @@ export const healthCareArticles: ContentItem[] = [
   seniorDehydration,
   dementiaCareStageGuide,
   cancerSupportRoadmap,
+  homeToFacilityCareTransition,
 ];
