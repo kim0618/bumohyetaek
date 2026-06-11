@@ -69,6 +69,8 @@ import seniorDehydration from './senior-dehydration';
 import dementiaCareStageGuide from './dementia-care-stage-guide';
 import cancerSupportRoadmap from './cancer-support-roadmap';
 import homeToFacilityCareTransition from './home-to-facility-care-transition';
+import seniorSkinCare from './senior-skin-care';
+import seniorMedicalCostReductionComparison from './senior-medical-cost-reduction-comparison';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -140,4 +142,6 @@ export const healthCareArticles: ContentItem[] = [
   dementiaCareStageGuide,
   cancerSupportRoadmap,
   homeToFacilityCareTransition,
+  seniorSkinCare,
+  seniorMedicalCostReductionComparison,
 ];
