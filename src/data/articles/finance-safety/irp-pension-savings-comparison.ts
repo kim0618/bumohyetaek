@@ -124,7 +124,7 @@ const article: ContentItem = {
     'retirement-pension-irp',
     'pension-savings-tax-benefit',
     'pension-income-tax',
-    'retirement-severance-choice',
+    'self-employed-retirement-3way',
   ],
 
   cautionNote:

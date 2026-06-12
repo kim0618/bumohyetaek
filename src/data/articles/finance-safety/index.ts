@@ -69,6 +69,8 @@ import pensionTimingHealthInsuranceSim from './pension-timing-health-insurance-s
 import rentalIncomeTaxInsurance from './rental-income-tax-insurance';
 import dormantFinancialAssets from './dormant-financial-assets';
 import irpEmergencyCashComparison from './irp-emergency-cash-comparison';
+import yellowUmbrellaDeduction from './yellow-umbrella-deduction';
+import selfEmployedRetirement3way from './self-employed-retirement-3way';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -140,5 +142,7 @@ export const financeSafetyArticles: ContentItem[] = [
   rentalIncomeTaxInsurance,
   dormantFinancialAssets,
   irpEmergencyCashComparison,
+  yellowUmbrellaDeduction,
+  selfEmployedRetirement3way,
 ];
 

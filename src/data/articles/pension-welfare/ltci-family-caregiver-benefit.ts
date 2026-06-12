@@ -32,6 +32,7 @@ const article: ContentItem = {
     'ltci-bath-nursing-service',
     'care-cost-reduction',
     'ltci-vs-customized-care-comparison',
+    'family-caregiver-vs-agency-comparison',
   ],
   order: 55,
 

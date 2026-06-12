@@ -71,6 +71,7 @@ import cancerSupportRoadmap from './cancer-support-roadmap';
 import homeToFacilityCareTransition from './home-to-facility-care-transition';
 import seniorSkinCare from './senior-skin-care';
 import seniorMedicalCostReductionComparison from './senior-medical-cost-reduction-comparison';
+import familyCaregiverVsAgencyComparison from './family-caregiver-vs-agency-comparison';
 
 export const healthCareArticles: ContentItem[] = [
   nationalHealthCheckupGuide,
@@ -144,4 +145,5 @@ export const healthCareArticles: ContentItem[] = [
   homeToFacilityCareTransition,
   seniorSkinCare,
   seniorMedicalCostReductionComparison,
+  familyCaregiverVsAgencyComparison,
 ];
