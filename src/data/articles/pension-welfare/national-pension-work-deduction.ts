@@ -149,6 +149,7 @@ const article: ContentItem = {
     'national-pension-voluntary',
     'basic-pension-reduction',
     'survivor-pension',
+    'senior-job-income-pension-impact-sim',
   ],
 };
 

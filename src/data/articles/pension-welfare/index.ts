@@ -71,6 +71,9 @@ import nationalPensionVoluntaryVsAdditional from './national-pension-voluntary-v
 import survivorVsOldAgePensionChoice from './survivor-vs-old-age-pension-choice';
 import basicPensionIncomeRecognition from './basic-pension-income-recognition';
 import parentAgeMilestoneBenefits from './parent-age-milestone-benefits';
+import welfareCarOwnershipStandard from './welfare-car-ownership-standard';
+import basicPensionVsLtciCriteriaComparison from './basic-pension-vs-ltci-criteria-comparison';
+import seniorJobIncomePensionImpactSim from './senior-job-income-pension-impact-sim';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -144,4 +147,7 @@ export const pensionWelfareArticles: ContentItem[] = [
   survivorVsOldAgePensionChoice,
   basicPensionIncomeRecognition,
   parentAgeMilestoneBenefits,
+  welfareCarOwnershipStandard,
+  basicPensionVsLtciCriteriaComparison,
+  seniorJobIncomePensionImpactSim,
 ];
