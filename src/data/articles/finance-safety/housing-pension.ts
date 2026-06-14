@@ -128,7 +128,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 1월 기준 정보를 바탕으로 작성되었습니다. 수령액과 자격 기준은 변경될 수 있으니 신청 전 한국주택금융공사(1688-8114)에서 최신 내용을 확인하시기 바랍니다.',
 
-  relatedSlugs: ['housing-farmland-pension-comparison', 'senior-home-disposal-comparison', 'retirement-finance-checklist', 'farmland-pension', 'senior-annuity-insurance'],
+  relatedSlugs: ['housing-pension-type-comparison', 'housing-farmland-pension-comparison', 'senior-home-disposal-comparison', 'retirement-finance-checklist', 'farmland-pension'],
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
     name: '주택연금(역모기지) 계산기',

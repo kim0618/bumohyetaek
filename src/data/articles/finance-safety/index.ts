@@ -71,6 +71,7 @@ import dormantFinancialAssets from './dormant-financial-assets';
 import irpEmergencyCashComparison from './irp-emergency-cash-comparison';
 import yellowUmbrellaDeduction from './yellow-umbrella-deduction';
 import selfEmployedRetirement3way from './self-employed-retirement-3way';
+import housingPensionTypeComparison from './housing-pension-type-comparison';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -144,5 +145,6 @@ export const financeSafetyArticles: ContentItem[] = [
   irpEmergencyCashComparison,
   yellowUmbrellaDeduction,
   selfEmployedRetirement3way,
+  housingPensionTypeComparison,
 ];
 

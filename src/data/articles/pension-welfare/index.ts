@@ -74,6 +74,8 @@ import parentAgeMilestoneBenefits from './parent-age-milestone-benefits';
 import welfareCarOwnershipStandard from './welfare-car-ownership-standard';
 import basicPensionVsLtciCriteriaComparison from './basic-pension-vs-ltci-criteria-comparison';
 import seniorJobIncomePensionImpactSim from './senior-job-income-pension-impact-sim';
+import basicRecipientFreeMedicalServices from './basic-recipient-free-medical-services';
+import dementia5yearCostSimulation from './dementia-5year-cost-simulation';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -150,4 +152,6 @@ export const pensionWelfareArticles: ContentItem[] = [
   welfareCarOwnershipStandard,
   basicPensionVsLtciCriteriaComparison,
   seniorJobIncomePensionImpactSim,
+  basicRecipientFreeMedicalServices,
+  dementia5yearCostSimulation,
 ];
