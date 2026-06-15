@@ -62,6 +62,11 @@ const article: ContentItem = {
       ],
     },
     {
+      type: 'tip',
+      heading: '국가검진에 없는 전립선암은 따로 챙기세요',
+      body: '전립선암은 6대 국가암검진에 포함되지 않지만, 만 50세 이상 남성에게 흔한 암입니다. 야간 빈뇨·약뇨 등 증상이 있거나 가족력이 있다면 비뇨의학과에서 PSA 혈액 검사로 조기 확인하는 것이 좋습니다. 자세한 내용은 [[senior-prostate-health|노인 전립선 건강 가이드(PSA 검사·전립선비대증)]]를 참고하세요.',
+    },
+    {
       type: 'text',
       heading: '비용 안내',
       body: '건강보험 가입자·피부양자는 본인부담 10%, 의료급여 수급자는 무료입니다. 단, 건강보험료 하위 50% 이하 가입자는 전액 무료입니다. 예를 들어 위내시경 암검진의 경우 일반 가입자는 약 5,000~8,000원 수준의 본인 부담이 발생할 수 있습니다. 검진 기관에 따라 일반 건강검진 비용과 합산되기 때문에 예약 시 비용을 미리 확인하는 것이 좋습니다.',
@@ -120,7 +125,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 국가암정보센터·국민건강보험공단 기준으로 작성되었습니다. 검진 대상 연령과 주기는 변경될 수 있으므로 건강보험공단(1577-1000)에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['national-health-checkup-guide', 'health-checkup-private-vs-national', 'senior-health-checkup-roadmap', 'critical-illness-copay-reduction', 'dementia-care-center'],
+  relatedSlugs: ['national-health-checkup-guide', 'health-checkup-private-vs-national', 'senior-health-checkup-roadmap', 'senior-prostate-health', 'critical-illness-copay-reduction'],
 };
 
 export default article;

@@ -1,17 +1,26 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
-- 감사 완료: 181 / 181 (100%) | 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거) + 5/31 문화누리카드 회귀 6편(15만원 + mnuri.kr 도메인) + 5/31 KTX 경로할인 요일 오류 정정 3편 + 6/01 신규 글 3편 감사(추납전략 이상無, 바우처비교 5건 수정, 사망후30일 URL 1건) + 6/01 바우처 회귀 수정 3편(에너지바우처 금액·차상위 미포함, 노인맞춤돌봄 소득기준)
-- P1 health-care: 59 / 59 (완료)
-- P2 policy+수치: 69 / N (완료, national-pension-back-payment-strategy + senior-voucher-comparison 추가)
+- 감사 완료: 188 / 220 (85%) | 6/15 신규 미감사분 2차 패스 시작(7편 감사). 정책수치 [A] 6건 플래그 전부 오탐(마스터 6/15 refresh값과 일치), 실수정 1건(dementia-care-stage-guide [H] 하이픈 서브불릿)
+- 기존 누적: 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거) + 5/31 문화누리카드 회귀 6편(15만원 + mnuri.kr 도메인) + 5/31 KTX 경로할인 요일 오류 정정 3편 + 6/01 신규 글 3편 감사(추납전략 이상無, 바우처비교 5건 수정, 사망후30일 URL 1건) + 6/01 바우처 회귀 수정 3편(에너지바우처 금액·차상위 미포함, 노인맞춤돌봄 소득기준)
+- P1 health-care: 66 / 66 (완료, 6/15 신규 7편 추가)
+- P2 policy+수치: 69 / N (완료)
 - P3 계산기 연결: 21 / N (완료)
-- P4 finance-safety: 29 / N (완료, after-death-30days-checklist 추가)
+- P4 finance-safety: 29 / N (완료)
 - P5 기타: 8 / N (완료)
-- 미감사: 0편 (전편 감사 완료)
-- 마지막 업데이트: 2026-06-01
-- AdSense 신청 D-1 (2026-06-02 목표)
+- 미감사: 32편 (6/1 이후 신규 생산분, P1 health-care 소진 후 다음은 P2 policy/수치형)
+- 마지막 업데이트: 2026-06-15
+- 비고: bumo 4주 생산중단(~7/13) 기간 중 기존 미감사 신규분 정리
 
 ## 감사 완료 목록
+
+- family-caregiver-vs-agency-comparison (2026-06-15 감사, P1, 이상 없음 - 가족요양비 233,400원·장기요양 한도(1등급 2,512,900·2등급 2,331,200·3등급 1,528,200·4등급 1,409,700) 마스터 일치, 재가 본인부담 15%·시설 20% 정확, cautionNote+warning 면책 존재, officialSources longtermcare.or.kr·law.go.kr 공식, 내부링크 3개·relatedSlugs 4개 실존)
+- senior-medical-cost-reduction-comparison (2026-06-15 감사, P1, 이상 없음 - 본인부담상한제 2026(1분위 90만~10분위 843만) 마스터 2.8 일치, 산정특례 5% 정확, warning 면책, officialSources nhis.or.kr·mohw.go.kr 공식, 내부링크·relatedSlugs 실존. "진단 즉시"는 라인 24 요약표현이며 본문서 30일 이내로 정확 서술)
+- senior-skin-care (2026-06-15 감사, P1, 이상 없음 - 의료정보 글, cautionNote+warning 2개 면책 존재·성분 권고는 "도움되는 경우가 많습니다" hedge표현으로 허용 범위·2주 이상 지속 시 피부과 안내, derma.or.kr/nhis.or.kr 공식, 내부링크 2개·relatedSlugs 4개 실존)
+- home-to-facility-care-transition (2026-06-15 감사, P1, 이상 없음 - 장기요양 한도·본인부담률(재가15%·시설20%·3등급 시설수가 73,500원) 정확, HowTo 충족(checklist+numbered-list heading), warning 면책, bokjiro.go.kr·nhis.or.kr 공식, 내부링크 4개·relatedSlugs 4개 실존)
+- cancer-support-roadmap (2026-06-15 감사, P1, 이상 없음 - 암 산정특례 5%·확진 30일·본인부담상한제(마스터 2.8 영향글) 정확, 긴급복지 의료지원 300만, HowTo 충족, cancer.go.kr(국가암정보)·nhis.or.kr 공식, 내부링크 4개·relatedSlugs 4개 실존)
+- senior-dehydration (2026-06-15 감사, P1, 이상 없음 - 의료정보 글, warning+cautionNote 면책·119 응급안내(의식혼탁·고열)·이뇨제 복용 시 의사 확인 안내, HowTo 충족, kdca.go.kr/nhis.or.kr 공식, 내부링크 3개·relatedSlugs 4개 실존. 응급 자가대응 step은 위험신호 시 즉시 병원 안내 동반되어 적정)
+- dementia-care-stage-guide (2026-06-15 감사, P1, 1건 수정: [H] '치매 진행 단계 구분' info박스 body 내 "\n- " 하이픈 서브불릿 3곳 → 문장형으로 정리(info 구조 유지, updatedAt 2026-06-15 갱신). 치매치료관리비(월3만/연36만·중위140%)·장기요양 한도·인지지원등급 676,320원 정확, relatedCalculator https://www.jptcalc.kr/calc/pension-welfare/long-term-care/ 파일시스템 실존 확인·category 'pension' 유효, nid.or.kr/nhis.or.kr 공식, 내부링크 6개·relatedSlugs 5개 실존)
 
 - senior-voucher-comparison (2026-06-01 감사, P2, 신규 글 적대적 팩트체크 - 오류 5건 수정: [A] 에너지바우처 금액 "14~30만원"→가구원수별 295,200~701,300원(1~4인이상), [A] 에너지바우처 대상에 교육급여 추가·차상위 미포함 명시, [A] 노인맞춤돌봄 "소득 무관"→기초수급·차상위·기초연금 수급자 소득기준 존재, [A] 인지지원등급 재가급여 분리(방문요양 불가, 주야간보호·단기보호·복지용구만), [G] 문화누리 신청 "2~4월"→"2월부터 연중(11월말)". FAQ 차상위 에너지바우처 질문 교체. 추납 글과 함께 신규 작성분)
 - after-death-30days-checklist (2026-06-01 감사, P4, 신규 글 적대적 팩트체크 - 법률 수치 8개 전부 정확(사망신고 1개월·과태료 5만원·상속포기 3개월·특별한정승인·보험시효 3년·법률구조공단 132), 오류 1건 수정: [C] 안심상속 원스톱 URL gov.kr/portal/service/serviceInfo/PTR000050176(미등록 에러)→gov.kr/portal/onestopSvc/safeInheritance. pro-se.scourt.go.kr 유효)
