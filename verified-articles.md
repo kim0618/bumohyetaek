@@ -1,19 +1,27 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
+- 감사 완료: 195 / 220 (89%) | 6/16 신규 미감사분 2차 패스 계속(7편 감사). 정책수치 [A] 플래그 전부 오탐(본인부담상한제 1분위90만~10분위843만·암검진 6대암 10%·의료급여 1/2종 모두 마스터·verified 일치), URL [C] 플래그 오탐(ophthalmology.org=대한안과학회 공식 WebFetch 확인), 실수정 2건([B/H] glaucoma "가장 확실한"→"가장 중요한" YMYL 완화, [H] neuropathy info박스 인라인 하이픈 리스트→문장형)
 - 감사 완료: 188 / 220 (85%) | 6/15 신규 미감사분 2차 패스 시작(7편 감사). 정책수치 [A] 6건 플래그 전부 오탐(마스터 6/15 refresh값과 일치), 실수정 1건(dementia-care-stage-guide [H] 하이픈 서브불릿)
 - 기존 누적: 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거) + 5/31 문화누리카드 회귀 6편(15만원 + mnuri.kr 도메인) + 5/31 KTX 경로할인 요일 오류 정정 3편 + 6/01 신규 글 3편 감사(추납전략 이상無, 바우처비교 5건 수정, 사망후30일 URL 1건) + 6/01 바우처 회귀 수정 3편(에너지바우처 금액·차상위 미포함, 노인맞춤돌봄 소득기준)
-- P1 health-care: 66 / 66 (완료, 6/15 신규 7편 추가)
-- P2 policy+수치: 69 / N (완료)
+- P1 health-care: 72 / 72 (완료, 6/16 신규 6편 추가 - 미감사 health-care 소진)
+- P2 policy+수치: 70 / N (완료, 6/16 basic-recipient-free-medical-services 추가)
 - P3 계산기 연결: 21 / N (완료)
 - P4 finance-safety: 29 / N (완료)
 - P5 기타: 8 / N (완료)
-- 미감사: 32편 (6/1 이후 신규 생산분, P1 health-care 소진 후 다음은 P2 policy/수치형)
-- 마지막 업데이트: 2026-06-15
+- 미감사: 25편 (6/1 이후 신규 생산분, P1 health-care 전부 소진 → 다음은 P2 policy/수치형·P3 계산기형)
+- 마지막 업데이트: 2026-06-16
 - 비고: bumo 4주 생산중단(~7/13) 기간 중 기존 미감사 신규분 정리
 
 ## 감사 완료 목록
 
+- senior-glaucoma-management (2026-06-16 감사, P1, 1건 수정: [B/H] summary "안약을 거르지 않는 것이 시력을 지키는 가장 확실한 방법"→"가장 중요한 방법" - 녹내장은 점안에도 진행 가능(본문 "손상된 시신경은 되돌릴 수 없다")하므로 "확실한"은 결과 보장 과장, YMYL 완화. updatedAt 2026-06-16 갱신. [C] 대한안과학회 ophthalmology.org WebFetch로 공식 사이트 확인(subagent .org 오탐), nhis.or.kr 공식, relatedCalculator tax/medical-expense(jptcalc 파일시스템 실존)·category finance 유효, warning 면책 존재, 정상안압녹내장 70~80% 정확, 내부링크 4개·relatedSlugs 4개 실존)
+- senior-peripheral-neuropathy (2026-06-16 감사, P1, 1건 수정: [H] '즉시 응급실을 찾아야 하는 경우' info박스 body 내 인라인 "- A / B / C" 하이픈 리스트 → 문장형("~경우, ~경우입니다")으로 정리(dementia-care-stage-guide 6/15 동일 패턴), updatedAt 갱신. warning+cautionNote 면책·119 응급안내·신경과/내과 안내, 원인 7가지 감별(단정 없음), nhis.or.kr·neuro.or.kr(대한신경과학회) 공식, 내부링크 3개·relatedSlugs 4개 실존)
+- senior-surgery-cost-breakdown (2026-06-16 감사, P1, 이상 없음 - 본인부담상한제 2026 1분위 90만~10분위 843만 master(health-insurance-limit) 일치, 수술비(백내장 15~30만·고관절 800~900만·슬관절 400~550만)·슬관절 저소득 지원 120만 정확, cautionNote+warning 면책, nhis.or.kr·hira.or.kr 공식, relatedCalculator copay-ceiling category finance, 내부링크 5개·relatedSlugs 4개 실존)
+- senior-surgery-decision-guide (2026-06-16 감사, P1, 이상 없음 - 본인부담상한제 1분위90만/2~3분위112만/4~5분위173만 master·senior-medical-cost-reduction-comparison(verified) 일치, cautionNote("담당 의사 종합 판단 우선")+warning 면책·비지시적 서술(질문 리스트로 가족 권한 강화), hira.or.kr·nhis.or.kr 공식, relatedCalculator copay-ceiling category finance, HowTo 충족(checklist+numbered-list heading), 내부링크 5개·relatedSlugs 4개 실존)
+- health-checkup-private-vs-national (2026-06-16 감사, P1, 이상 없음 - 암검진 6대암 본인부담 10%/의료급여·건보 하위50% 무료·국가검진 2년주기(비사무직 매년)·만66세 생애전환기 정확, heroDescription "비싼 검진이 무조건 더 좋은 것은 아니다"는 부정형 헤지 표현이며 사이트 전반 다수 패턴(care-facility-comparison·senior-annuity-insurance·welfare-car-ownership-standard 등 8편+)과 일치하여 단정 아님(유지), warning 면책, nhis.or.kr·cancer.go.kr 공식, HowTo 충족, 내부링크 4개·relatedSlugs 4개 실존)
+- senior-health-checkup-roadmap (2026-06-16 감사, P1, 이상 없음 - 국가검진 연령·주기(65세 이상 격년·대장암 매년·위/유방/자궁경부 2년·간암 6개월 고위험군·폐암 54~74세 30갑년·치매선별 2년·본인부담 10%/의료급여·하위50% 무료) 정확, warning+cautionNote 면책, nhis.or.kr·cancer.go.kr 공식, HowTo 충족(checklist+numbered-list heading), 내부링크 4개·relatedSlugs 4개 실존. effectiveDate 필드는 checklist 템플릿이라 미필수)
+- basic-recipient-free-medical-services (2026-06-16 감사, P2, 이상 없음 - 의료급여 틀니(1종5%·2종15%)·임플란트(1종10%·2종20%)·임플란트 평생 2개 한도·희귀질환 2026 1,413개·건강검진 2년1회 정확, effectiveDate 2026-01-01과 본문 "2026년 기준" 정합, cautionNote 면책·일부 본인부담 명시(과장 무), nhis.or.kr·helpline.kdca.go.kr·bokjiro.go.kr 공식, HowTo 충족(policy+numbered-list heading), hubKey government-benefits, 내부링크 3개·relatedSlugs 4개 실존)
 - family-caregiver-vs-agency-comparison (2026-06-15 감사, P1, 이상 없음 - 가족요양비 233,400원·장기요양 한도(1등급 2,512,900·2등급 2,331,200·3등급 1,528,200·4등급 1,409,700) 마스터 일치, 재가 본인부담 15%·시설 20% 정확, cautionNote+warning 면책 존재, officialSources longtermcare.or.kr·law.go.kr 공식, 내부링크 3개·relatedSlugs 4개 실존)
 - senior-medical-cost-reduction-comparison (2026-06-15 감사, P1, 이상 없음 - 본인부담상한제 2026(1분위 90만~10분위 843만) 마스터 2.8 일치, 산정특례 5% 정확, warning 면책, officialSources nhis.or.kr·mohw.go.kr 공식, 내부링크·relatedSlugs 실존. "진단 즉시"는 라인 24 요약표현이며 본문서 30일 이내로 정확 서술)
 - senior-skin-care (2026-06-15 감사, P1, 이상 없음 - 의료정보 글, cautionNote+warning 2개 면책 존재·성분 권고는 "도움되는 경우가 많습니다" hedge표현으로 허용 범위·2주 이상 지속 시 피부과 안내, derma.or.kr/nhis.or.kr 공식, 내부링크 2개·relatedSlugs 4개 실존)
