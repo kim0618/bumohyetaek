@@ -1,20 +1,30 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
+- 감사 완료: 202 / 220 (92%) | 6/17 P2 신규 7편 감사 + 재검증 보완. [A] 5등급 한도액 플래그 오탐 - **web 공식 재확인**(노인장기요양 angelsitter 고시인용 + 검색종합: 1등급2,512,900/2등급2,331,200/3등급1,528,200/4등급1,409,700/5등급1,208,900/인지지원676,320, 사이트 마스터 전부 일치, blog.url.kr 충돌값은 오류). [A] basic-pension-vs-ltci 기초연금 금액 미명시 오탐(비교글 주제 외), dementia 시설비 1등급73만/3등급67만 6만원차=급여본인부담차 정합 확인(오탐). 실수정 3건 + 회귀/누락 보완: [H] basic-pension-vs-ltci info박스 인라인 하이픈→문장형, [H] **senior-job-income text+tip박스 인라인 하이픈 2건→문장형(1차 subagent 오탐 누락→재검증 적발)**, [C] dormant-financial-assets 안심상속 URL gov.kr→/portal/onestopSvc/safeInheritance(WebFetch로 전용페이지 확인). [C] 회귀 수정 2편(after-death-admin·inheritance-debt-rejection 동일 URL+updatedAt 동기화)
 - 감사 완료: 195 / 220 (89%) | 6/16 신규 미감사분 2차 패스 계속(7편 감사). 정책수치 [A] 플래그 전부 오탐(본인부담상한제 1분위90만~10분위843만·암검진 6대암 10%·의료급여 1/2종 모두 마스터·verified 일치), URL [C] 플래그 오탐(ophthalmology.org=대한안과학회 공식 WebFetch 확인), 실수정 2건([B/H] glaucoma "가장 확실한"→"가장 중요한" YMYL 완화, [H] neuropathy info박스 인라인 하이픈 리스트→문장형)
 - 감사 완료: 188 / 220 (85%) | 6/15 신규 미감사분 2차 패스 시작(7편 감사). 정책수치 [A] 6건 플래그 전부 오탐(마스터 6/15 refresh값과 일치), 실수정 1건(dementia-care-stage-guide [H] 하이픈 서브불릿)
 - 기존 누적: 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거) + 5/31 문화누리카드 회귀 6편(15만원 + mnuri.kr 도메인) + 5/31 KTX 경로할인 요일 오류 정정 3편 + 6/01 신규 글 3편 감사(추납전략 이상無, 바우처비교 5건 수정, 사망후30일 URL 1건) + 6/01 바우처 회귀 수정 3편(에너지바우처 금액·차상위 미포함, 노인맞춤돌봄 소득기준)
-- P1 health-care: 72 / 72 (완료, 6/16 신규 6편 추가 - 미감사 health-care 소진)
-- P2 policy+수치: 70 / N (완료, 6/16 basic-recipient-free-medical-services 추가)
+- P1 health-care: 72 / 72 (완료)
+- P2 policy+수치: 77 / N (6/17 +7편)
 - P3 계산기 연결: 21 / N (완료)
 - P4 finance-safety: 29 / N (완료)
 - P5 기타: 8 / N (완료)
-- 미감사: 25편 (6/1 이후 신규 생산분, P1 health-care 전부 소진 → 다음은 P2 policy/수치형·P3 계산기형)
-- 마지막 업데이트: 2026-06-16
+- 미감사: 18편 (P2 계속, P3 계산기형 다음)
+- 마지막 업데이트: 2026-06-17
 - 비고: bumo 4주 생산중단(~7/13) 기간 중 기존 미감사 신규분 정리
+- ⚠️ subagent 맹점: body 내 "\n- " 인라인 하이픈 리스트를 Explore subagent가 반복 누락(6/15 dementia-care-stage·6/16 neuropathy·6/17 senior-job-income 모두 부모가 재검증서 적발). 다음 감사부터 `grep -rl '\n- ' articles/`로 부모가 직접 1차 스캔 후 subagent 투입할 것
+- ⚠️ 미감사 잔존 "\n- " 3편(다음 사이클 [H] 우선): critical-illness-copay-reduction(1), self-employed-retirement-3way(1), basic-pension-income-recognition(1)
 
 ## 감사 완료 목록
 
+- dormant-financial-assets (2026-06-17 감사, P2, 1건 수정: [C] officialSources '정부24 안심상속' url https://www.gov.kr → https://www.gov.kr/portal/onestopSvc/safeInheritance (200 WebFetch 확인). updatedAt 갱신. fine.fss.or.kr·nhis.or.kr 공식, internal links 3개·relatedSlugs 4개 실존. cont.insure.or.kr(내보험찾아줌)은 정상 도메인(subagent insure.or.kr 정정요구 오탐). [C] 회귀 수정 2편(미감사): after-death-admin·inheritance-debt-rejection 동일 URL 패턴 일괄 정정 + updatedAt 2026-06-17 동기화)
+- yellow-umbrella-deduction (2026-06-17 감사, P2, 이상 없음 - 소득공제 한도 4천만이하 600만/4천만~1억 400만/1억초과 200만·납입한도 월 100만·해약 16.5% 정확, kbiz.or.kr(중소기업중앙회)·nts.go.kr 공식, HowTo 충족(policy+numbered-list), 내부링크 2개·relatedSlugs 4개 실존. G. "2026년 2분기 기준 연 3.2%"는 cautionNote에서 이미 방어, 수정불요)
+- welfare-car-ownership-standard (2026-06-17 감사, P2, 이상 없음 - 자동차 환산율 월100% vs 일반재산 월4.17% 정확, 2025년 상향(2,000cc미만·500만원미만·차령10년이상) 명시, effectiveDate 2026-01-01 정합, bokjiro.go.kr·mohw.go.kr·easylaw.go.kr 공식, HowTo 충족(policy+numbered-list), 내부링크 2개·relatedSlugs 4개 실존)
+- senior-job-income-pension-impact-sim (2026-06-17 감사, P2, 1건 수정[재검증 보완]: [H] text "예시:" 박스 + tip "시뮬레이션 결과" 박스 body 내 "\n- " 인라인 하이픈 리스트 2건 → 문장형 변환(6/17 1차 감사 시 subagent 오탐으로 누락 → 재검증서 적발·정정, updatedAt 갱신). 수치는 A값 309만원(2025.7~2026.6)·근로소득공제 116만원·선정기준액 247만/395.2만·349,700원 정확, effectiveDate 정합, nps.or.kr·basicpension.mohw.go.kr 공식, 내부링크 4개·relatedSlugs 4개 실존)
+- basic-pension-vs-ltci-criteria-comparison (2026-06-17 감사, P2, 1건 수정: [H] 두 제도 핵심 차이 info박스 body 내 "\n- " 인라인 하이픈 리스트 → 문장형 변환(senior-peripheral-neuropathy 6/16 동일 패턴). updatedAt 갱신. [A] 기초연금 금액 미명시 = 비교글 주제(자격기준 독립성) 범위 외 오탐. basicpension.mohw.go.kr·longtermcare.or.kr 공식, 내부링크 4개·relatedSlugs 4개 실존)
+- housing-pension-type-comparison (2026-06-17 감사, P2, 이상 없음 - 주택연금 70세 3억 약 92만원·공시가 12억 상한·우대형 2억미만+기초연금 수급자+36만원 정확, hf.go.kr·fine.fss.or.kr 공식, 내부링크 2개·relatedSlugs 4개 실존)
+- dementia-5year-cost-simulation (2026-06-17 감사, P2, 이상 없음 - [A] 5등급 한도액 1,208,900원은 사이트 마스터(categoryDetails.ts)·long-term-care-grade·care-cost-reduction 3파일 일치 → 오탐 처리. 인지지원 676,320·3등급 1,528,200 정확. longtermcare.or.kr·nhis.or.kr 공식, 내부링크 3개·relatedSlugs 4개 실존)
 - senior-glaucoma-management (2026-06-16 감사, P1, 1건 수정: [B/H] summary "안약을 거르지 않는 것이 시력을 지키는 가장 확실한 방법"→"가장 중요한 방법" - 녹내장은 점안에도 진행 가능(본문 "손상된 시신경은 되돌릴 수 없다")하므로 "확실한"은 결과 보장 과장, YMYL 완화. updatedAt 2026-06-16 갱신. [C] 대한안과학회 ophthalmology.org WebFetch로 공식 사이트 확인(subagent .org 오탐), nhis.or.kr 공식, relatedCalculator tax/medical-expense(jptcalc 파일시스템 실존)·category finance 유효, warning 면책 존재, 정상안압녹내장 70~80% 정확, 내부링크 4개·relatedSlugs 4개 실존)
 - senior-peripheral-neuropathy (2026-06-16 감사, P1, 1건 수정: [H] '즉시 응급실을 찾아야 하는 경우' info박스 body 내 인라인 "- A / B / C" 하이픈 리스트 → 문장형("~경우, ~경우입니다")으로 정리(dementia-care-stage-guide 6/15 동일 패턴), updatedAt 갱신. warning+cautionNote 면책·119 응급안내·신경과/내과 안내, 원인 7가지 감별(단정 없음), nhis.or.kr·neuro.or.kr(대한신경과학회) 공식, 내부링크 3개·relatedSlugs 4개 실존)
 - senior-surgery-cost-breakdown (2026-06-16 감사, P1, 이상 없음 - 본인부담상한제 2026 1분위 90만~10분위 843만 master(health-insurance-limit) 일치, 수술비(백내장 15~30만·고관절 800~900만·슬관절 400~550만)·슬관절 저소득 지원 120만 정확, cautionNote+warning 면책, nhis.or.kr·hira.or.kr 공식, relatedCalculator copay-ceiling category finance, 내부링크 5개·relatedSlugs 4개 실존)

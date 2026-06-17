@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-06-10',
-  updatedAt: '2026-06-10',
+  updatedAt: '2026-06-17',
   reviewStatus: 'current',
 
   summary:
@@ -38,7 +38,7 @@ const article: ContentItem = {
     },
     {
       name: '정부24 안심상속',
-      url: 'https://www.gov.kr',
+      url: 'https://www.gov.kr/portal/onestopSvc/safeInheritance',
       note: '사망 후 상속인이 신청하는 재산 일괄 조회 서비스',
     },
     {

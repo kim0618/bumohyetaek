@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-04-18',
+  updatedAt: '2026-06-17',
   reviewStatus: 'current',
 
   summary:
@@ -30,7 +30,7 @@ const article: ContentItem = {
   isFeatured: false,
 
   officialSources: [
-    { name: '정부24', url: 'https://www.gov.kr', note: '안심상속 원스톱 서비스 및 사망신고' },
+    { name: '정부24', url: 'https://www.gov.kr/portal/onestopSvc/safeInheritance', note: '안심상속 원스톱 서비스 및 사망신고' },
     { name: '국세청', url: 'https://www.nts.go.kr', note: '상속세 신고 안내' },
   ],
 

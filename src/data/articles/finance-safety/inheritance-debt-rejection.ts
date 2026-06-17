@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-04-30',
-  updatedAt: '2026-05-02',
+  updatedAt: '2026-06-17',
   reviewStatus: 'current',
 
   summary:
@@ -29,7 +29,7 @@ const article: ContentItem = {
 
   officialSources: [
     { name: '대한민국 법원', url: 'https://www.scourt.go.kr', note: '상속 포기·한정 승인 신청 안내 · ☎ 132' },
-    { name: '정부24', url: 'https://www.gov.kr', note: '안심상속 원스톱 서비스 - 고인 재산·채무 통합 조회' },
+    { name: '정부24', url: 'https://www.gov.kr/portal/onestopSvc/safeInheritance', note: '안심상속 원스톱 서비스 - 고인 재산·채무 통합 조회' },
   ],
 
   relatedSlugs: ['after-death-admin', 'inheritance-gift-planning', 'estate-cleanup-guide', 'will-writing-guide'],
