@@ -1,23 +1,31 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
+- 감사 완료: 209 / 220 (95%) | 6/19 P2 5편+P3 2편 감사 + **재검증 라운드(opus)에서 추가 [A] 적발·정정**. [A] **senior-island-travel-support "대상 섬 88개"→"166개" 6곳 일괄 정정** (1차 감사 "이상 없음" 오판→재검증서 적발): 공식 visitisland.kr "섬 여행비 지원 혜택 166개 섬 리스트" 확인, 88개는 별개의 '찾아가고 싶은 섬'(추천·홍보 선정, korea.kr 정책브리핑·island88.kidi.re.kr)을 지원대상으로 혼동한 것. updatedAt 갱신. [A] 에너지바우처 차상위 자격 오류 **공식 2곳(energyv.or.kr·정부24) WebFetch로 "차상위 제외" 확정** 후 일괄 정정: basic-vs-near-poverty-comparison(1), **energy-voucher.ts 6곳**(seoDesc·hero·keyPoint·body·신청자격info·서류, 1차엔 [재감사]태그만 달았으나 공식확인 후 즉시수정), **near-poverty-benefits.ts 4곳**(summary·keyPoint·tag·FAQ가 line89 "차상위 제외"와 자기모순=6/01 회귀), utility-bill-discount.ts(1, 혼합대상 문장에 급여수급자 한정 보강). 5개 파일 updatedAt 동기화, tsc 통과. 나머지 5편(basic-benefit-4types·national-pension-additional-location·parent-medical-aid·rental-income·survivor-vs-old-age) 이상 없음
 - 감사 완료: 202 / 220 (92%) | 6/17 P2 신규 7편 감사 + 재검증 보완. [A] 5등급 한도액 플래그 오탐 - **web 공식 재확인**(노인장기요양 angelsitter 고시인용 + 검색종합: 1등급2,512,900/2등급2,331,200/3등급1,528,200/4등급1,409,700/5등급1,208,900/인지지원676,320, 사이트 마스터 전부 일치, blog.url.kr 충돌값은 오류). [A] basic-pension-vs-ltci 기초연금 금액 미명시 오탐(비교글 주제 외), dementia 시설비 1등급73만/3등급67만 6만원차=급여본인부담차 정합 확인(오탐). 실수정 3건 + 회귀/누락 보완: [H] basic-pension-vs-ltci info박스 인라인 하이픈→문장형, [H] **senior-job-income text+tip박스 인라인 하이픈 2건→문장형(1차 subagent 오탐 누락→재검증 적발)**, [C] dormant-financial-assets 안심상속 URL gov.kr→/portal/onestopSvc/safeInheritance(WebFetch로 전용페이지 확인). [C] 회귀 수정 2편(after-death-admin·inheritance-debt-rejection 동일 URL+updatedAt 동기화)
 - 감사 완료: 195 / 220 (89%) | 6/16 신규 미감사분 2차 패스 계속(7편 감사). 정책수치 [A] 플래그 전부 오탐(본인부담상한제 1분위90만~10분위843만·암검진 6대암 10%·의료급여 1/2종 모두 마스터·verified 일치), URL [C] 플래그 오탐(ophthalmology.org=대한안과학회 공식 WebFetch 확인), 실수정 2건([B/H] glaucoma "가장 확실한"→"가장 중요한" YMYL 완화, [H] neuropathy info박스 인라인 하이픈 리스트→문장형)
 - 감사 완료: 188 / 220 (85%) | 6/15 신규 미감사분 2차 패스 시작(7편 감사). 정책수치 [A] 6건 플래그 전부 오탐(마스터 6/15 refresh값과 일치), 실수정 1건(dementia-care-stage-guide [H] 하이픈 서브불릿)
 - 기존 누적: 회귀 수정 13건 + /refresh 정정 4건 + 5/11 가족요양비 정정 1건 + 5/28 노인돌봄종합 명칭 정정 1건 + 5/28 사후검증 회귀 4건(내보험찾아줌 명칭·가사간병 기준) + 5/29 회귀 수정 1건(national-pension-old-age-claim AI 1인칭 제거) + 5/31 문화누리카드 회귀 6편(15만원 + mnuri.kr 도메인) + 5/31 KTX 경로할인 요일 오류 정정 3편 + 6/01 신규 글 3편 감사(추납전략 이상無, 바우처비교 5건 수정, 사망후30일 URL 1건) + 6/01 바우처 회귀 수정 3편(에너지바우처 금액·차상위 미포함, 노인맞춤돌봄 소득기준)
 - P1 health-care: 72 / 72 (완료)
-- P2 policy+수치: 77 / N (6/17 +7편)
-- P3 계산기 연결: 21 / N (완료)
+- P2 policy+수치: 82 / N (6/17+6/19 +12편)
+- P3 계산기 연결: 23 / N (6/19 +2편)
 - P4 finance-safety: 29 / N (완료)
 - P5 기타: 8 / N (완료)
-- 미감사: 18편 (P2 계속, P3 계산기형 다음)
-- 마지막 업데이트: 2026-06-17
+- 미감사: 11편 (P3 계속 → P4 → P5)
+- 마지막 업데이트: 2026-06-19
 - 비고: bumo 4주 생산중단(~7/13) 기간 중 기존 미감사 신규분 정리
 - ⚠️ subagent 맹점: body 내 "\n- " 인라인 하이픈 리스트를 Explore subagent가 반복 누락(6/15 dementia-care-stage·6/16 neuropathy·6/17 senior-job-income 모두 부모가 재검증서 적발). 다음 감사부터 `grep -rl '\n- ' articles/`로 부모가 직접 1차 스캔 후 subagent 투입할 것
-- ⚠️ 미감사 잔존 "\n- " 3편(다음 사이클 [H] 우선): critical-illness-copay-reduction(1), self-employed-retirement-3way(1), basic-pension-income-recognition(1)
+- ⚠️ 미감사 잔존 "\n- " 2편(다음 사이클 [H] 우선): self-employed-retirement-3way(1), basic-pension-income-recognition(1)
 
 ## 감사 완료 목록
 
+- survivor-vs-old-age-pension-choice (2026-06-19 감사, P3, 이상 없음 - 유족연금 지급률 10년미만40%·10~20년50%·20년이상60% survivor-pension.ts 일치, 노령연금 선택 시 유족연금 30% 추가 정확, 연계감액 최대 50%=basic-pension-reduction.ts "기준연금액 50% 수준" 정합, 선정기준액 단독 247만원 마스터 일치, nps.or.kr 공식, relatedCalculator pension-welfare/national-pension/ 파일시스템 실존, 내부링크 3개·relatedSlugs 4개 실존)
+- rental-income-tax-insurance (2026-06-19 감사, P3, 이상 없음 - 분리과세 14%·미등록필요경비50%·기본공제200만·등록시60%+400만·1주택기준시가12억초과 FAQ 일치, 가산세 20%·신고 5월 정확, nts.go.kr·nhis.or.kr 공식, relatedCalculator tax/income-tax/ 파일시스템 실존, 내부링크 3개·relatedSlugs 4개 실존, [H] "반드시 종합과세 적용해야"=법률 의무 서술 허용 범위)
+- senior-island-travel-support (2026-06-19 감사+재검증, P2, 1건 수정[재검증 적발]: [A] "대상 섬 88개"→"166개" 6곳 일괄 정정. 1차 감사 시 "88개 정확"으로 오판했으나 재검증 라운드에서 공식 visitisland.kr "섬 여행비 지원 혜택 166개 섬 리스트" 직접 확인 → 88개는 별개 사업 '찾아가고 싶은 섬'(추천·홍보 선정, korea.kr 정책브리핑 인천17·전남37 등 8개 시도 합계, island88.kidi.re.kr)이며 여행지원금 환급 대상과 무관. updatedAt 갱신. 숙박비 10만+전남 10만=20만·신청기간 7~8월+9.5~11.4·제주 별도사업 제외는 공식 확인 정확, visitisland.kr WebFetch 200 OK, mois.go.kr 공식, 내부링크 4개·relatedSlugs 4개 실존)
+- parent-medical-aid-application (2026-06-19 감사, P2, 이상 없음 - 의료급여 중위소득 40%(1인103만·2인167만·3인214만·4인259만원) verified 일치, 65세이상 부양의무자 제외·자녀 1억초과/재산9억초과 예외 정확, mohw.go.kr·bokjiro.go.kr·129.go.kr 공식, 처리기간 30일 정확, HowTo 충족(policy+numbered-list heading), 내부링크 3개·relatedSlugs 3개 실존)
+- national-pension-additional-location (2026-06-19 감사, P2, 이상 없음 - 분할납 60회=national-pension-back-payment-strategy verified 일치, 전국 지사 주소지 무관 정확, nps.or.kr·bokjiro.go.kr 공식, HowTo 충족(policy+numbered-list heading), relatedCalculator pension-welfare/national-pension/ 파일시스템 실존, 내부링크 2개·relatedSlugs 4개 실존)
+- basic-vs-near-poverty-comparison (2026-06-19 감사, P2, 1건 수정: [A] "[차상위] 에너지바우처 - 냉난방비 지원" → "[차상위] 전기요금 복지할인 - 한국전력 차상위계층 요금 감면 (에너지바우처는 기초수급자 대상, 차상위는 제외)". 근거: near-poverty-benefits.ts line 89·senior-voucher-comparison.ts line 65 정합. updatedAt 2026-06-19 갱신. bokjiro.go.kr·129.go.kr 공식, 기준 중위소득 수치(1인 82/103/123/128만원) verified 일치, 통신비 26,000원 near-poverty-benefits verified 일치, 내부링크 3개·relatedSlugs 4개 실존)
+- basic-benefit-4types-comparison (2026-06-19 감사, P2, 이상 없음 - 기준 중위소득 수치(1인 생계82만·의료103만·주거123만·교육128만원) basic-livelihood-benefit·housing-benefit verified 일치, 서울 1인 주거급여 369,000원·자가수선비 경보수590만·중보수1,095만·대보수1,601만원 housing-benefit.ts 일치, 부양의무자 65세이상 제외 정확, mohw.go.kr·bokjiro.go.kr 공식, 내부링크 4개·relatedSlugs 4개 실존)
 - dormant-financial-assets (2026-06-17 감사, P2, 1건 수정: [C] officialSources '정부24 안심상속' url https://www.gov.kr → https://www.gov.kr/portal/onestopSvc/safeInheritance (200 WebFetch 확인). updatedAt 갱신. fine.fss.or.kr·nhis.or.kr 공식, internal links 3개·relatedSlugs 4개 실존. cont.insure.or.kr(내보험찾아줌)은 정상 도메인(subagent insure.or.kr 정정요구 오탐). [C] 회귀 수정 2편(미감사): after-death-admin·inheritance-debt-rejection 동일 URL 패턴 일괄 정정 + updatedAt 2026-06-17 동기화)
 - yellow-umbrella-deduction (2026-06-17 감사, P2, 이상 없음 - 소득공제 한도 4천만이하 600만/4천만~1억 400만/1억초과 200만·납입한도 월 100만·해약 16.5% 정확, kbiz.or.kr(중소기업중앙회)·nts.go.kr 공식, HowTo 충족(policy+numbered-list), 내부링크 2개·relatedSlugs 4개 실존. G. "2026년 2분기 기준 연 3.2%"는 cautionNote에서 이미 방어, 수정불요)
 - welfare-car-ownership-standard (2026-06-17 감사, P2, 이상 없음 - 자동차 환산율 월100% vs 일반재산 월4.17% 정확, 2025년 상향(2,000cc미만·500만원미만·차령10년이상) 명시, effectiveDate 2026-01-01 정합, bokjiro.go.kr·mohw.go.kr·easylaw.go.kr 공식, HowTo 충족(policy+numbered-list), 내부링크 2개·relatedSlugs 4개 실존)
@@ -43,7 +51,7 @@
 - senior-voucher-comparison (2026-06-01 감사, P2, 신규 글 적대적 팩트체크 - 오류 5건 수정: [A] 에너지바우처 금액 "14~30만원"→가구원수별 295,200~701,300원(1~4인이상), [A] 에너지바우처 대상에 교육급여 추가·차상위 미포함 명시, [A] 노인맞춤돌봄 "소득 무관"→기초수급·차상위·기초연금 수급자 소득기준 존재, [A] 인지지원등급 재가급여 분리(방문요양 불가, 주야간보호·단기보호·복지용구만), [G] 문화누리 신청 "2~4월"→"2월부터 연중(11월말)". FAQ 차상위 에너지바우처 질문 교체. 추납 글과 함께 신규 작성분)
 - after-death-30days-checklist (2026-06-01 감사, P4, 신규 글 적대적 팩트체크 - 법률 수치 8개 전부 정확(사망신고 1개월·과태료 5만원·상속포기 3개월·특별한정승인·보험시효 3년·법률구조공단 132), 오류 1건 수정: [C] 안심상속 원스톱 URL gov.kr/portal/service/serviceInfo/PTR000050176(미등록 에러)→gov.kr/portal/onestopSvc/safeInheritance. pro-se.scourt.go.kr 유효)
 - national-pension-back-payment-strategy (2026-06-01 감사, P2, 신규 글 적대적 팩트체크 - 6개 핵심 사실 전부 정확(추납 60회·119개월·보험료율 9.5%/2033년 13%·분할납 정기예금이자 가산·기준월변경 2025.11.25·계산예시), officialSources nps.or.kr 공식 확인, 이상 없음)
-- energy-voucher (2026-06-01 **재감사 회귀 수정**, P2, [A] 지원금액 "1인 약 10만~30만원"→가구원수별 295,200/407,500/532,700/701,300원(2025년) 정정, [A] 사용기간 "동절기 12/1~4/30·하절기 7/1~9/30"→"2025년부터 동·하절기 통합 7.1~다음해 5.25" 정정. 근거: energyv.or.kr 공식. updatedAt 갱신)
+- energy-voucher (2026-06-01 **재감사 회귀 수정**, P2, [A] 지원금액 "1인 약 10만~30만원"→가구원수별 295,200/407,500/532,700/701,300원(2025년) 정정, [A] 사용기간 "동절기 12/1~4/30·하절기 7/1~9/30"→"2025년부터 동·하절기 통합 7.1~다음해 5.25" 정정. 근거: energyv.or.kr 공식. updatedAt 갱신) [재감사 필요: lines 20,42 "차상위계층도 에너지바우처 대상" 서술 - senior-voucher-comparison·near-poverty-benefits 수정이력과 충돌, 차상위는 전기요금 복지할인 대상이고 에너지바우처는 기초수급자만]
 - senior-social-service-voucher (2026-06-01 **재감사 회귀 수정**, P2, [A] 도입부 "노인맞춤돌봄서비스처럼 소득과 무관하게 신청"→"기초수급·차상위·기초연금 수급자 중 돌봄 필요 어르신, 소득기준 있음" 정정. 근거: 보건복지부 2026 노인맞춤돌봄 사업안내. updatedAt 갱신)
 - near-poverty-benefits (2026-06-01 **재감사 회귀 수정**, P2, [A] 차상위 혜택 목록의 "에너지바우처 연 최대 약 30만원" 항목→"한전 전기요금 복지할인(에너지바우처는 기초수급자 대상이라 차상위 제외)" 교체. 에너지바우처는 4대급여 수급자만 대상이라 차상위 혜택 목록에 부적합. updatedAt 갱신)
 
