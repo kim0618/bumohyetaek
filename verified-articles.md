@@ -1,6 +1,7 @@
 # 부모혜택 콘텐츠 애드센스 감사 기록
 
 ## 진행 현황
+- 감사 완료: 216 / 220 (98%) | 6/21 P4 7편 감사 + **opus 재검증 라운드에서 master 파일 [A] 적발·정정**. [A] **장기요양보험료율 master 3곳 "2026년 기준 12.95%"→"13.14%" 정정**: categoryDetails.ts(1)·hubDetails.ts(2, policyBody+FAQ). 공식 확인(보건복지부 2025-11-04 의결 보도자료 소득대비 0.9448%=건강보험료 대비 13.14%, 12.95%는 2024~2025 동결값) WebSearch 2회. 7.19%·211.5원은 2026 공식값 재확인 정확(mohw.go.kr·easylaw.go.kr). articles 본문엔 보험료율 오류 없음(grep 전수). 실수정 3건: [H] self-employed-retirement-3way tip섹션 `\n- 이유:` 3곳→문장형, [H] inheritance-preparation-roadmap info body 인라인하이픈 ` - ` 3곳→문장형, [G] regional-health-insurance "올해 소득"→"해당 연도 소득". + **회귀 grep 적발 1편**: [H] critical-illness-copay-reduction(기감사 P1) info 산정특례 `\n- 암...뇌혈관...심장...희귀...결핵` 인라인하이픈→문장형(subagent 과거 누락). [A] self-employed 4,500만원 오탐(종합소득자 기준 정확=총급여 5,500만원과 등가·pension-savings-tax-benefit 일치), couple-national-pension "2024년 최고 사례" 절대연도 명시라 [G] 비위반 오탐, regional 211.5원 cautionNote 헤지 수용. 나머지 4편(irp-emergency-cash·couple-pension·pension-timing-health·parent-dependent) 이상 없음. tsc exit 0
 - 감사 완료: 209 / 220 (95%) | 6/19 P2 5편+P3 2편 감사 + **재검증 라운드(opus)에서 추가 [A] 적발·정정**. [A] **senior-island-travel-support "대상 섬 88개"→"166개" 6곳 일괄 정정** (1차 감사 "이상 없음" 오판→재검증서 적발): 공식 visitisland.kr "섬 여행비 지원 혜택 166개 섬 리스트" 확인, 88개는 별개의 '찾아가고 싶은 섬'(추천·홍보 선정, korea.kr 정책브리핑·island88.kidi.re.kr)을 지원대상으로 혼동한 것. updatedAt 갱신. [A] 에너지바우처 차상위 자격 오류 **공식 2곳(energyv.or.kr·정부24) WebFetch로 "차상위 제외" 확정** 후 일괄 정정: basic-vs-near-poverty-comparison(1), **energy-voucher.ts 6곳**(seoDesc·hero·keyPoint·body·신청자격info·서류, 1차엔 [재감사]태그만 달았으나 공식확인 후 즉시수정), **near-poverty-benefits.ts 4곳**(summary·keyPoint·tag·FAQ가 line89 "차상위 제외"와 자기모순=6/01 회귀), utility-bill-discount.ts(1, 혼합대상 문장에 급여수급자 한정 보강). 5개 파일 updatedAt 동기화, tsc 통과. 나머지 5편(basic-benefit-4types·national-pension-additional-location·parent-medical-aid·rental-income·survivor-vs-old-age) 이상 없음
 - 감사 완료: 202 / 220 (92%) | 6/17 P2 신규 7편 감사 + 재검증 보완. [A] 5등급 한도액 플래그 오탐 - **web 공식 재확인**(노인장기요양 angelsitter 고시인용 + 검색종합: 1등급2,512,900/2등급2,331,200/3등급1,528,200/4등급1,409,700/5등급1,208,900/인지지원676,320, 사이트 마스터 전부 일치, blog.url.kr 충돌값은 오류). [A] basic-pension-vs-ltci 기초연금 금액 미명시 오탐(비교글 주제 외), dementia 시설비 1등급73만/3등급67만 6만원차=급여본인부담차 정합 확인(오탐). 실수정 3건 + 회귀/누락 보완: [H] basic-pension-vs-ltci info박스 인라인 하이픈→문장형, [H] **senior-job-income text+tip박스 인라인 하이픈 2건→문장형(1차 subagent 오탐 누락→재검증 적발)**, [C] dormant-financial-assets 안심상속 URL gov.kr→/portal/onestopSvc/safeInheritance(WebFetch로 전용페이지 확인). [C] 회귀 수정 2편(after-death-admin·inheritance-debt-rejection 동일 URL+updatedAt 동기화)
 - 감사 완료: 195 / 220 (89%) | 6/16 신규 미감사분 2차 패스 계속(7편 감사). 정책수치 [A] 플래그 전부 오탐(본인부담상한제 1분위90만~10분위843만·암검진 6대암 10%·의료급여 1/2종 모두 마스터·verified 일치), URL [C] 플래그 오탐(ophthalmology.org=대한안과학회 공식 WebFetch 확인), 실수정 2건([B/H] glaucoma "가장 확실한"→"가장 중요한" YMYL 완화, [H] neuropathy info박스 인라인 하이픈 리스트→문장형)
@@ -9,16 +10,23 @@
 - P1 health-care: 72 / 72 (완료)
 - P2 policy+수치: 82 / N (6/17+6/19 +12편)
 - P3 계산기 연결: 23 / N (6/19 +2편)
-- P4 finance-safety: 29 / N (완료)
+- P4 finance-safety: 36 / N
 - P5 기타: 8 / N (완료)
-- 미감사: 11편 (P3 계속 → P4 → P5)
-- 마지막 업데이트: 2026-06-19
+- 미감사: 4편 (P4 1편: inheritance-vs-gift-tax-simulation / P5 3편: parent-age-milestone-benefits, basic-pension-income-recognition, national-pension-voluntary-vs-additional)
+- 마지막 업데이트: 2026-06-21
 - 비고: bumo 4주 생산중단(~7/13) 기간 중 기존 미감사 신규분 정리
 - ⚠️ subagent 맹점: body 내 "\n- " 인라인 하이픈 리스트를 Explore subagent가 반복 누락(6/15 dementia-care-stage·6/16 neuropathy·6/17 senior-job-income 모두 부모가 재검증서 적발). 다음 감사부터 `grep -rl '\n- ' articles/`로 부모가 직접 1차 스캔 후 subagent 투입할 것
-- ⚠️ 미감사 잔존 "\n- " 2편(다음 사이클 [H] 우선): self-employed-retirement-3way(1), basic-pension-income-recognition(1)
+- ⚠️ 미감사 잔존 "\n- " 1편(다음 사이클 [H] 우선): basic-pension-income-recognition(1)
 
 ## 감사 완료 목록
 
+- regional-health-insurance-calculation (2026-06-21 감사, P4, 1건 수정: [G] "올해 소득이 줄었다면"→"해당 연도 소득이 줄었다면" 상대시점 제거. [A] 7.19% 마스터(categoryDetails.ts) 일치, 211.5원 cautionNote "매년 조정될 수 있으니 nhis.or.kr 확인" 헤지 수용. nhis.or.kr·easylaw.go.kr 공식, relatedCalculator tax/regional-health-insurance/ 파일시스템 실존, 내부링크 3개·relatedSlugs 4개 실존)
+- inheritance-preparation-roadmap (2026-06-21 감사, P4, 1건 수정: [H] info 섹션 body 인라인 하이픈 ` - 65세 1차 증여... - 75세 2차 증여... - 10년간...` 3곳→문장형. nts.go.kr·moj.go.kr·klac.or.kr 공식, relatedCalculator realestate/inheritance/ 파일시스템 실존, template=checklist + numbered-list heading 2개 HowTo JSON-LD 충족, 내부링크 6개·relatedSlugs 4개 실존. [A] 상속세 구체 세율 미명시(구조 개요·타이밍 중심), cautionNote 2026년 현행법 기준 명시 정상)
+- parent-dependent-deduction-sibling (2026-06-21 감사, P4, 이상 없음 - 부양가족 공제 150만·60세이상·소득 100만 이하·경로우대 70세 100만·의료비 15%·65세이상 한도 없음·중복공제 불가 정확. hometax.go.kr·call.nts.go.kr 공식, relatedCalculator tax/income-tax/ 파일시스템 실존, 내부링크 3개·relatedSlugs 3개 실존)
+- pension-timing-health-insurance-sim (2026-06-21 감사, P4, 이상 없음 - 65세 정상수령·피부양자 탈락 2,000만원 기준·연기 연 7.2%·조기 연 6% 감액·지역전환 연금소득 50% 적용 정확. nhis.or.kr·nps.or.kr 공식, relatedCalculator pension-welfare/national-pension/ 파일시스템 실존, 내부링크 5개·relatedSlugs 4개 실존)
+- couple-national-pension-strategy (2026-06-21 감사, P4, 이상 없음 - 유족연금 40/50/60%·연계감액 30%·기초연금 부부감액 20% 정확. [G] "2024년 부부 합산 최고 사례 486만원" 역사적 사례 참조=허용 범위(오탐). nps.or.kr·npsonair.kr 공식, relatedCalculator pension-welfare/national-pension/ 파일시스템 실존, 내부링크 4개·relatedSlugs 4개 실존)
+- irp-emergency-cash-comparison (2026-06-21 감사, P4, 이상 없음 - IRP 중도인출 불가 원칙·법정 사유 해지·연금저축 900만원 합산·세액공제율 16.5/13.2% 정확. moel.go.kr·fine.fss.or.kr 공식, 내부링크 4개·relatedSlugs 4개 실존)
+- self-employed-retirement-3way (2026-06-21 감사, P4, 1건 수정: [H] tip 섹션 body `\n- 이유:` 3곳→문장형. [A] 4,500만원(종합소득 기준) 정확=pension-savings-tax-benefit "총급여 5,500만원 이하(종합소득 4,500만원 이하)" 일치, subagent의 5,500만원 주장은 근로소득 기준 혼동 오탐. 노란우산 600/400/200만원·세율 16.5%/13.2%·연금소득세 3.3~5.5% 정확. yumam.kbiz.or.kr·100lifeplan.fss.or.kr·nts.go.kr 공식, 내부링크 3개·relatedSlugs 4개 실존)
 - survivor-vs-old-age-pension-choice (2026-06-19 감사, P3, 이상 없음 - 유족연금 지급률 10년미만40%·10~20년50%·20년이상60% survivor-pension.ts 일치, 노령연금 선택 시 유족연금 30% 추가 정확, 연계감액 최대 50%=basic-pension-reduction.ts "기준연금액 50% 수준" 정합, 선정기준액 단독 247만원 마스터 일치, nps.or.kr 공식, relatedCalculator pension-welfare/national-pension/ 파일시스템 실존, 내부링크 3개·relatedSlugs 4개 실존)
 - rental-income-tax-insurance (2026-06-19 감사, P3, 이상 없음 - 분리과세 14%·미등록필요경비50%·기본공제200만·등록시60%+400만·1주택기준시가12억초과 FAQ 일치, 가산세 20%·신고 5월 정확, nts.go.kr·nhis.or.kr 공식, relatedCalculator tax/income-tax/ 파일시스템 실존, 내부링크 3개·relatedSlugs 4개 실존, [H] "반드시 종합과세 적용해야"=법률 의무 서술 허용 범위)
 - senior-island-travel-support (2026-06-19 감사+재검증, P2, 1건 수정[재검증 적발]: [A] "대상 섬 88개"→"166개" 6곳 일괄 정정. 1차 감사 시 "88개 정확"으로 오판했으나 재검증 라운드에서 공식 visitisland.kr "섬 여행비 지원 혜택 166개 섬 리스트" 직접 확인 → 88개는 별개 사업 '찾아가고 싶은 섬'(추천·홍보 선정, korea.kr 정책브리핑 인천17·전남37 등 8개 시도 합계, island88.kidi.re.kr)이며 여행지원금 환급 대상과 무관. updatedAt 갱신. 숙박비 10만+전남 10만=20만·신청기간 7~8월+9.5~11.4·제주 별도사업 제외는 공식 확인 정확, visitisland.kr WebFetch 200 OK, mois.go.kr 공식, 내부링크 4개·relatedSlugs 4개 실존)
@@ -118,7 +126,7 @@
 - senior-cognitive-screening (2026-04-25 감사, P1, 이상 없음 - warning+cautionNote, officialSources URL 정상(nid.or.kr/mohw.go.kr), 내부 링크+relatedSlugs 3개 실존)
 - senior-chronic-pain (2026-04-25 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(nhis.or.kr/hira.or.kr), 내부 링크+relatedSlugs 5개 실존)
 - senior-cataract-surgery (2026-04-25 감사, P1, 이상 없음 - warning+cautionNote, officialSources URL 정상(ophthalmology.org=대한안과학회/nhis.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 3개 실존)
-- critical-illness-copay-reduction (2026-04-26 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(nhis.or.kr/hira.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 5개 실존)
+- critical-illness-copay-reduction (2026-06-21 회귀 수정, P1, [H] info 섹션 body `\n- 암...\n- 뇌혈관...\n- 심장...` 인라인 하이픈 → 문장형. grep 전수스캔에서 적발. updatedAt 갱신) (2026-04-26 감사, P1, 이상 없음 - cautionNote+warning 2개, officialSources URL 정상(nhis.or.kr/hira.or.kr), jptcalc URL 실존(/calc/tax/medical-expense/), 내부 링크+relatedSlugs 5개 실존)
 - senior-assistive-device (2026-04-26 감사, P1, 이상 없음 - warning, officialSources URL 정상(nhis.or.kr/mohw.go.kr), jptcalc URL 실존(/calc/pension-welfare/long-term-care/), 내부 링크+relatedSlugs 4개 실존)
 - dementia-care-center (2026-04-26 감사, P1, 이상 없음 - warning 2개+cautionNote, officialSources URL 정상(nid.or.kr/mohw.go.kr), 내부 링크 3개+relatedSlugs 4개 실존)
 - rehabilitation-insurance (2026-04-26 감사, P1, 이상 없음 - cautionNote+warning 3개, officialSources URL 정상(hira.or.kr/nhis.or.kr), 내부 링크+relatedSlugs 3개 실존)
