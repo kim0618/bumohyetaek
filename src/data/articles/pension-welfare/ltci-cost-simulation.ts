@@ -12,7 +12,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-05-08',
-  updatedAt: '2026-05-08',
+  updatedAt: '2026-07-03',
   reviewStatus: 'current',
 
   summary:
@@ -87,7 +87,7 @@ const article: ContentItem = {
       type: 'list',
       heading: '시나리오 B - 요양원 입소 (3등급, 노인요양시설 기준)',
       items: [
-        '시설 1일 수가(3등급, 노인요양시설): 약 73,500원',
+        '시설 1일 수가(3~5등급, 노인요양시설): 약 81,540원 (1등급 93,070원·2등급 86,340원, 2026년 고시)',
         '30일 급여비: 약 2,205,000원 → 본인부담 20%: 약 44만 1,000원',
         '식재료비(비급여, 하루 3끼): 월 약 18만~22만원',
         '기타 비급여(간식비·이발비 등): 월 약 3만~5만원',

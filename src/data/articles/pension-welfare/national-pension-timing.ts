@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2025-03-20',
-  updatedAt: '2026-05-08',
+  updatedAt: '2026-07-03',
   reviewStatus: 'current',
 
   summary:
@@ -91,7 +91,7 @@ const article: ContentItem = {
   faq: [
     {
       question: '조기수령 중에 취업하면 연금이 정지되나요?',
-      answer: '조기노령연금 수령 중 소득이 일정 기준(월 약 309만 원, 2026년 적용 A값, 매년 7월 갱신)을 초과하면 감액되거나 지급이 정지될 수 있습니다. 재취업 전에 국민연금공단(☎ 1355)에 문의하세요.',
+      answer: '조기노령연금 수령 중 소득이 일정 기준(월 약 319만 원, 2026년 7월 적용 A값, 매년 7월 갱신)을 초과하면 감액되거나 지급이 정지될 수 있습니다. 재취업 전에 국민연금공단(☎ 1355)에 문의하세요.',
     },
     {
       question: '연기수령 중에 사망하면 어떻게 되나요?',
