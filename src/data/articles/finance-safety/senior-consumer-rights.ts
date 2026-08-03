@@ -28,7 +28,7 @@ const article: ContentItem = {
 
   tags: ['청약철회', '방문판매피해', '소비자권리', '홈쇼핑환불', '한국소비자원', '노인소비자'],
   hubKey: ['financial-safety', 'government-benefits'],
-  relatedSlugs: ['prevent-voice-phishing', 'smishing-prevention', 'senior-financial-protection'],
+  relatedSlugs: ['prevent-voice-phishing'],
   order: 41,
   isFeatured: false,
 

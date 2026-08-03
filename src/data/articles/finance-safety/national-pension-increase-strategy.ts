@@ -32,12 +32,7 @@ const article: ContentItem = {
 
   hubKey: ['retirement-income'],
 
-  relatedSlugs: [
-    'national-pension-additional',
-    'national-pension-timing',
-    'pension-income-sequence',
-    'retirement-budget-planning',
-  ],
+  relatedSlugs: ['national-pension-additional', 'national-pension-timing', 'national-pension-receiving-strategy-guide', 'retirement-budget-planning'],
 
   officialSources: [
     {

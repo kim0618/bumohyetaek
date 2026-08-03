@@ -29,12 +29,7 @@ const article: ContentItem = {
 
   hubKey: ['government-benefits'],
 
-  relatedSlugs: [
-    'senior-digital-education',
-    'senior-welfare-center',
-    'senior-culture-voucher',
-    'senior-job-program',
-  ],
+  relatedSlugs: ['senior-digital-education', 'senior-culture-voucher'],
 
   order: 38,
 

@@ -126,12 +126,7 @@ const article: ContentItem = {
   cautionNote:
     '양도소득세 비과세 요건은 취득·양도 시점의 세법, 조정대상지역 지정 여부, 주택 수 산정 방식에 따라 달라질 수 있습니다. 국세청(nts.go.kr) 또는 ☎ 126에서 본인 상황에 맞는 최신 기준을 반드시 확인하세요.',
 
-  relatedSlugs: [
-    'senior-tax-benefit',
-    'inheritance-gift-planning',
-    'will-writing-guide',
-    'housing-pension',
-  ],
+  relatedSlugs: ['senior-tax-benefit', 'inheritance-gift-planning', 'housing-pension'],
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,
     name: '양도소득세 계산기',

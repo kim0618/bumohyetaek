@@ -107,7 +107,7 @@ const article: ContentItem = {
   cautionNote:
     '재산 관리와 후견 관련 사항은 개인 상황에 따라 법적 처리 방법이 다릅니다. 중요한 결정 전 법률구조공단(132) 또는 대법원(scourt.go.kr)에서 전문 상담을 받으세요.',
 
-  relatedSlugs: ['adult-guardianship', 'prevent-voice-phishing', 'inheritance-gift-planning'],
+  relatedSlugs: ['dementia-inheritance-protection-guide', 'prevent-voice-phishing', 'inheritance-gift-planning'],
 };
 
 export default article;

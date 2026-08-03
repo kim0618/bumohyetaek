@@ -123,7 +123,7 @@ const article: ContentItem = {
   cautionNote:
     '무료 급식 사업은 지방자치단체별로 운영 기준과 예산이 다릅니다. 이용 대상·운영 시간 등 세부 내용은 거주지 주민센터 또는 사회복지관에 문의하세요.',
 
-  relatedSlugs: ['elderly-care-service', 'basic-livelihood-benefit', 'senior-discount-guide'],
+  relatedSlugs: ['care-service-selection-guide', 'basic-livelihood-benefit', 'senior-discount-legal-support-guide'],
 };
 
 export default article;

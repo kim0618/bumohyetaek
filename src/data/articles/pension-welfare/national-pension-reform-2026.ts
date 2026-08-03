@@ -131,12 +131,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: [
-    'national-pension-timing',
-    'national-pension-credit',
-    'national-pension-additional',
-    'national-pension-lump-sum',
-  ],
+  relatedSlugs: ['national-pension-timing', 'national-pension-credit', 'national-pension-additional', 'national-pension-receiving-strategy-guide'],
 };
 
 export default article;

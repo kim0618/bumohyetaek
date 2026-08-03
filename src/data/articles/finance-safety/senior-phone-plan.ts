@@ -107,7 +107,7 @@ const article: ContentItem = {
   cautionNote:
     '통신 요금제와 감면 혜택은 통신사별로 다르며 수시로 변경됩니다. 정확한 요금과 혜택은 해당 통신사 또는 스마트초이스(smartchoice.or.kr)에서 확인하세요.',
 
-  relatedSlugs: ['senior-discount-guide', 'prevent-voice-phishing', 'retirement-finance-checklist'],
+  relatedSlugs: ['senior-discount-legal-support-guide', 'prevent-voice-phishing', 'retirement-preparation-checklist-guide'],
 };
 
 export default article;

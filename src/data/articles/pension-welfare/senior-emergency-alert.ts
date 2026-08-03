@@ -128,7 +128,7 @@ const article: ContentItem = {
   cautionNote:
     '응급안전 알림 서비스는 지자체 예산에 따라 설치 대기 기간이 발생할 수 있습니다. 자세한 사항은 독거노인종합지원센터(1661-2129) 또는 거주지 주민센터에 문의하세요.',
 
-  relatedSlugs: ['elderly-care-service', 'senior-fall-prevention', 'emergency-welfare-support'],
+  relatedSlugs: ['care-service-selection-guide', 'senior-fall-prevention'],
 };
 
 export default article;

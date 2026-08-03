@@ -29,12 +29,7 @@ const article: ContentItem = {
 
   tags: ['복지용구', '장기요양급여', '휠체어지원', '전동침대', '노인보조기기'],
   hubKey: ['prepare-care', 'government-benefits'],
-  relatedSlugs: [
-    'long-term-care-grade',
-    'ltci-bath-nursing-service',
-    'senior-assistive-device',
-    'senior-daycare-center',
-  ],
+  relatedSlugs: ['long-term-care-grade', 'senior-assistive-device', 'care-service-selection-guide'],
   order: 45,
   isFeatured: false,
 

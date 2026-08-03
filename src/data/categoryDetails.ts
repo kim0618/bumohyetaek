@@ -16,7 +16,7 @@ export const categoryDetails: CategoryDetail[] = [
         relatedSlugs: [
           'turning-65-benefit-guide',
           'basic-pension-application',
-          'senior-discount-guide',
+          'senior-discount-legal-support-guide',
         ],
       },
       {
@@ -24,8 +24,8 @@ export const categoryDetails: CategoryDetail[] = [
         body: '기초연금은 만 65세 이상 소득 하위 70% 어르신에게 매달 지급되는 정부 지원금입니다. 소득인정액 기준, 신청 서류 목록, 대리 신청 방법, 감액 규정까지 알면 더 유리하게 받을 수 있습니다. 국민연금 수령 여부와 관계없이 신청할 수 있으니 조건을 먼저 확인해보세요.',
         relatedSlugs: [
           'basic-pension-application',
-          'basic-pension-reduction',
-          'basic-pension-national-pension-simulation',
+          'national-pension-receiving-strategy-guide',
+          'senior-discount-legal-support-guide',
         ],
       },
       {
@@ -34,7 +34,7 @@ export const categoryDetails: CategoryDetail[] = [
         relatedSlugs: [
           'national-pension-timing',
           'national-pension-break-even',
-          'national-pension-lump-sum',
+          'national-pension-receiving-strategy-guide',
         ],
       },
       {
@@ -42,7 +42,7 @@ export const categoryDetails: CategoryDetail[] = [
         body: '소득과 재산이 일정 기준 이하인 경우 기초생활수급 또는 차상위 계층으로 의료·주거·교육 지원을 받을 수 있습니다. 수급 자격과 지원 종류가 복잡하지만, 주민센터에서 통합 상담을 받으면 한 번에 파악할 수 있습니다. 어디서부터 시작해야 할지 모를 때 이 글들이 도움이 됩니다.',
         relatedSlugs: [
           'basic-livelihood-benefit',
-          'near-poverty-benefits',
+          'low-income-benefit-comparison-guide',
           'medical-aid-system',
         ],
       },
@@ -51,8 +51,8 @@ export const categoryDetails: CategoryDetail[] = [
         body: '장애 등록과 장애인연금 신청은 별개 절차입니다. 국민연금 가입자는 장애연금, 비가입자는 장애인연금(기초급여+부가급여)을 받을 수 있습니다. 등록 절차, 지원 금액, 국민연금 가입 여부에 따른 차이를 미리 파악해두면 신청이 훨씬 수월합니다.',
         relatedSlugs: [
           'disability-pension',
-          'disability-registration',
-          'near-poverty-benefits',
+          'low-income-benefit-comparison-guide',
+          'basic-livelihood-benefit',
         ],
       },
       {
@@ -60,8 +60,8 @@ export const categoryDetails: CategoryDetail[] = [
         body: '기초연금·장기요양·노인 일자리·문화 바우처 등 노후에 받을 수 있는 복지 서비스는 생각보다 다양합니다. 복지로(bokjiro.go.kr)에서 모의계산을 이용하면 본인에게 해당하는 서비스를 한 번에 확인할 수 있습니다. 에너지 바우처, 긴급복지 지원 등 평소 잘 모르는 제도도 함께 살펴보세요.',
         relatedSlugs: [
           'senior-social-service-voucher',
-          'energy-voucher',
-          'emergency-welfare-support',
+          'senior-culture-voucher',
+          'senior-free-meal',
         ],
       },
     ],
@@ -140,9 +140,9 @@ export const categoryDetails: CategoryDetail[] = [
         title: '국가건강검진·암검진을 제대로 활용하고 싶다면',
         body: '국가건강검진은 짝수 해 출생자(2년 주기)가 대상이며, 국가암검진(위·대장·간·유방·자궁경부·폐 6종)은 별도 기준으로 나뉩니다. 검진 기관 예약부터 결과 해석, 추가 검사 연계까지 활용법을 확인해보세요. 건강보험 가입자는 본인부담 없거나 10%만 내면 됩니다.',
         relatedSlugs: [
-          'national-health-checkup-guide',
-          'cancer-screening-guide',
-          'regional-health-checkup-support',
+          'senior-checkup-surgery-guide',
+          'senior-hearing-aid',
+          'health-insurance-limit',
         ],
       },
       {
@@ -151,7 +151,7 @@ export const categoryDetails: CategoryDetail[] = [
         relatedSlugs: [
           'health-insurance-limit',
           'critical-illness-copay-reduction',
-          'health-insurance-premium-reduction',
+          'medical-aid-system',
         ],
       },
       {
@@ -159,7 +159,7 @@ export const categoryDetails: CategoryDetail[] = [
         body: '장기요양 등급 신청은 국민건강보험공단(1577-1000)에 전화 한 통으로 시작됩니다. 신청 후 방문 조사·등급 판정까지 보통 30일 내로 결과가 나옵니다. 등급에 따라 방문요양·주야간보호·단기보호·요양원 입소 중 적합한 서비스를 선택할 수 있습니다.',
         relatedSlugs: [
           'long-term-care-grade',
-          'care-type-selection',
+          'care-service-selection-guide',
           'home-visiting-care',
         ],
       },
@@ -167,7 +167,7 @@ export const categoryDetails: CategoryDetail[] = [
         title: '치매나 인지 저하가 걱정되기 시작했다면',
         body: '초기 인지 저하는 치료 시기를 놓치지 않는 것이 중요합니다. 치매안심센터에서 무료 인지검사를 받을 수 있으며, 치매로 진단되면 치매 치료관리비 지원(연 최대 36만 원)과 치매안심요양원 입소 우선권을 받을 수 있습니다. 가족이 지쳐가고 있다면 치매가족 쉼터 서비스도 확인해보세요.',
         relatedSlugs: [
-          'senior-cognitive-screening',
+          'dementia-family-respite',
           'dementia-care-center',
           'dementia-family-action-plan',
         ],
@@ -176,9 +176,9 @@ export const categoryDetails: CategoryDetail[] = [
         title: '고혈압·당뇨·COPD 등 만성질환을 관리해야 한다면',
         body: '노인의 80% 이상이 하나 이상의 만성질환을 앓고 있습니다. 합병증 예방을 위한 정기 검사 주기, 약 복용 관리(다약제 복용 주의), 건강보험 급여 치료 범위를 파악하면 의료비를 크게 줄일 수 있습니다.',
         relatedSlugs: [
-          'senior-hypertension',
+          'senior-chronic-disease-guide',
           'senior-diabetes-management',
-          'senior-copd-management',
+          'senior-pneumonia-prevention',
         ],
       },
       {
@@ -186,8 +186,8 @@ export const categoryDetails: CategoryDetail[] = [
         body: '낙상은 65세 이상 입원 원인 1위입니다. 고관절 골절 후 1년 내 사망률이 20~30%에 달하는 만큼 예방이 최우선입니다. 가정 환경 점검, 근력 운동, 골다공증 검사 등 예방 조치를 단계별로 정리했습니다.',
         relatedSlugs: [
           'senior-fall-prevention',
-          'senior-osteoporosis',
-          'senior-exercise-guide',
+          'senior-chronic-disease-guide',
+          'senior-emergency-health-guide',
         ],
       },
     ],
@@ -264,8 +264,8 @@ export const categoryDetails: CategoryDetail[] = [
         body: '은퇴 후 수입이 국민연금·기초연금 중심으로 바뀌면 지출 구조를 새로 짜야 합니다. 고정비(의료비·보험료·주거비·통신비)를 먼저 파악하고 월별 예산을 세우는 것이 출발점입니다. 퇴직금과 연금 수령 시기, 세금 부담도 함께 검토해 실수령액 기준으로 계획을 세워보세요.',
         relatedSlugs: [
           'retirement-budget-planning',
-          'retirement-finance-timeline',
-          'retirement-health-insurance',
+          'retirement-preparation-checklist-guide',
+          'national-pension-increase-strategy',
         ],
       },
       {
@@ -273,33 +273,33 @@ export const categoryDetails: CategoryDetail[] = [
         body: '60대 이상 고령층은 전체 보이스피싱 피해자의 40% 이상을 차지합니다. 검사·경찰 사칭, 자녀 납치 협박, 대출 권유, 카카오톡 지인 사칭 등 수법은 계속 진화하고 있습니다. 예방법과 피해 발생 시 즉시 대처 절차를 미리 익혀두세요.',
         relatedSlugs: [
           'prevent-voice-phishing',
-          'smishing-prevention',
-          'voice-phishing-recovery',
+          'senior-consumer-rights',
+          'senior-deposit-protection',
         ],
       },
       {
         title: '연금·IRP 세금 신고를 처음 해야 한다면',
         body: '국민연금·퇴직연금·개인연금은 수령 방식(일시금·연금)에 따라 세금이 크게 달라집니다. 사적연금 연간 수령액이 1,500만 원을 초과하면 종합소득세 대상이 됩니다. 세액공제 한도, 연금소득 분리과세 기준, 퇴직소득세 계산 방법을 미리 파악해두세요.',
         relatedSlugs: [
-          'pension-income-tax',
-          'pension-savings-tax-benefit',
-          'retirement-pension-3way-comparison',
+          'pension-tax-benefit-guide',
+          'retirement-pension-irp',
+          'irp-pension-savings-comparison',
         ],
       },
       {
         title: '상속·유언·증여 등 자산 이전을 준비하고 싶다면',
         body: '상속 분쟁은 미리 준비해두지 않으면 가족 간 갈등으로 이어지기 쉽습니다. 자필증서 유언장 작성 방법, 공증유언의 효력, 상속세 기본공제(5억 원) 활용법을 확인해보세요. 증여세 연간 공제(자녀 5,000만 원, 배우자 6억 원)를 활용한 사전 증여도 검토해볼 수 있습니다.',
         relatedSlugs: [
-          'will-writing-guide',
+          'dementia-inheritance-protection-guide',
           'inheritance-gift-planning',
-          'inheritance-partition-guide',
+          'after-death-admin',
         ],
       },
       {
         title: '치매 대비 부모님 재산을 미리 보호하고 싶다면',
         body: '인지 기능이 저하되기 전에 임의후견인 지정(공증 필요)을 해두면 나중에 법원 개입 없이 재산 관리를 신뢰할 수 있는 사람에게 맡길 수 있습니다. 이미 판단 능력이 저하됐다면 가정법원에 성년후견·한정후견을 신청해야 합니다. 금융기관 인감 도용 등 가족 간 재산 분쟁을 예방하는 방법도 함께 확인해보세요.',
         relatedSlugs: [
-          'adult-guardianship',
+          'dementia-inheritance-protection-guide',
           'power-of-attorney',
           'dementia-financial-management',
         ],
@@ -308,9 +308,9 @@ export const categoryDetails: CategoryDetail[] = [
         title: '갑작스러운 큰 의료비가 걱정된다면',
         body: '암·뇌혈관·심장 질환 등 중증 질환은 치료비가 수백만 원에서 수천만 원까지 발생할 수 있습니다. 건강보험 산정특례 등록, 실손보험 청구, 의료비 세액공제 활용법을 미리 파악해두면 실제 부담을 크게 줄일 수 있습니다. 긴급 의료비 마련을 위한 비상금 계획도 함께 세워보세요.',
         relatedSlugs: [
-          'emergency-medical-fund',
+          'senior-expense-review-guide',
           'medical-expense-deduction',
-          'health-insurance-claim',
+          'critical-illness-copay-reduction',
         ],
       },
     ],

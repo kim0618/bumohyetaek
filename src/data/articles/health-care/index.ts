@@ -1,149 +1,41 @@
 import type { ContentItem } from '@/types/content';
 
-import nationalHealthCheckupGuide from './national-health-checkup-guide';
 import dementiaCareCenter from './dementia-care-center';
-import cancerScreeningGuide from './cancer-screening-guide';
 import homeVisitingCare from './home-visiting-care';
-import seniorVaccination from './senior-vaccination';
 import healthInsuranceLimit from './health-insurance-limit';
-import seniorDrivingLicense from './senior-driving-license';
-import careFacilityComparison from './care-facility-comparison';
-import seniorDentalCoverage from './senior-dental-coverage';
-import careTypeSelection from './care-type-selection';
 import seniorHearingAid from './senior-hearing-aid';
-import seniorMentalHealth from './senior-mental-health';
 import seniorFallPrevention from './senior-fall-prevention';
-import healthInsurancePremiumReduction from './health-insurance-premium-reduction';
 import seniorDiabetesManagement from './senior-diabetes-management';
 import hospicePalliativeCare from './hospice-palliative-care';
 import rehabilitationInsurance from './rehabilitation-insurance';
-import polypharmacyManagement from './polypharmacy-management';
-import seniorCognitiveScreening from './senior-cognitive-screening';
-import seniorOralHealth from './senior-oral-health';
-import seniorEyeHealth from './senior-eye-health';
-import seniorNutritionGuide from './senior-nutrition-guide';
-import seniorExerciseGuide from './senior-exercise-guide';
-import seniorSleepHealth from './senior-sleep-health';
-import advanceDirective from './advance-directive';
 import seniorKneeSurgery from './senior-knee-surgery';
-import seniorDentureImplant from './senior-denture-implant';
 import caregiverCertification from './caregiver-certification';
-import seniorHypertension from './senior-hypertension';
-import seniorIncontinence from './senior-incontinence';
-import seniorEmergencyResponse from './senior-emergency-response';
-import seniorPhysicalTherapy from './senior-physical-therapy';
-import seniorCataractSurgery from './senior-cataract-surgery';
 import seniorAssistiveDevice from './senior-assistive-device';
-import seniorStrokePrevention from './senior-stroke-prevention';
-import seniorOsteoporosis from './senior-osteoporosis';
-import seniorChronicPain from './senior-chronic-pain';
-import regionalHealthCheckupSupport from './regional-health-checkup-support';
 import seniorPneumoniaPrevention from './senior-pneumonia-prevention';
-import seniorShinglesPrevention from './senior-shingles-prevention';
-import seniorDigestiveHealth from './senior-digestive-health';
-import seniorDizzinessVertigo from './senior-dizziness-vertigo';
 import criticalIllnessCopayReduction from './critical-illness-copay-reduction';
-import seniorThyroidHealth from './senior-thyroid-health';
-import seniorHeartHealth from './senior-heart-health';
-import seniorSarcopenia from './senior-sarcopenia';
 import dementiaFamilyActionPlan from './dementia-family-action-plan';
-import seniorKidneyHealth from './senior-kidney-health';
-import seniorParkinsonCare from './senior-parkinson-care';
-import seniorCopdManagement from './senior-copd-management';
-import senior80sCareRoadmap from './senior-80s-care-roadmap';
-import seniorProstateHealth from './senior-prostate-health';
-import seniorSpinalStenosis from './senior-spinal-stenosis';
-import seniorBedsorePrevention from './senior-bedsore-prevention';
-import seniorAtrialFibrillation from './senior-atrial-fibrillation';
-import seniorGoutManagement from './senior-gout-management';
-import seniorAnemiaManagement from './senior-anemia-management';
-import seniorHipFracture from './senior-hip-fracture';
-import hospitalNursingCareIntegration from './hospital-nursing-care-integration';
-import seniorSurgeryDecisionGuide from './senior-surgery-decision-guide';
-import seniorHealthCheckupRoadmap from './senior-health-checkup-roadmap';
-import seniorPeripheralNeuropathy from './senior-peripheral-neuropathy';
-import seniorGlaucomaManagement from './senior-glaucoma-management';
-import healthCheckupPrivateVsNational from './health-checkup-private-vs-national';
-import seniorSurgeryCostBreakdown from './senior-surgery-cost-breakdown';
-import seniorDehydration from './senior-dehydration';
-import dementiaCareStageGuide from './dementia-care-stage-guide';
-import cancerSupportRoadmap from './cancer-support-roadmap';
-import homeToFacilityCareTransition from './home-to-facility-care-transition';
-import seniorSkinCare from './senior-skin-care';
-import seniorMedicalCostReductionComparison from './senior-medical-cost-reduction-comparison';
-import familyCaregiverVsAgencyComparison from './family-caregiver-vs-agency-comparison';
+import seniorCheckupSurgeryGuide from './senior-checkup-surgery-guide';
+import seniorChronicDiseaseGuide from './senior-chronic-disease-guide';
+import seniorEmergencyHealthGuide from './senior-emergency-health-guide';
+import parentCarePreparationGuide from './parent-care-preparation-guide';
 
 export const healthCareArticles: ContentItem[] = [
-  nationalHealthCheckupGuide,
   dementiaCareCenter,
-  cancerScreeningGuide,
   homeVisitingCare,
-  seniorVaccination,
   healthInsuranceLimit,
-  seniorDrivingLicense,
-  careFacilityComparison,
-  seniorDentalCoverage,
-  careTypeSelection,
   seniorHearingAid,
-  seniorMentalHealth,
   seniorFallPrevention,
-  healthInsurancePremiumReduction,
   seniorDiabetesManagement,
   hospicePalliativeCare,
   rehabilitationInsurance,
-  polypharmacyManagement,
-  seniorCognitiveScreening,
-  seniorOralHealth,
-  seniorEyeHealth,
-  seniorNutritionGuide,
-  seniorExerciseGuide,
-  seniorSleepHealth,
-  advanceDirective,
   seniorKneeSurgery,
-  seniorDentureImplant,
   caregiverCertification,
-  seniorHypertension,
-  seniorIncontinence,
-  seniorEmergencyResponse,
-  seniorPhysicalTherapy,
-  seniorCataractSurgery,
   seniorAssistiveDevice,
-  seniorStrokePrevention,
-  seniorOsteoporosis,
-  seniorChronicPain,
-  regionalHealthCheckupSupport,
   seniorPneumoniaPrevention,
-  seniorShinglesPrevention,
-  seniorDigestiveHealth,
-  seniorDizzinessVertigo,
   criticalIllnessCopayReduction,
-  seniorThyroidHealth,
-  seniorHeartHealth,
-  seniorSarcopenia,
   dementiaFamilyActionPlan,
-  seniorKidneyHealth,
-  seniorParkinsonCare,
-  seniorCopdManagement,
-  senior80sCareRoadmap,
-  seniorProstateHealth,
-  seniorSpinalStenosis,
-  seniorBedsorePrevention,
-  seniorAtrialFibrillation,
-  seniorGoutManagement,
-  seniorAnemiaManagement,
-  seniorHipFracture,
-  hospitalNursingCareIntegration,
-  seniorSurgeryDecisionGuide,
-  seniorHealthCheckupRoadmap,
-  seniorPeripheralNeuropathy,
-  seniorGlaucomaManagement,
-  healthCheckupPrivateVsNational,
-  seniorSurgeryCostBreakdown,
-  seniorDehydration,
-  dementiaCareStageGuide,
-  cancerSupportRoadmap,
-  homeToFacilityCareTransition,
-  seniorSkinCare,
-  seniorMedicalCostReductionComparison,
-  familyCaregiverVsAgencyComparison,
+  seniorCheckupSurgeryGuide,
+  seniorChronicDiseaseGuide,
+  seniorEmergencyHealthGuide,
+  parentCarePreparationGuide,
 ];

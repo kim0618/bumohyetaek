@@ -112,7 +112,7 @@ const article: ContentItem = {
   cautionNote:
     '행복지킴이 통장의 보호 범위와 운영 방식은 금융기관과 법 개정에 따라 달라질 수 있습니다. 정확한 내용은 ☎ 129(보건복지상담센터)에서 확인하세요.',
 
-  relatedSlugs: ['senior-financial-protection', 'senior-deposit-protection', 'basic-pension-application'],
+  relatedSlugs: ['senior-deposit-protection', 'basic-pension-application'],
 };
 
 export default article;

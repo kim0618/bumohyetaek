@@ -123,14 +123,7 @@ const article: ContentItem = {
   cautionNote:
     '치매 지원 제도와 신청 기준은 연도별로 변경될 수 있습니다. 이용 전 치매 상담 콜(☎ 1899-9988) 또는 치매안심센터에서 최신 내용을 확인하세요.',
 
-  relatedSlugs: [
-    'dementia-care-center',
-    'dementia-family-respite',
-    'senior-80s-care-roadmap',
-    'adult-guardianship',
-    'dementia-financial-management',
-    'dementia-care-stage-guide',
-  ],
+  relatedSlugs: ['dementia-care-center', 'dementia-family-respite', 'parent-care-preparation-guide', 'dementia-inheritance-protection-guide', 'dementia-financial-management'],
 };
 
 export default article;

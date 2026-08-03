@@ -28,15 +28,7 @@ const article: ContentItem = {
 
   tags: ['만65세혜택', '기초연금', '장기요양신청', '비과세종합저축', '노인혜택총정리'],
   hubKey: ['government-benefits', 'retirement-income'],
-  relatedSlugs: [
-    'basic-pension-application',
-    'long-term-care-grade',
-    'senior-tax-benefit',
-    'senior-customized-care',
-    'national-health-checkup-guide',
-    'senior-culture-voucher',
-    'nps-retirement-readiness-service',
-  ],
+  relatedSlugs: ['basic-pension-application', 'long-term-care-grade', 'senior-tax-benefit', 'senior-checkup-surgery-guide', 'senior-culture-voucher'],
   order: 48,
   isFeatured: false,
 

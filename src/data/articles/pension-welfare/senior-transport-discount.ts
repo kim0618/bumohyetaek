@@ -130,7 +130,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 3월 기준으로 작성되었습니다. 할인율과 적용 범위는 철도·버스 운영사 및 지자체 정책에 따라 변경될 수 있으니 이용 전 해당 기관에 확인하시기 바랍니다.',
 
-  relatedSlugs: ['senior-discount-guide', 'basic-pension-application', 'senior-welfare-center', 'senior-job-program'],
+  relatedSlugs: ['senior-discount-legal-support-guide', 'basic-pension-application'],
 };
 
 export default article;

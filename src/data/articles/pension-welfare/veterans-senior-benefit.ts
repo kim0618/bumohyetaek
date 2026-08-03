@@ -128,7 +128,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었습니다. 보훈 급여 금액과 혜택 기준은 매년 변경될 수 있으니 국가보훈처(☎ 1811-1811) 또는 가까운 보훈청에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['basic-pension-application', 'national-pension-timing', 'senior-transport-discount', 'senior-discount-guide'],
+  relatedSlugs: ['basic-pension-application', 'national-pension-timing', 'senior-transport-discount', 'senior-discount-legal-support-guide'],
 };
 
 export default article;

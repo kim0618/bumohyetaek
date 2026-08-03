@@ -127,7 +127,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 중앙호스피스센터와 국민건강보험공단 안내를 바탕으로 작성되었습니다. 대상 질환과 급여 기준은 변경될 수 있으므로 중앙호스피스센터(1899-1234)에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['cancer-screening-guide', 'health-insurance-limit', 'funeral-preparation-guide'],
+  relatedSlugs: ['senior-checkup-surgery-guide', 'health-insurance-limit', 'funeral-preparation-guide'],
 };
 
 export default article;

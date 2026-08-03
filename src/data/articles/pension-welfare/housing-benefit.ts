@@ -160,7 +160,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 기준 정보를 바탕으로 작성되었습니다. 기준 중위소득과 지원 금액은 매년 변경되므로 신청 전 주민센터 또는 주거급여콜센터(☎ 1600-0777)에서 최신 내용을 확인하세요.',
 
-  relatedSlugs: ['basic-pension-application', 'elderly-care-service', 'senior-public-housing'],
+  relatedSlugs: ['basic-pension-application', 'care-service-selection-guide', 'senior-public-housing'],
 };
 
 export default article;

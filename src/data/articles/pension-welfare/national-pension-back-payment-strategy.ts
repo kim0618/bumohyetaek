@@ -29,12 +29,7 @@ const article: ContentItem = {
 
   hubKey: ['retirement-income'],
 
-  relatedSlugs: [
-    'national-pension-break-even',
-    'national-pension-timing',
-    'national-pension-voluntary',
-    'national-pension-voluntary-vs-additional',
-  ],
+  relatedSlugs: ['national-pension-break-even', 'national-pension-timing', 'national-pension-voluntary'],
 
   officialSources: [
     {

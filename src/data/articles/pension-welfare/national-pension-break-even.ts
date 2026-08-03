@@ -128,14 +128,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글의 계산은 2026년 기준 65세 정상 수령을 가정한 단순 시뮬레이션입니다. 실제 수령액은 가입 기간·소득 이력에 따라 다르며, 소득 정지 기준·기초연금 감액 등 변수가 있습니다. 개인별 정확한 분석은 국민연금공단(☎ 1355) 상담을 권장합니다.',
 
-  relatedSlugs: [
-    'national-pension-timing',
-    'national-pension-old-age-claim',
-    'basic-pension-reduction',
-    'survivor-pension',
-    'national-pension-increase-strategy',
-    'pension-income-tax',
-  ],
+  relatedSlugs: ['national-pension-timing', 'national-pension-receiving-strategy-guide', 'survivor-pension', 'national-pension-increase-strategy', 'pension-tax-benefit-guide'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

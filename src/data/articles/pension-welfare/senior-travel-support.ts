@@ -28,7 +28,7 @@ const article: ContentItem = {
 
   hubKey: ['government-benefits'],
 
-  relatedSlugs: ['low-income-travel-support', 'senior-culture-voucher', 'senior-discount-guide', 'senior-transport-discount', 'basic-pension-application'],
+  relatedSlugs: ['senior-culture-voucher', 'senior-discount-legal-support-guide', 'senior-transport-discount', 'basic-pension-application'],
 
   officialSources: [
     {

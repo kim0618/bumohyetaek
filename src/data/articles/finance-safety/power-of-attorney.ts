@@ -112,7 +112,7 @@ const article: ContentItem = {
   cautionNote:
     '위임장은 위임 범위를 명확히 한정해서 작성하세요. 포괄적 위임장은 남용 위험이 있으며, 위임 업무 완료 후에는 즉시 위임장을 회수하거나 파기하세요.',
 
-  relatedSlugs: ['adult-guardianship', 'dementia-financial-management', 'after-death-admin'],
+  relatedSlugs: ['dementia-inheritance-protection-guide', 'dementia-financial-management', 'after-death-admin'],
 };
 
 export default article;

@@ -137,7 +137,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 기준 선정기준액과 지급액을 바탕으로 작성되었습니다. 매년 기준이 변경되므로 신청 전 국민연금공단(☎ 1355) 또는 보건복지상담센터(☎ 129)에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['disability-registration', 'basic-pension-application', 'basic-livelihood-benefit'],
+  relatedSlugs: ['low-income-benefit-comparison-guide', 'basic-pension-application', 'basic-livelihood-benefit'],
 
   relatedCalculator: {
     brand: siteConfig.calculatorSiteName,

@@ -29,7 +29,7 @@ const article: ContentItem = {
 
   hubKey: ['retirement-income'],
 
-  relatedSlugs: ['national-pension-back-payment-strategy', 'national-pension-timing', 'national-pension-lump-sum', 'national-pension-voluntary', 'retirement-budget-planning'],
+  relatedSlugs: ['national-pension-back-payment-strategy', 'national-pension-timing', 'national-pension-receiving-strategy-guide', 'national-pension-voluntary', 'retirement-budget-planning'],
 
   officialSources: [
     {

@@ -120,12 +120,7 @@ const article: ContentItem = {
     },
   ],
 
-  relatedSlugs: [
-    'retirement-pension-irp',
-    'pension-savings-tax-benefit',
-    'pension-income-tax',
-    'self-employed-retirement-3way',
-  ],
+  relatedSlugs: ['retirement-pension-irp', 'pension-tax-benefit-guide'],
 
   cautionNote:
     '이 글은 2026년 세법 기준으로 작성했습니다. 세액공제율·한도는 연도별로 변경될 수 있으므로 국세청(☎ 126)이나 금융감독원 통합연금포털에서 최신 내용을 확인하시기 바랍니다.',

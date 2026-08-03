@@ -130,12 +130,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글의 서비스 정보는 2026년 기준으로 작성되었습니다. 조회 방법과 신청 절차는 각 기관 운영 정책에 따라 달라질 수 있으니, 파인(fine.fss.or.kr)에서 직접 무료로 이용하시기 바랍니다.',
 
-  relatedSlugs: [
-    'after-death-30days-checklist',
-    'after-death-admin',
-    'death-insurance-claim',
-    'inheritance-preparation-roadmap',
-  ],
+  relatedSlugs: ['after-death-admin'],
 };
 
 export default article;

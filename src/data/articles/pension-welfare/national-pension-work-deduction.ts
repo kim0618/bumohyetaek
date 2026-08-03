@@ -144,13 +144,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: [
-    'national-pension-timing',
-    'national-pension-voluntary',
-    'basic-pension-reduction',
-    'survivor-pension',
-    'senior-job-income-pension-impact-sim',
-  ],
+  relatedSlugs: ['national-pension-timing', 'national-pension-voluntary', 'national-pension-receiving-strategy-guide', 'survivor-pension'],
 };
 
 export default article;

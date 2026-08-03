@@ -30,7 +30,7 @@ export const hubDetails: HubDetail[] = [
     featuredSlugs: [
       'basic-pension-application',
       'national-pension-timing',
-      'retirement-income-strategy',
+      'retirement-budget-planning',
     ],
 
     checklist: [
@@ -127,7 +127,7 @@ export const hubDetails: HubDetail[] = [
       '장기요양 등급 갱신 시기가 다가오고 있는데 어떻게 준비해야 하나',
     ],
 
-    featuredSlugs: ['long-term-care-grade', 'ltci-application-timing-guide', 'care-type-selection'],
+    featuredSlugs: ['long-term-care-grade', 'home-visiting-care', 'care-service-selection-guide'],
 
     checklist: [
       '국민건강보험공단(☎ 1577-1000)에 장기요양보험 등급 신청 - 방문·전화·우편 가능',
@@ -218,7 +218,7 @@ export const hubDetails: HubDetail[] = [
     featuredSlugs: [
       'basic-pension-application',
       'basic-livelihood-benefit',
-      'energy-voucher',
+      'senior-culture-voucher',
     ],
 
     checklist: [
@@ -308,7 +308,7 @@ export const hubDetails: HubDetail[] = [
       '만성질환(고혈압·당뇨)으로 병원비가 많이 드는데 산정특례 대상인지 모르겠다',
     ],
 
-    featuredSlugs: ['national-health-checkup-guide', 'cancer-screening-guide', 'critical-illness-copay-reduction'],
+    featuredSlugs: ['senior-knee-surgery', 'senior-checkup-surgery-guide', 'critical-illness-copay-reduction'],
 
     checklist: [
       '국민건강보험공단 앱(The건강보험) 또는 건강iN(hi.nhis.or.kr)에서 올해 검진 대상 여부 확인',
@@ -406,7 +406,7 @@ export const hubDetails: HubDetail[] = [
 
     featuredSlugs: [
       'prevent-voice-phishing',
-      'adult-guardianship',
+      'dementia-inheritance-protection-guide',
       'retirement-budget-planning',
     ],
 

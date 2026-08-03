@@ -137,12 +137,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 의학적 조언을 대체하지 않으며, 폐렴 증상이 의심되면 반드시 의료기관을 방문하세요. 백신 접종 및 건강보험 급여 기준은 변경될 수 있습니다.',
 
-  relatedSlugs: [
-    'senior-vaccination',
-    'senior-copd-management',
-    'senior-nutrition-guide',
-    'senior-emergency-response',
-  ],
+  relatedSlugs: ['critical-illness-copay-reduction', 'senior-hearing-aid', 'senior-knee-surgery', 'senior-assistive-device'],
 };
 
 export default article;

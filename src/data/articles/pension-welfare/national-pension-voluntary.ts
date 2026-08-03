@@ -147,12 +147,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: [
-    'national-pension-timing',
-    'national-pension-credit',
-    'national-pension-work-deduction',
-    'national-pension-voluntary-vs-additional',
-  ],
+  relatedSlugs: ['national-pension-timing', 'national-pension-credit', 'national-pension-work-deduction'],
 };
 
 export default article;

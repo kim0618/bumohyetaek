@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-05-01',
+  updatedAt: '2026-08-03',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
@@ -41,7 +41,7 @@ const article: ContentItem = {
     {
       type: 'text',
       heading: '노인 주거환경 개선사업이란?',
-      body: '어머니가 욕실 바닥에서 미끄러지셨다는 연락을 받은 날, 집 안 환경을 바꿔야겠다는 생각이 절실해집니다. 노인 주거환경 개선사업은 바로 그런 순간을 위해 있습니다. [[basic-livelihood-benefit|기초생활수급자]]나 [[near-poverty-benefits|차상위계층]] 어르신 가구에 욕실 미끄럼 방지, 안전손잡이, 경사로 설치 등을 무료 또는 저비용으로 지원합니다. 지방자치단체 사업과 정부 지원 두 가지 경로로 신청할 수 있으며, 공사비는 최대 1,241만 원까지 지원됩니다.',
+      body: '어머니가 욕실 바닥에서 미끄러지셨다는 연락을 받은 날, 집 안 환경을 바꿔야겠다는 생각이 절실해집니다. 노인 주거환경 개선사업은 바로 그런 순간을 위해 있습니다. [[basic-livelihood-benefit|기초생활수급자]]나 [[near-poverty-benefits|차상위계층]] 어르신 가구에 욕실 미끄럼 방지, 안전손잡이, 경사로 설치 등을 무료 또는 저비용으로 지원합니다. 지방자치단체 사업과 정부 지원 두 가지 경로로 신청할 수 있으며, 주거급여 수선유지급여의 경우 공사비는 최대 1,601만 원까지 지원됩니다.',
     },
     {
       type: 'list',
@@ -68,7 +68,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '지원 금액 및 처리 기간',
-      body: '지원 금액은 사업 유형과 지역에 따라 다르며, 공사 유형별로 50만 원에서 최대 1,241만 원까지 지원됩니다. 현장 조사 후 지원 범위가 결정되며, 신청부터 공사 완료까지 약 2-3개월이 소요됩니다. 지원 한도를 초과하는 공사비는 본인 부담이 됩니다. 정확한 지원 금액은 ☎ 129 (보건복지상담센터)에서 확인하세요.',
+      body: '지원 금액은 사업 유형과 지역에 따라 다릅니다. 주거급여 수선유지급여는 보수 범위에 따라 경보수 590만 원(3년 주기), 중보수 1,095만 원(5년 주기), 대보수 1,601만 원(7년 주기) 한도로 지원됩니다. 현장 조사 후 지원 범위가 결정되며, 신청부터 공사 완료까지 약 2-3개월이 소요됩니다. 지원 한도를 초과하는 공사비는 본인 부담이 됩니다. 정확한 지원 금액은 ☎ 129 (보건복지상담센터)에서 확인하세요.',
     },
     {
       type: 'list',
@@ -118,7 +118,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었습니다. 지원 기준과 공사 범위는 지역과 예산에 따라 다를 수 있으니 거주지 주민센터 또는 ☎ 129에서 확인하세요.',
 
-  relatedSlugs: ['housing-benefit', 'basic-livelihood-benefit', 'energy-voucher', 'senior-public-housing'],
+  relatedSlugs: ['housing-benefit', 'basic-livelihood-benefit', 'senior-public-housing'],
 };
 
 export default article;

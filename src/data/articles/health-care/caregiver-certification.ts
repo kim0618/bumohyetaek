@@ -110,7 +110,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었으며 교육 시간과 비용은 기관·지역에 따라 다를 수 있습니다. 최신 시험 일정과 자격 기준은 한국보건의료인국가시험원(www.kuksiwon.or.kr)에서 확인하세요.',
 
-  relatedSlugs: ['care-type-selection', 'home-visiting-care', 'dementia-care-center', 'care-facility-comparison'],
+  relatedSlugs: ['care-service-selection-guide', 'home-visiting-care', 'dementia-care-center'],
 };
 
 export default article;

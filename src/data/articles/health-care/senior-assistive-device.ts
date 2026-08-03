@@ -140,7 +140,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['senior-hearing-aid', 'care-type-selection', 'home-visiting-care', 'senior-fall-prevention'],
+  relatedSlugs: ['senior-hearing-aid', 'care-service-selection-guide', 'home-visiting-care', 'senior-fall-prevention'],
 };
 
 export default article;
