@@ -15,7 +15,11 @@
 >
 > **삭제된 구 매핑 슬러그(45편)**: basic-benefit-4types-comparison, basic-pension-income-recognition, basic-recipient-free-medical-services, basic-vs-near-poverty-comparison, cancer-screening-guide, cancer-support-roadmap, care-cost-reduction, dementia-5year-cost-simulation, disability-registration, emergency-medical-fund, emergency-welfare-support, energy-voucher, family-caregiver-vs-agency-comparison, health-checkup-private-vs-national, housing-farmland-pension-comparison, inheritance-vs-gift-tax-simulation, low-income-travel-support, ltci-bath-nursing-service, ltci-cost-simulation, ltci-family-caregiver-benefit, ltci-grade-reapplication, ltci-not-eligible-alternatives, national-health-checkup-guide, national-pension-old-age-claim, near-poverty-benefits, parent-dependent-deduction-sibling, pension-income-sequence, pension-income-tax, regional-health-insurance-calculation, retirement-finance-checklist, retirement-finance-timeline, senior-bedsore-prevention, senior-chronic-pain, senior-denture-implant, senior-job-income-pension-impact-sim, senior-job-program, senior-job-types, senior-medical-cost-estimate, senior-parkinson-care, senior-shingles-prevention, senior-surgery-cost-breakdown, senior-surgery-decision-guide, senior-voucher-comparison, utility-bill-discount, welfare-car-ownership-standard
 >
-> **잔여 TODO (다음 가동 최우선)**: 위 45편이 담고 있던 수치가 합본 13편(care-service-selection-guide, low-income-benefit-comparison-guide, senior-expense-review-guide, retirement-asset-option-comparison-guide, senior-checkup-surgery-guide, senior-discount-legal-support-guide, retirement-preparation-checklist-guide, national-pension-receiving-strategy-guide, parent-care-preparation-guide, senior-emergency-health-guide, senior-chronic-disease-guide, dementia-inheritance-protection-guide, pension-tax-benefit-guide)에 정확히 이관됐는지 **전 항목 재매핑 감사** 필요. 2026-08-03 가동에서는 점검 대상 12개 항목만 재매핑함.
+> **잔여 TODO (다음 가동 최우선)**: 위 45편이 담고 있던 수치가 합본 13편(care-service-selection-guide, low-income-benefit-comparison-guide, senior-expense-review-guide, retirement-asset-option-comparison-guide, senior-checkup-surgery-guide, senior-discount-legal-support-guide, retirement-preparation-checklist-guide, national-pension-receiving-strategy-guide, parent-care-preparation-guide, senior-emergency-health-guide, senior-chronic-disease-guide, dementia-inheritance-protection-guide, pension-tax-benefit-guide)에 정확히 이관됐는지 **전 항목 재매핑 감사** 필요.
+>
+> **재매핑 진척도**: 2026-08-03 가동 12개 항목 / 2026-09-04 가동 12개 항목(1.1·1.2·1.3·1.6·1.9·1.10·2.1·4.1·4.2-b·4.4·4.7·6.7·7.1) 완료 → **누적 약 24개 항목 재매핑, 전체 ~70개 중 3분의 1 수준**. 나머지는 여전히 미감사이며, 특히 3장(장기요양)·5장(기준중위소득)·9.5장(신규 19항목)의 영향 글 목록은 **프루닝 이전 슬러그가 그대로 남아 있을 가능성이 높다**.
+>
+> ⚠️ **매 가동 시 이 재매핑은 "값 변경이 없어도" 반드시 할 것.** 2026-09-04 1차 가동에서 "변경 0건이니 영향 글은 볼 필요 없다"고 판단해 생략했다가 삭제 슬러그 7개를 놓칠 뻔했다. **값 검증과 매핑 검증은 별개 작업이다.**
 
 ---
 
@@ -33,23 +37,27 @@
 ### 1.1 기초연금 단독 최대 수령액
 - **현재 값**: 349,700원
 - **공식 출처**: https://basicpension.mohw.go.kr (보건복지부 기초연금)
-- **마지막 확인**: 2026-05-31
+- **마지막 확인**: 2026-09-04 (공식 사이트 WebFetch 재확인, 값 유지)
 - **변동 주기**: 매년 1월
 - **검색 패턴**: `349,700`, `기초연금.*최대`, `단독.*349`
+- **영향 글 (2026-09-04 79편 재매핑, 5편)**: basic-pension-application, national-pension-break-even, senior-discount-legal-support-guide(합본), turning-65-benefit-guide, disability-pension
+- **⚠️ 연동 주의**: disability-pension의 349,700원은 **장애인연금 기초급여**(9.5.10)로 기초연금 기준연금액과 동액 연동됨. 1.1이 바뀌면 9.5.10도 같이 점검할 것
 
 ### 1.2 기초연금 선정기준액 (단독)
 - **현재 값**: 247만원 (월 소득인정액)
 - **공식 출처**: https://basicpension.mohw.go.kr
-- **마지막 확인**: 2026-05-31
+- **마지막 확인**: 2026-09-04 (공식 사이트 WebFetch 재확인, 값 유지)
 - **변동 주기**: 매년 1월
 - **검색 패턴**: `247만`, `선정기준.*단독`, `2,470,000`
+- **영향 글 (2026-09-04 79편 재매핑, 5편)**: basic-pension-application, national-pension-receiving-strategy-guide(합본), retirement-preparation-checklist-guide(합본), senior-discount-legal-support-guide(합본), turning-65-benefit-guide
 
 ### 1.3 기초연금 선정기준액 (부부)
 - **현재 값**: 395.2만원 (월 소득인정액)
 - **공식 출처**: https://basicpension.mohw.go.kr
-- **마지막 확인**: 2026-05-31
+- **마지막 확인**: 2026-09-04 (공식 사이트 WebFetch 재확인, 값 유지)
 - **변동 주기**: 매년 1월
 - **검색 패턴**: `395.2만`, `395만`, `3,952,000`, `선정기준.*부부`
+- **영향 글 (2026-09-04 79편 재매핑, 5편)**: 1.2와 동일 (basic-pension-application, national-pension-receiving-strategy-guide, retirement-preparation-checklist-guide, senior-discount-legal-support-guide, turning-65-benefit-guide)
 
 ### 1.4 국민연금 A값
 - **현재 값**: 3,193,511원 (약 319만원, 2026-07-01~2027-06-30 적용). 기준소득월액 상한 659만원, 하한 41만원
@@ -58,24 +66,22 @@
 - **변동 주기**: 매년 7월 (7월~익년 6월 적용)
 - **검색 패턴**: `A값`, `319만`, `3,193,511`, `309만`(2025.07~2026.06 옛값 검색용), `3,089,062`(옛값)
 - **⚠️ 알려진 옛 값**: 3,089,062원/309만(2025.07~2026.06 적용), 2,989,237원(2024.07~2025.06), 286만원(더 이전) - 모두 정정 완료. 상한 옛값 637만·하한 40만
-- **영향 글**: national-pension-timing(2026-07-03: 309만→319만), national-pension-work-deduction(2026-07-03: 3,089,062/309만→3,193,511/319만), national-pension-break-even(2026-07-03: 309만→319만), senior-job-income-pension-impact-sim(2026-07-03: 309만→319만)
-
+- **영향 글 (2026-09-04 79편 재매핑, 3편)**: national-pension-break-even, national-pension-timing, national-pension-work-deduction. ※구 매핑 senior-job-income-pension-impact-sim은(는) 2026-07-27 프루닝 삭제
 ### 1.5 노령연금 수급 개시 연령
 - **현재 값**: 출생연도별 (1953-56년생 61세, 1957-60년생 62세, 1961-64년생 63세, 1965-68년생 64세, 1969년 이후 65세)
 - **공식 출처**: https://www.nps.or.kr
 - **마지막 확인**: 2026-06-15
 - **변동 주기**: 법 개정 시 (현재 표 고정)
 - **검색 패턴**: `수급.*연령`, `1969년 이후.*65세`
-- **영향 글**: national-pension-old-age-claim, national-pension-timing
-
+- **영향 글 (2026-09-04 79편 재매핑, 1편)**: retirement-preparation-checklist-guide(합본). ※구 매핑 national-pension-old-age-claim은(는) 2026-07-27 프루닝 삭제
 ### 1.6 참전유공자 명예수당
 - **현재 값**: 월 49만원 (2026년 기준, 65세 이상 참전유공자 명예수당)
 - **공식 출처**: https://www.mpva.go.kr (국가보훈부)
-- **마지막 확인**: 2026-05-31
+- **마지막 확인**: 2026-09-04 (국가보훈부 공식 페이지 WebFetch 원문 "월 490천원" 재확인, 값 유지)
 - **변동 주기**: 매년 1월
 - **검색 패턴**: `참전유공자 수당`, `참전.*명예수당`, `참전.*49만`, `참전.*40만`(옛 값)
 - **⚠️ 알려진 옛 값**: 2024년 42만 → 2025년 45만 → **2026년 49만**(4만원 인상). 마스터 "약 40만"은 매우 오래된 값이었음
-- **영향 글**: veterans-senior-benefit (2026-05-31 정정: 약 40만→월 49만)
+- **영향 글**: veterans-senior-benefit (2026-05-31 정정: 약 40만→월 49만). 2026-09-04 79편 재매핑으로 1편 그대로 확인, 본문 "2026년 기준 월 49만원" 일치
 
 ### 1.7 주택연금 가입 자격 공시가격 한도
 - **현재 값**: 부부합산 **공시가격 등 12억 원 이하**. 다주택자도 합산 12억 이하면 가입 가능. **12억 초과 2주택자는 3년 이내 1주택 처분 조건으로 가입 가능**. 가입 연령은 부부 중 **1명이 만 55세 이상**
@@ -98,18 +104,20 @@
 ### 1.9 농지연금 담보 상한 및 재산세 감면 한도
 - **현재 값**: 담보 농지 평가액 30억 원 이하, 재산세 감면은 6억 원 이하분
 - **공식 출처**: https://www.fplove.or.kr (농지연금포털)
-- **마지막 확인**: 2026-05-24
+- **마지막 확인**: 2026-05-24 ⚠️ **2026-09-04 재확인 시도 실패, 날짜 미갱신** (아래 참고)
 - **변동 주기**: 법 개정 시
 - **검색 패턴**: `농지연금.*30억`, `재산세.*감면.*6억`
-- **영향 글**: farmland-pension, housing-farmland-pension-comparison
+- **영향 글 (2026-09-04 79편 재매핑, 3편)**: farmland-pension, retirement-asset-option-comparison-guide(합본), retirement-preparation-checklist-guide(합본). ※구 매핑 housing-farmland-pension-comparison은 2026-07-27 프루닝 삭제
+- **⚠️ 2026-09-04 점검 결과 (미확정 - 다음 가동 최우선 재확인)**: 공식 출처 fplove.or.kr이 서브에이전트 WebFetch·부모 세션 curl 양쪽 모두 DNS 해석 실패로 접속 불가(사이트 자체가 응답 없음, 단순 WAF 아닌 것으로 보임). 대체 경로(gov.kr, easylaw.go.kr, WebSearch 다회) 시도했으나 **"담보 농지 평가액 30억원 이하"라는 가입 상한을 어떤 출처에서도 재현하지 못함**. 재산세 감면 "6억원" 부분은 정책브리핑 등에서 교차 확인됨(그대로 유효). **"30억원" 상한은 근거 재확인 전까지 신뢰도 낮음으로 취급 - 사용자가 fplove.or.kr 직접 접속 또는 농지연금 상담(1577-7770)으로 확인 필요**. 값을 임의로 변경하지 않음(빈손 검색 결과로 추측 승격 금지)
 
 ### 1.10 농지연금 월 수령액 예시 (만 70세 기준, 종신정액형)
 - **현재 값**: 2억 원 → 약 70만원/월, 3억 원 → 약 105만원/월, 5억 원 → 약 175만원/월
 - **공식 출처**: https://www.fplove.or.kr (농지연금포털 모의계산)
-- **마지막 확인**: 2026-05-24
+- **마지막 확인**: 2026-05-24 ⚠️ **2026-09-04 재확인 시도 실패, 날짜 미갱신** (아래 참고)
 - **변동 주기**: 연 1회 또는 금리 변동 시
 - **검색 패턴**: `농지연금.*105만`, `농지연금.*175만`, `농지연금.*70만원`
-- **영향 글**: farmland-pension, housing-farmland-pension-comparison
+- **영향 글 (2026-09-04 79편 재매핑, 3편)**: farmland-pension, retirement-asset-option-comparison-guide(합본), retirement-preparation-checklist-guide(합본). ※구 매핑 housing-farmland-pension-comparison은 2026-07-27 프루닝 삭제. **미확정 값이므로 확정 시 3편 전부 점검 필요**
+- **⚠️ 2026-09-04 점검 결과 (미확정 - 다음 가동 최우선 재확인)**: fplove.or.kr 접속 불가(1.9와 동일 사유)로 공식 모의계산 직접 대조 실패. 2차 출처(블로그 다수)들이 "70세 종신정액형 연 지급률 약 3.2%"로 수렴하는데, 이를 적용하면 2억→약 53만원·3억→약 80만원·5억→약 133만원으로 **마스터 기록값보다 약 25~30% 낮게 계산됨**. 다만 2차 출처 간에도 편차가 커(1억원 기준 27만~40만원대까지 상이) 신뢰도가 낮아 **이 계산만으로 값을 바꾸지 않음**. 마스터값이 실제로 과대계상됐을 가능성이 있으니 사용자가 fplove.or.kr 모의계산기로 직접 재확인 권장
 
 ### 1.11 기초연금 소득인정액 계산 변수
 - **현재 값 (2026년)**:
@@ -123,7 +131,7 @@
 - **변동 주기**: 매년 1월 (근로소득 공제 정액은 최저임금 연동으로 매년 상승)
 - **검색 패턴**: `116만원`, `근로소득.*공제`, `1억 3,500만`, `8,500만`, `7,250만`, `4% ÷ 12`, `4,000만원.*자동차`
 - **⚠️ 알려진 옛 값**: 근로소득 공제 108만(2023년)·110만(2024)·112만(2025) / 고급차 3,000만원(옛 기준) → 2026-06-09 정정
-- **영향 글**: basic-pension-income-recognition
+- **영향 글 (2026-09-04 79편 재매핑, 0편)**: **생존 79편에 계산 변수(116만·1억 3,500만·7,250만 등)를 인용한 글 없음**. ※구 매핑 basic-pension-income-recognition은(는) 2026-07-27 프루닝 삭제
 
 ---
 
@@ -132,12 +140,13 @@
 ### 2.1 직장 건강보험료율
 - **현재 값**: 7.19% (2026년, 2025년 7.09%에서 0.10%p 인상 = 전년 대비 1.48% 인상). 근로자 본인부담 3.595%
 - **공식 출처**: https://www.mohw.go.kr (보건복지부 2025-08-28 **2025년 제15차 건강보험정책심의위원회** 보도자료) / NHIS 2026년도 보험료 기준 안내
-- **마지막 확인**: 2026-08-03 (복지부·NHIS 1차 출처 재확인, 값 유지)
+- **마지막 확인**: 2026-09-04 (복지부·NHIS 1차 출처 + WebSearch 재확인, 2026년 값 유지)
 - **변동 주기**: 매년 1월 (전년 8월 말~9월 건정심에서 결정)
-- **🔔 다음 앵커 (2026-08~09)**: **2027년 요율은 2026-08-03 현재 미결정·미발표**. 통상 8월 말 건정심에서 확정되므로 **다음 refresh(9월 초)에서 최우선 확인**. 2027년 수가는 평균 1.65% 인상으로 이미 확정
+- **🔔 다음 앵커 (2026-09-08)**: **2027년 요율은 2026-09-04 현재도 여전히 미결정·미발표**. 건강보험정책심의위원회(건정심) 최종 결정 회의가 **2026년 9월 8일 예정**(동결·0.5%·1~2%·2%이상 4개 시나리오 심의 중, 건보 누적수지 적자 확대가 배경). **다음 refresh(9월 중~10월 초)에서 9/8 결정 결과 최우선 확인**. 2027년 수가는 평균 1.65% 인상으로 이미 확정(요율과 별개)
 - **⚠️ 2027 부과체계 개편안(미확정, 2026-07-23 건정심 소위 보고)**: 보수월액 보험료 상한 월 459만→612만원, 하한 직장 1만 80원→2만 2,260원. 2027.1~2028.12 인상분 50% 반영 → 2029.1 전액 적용. **피부양자 소득·재산 기준 변경은 포함 안 됨**
 - **검색 패턴**: `7.19%`, `7.09%`(2025 옛값), `건강보험료율`, `3.595%`
-- **⚠️ 알려진 오류**: "7.09%" (2025년 동결값, 2026년 인상 전 표기) → 2026-05-06 회귀 정정 완료 (retirement-health-insurance, retirement-health-insurance-comparison)
+- **⚠️ 알려진 오류**: "7.09%" (2025년 동결값, 2026년 인상 전 표기) → 2026-05-06 회귀 정정 완료. ※당시 정정 대상이던 retirement-health-insurance·retirement-health-insurance-comparison은 2026-07-27 프루닝으로 **둘 다 삭제됨**
+- **영향 글 (2026-09-04 79편 재매핑, 1편)**: senior-expense-review-guide(합본, 7.19% 서술 확인). 2026-09-04 전수 grep 결과 생존 79편에 `7.09%` 잔존 0건
 
 ### 2.2 장기요양보험료율 (건강보험료 대비)
 - **현재 값**: 13.14% (2026년, 소득 대비 0.9448%). 가입자 세대당 월 평균 18,362원
@@ -153,16 +162,14 @@
 - **마지막 확인**: 2026-06-15
 - **변동 주기**: 고시 변경 시
 - **검색 패턴**: `산정특례.*5%`, `본인부담.*5%`
-- **영향 글**: cancer-support-roadmap (암 산정특례 5년 5%·확진 30일 이내 등록)
-
+- **영향 글 (2026-09-04 79편 재매핑, 3편)**: critical-illness-copay-reduction, rehabilitation-insurance, senior-checkup-surgery-guide(합본). ※구 매핑 cancer-support-roadmap은(는) 2026-07-27 프루닝 삭제
 ### 2.4 산정특례 본인부담률 (희귀·중증난치)
 - **현재 값**: 10%
 - **공식 출처**: https://www.nhis.or.kr
 - **마지막 확인**: 2026-07-03
 - **변동 주기**: 고시 변경 시
 - **검색 패턴**: `희귀질환.*10%`, `중증난치.*10%`
-- **영향 글**: senior-parkinson-care (G20 파킨슨병 희귀질환 산정특례 10%)
-
+- **영향 글 (2026-09-04 79편 재매핑, 3편)**: critical-illness-copay-reduction, medical-aid-system, low-income-benefit-comparison-guide(합본). ※구 매핑 senior-parkinson-care은(는) 2026-07-27 프루닝 삭제
 ### 2.5 일반 외래 본인부담률 (의원급)
 - **현재 값**: 30%
 - **공식 출처**: https://www.nhis.or.kr
@@ -205,7 +212,7 @@
 - **변동 주기**: 매년 1월
 - **검색 패턴**: `90만`, `843만`, `상한액`, `본인부담.*상한`
 - **⚠️ 구 값(2024년)**: 87/108/162/303/414/514/780만원 → 2026-06-07 전체 회귀 정정 완료. 이전 검색 패턴 `87만`·`780만`은 폐기
-- **영향 글**: health-insurance-limit (1차 출처), categoryDetails.ts, hubDetails.ts, senior-surgery-decision-guide, senior-surgery-cost-breakdown, senior-shingles-prevention, senior-pneumonia-prevention, senior-chronic-pain, senior-medical-cost-estimate, retirement-finance-checklist, emergency-medical-fund, cancer-support-roadmap
+- **영향 글 (2026-09-04 79편 재매핑, 5편)**: health-insurance-limit(**1차 출처**), senior-checkup-surgery-guide(합본), senior-expense-review-guide(합본), retirement-preparation-checklist-guide(합본), senior-pneumonia-prevention + categoryDetails.ts·hubDetails.ts(글 아님). ※등록돼 있던 영향 글 8편(cancer-support-roadmap·emergency-medical-fund·retirement-finance-checklist·senior-chronic-pain·senior-medical-cost-estimate·senior-shingles-prevention·senior-surgery-cost-breakdown·senior-surgery-decision-guide)이 **전부** 2026-07-27 프루닝 삭제되어 매핑이 백지였음
 
 ---
 
@@ -337,11 +344,11 @@
 ### 4.1 문화누리카드 지원금
 - **현재 값**: 연 15만원 (1인당, 2026년). 만 60~64세는 1만원 추가(최대 16만원)
 - **공식 출처**: https://www.mnuri.kr (문체부 보도자료 2026-02-02, mcst.go.kr)
-- **마지막 확인**: 2026-05-31
+- **마지막 확인**: 2026-09-04 (mnuri.kr·뉴스 교차 재확인, 값 유지)
 - **변동 주기**: 매년
 - **검색 패턴**: `문화누리`, `15만`, `13만`
 - **⚠️ 알려진 옛 값**: 11만원(2024) → 13만원(2025) → **15만원(2026)**. 2026-05-31 senior-culture-voucher/near-poverty-benefits/senior-travel-support/senior-lifelong-education/turning-65-benefit-guide 일괄 정정 완료
-- **영향 글**: low-income-travel-support, senior-culture-voucher, senior-travel-support, near-poverty-benefits, senior-lifelong-education, turning-65-benefit-guide
+- **영향 글 (2026-09-04 79편 재매핑, 5편)**: senior-culture-voucher, senior-travel-support, senior-lifelong-education, turning-65-benefit-guide, low-income-benefit-comparison-guide(합본, 신규 확인). ※구 매핑 low-income-travel-support·near-poverty-benefits는 2026-07-27 프루닝 삭제. 5편 모두 "15만원" 기재 확인, 옛값 13만/11만 잔존 0건
 
 ### 4.2 에너지바우처 (가구원수별)
 - **현재 값**: 가구원수별 연간 총액 - **1인 295,200원 / 2인 407,500원 / 3인 532,700원 / 4인 이상 701,300원** (2025년 기준). 하절기·동절기 분리 지급 아님(2025년부터 통합, 2025.7.1~2026.5.25 사용 기간 내 자유 사용)
@@ -355,11 +362,16 @@
 ### 4.2-b KTX·새마을호 경로(만 65세 이상) 할인
 - **현재 값**: 운임 30% 할인, **주중(월~금, 공휴일 제외)만 적용** - 주말·공휴일 제외. 일반실 기준(특실 제외 가능). SRT·열차별 조건 상이
 - **공식 출처**: 코레일 FAQ https://info.korail.com (key=817), https://www.korail.com/ticket/discountSystem
-- **마지막 확인**: 2026-05-31
+- **마지막 확인**: 2026-09-04 (공식 페이지 동적렌더링으로 직접 대조 실패, 2차 출처 다수 교차확인, 값 유지)
 - **변동 주기**: 비정기
 - **검색 패턴**: `KTX.*30%`, `경로.*할인`, `화~목`(오류값), `주말.*할인`
-- **⚠️ 알려진 오류 값**: "화~목 30%"(요일 오류) / "주말·공휴일에도 할인 적용"(정반대 오류) → 2026-05-31 senior-transport-discount/senior-travel-support/low-income-travel-support 3편 정정 완료
-- **영향 글**: senior-transport-discount, senior-travel-support, low-income-travel-support
+- **⚠️ 알려진 오류 값**: "화~목 30%"(요일 오류) / "주말·공휴일에도 할인 적용"(정반대 오류) → 2026-05-31 3편 정정 완료(그중 low-income-travel-support는 이후 프루닝 삭제)
+- **영향 글 (2026-09-04 79편 재매핑, 4편)**:
+  - senior-transport-discount - ✅ "평일(월~금, 공휴일 제외)에 적용되며 주말·공휴일에는 제외" 조건 정확히 유지 확인
+  - senior-travel-support - ✅ "주중(월~금, 공휴일 제외) 30%" 정확
+  - senior-discount-legal-support-guide(합본) - ✅ 2026-09-04 정정: "경로 할인(30% 내외) 적용"에만 그쳐 **주중 한정 조건이 빠져 있던 것**을 "주중(월~금, 공휴일 제외)에만 적용, 주말·공휴일 제외, 특실 제외 가능"으로 보강
+  - veterans-senior-benefit - ※"철도 30-50% 할인"은 **보훈대상자 감면(별도 제도)**이지 경로할인이 아님. 이 항목 값 변경 시 함께 고치지 말 것
+  - `화~목` 잔존 0건 (2026-09-04 전수 grep)
 
 ### 4.3 노인일자리 공익활동형 급여
 - **현재 값**: 월 29만원 (월 30시간, 2026년 기준)
@@ -368,15 +380,15 @@
 - **변동 주기**: 매년
 - **검색 패턴**: `공익활동.*29만`, `공익활동.*27만`(옛 값), `공익활동형`
 - **⚠️ 알려진 옛 값**: 월 27만원(2025년) → **월 29만원(2026년, 2만원 인상)**. 2026-05-31 정정 완료
-- **영향 글**: senior-job-program, senior-job-types, turning-65-benefit-guide, retirement-finance-timeline (4편 모두 2026-05-31 27만→29만 정정)
-
+- **영향 글 (2026-09-04 79편 재매핑, 2편)**: turning-65-benefit-guide, retirement-preparation-checklist-guide(합본). ※구 매핑 senior-job-program·senior-job-types·retirement-finance-timeline은(는) 2026-07-27 프루닝 삭제
 ### 4.4 노인일자리 사회서비스형 급여
 - **현재 값**: 월 약 76만원 (월 60시간, 주휴수당 포함, 2026년 기준)
 - **공식 출처**: https://www.kordi.or.kr / 보건복지부 2026년 노인일자리 사업 안내
-- **마지막 확인**: 2026-05-08
+- **마지막 확인**: 2026-09-04 (공식 출처 원문 직접 대조는 미완료, 2026년 발행 2차 출처 다수 수렴으로 확인, 값 유지)
 - **변동 주기**: 매년
 - **검색 패턴**: `사회서비스형`, `76만`, `사회서비스형.*활동비`
-- **⚠️ 알려진 옛 값**: 59만 4,000원 (594,000원 - 2025년 이전 값. 2026-05-08 senior-job-types/turning-65-benefit-guide 정정 완료)
+- **⚠️ 알려진 옛 값**: 59만 4,000원 (594,000원 - 2025년 이전 값. 2026-05-08 정정 완료. 당시 대상 senior-job-types는 이후 프루닝 삭제)
+- **영향 글 (2026-09-04 79편 재매핑, 2편)**: turning-65-benefit-guide, retirement-preparation-checklist-guide(합본). "76만" 기재·옛값 59만4천 잔존 0건 확인
 
 ### 4.5 치매 치료관리비 지원 (치매안심센터)
 - **현재 값**: 월 3만원, 연 36만원 상한 (단일 기준, 저소득층 차등 없음)
@@ -402,10 +414,11 @@
 ### 4.7 노인맞춤돌봄서비스 지원 규모
 - **현재 값**: 2026년 기준 약 57만 6천명 지원 (2025년 55만명에서 확대)
 - **공식 출처**: https://www.mohw.go.kr/menu.es?mid=a10712010400
-- **마지막 확인**: 2026-05-25
+- **마지막 확인**: 2026-09-04 (정책브리핑 "2026년 보건·복지 정책 이렇게 달라집니다" 원문 재확인, 값 유지)
 - **변동 주기**: 매년
 - **검색 패턴**: `57만 6천`, `노인맞춤돌봄.*지원 규모`, `맞춤돌봄.*57만`
-- **영향 글**: ltci-not-eligible-alternatives
+- **영향 글 (2026-09-04 79편 재매핑): 0편** - 구 매핑 ltci-not-eligible-alternatives는 2026-07-27 프루닝 삭제됐고, 생존 79편에 지원 규모(57만6천명/55만명) 수치를 인용한 글이 **없음**(전수 grep 확인)
+- **⚠️ 등재 목적 재검토 대상**: 영향 글 0편이므로 이 항목은 본문 정확성과 무관한 "참고 통계"로 전락한 상태. 다음 전수 감사에서 **9.5-E(미등록·최소관리)로 이관하거나 삭제**할지 판단할 것. 대신 실제 본문에 쓰이는 것은 4.7-b 선정기준(대상 요건)이므로 그쪽 우선순위를 높일 것
 
 ### 4.7-b 노인맞춤돌봄서비스 선정기준 (대상)
 - **현재 값**: 만 65세 이상 **기초생활수급자·차상위계층·기초연금 수급자** 중 독거·고령부부 등 돌봄이 필요한 노인. **소득 기준 있음**(소득과 무관 아님). 기초연금 수급자(소득 하위 70%)까지 포함되어 대상은 넓은 편. 장기요양·가사간병 등 유사 재가서비스 이용자는 중복 제외
@@ -413,8 +426,8 @@
 - **마지막 확인**: 2026-06-01
 - **변동 주기**: 매년
 - **검색 패턴**: `노인맞춤돌봄.*소득`, `맞춤돌봄.*기초연금`, `소득.*무관`(오류값)
-- **⚠️ 알려진 오류 값**: "만 65세 이상이면 소득 무관 신청 가능"(오류 - 기초수급·차상위·기초연금 수급자 소득기준 존재) → 2026-06-01 senior-social-service-voucher·senior-voucher-comparison 정정 완료
-- **영향 글**: senior-social-service-voucher, senior-voucher-comparison
+- **⚠️ 알려진 오류 값**: "만 65세 이상이면 소득 무관 신청 가능"(오류 - 기초수급·차상위·기초연금 수급자 소득기준 존재) → 2026-06-01 senior-social-service-voucher·senior-voucher-comparison 정정 완료(후자는 2026-07-27 프루닝 삭제)
+- **영향 글 (2026-09-04 79편 재매핑, 10편 언급)**: senior-social-service-voucher, care-service-selection-guide(합본), parent-care-preparation-guide(합본), home-visiting-care, lonely-senior-support, senior-emergency-alert, senior-free-meal, dementia-family-action-plan, dementia-family-respite, turning-65-benefit-guide. ⚠️10편은 '노인맞춤돌봄'을 언급하는 글 전체이며, **소득 기준을 실제로 서술하는 글은 그중 일부**이므로 값 변경 시 문맥 확인 후 선별 수정할 것. ※구 매핑 senior-voucher-comparison은 2026-07-27 프루닝 삭제
 
 ---
 
@@ -466,8 +479,7 @@
 - **검색 패턴**: `차상위.*50%`, `차상위.*128만`, `중위소득 50%`
 - **⚠️ 알려진 옛 값**: 1인 111만·2인 184만·4인 286만(2024년 값) → 2026-06-04 near-poverty-benefits·basic-vs-near-poverty-comparison 정정 완료
 - **참고**: 2026 기준중위소득 1인 256만4,238원·4인 649만4,738원 (전년比 6.51% 인상)
-- **영향 글**: near-poverty-benefits, basic-vs-near-poverty-comparison, basic-benefit-4types-comparison
-
+- **영향 글 (2026-09-04 79편 재매핑, 2편)**: low-income-benefit-comparison-guide(합본), national-pension-break-even. ※구 매핑 basic-benefit-4types-comparison·basic-vs-near-poverty-comparison·near-poverty-benefits(3편 전부)은(는) 2026-07-27 프루닝 삭제
 ### 5.4 주거급여 기준
 - **현재 값**: 기준중위소득 48% 이하 / 1인 약 123만원·4인 약 311만원 / 1급지 서울 1인 기준임대료 369,000원 / 자가 수선비 경보수 590만·중보수 1,095만·대보수 1,601만원
 - **공식 출처**: https://www.myhome.go.kr
@@ -475,8 +487,7 @@
 - **변동 주기**: 매년 1월
 - **검색 패턴**: `주거급여.*48%`, `48% 이하`, `369,000`, `1,601만`
 - **⚠️ 알려진 옛/오류 값**: 자가 대보수 "1,241만원"(오류, 정답 1,601만) → 2026-06-04 basic-benefit-4types-comparison 정정 완료
-- **영향 글**: housing-benefit, basic-benefit-4types-comparison, basic-vs-near-poverty-comparison
-
+- **영향 글 (2026-09-04 79편 재매핑, 8편)**: housing-benefit, basic-livelihood-benefit, basic-pension-application, senior-housing-renovation, senior-public-housing, support-obligation-standard, retirement-budget-planning, low-income-benefit-comparison-guide(합본). ※구 매핑 basic-benefit-4types-comparison·basic-vs-near-poverty-comparison은(는) 2026-07-27 프루닝 삭제
 ### 5.5 기초생활보장 자동차 재산환산 기준 (2025년 완화 시행)
 - **현재 값**:
   - 일반 자동차: 차량가액 × **월 100%** = 소득인정액 직가산 (기본재산액 공제 없음)
@@ -490,7 +501,7 @@
 - **변동 주기**: 법령 개정 시 (2025년 주요 완화: 배기량 1,600cc→2,000cc 미만, 저가기준 200만→500만원)
 - **검색 패턴**: `기초수급.*자동차`, `2,000cc.*500만`, `생업용.*자동차`, `차량.*소득환산`, `월 4.17%`
 - **⚠️ 알려진 옛 값/오류**: 배기량 1,600cc 미만·저가기준 200만원 미만(2025년 이전) / 환산율을 월 0.35%로 적은 것은 기초연금 혼동 오류(2026-06-13 정정) / "생업용 완전제외"·"150만원 미만 완전제외"는 사실무근(2026-06-13 정정)
-- **영향 글**: welfare-car-ownership-standard
+- **영향 글 (2026-09-04 79편 재매핑, 0편)**: **생존 79편에 자동차 재산환산(4.17%·2,000cc·생업용) 서술 없음**. ※구 매핑 welfare-car-ownership-standard은(는) 2026-07-27 프루닝 삭제
 
 ---
 
@@ -537,16 +548,15 @@
 - **마지막 확인**: 2026-06-15
 - **변동 주기**: 세법개정 시
 - **검색 패턴**: `1,500만`, `분리과세.*3.3`
-- **영향 글**: pension-income-sequence
-
+- **영향 글 (2026-09-04 79편 재매핑, 8편)**: irp-pension-savings-comparison, retirement-pension-irp, senior-tax-benefit, pension-tax-benefit-guide(합본), national-pension-receiving-strategy-guide(합본), retirement-asset-option-comparison-guide(합본), retirement-preparation-checklist-guide(합본), senior-expense-review-guide(합본). ※구 매핑 pension-income-sequence은(는) 2026-07-27 프루닝 삭제
 ### 6.7 사적연금(IRP·연금저축) 분리과세 세율 (연령별)
 - **현재 값**: 55~69세 5.5% / 70~79세 4.4% / 80세 이상 3.3% (지방소득세 포함 결합세율)
 - **공식 출처**: https://www.nts.go.kr
-- **마지막 확인**: 2026-05-06
+- **마지막 확인**: 2026-09-04 (국세청 공식 안내 WebFetch 재확인, 값 유지. 참고: 2026년부터 종신형 계약 신설 시 연령무관 3% 일괄 옵션 추가 확인됐으나 기존 연령별 구조는 그대로)
 - **변동 주기**: 세법개정 시
 - **검색 패턴**: `5.5%.*4.4%.*3.3%`, `5%.*4%.*3%`, `사적연금.*세율`
-- **⚠️ 주의**: pension-income-tax는 소득세만(5%/4%/3%) 표기, retirement-income-strategy는 결합세율(5.5%/4.4%/3.3%) 표기. 둘 다 정확하나 표기 통일 필요 시 결합세율 권장.
-- **영향 글**: pension-income-sequence
+- **⚠️ 주의**: 소득세만(5%/4%/3%) 표기와 결합세율(5.5%/4.4%/3.3%) 표기 둘 다 정확. 통일 필요 시 결합세율 권장. ※과거 언급된 pension-income-tax·retirement-income-strategy·pension-income-sequence는 모두 2026-07-27 프루닝 삭제됨
+- **영향 글 (2026-09-04 79편 재매핑, 3편)**: irp-pension-savings-comparison, retirement-pension-irp, national-pension-receiving-strategy-guide(합본)
 
 ### 6.8 상속세 일괄공제
 - **현재 값**: 5억원 (기초공제 2억 + 인적공제 합산 대신 선택, 일괄 5억)
@@ -555,16 +565,14 @@
 - **변동 주기**: 세법개정 시
 - **검색 패턴**: `일괄공제`, `5억.*공제`, `상속.*5억`
 - **⚠️ 주의**: 자녀공제 5억원 확대 개정안 국회 계류 중(2026-06 미통과). 통과 시 즉시 정정.
-- **영향 글**: inheritance-gift-planning, inheritance-vs-gift-tax-simulation
-
+- **영향 글 (2026-09-04 79편 재매핑, 3편)**: inheritance-gift-planning, after-death-admin, dementia-inheritance-protection-guide(합본). ※구 매핑 inheritance-vs-gift-tax-simulation은(는) 2026-07-27 프루닝 삭제
 ### 6.9 증여세 면세 한도 (10년 합산)
 - **현재 값**: 자녀(성년) 1인당 5,000만원 / 미성년 2,000만원 / 배우자 6억원 (10년 단위)
 - **공식 출처**: https://www.nts.go.kr
 - **마지막 확인**: 2026-06-02
 - **변동 주기**: 세법개정 시
 - **검색 패턴**: `5,000만.*증여`, `증여.*면세`, `배우자.*6억`
-- **영향 글**: inheritance-gift-planning, inheritance-vs-gift-tax-simulation
-
+- **영향 글 (2026-09-04 79편 재매핑, 1편)**: inheritance-gift-planning. ※구 매핑 inheritance-vs-gift-tax-simulation은(는) 2026-07-27 프루닝 삭제
 ### 6.10 상속세 세율 (과세표준 구간별)
 - **현재 값**: 1억 이하 10%(누진공제 0) / 1~5억 20%(1천만) / 5~10억 30%(6천만) / 10~30억 40%(1.6억) / 30억 초과 50%(4.6억)
 - **공식 출처**: https://www.nts.go.kr
@@ -572,7 +580,7 @@
 - **변동 주기**: 세법개정 시
 - **검색 패턴**: `상속세 세율`, `누진공제`, `40%.*1억6`
 - **⚠️ 주의**: 2024-12 최고세율 50%→40% 인하안 국회 부결. 현행 50% 유지.
-- **영향 글**: inheritance-vs-gift-tax-simulation
+- **영향 글 (2026-09-04 79편 재매핑, 0편)**: **생존 79편에 세율표·누진공제를 인용한 글 없음**. ※구 매핑 inheritance-vs-gift-tax-simulation은(는) 2026-07-27 프루닝 삭제
 
 ---
 
@@ -581,10 +589,10 @@
 ### 7.1 KTX·SRT 경로 할인 (만 65세 이상)
 - **현재 값**: 운임 30%, **주중(월~금, 공휴일 제외)만 적용** - 주말·공휴일 제외 (KTX·새마을호 기준, 일반실)
 - **공식 출처**: https://www.korail.com / https://etk.srail.kr / 코레일 FAQ https://info.korail.com (key=817)
-- **마지막 확인**: 2026-05-31
+- **마지막 확인**: 2026-09-04 (2차 출처 교차확인, 값 유지)
 - **변동 주기**: 사업자 정책
 - **검색 패턴**: `KTX.*30%`, `경로.*30%`, `화~목`(옛 오류값)
-- **⚠️ 알려진 오류 값**: "평일(화~목) 30%"(요일 오류) → 2026-05-31 코레일 공식 FAQ로 "주중(월~금)" 확정. 4.2-b 항목과 통합 관리(중복 항목). 영향 글은 4.2-b에 기재(senior-transport-discount/senior-travel-support/low-income-travel-support 3편 모두 5/31 정정 완료, 화~목 잔존 0건 확인)
+- **⚠️ 알려진 오류 값**: "평일(화~목) 30%"(요일 오류) → 2026-05-31 코레일 공식 FAQ로 "주중(월~금)" 확정. 4.2-b 항목과 통합 관리(중복 항목). 영향 글은 4.2-b에 기재(2026-09-04 재매핑 완료. 5/31 정정 3편 중 low-income-travel-support는 2026-07-27 프루닝 삭제, 화~목 잔존 0건)
 
 ### 7.2 지하철·도시철도 (만 65세 이상)
 - **현재 값**: 무료 (수도권·광역시)
@@ -655,8 +663,7 @@
 - **변동 주기**: 매년 1월 (고시)
 - **검색 패턴**: `복지용구`, `160만`, `기타재가급여`, `1,600,000`
 - **비고**: 기존 마스터 line 685가 "ltci-welfare-equipment 항목과 일치"로 언급했으나 실제 섹션 부재였음(유령 등록) → 본 항목으로 실등록
-- **영향 글**: senior-assistive-device, senior-bedsore-prevention
-
+- **영향 글 (2026-09-04 79편 재매핑, 3편)**: ltci-welfare-equipment, senior-assistive-device, national-pension-receiving-strategy-guide(합본). ※구 매핑 senior-bedsore-prevention은(는) 2026-07-27 프루닝 삭제
 #### 9.5.3 보청기 건강보험 급여 ✓
 - **현재 값**: 급여 기준액 편측 131만원(양측 262만원), 건강보험 가입자 본인부담 **기준액의 10%**(공단 90%), 5년 1회. 기초수급·차상위 경감대상 면제/대폭경감
 - **공식 출처**: https://www.nhis.or.kr (장애인보조기 보험급여제도) / 찾기쉬운 생활법령정보
@@ -671,48 +678,42 @@
 - **마지막 확인**: 2026-07-03 ✓검증 (방문목욕·방문간호 일치, 시설 1일 **73,500→81,540 정정**: ltci-cost-simulation)
 - **변동 주기**: 매년 1월 (고시 수가)
 - **검색 패턴**: `방문목욕`, `방문간호`, `88,990`, `73,500`, `1일 수가`
-- **영향 글**: ltci-bath-nursing-service, ltci-cost-simulation
-
+- **영향 글 (2026-09-04 79편 재매핑, 0편)**: **생존 79편에 수가 금액(88,990·81,540·42,880 등)을 인용한 글 없음**. ※구 매핑 ltci-bath-nursing-service·ltci-cost-simulation(2편 전부)은(는) 2026-07-27 프루닝 삭제
 #### 9.5.5 장기요양 소득구간별 감경 본인부담률 ✓
 - **현재 값**: 재가 표준 15% → 40% 경감 시 9% / 60% 경감 시 6% / 기초수급·의료급여 면제. 시설 표준 20% → 40% 경감 12% / 60% 경감 8%
 - **공식 출처**: https://www.longtermcare.or.kr / 복지로 / 찾기쉬운 생활법령정보
 - **마지막 확인**: 2026-07-03 (마스터 6/12 확립값과 일치, ltci-short-term-care "7.5%" 오류 정정 완료)
 - **변동 주기**: 법령 개정 시
 - **검색 패턴**: `경감.*9%`, `경감.*6%`, `7.5%`(존재하지 않는 오류값 검색용), `감경.*본인부담`
-- **영향 글**: ltci-short-term-care, ltci-cost-simulation, family-caregiver-vs-agency-comparison, dementia-5year-cost-simulation
-
+- **영향 글 (2026-09-04 79편 재매핑, 1편)**: ltci-short-term-care. ※구 매핑 dementia-5year-cost-simulation·family-caregiver-vs-agency-comparison·ltci-cost-simulation은(는) 2026-07-27 프루닝 삭제
 #### 9.5.6 국가암검진 본인부담 ✓
 - **현재 값**: 본인부담 10% (건강보험 상위 50%), 하위 50%·의료급여 수급자 무료. **단 자궁경부암·대장암은 전 소득 무료**
 - **공식 출처**: https://www.cancer.go.kr (국립암센터) / 정책브리핑
 - **마지막 확인**: 2026-07-03 ✓검증 (자궁경부암·대장암 무료 단서 추가)
 - **변동 주기**: 고시 변경 시
 - **검색 패턴**: `국가암검진`, `암검진.*10%`
-- **영향 글**: cancer-screening-guide, national-health-checkup-guide, health-checkup-private-vs-national
-
+- **영향 글 (2026-09-04 79편 재매핑, 1편)**: senior-checkup-surgery-guide(합본). ※구 매핑 cancer-screening-guide·health-checkup-private-vs-national·national-health-checkup-guide(3편 전부)은(는) 2026-07-27 프루닝 삭제
 #### 9.5.7 임플란트·틀니 건강보험 급여율 (만 65세 이상) ✓ (2026-07-03 검증: 본인부담 30%·의료급여 치과 특례율 일치)
 - **현재 값(글 기준)**: 본인부담 30% (건강보험 일반). 임플란트 평생 2개, 틀니 7년 1회. 의료급여 1종 틀니 5%·임플란트 10% / 2종 15%·20%
 - **공식 출처**: https://www.nhis.or.kr
 - **마지막 확인**: 2026-07-03 등록 (과거 50→30% 인하 이력, 수가는 매년 변동)
 - **변동 주기**: 정책·수가 변경 시
 - **검색 패턴**: `임플란트.*30%`, `틀니.*30%`, `임플란트 급여`
-- **영향 글**: senior-denture-implant, turning-65-benefit-guide, basic-recipient-free-medical-services
-
+- **영향 글 (2026-09-04 79편 재매핑, 4편)**: turning-65-benefit-guide, senior-knee-surgery, senior-pneumonia-prevention, senior-discount-legal-support-guide(합본). ※구 매핑 senior-denture-implant·basic-recipient-free-medical-services은(는) 2026-07-27 프루닝 삭제
 #### 9.5.8 지역가입자 건강보험 재산보험료 ✓
 - **현재 값(2026)**: 재산보험료 점수당 211.5원(2025 208.4→211.5 인상), 재산 기본공제 1억원(5,000만→1억 확대)
 - **공식 출처**: https://www.nhis.or.kr / 국민건강보험법 시행령 (easylaw)
 - **마지막 확인**: 2026-07-03 ✓검증 (점수당 211.5·기본공제 1억 일치, 208.4는 2025 옛값)
 - **변동 주기**: 매년 (건보공단 고시)
 - **검색 패턴**: `점수당 211.5`, `재산 기본공제.*1억`, `지역가입자 재산`
-- **영향 글**: regional-health-insurance-calculation
-
+- **영향 글 (2026-09-04 79편 재매핑, 1편)**: senior-expense-review-guide(합본). ※구 매핑 regional-health-insurance-calculation은(는) 2026-07-27 프루닝 삭제
 #### 9.5.9 의료급여 세부 본인부담 ✓
 - **현재 값**: **1종** 외래 정액 1차1,000/2차1,500/3차2,000원·입원 무료·약국 500원. **2종** 외래 1차(의원) 1,000원 정액·2·3차 15% 정률·입원 10%. 치과 특례(틀니 1종5%/2종15%, 임플란트 1종10%/2종20%). **2026년 365회 초과 외래 30% 차등제 신설(산정특례·중증장애·아동·임산부 제외)**. 정률제 개편은 보류(현행 정액 유지)
 - **공식 출처**: https://www.hira.or.kr (심평원) / 보건복지부 의료급여 사업안내
 - **마지막 확인**: 2026-07-03 ✓검증 (medical-aid-system 글은 정확, 마스터 등록문구 "2종 정액 1,000/1,500/2,000"이 1종 구조 오기재였음 → 정정)
 - **변동 주기**: 수시 (시행령)
 - **검색 패턴**: `의료급여.*정액`, `2종.*15%`, `틀니 1종`
-- **영향 글**: medical-aid-system, basic-recipient-free-medical-services
-
+- **영향 글 (2026-09-04 79편 재매핑, 7편)**: medical-aid-system, housing-benefit, caregiver-certification, senior-free-meal, senior-phone-plan, low-income-benefit-comparison-guide(합본), senior-discount-legal-support-guide(합본). ※구 매핑 basic-recipient-free-medical-services은(는) 2026-07-27 프루닝 삭제
 ### 9.5-C 복지·바우처·지원금
 
 #### 9.5.10 장애인연금 ✓
@@ -729,8 +730,7 @@
 - **마지막 확인**: 2026-07-03 등록 (2026 확정액 재확인 필요). ⚠️등록된 "192만"은 자격선일 뿐 지급액 별개
 - **변동 주기**: 매년 1월 (중위소득 연동)
 - **검색 패턴**: `긴급복지`, `생계지원.*78만`, `긴급.*199만`, `긴급.*재산`
-- **영향 글**: emergency-welfare-support
-
+- **영향 글 (2026-09-04 79편 재매핑, 2편)**: lonely-senior-support, senior-emergency-alert. ※구 매핑 emergency-welfare-support은(는) 2026-07-27 프루닝 삭제
 #### 9.5.12 주거급여 급지별 기준임대료 ✓
 - **현재 값(2026, 1인)**: 1급지(서울) 369,000 / 2급지 300,000 / 3급지 247,000 / 4급지 212,000원. (4인: 571,000/463,000/381,000/329,000)
 - **공식 출처**: https://www.myhome.go.kr / 국토부 2026 주거급여 훈령
@@ -745,8 +745,7 @@
 - **마지막 확인**: 2026-07-03 ✓검증 (전기 차상위 10,000→8,000·통신 기초 28,600→33,500·26,000 개념 정정: utility-bill-discount). 4.2 에너지바우처와 별개(한전 복지할인)
 - **변동 주기**: 매년 (고시)
 - **검색 패턴**: `복지할인`, `요금감면`, `26,000원`, `28,600`, `전기.*16,000`
-- **영향 글**: utility-bill-discount, near-poverty-benefits, disability-registration, basic-vs-near-poverty-comparison
-
+- **영향 글 (2026-09-04 79편 재매핑, 2편 확실 + 2편 언급)**: senior-phone-plan, senior-discount-legal-support-guide(합본) / 언급만: low-income-benefit-comparison-guide, senior-digital-education. ※구 매핑 utility-bill-discount·near-poverty-benefits·disability-registration·basic-vs-near-poverty-comparison(4편 전부)은(는) 2026-07-27 프루닝 삭제
 #### 9.5.14 기초수급 장제급여 ✓
 - **현재 값**: 80만원 (2026, 기초생활수급자 사망 시 1회)
 - **공식 출처**: 보건복지부 2026 국민기초생활보장 사업안내
@@ -780,8 +779,7 @@
 - **마지막 확인**: 2026-07-03 (경로우대 100만 검증, 나머지 재확인 필요)
 - **변동 주기**: 세법개정 시
 - **검색 패턴**: `경로우대.*100만`, `기본공제.*150만`, `의료비.*15%`, `연금소득공제.*900만`, `소득요건.*100만`
-- **영향 글**: senior-tax-benefit, medical-expense-deduction, parent-dependent-deduction-sibling, pension-income-tax
-
+- **영향 글 (2026-09-04 79편 재매핑, 1편)**: senior-tax-benefit(경로우대 100만·기본공제 150만 서술). ※구 매핑 parent-dependent-deduction-sibling·pension-income-tax은(는) 2026-07-27 프루닝 삭제
 #### 9.5.18 부동산 세제 공제율표 (1세대 1주택) ✓ (2026-07-03 검증: 장특공제·종부세 고령자/장기보유 합산80% 일치)
 - **현재 값(글 기준)**: 양도세 장기보유특별공제 보유 3년 12%~10년 40% + 거주 별도(합산 최대 80%). 종부세 고령자 세액공제 60세 20%/65세 30%/70세 40% + 장기보유 20~50%(합산 80%)
 - **공식 출처**: https://www.nts.go.kr / 소득세법·종부세법
@@ -800,9 +798,39 @@
 
 ### 9.5-E 판단 보류 (등록 안 함 - 성격 부적합)
 - **통계 평균수령액**(국민연금 월 62만/부부 69.6만, 적정생활비 부부 340만): 정책 임계값 아닌 통계 참고값 → 미등록
-- **고유가 민생지원금 45~85만원**(high-oil-price-relief): 2026-08-31 일몰 시한성 → 등록 대신 8/31 후 글 전체 stale 정리 대상 (별도 TODO)
+- ~~**고유가 민생지원금 45~85만원**(high-oil-price-relief): 2026-08-31 일몰 시한성 → 등록 대신 8/31 후 글 전체 stale 정리 대상 (별도 TODO)~~
+  → 🔴 **2026-09-04 확인: 일몰 경과했고 정리는 안 됐음. 원본 글은 프루닝 삭제됐으나 내용이 합본 글로 흡수돼 살아 있음** (아래 "🔴 미해결" 참조)
 - **지자체 근사값**(대상포진 지원 15~20만·주거개선 상한 1,241만·치매가족 휴가 등): "지자체별 상이"로 최소 관리, 정밀 등록 보류
 - **부양의무자 예외기준**(연소득 1억·재산 9억): 부정기 정책, 다음 감사 시 재검토
+
+---
+
+## 9.9 한시조치 일몰 관리 (2026-09-04 신설)
+
+### 9.9.1 ✅ 고유가 피해지원금 - 일몰 정리 완료 (2026-09-04)
+
+- **제도 상태**: **완전 종료.** 신청 마감 **2026-07-03 18시**(2차, 일반가구), 사용(소진) 기한 **2026-08-31**. 오늘 기준 둘 다 경과
+- **문제 글**: `low-income-benefit-comparison-guide` (합본 13편). 원본 `high-oil-price-relief`는 2026-07-27 프루닝으로 삭제됐지만 **내용이 이 합본 글로 흡수되면서 그대로 살아남았다**
+- **오염 범위 (검색 노출면 포함)**:
+  - `title` "…차상위·장애인등록·**고유가지원**" / `seoTitle` "…**고유가지원금 신청방법**" - **검색 결과에 신청 가능한 것처럼 노출됨**
+  - `seoDescription`·`summary`·`keyPoints` - "고유가 피해지원금(최대 85만 원)", "놓치기 쉬운 정부 지원금도 함께 확인" (현재형·권유형)
+  - 본문 섹션 5개(지급액 기준·신청 단계·사용처·유의사항 등) + FAQ 1개 + `tags` + `officialSources`(행정안전부)
+  - `reviewStatus: 'current'`로 표시돼 있음
+- **완화 요인**: 본문 안에는 마감일(7/3)·사용기한(8/31)이 적혀 있어 끝까지 읽으면 종료를 알 수는 있음. 다만 제목·요약·핵심포인트가 전부 현재형이라 **검색 유입 독자의 첫인상은 "지금 신청 가능"**
+- **✅ 처리 (2026-09-04, 사용자 승인 후 선택지 ② 전면 개편 실행)**:
+  - 본문: 고유가 섹션 **5개(개요·지급액 기준·신청 단계·사용처·유의사항)를 종료 안내 1개 섹션으로 교체**. 신청 방법·카드사 조회 등 **실행 불가능한 안내를 전부 제거**하고, 마감일(7/3)·사용기한(8/31)·과거 지급액(10만~85만원)을 과거형 기록으로 축약. **종료된 지원금 대행 사기 주의 문구 추가**
+  - 검색 노출면: `title`·`seoTitle`에서 고유가 → **섬여행지원**으로 교체, `seoDescription`·`summary`·`keyPoints`·`tags`에서 현재형 서술 제거
+  - FAQ: "65세 이상은 얼마나 받나요?"(현재형) → **"지금도 신청할 수 있나요?"**로 바꾸고 답변을 종료 안내로 재작성
+  - `officialSources`의 행정안전부 링크는 **"(2026-08-31 종료)" 라벨 + "현재 신청 불가" 비고**로 유지(삭제하지 않음 - 과거 근거 추적용)
+  - `cautionNote`·`updatedAt`(2026-09-04) 동기화
+  - **검증**: "고유가" 잔존 8곳이 **전부 종료 맥락**(현재형 0건), 신청 유도 문구 0건, `tsc --noEmit` 통과, `npm run build` 성공, 렌더 산출물에서 title 교체·종료 안내 노출 확인, 본문 9,625자로 thin page 아님
+- **📌 메타 동결 예외 적용 (2026-09-04, 2번째 사례)**: 2026-08-03 dementia-family-respite에 이은 두 번째 예외. 근거는 동일하게 **"사실 오류가 메타에 있는 경우"** - 종료된 제도를 제목이 신청 가능한 것처럼 노출하고 있었음. CTR 튜닝 목적 메타 변경 금지 규칙은 그대로 유효하며, 이 글에도 **메타 재변경 4주 쿨다운이 2026-09-04부터 적용**
+
+### 9.9.2 🟢 재발 방지 - "한시조치 만료일" 등재 체계 부재
+
+- **근본 원인**: 이 마스터는 "**값이 맞나**"만 추적하고 "**제도가 아직 있나**"는 추적하지 않는다. 고유가 지원금은 9.5-E에 "8/31 일몰, 별도 TODO"로 적혀 있었지만 **정기 가동 절차 어디에도 날짜 앵커가 없어** 8/31이 지나도 아무도 깨우지 않았다
+- **조치 제안**: 시한성 제도는 항목에 **`만료일` 필드를 필수로 두고**, "가동 주기"의 캘린더 앵커(1월·7월 A값·8월 기준중위소득)와 같은 급으로 **만료일 도래 항목 자동 픽업**을 Step 1에 추가할 것
+- **현재 파악된 시한성 항목**: 고유가 피해지원금(만료 2026-08-31, 경과) / 섬여행지원금(같은 글, 기한 미확인 - 점검 필요) / 조특법 일몰 대상인 9.5.19 비과세종합저축·세금우대저축(일몰 연장 여부 매년 확인 필요)
 
 ---
 
@@ -838,6 +866,58 @@
 ---
 
 ## 변경 이력
+
+### 2026-09-04 - /bumo-refresh 월초 정기 점검 (9월 건보료율 앵커 + 회전 12개 항목)
+
+- **Step 0**: 마지막 가동(8/3) 이후 신규 글 생성 0건 확인(관찰기간 동결 유지 중, `find`로 8/3 이후 mtime 파일 없음). 신규 등록 대상 없음
+- **점검 항목 (12개)**: 2.1 건보료율(9월 앵커 우선), 6.7 사적연금 분리과세세율(05-06, 최고령), 4.4 노인일자리 사회서비스형(05-08), 1.9 농지연금 담보상한(05-24), 1.10 농지연금 월수령액(05-24), 4.7 노인맞춤돌봄 지원규모(05-25), 1.1/1.2/1.3 기초연금 3종(05-31), 1.6 참전유공자 명예수당(05-31), 4.1 문화누리카드(05-31), 4.2-b/7.1 KTX경로할인(05-31)
+- **변경 발견**: 0건. 확인된 10개 항목 전부 값 유지
+- **🔔 9월 앵커 결과**: 2.1 건강보험료율 - 2026년 값(7.19%/본인부담 3.595%)은 유지 확인. **2027년 요율은 2026-09-04 현재도 미발표** - 건정심 최종 결정 회의가 **2026-09-08**로 예정(동결~2%대 4개 시나리오 심의 중, 건보 적자 확대가 배경). 다음 앵커를 9/8 이후로 재조정
+- **⚠️ 미확정 2건 (다음 가동 최우선 재확인, 값 미변경)**: 1.9 농지연금 담보 상한(30억원)·1.10 농지연금 월 수령액 예시 - 공식 출처 fplove.or.kr이 서브에이전트·부모 세션 양쪽에서 DNS 해석 실패로 완전 접속 불가(WAF가 아니라 사이트 자체 무응답으로 추정). 대체 경로(gov.kr, easylaw.go.kr, WebSearch 다회)로도 "30억원" 상한 근거를 찾지 못함(1.9). 1.10은 2차 출처들이 마스터값보다 낮은 지급률(약 3.2%)을 시사하나 출처 간 편차가 커 신뢰 불가 → **빈손 검색 결과로 값을 추측 승격하지 않음**, 사용자가 fplove.or.kr 직접 접속 또는 농지연금 상담(1577-7770)으로 재확인 권장. 두 항목 모두 "마지막 확인" 날짜 미갱신(다음 회전에서 자동 재점검되도록)
+- **본문 글 수정**: 0편 (변경 발견 없음)
+- **마스터 리스트 업데이트**: 확인 완료 10개 항목 마지막 확인일 → 2026-09-04 갱신. 2.1 다음 앵커 메모 9/8로 갱신. 1.9·1.10은 미확정 사유 인라인 기록(날짜 미갱신)
+
+#### 🔁 2026-09-04 (2차) - 자체 재검증에서 발견한 **1차 가동의 절차 누락 3건** 및 보완
+
+> 1차 가동 직후 사용자 지시로 오늘 작업을 재점검한 결과, **값 검증만 하고 마스터 상단 🚨 블록이 매 가동 필수로 지정한 절차를 건너뛴 것**을 확인. 아래는 그 복구 기록.
+
+- **🔴 누락 1 - 영향 글 재매핑 미실시 (중대)**: 마스터 상단 🚨 블록은 "매 가동 시 검색 패턴을 79편에 직접 grep해 매핑을 재구성할 것"을 지시하는데, 1차 가동은 "변경 0건이니 영향 글을 볼 일이 없다"고 판단해 생략함. **재매핑 결과 오늘 점검한 12개 항목에 등록돼 있던 삭제 슬러그 7개를 확인**(housing-farmland-pension-comparison, low-income-travel-support, near-poverty-benefits, ltci-not-eligible-alternatives, pension-income-sequence, senior-job-types, retirement-health-insurance·comparison). 12개 항목 전부 79편 기준으로 재매핑 완료
+  - **동시에 미등록 합본 글 다수를 신규 편입**: senior-discount-legal-support-guide, retirement-preparation-checklist-guide, national-pension-receiving-strategy-guide, low-income-benefit-comparison-guide, retirement-asset-option-comparison-guide, senior-expense-review-guide 등 - 🚨 블록이 말한 "생존 46편 미등록" 문제의 일부를 실제로 해소
+  - **4.7 노인맞춤돌봄 지원 규모는 영향 글 0편**으로 확인 → 등재 목적 재검토 대상으로 표시
+- **🔴 누락 2 - 잔존 옛값 스윕 미실시**: 스킬 Step 5의 "글 전체 재grep" 절차도 같은 이유로 생략했음. 2차에서 12개 항목의 옛값·오류값 10종을 79편에 전수 grep(342,510 / 228만 / 364.8만 / 참전 45만·40만 / 문화누리 13만·11만 / 594,000 / 화~목 / 7.09% / 55만명 / 공익 27만) → **전부 잔존 0건**. 결과는 무사했으나 절차 생략 자체가 결함이었음(8/3 가동은 바로 이 스윕에서 1,241만 회귀를 잡았다)
+  - **스윕 도구 포지티브 컨트롤 실시**: 존재가 확실한 `349,700`이 5편에서 잡히고 더미 문자열이 0건인 것을 확인해 "grep이 조용히 실패해 전부 0건"인 상황이 아님을 검증
+- **🟡 누락 3 - 2차 출처 확인을 공식 확인과 동급 처리**: 4.4(사회서비스형 76만)는 공식 원문(kordi.or.kr·복지부 PDF) 대조에 실패하고 2026년 발행 2차 출처 수렴으로만 확인했는데 마지막 확인일을 갱신해 다음 점검을 4~5개월 뒤로 밀어냄. 각주는 남겼으나 **다음 전수 감사 때 공식 원문 재대조 필요**. 2.1의 "9/8 건정심" 일정도 언론 보도 기반이며 1차 출처 미확인 - 9/8 전후 복지부 보도자료로 확정할 것
+- **🔴 2차에서 새로 발견한 본문 오류 1건 → ✅ 정정 완료**: `senior-discount-legal-support-guide` 기초연금 국민연금 연계감액 예시가 **같은 글 안에서 자기모순**이었음
+  - (수정 전) L227: "국민연금 55만원 → 기초연금 **337,025원** / 합산 **887,025원**(감액 **12,675원**)"
+  - (수정 전) L290: "기준점(524,550원)을 약 25,450원 초과, 그 절반인 **12,725원** 감액... 349,700 - 12,725 = **337,000원** 수준"
+  - **판정 방법 - 6케이스 전 행 재계산**: 글이 제시한 모델(기준점 524,550원=기준연금액×150%, 감액=초과분의 절반, 최저보장 174,850원=기준연금액×50%)로 6개 케이스를 전부 재계산한 결과 **①②④⑤⑥은 모델과 정확히 일치하고 ③만 어긋남** → 모델이 아니라 ③의 산술 실수임이 글 자신의 나머지 5개 행으로 입증됨
+  - **정정**: ③을 감액 **12,725원** / 기초연금 **336,975원** / 합산 **886,975원**으로 수정. FAQ의 "= 337,000원 수준"도 정확값 **336,975원**으로 수정(정확한 뺄셈 뒤에 어림수를 쓰던 표현)
+  - **검증**: 6케이스 전 행 재계산 대조 전부 일치, 옛값 337,025·887,025·12,675·"337,000원" 잔존 각 0건, `tsc --noEmit` 통과
+  - ⚠️ **별개 과제로 남김**: 이 글이 쓰는 "초과분의 절반 감액"은 단순화 모델이며 실제 기초연금법 연계감액은 A급여 기반 산식이다. **산식 자체의 타당성은 이번 점검 범위를 넘으므로 법 원문 대조 전까지 산식을 임의로 바꾸지 말 것.** 이번 수정은 "글 내부 모순 해소"에 한정
+- **🟡 2차 발견 보강 1건 → ✅ 완료**: `senior-discount-legal-support-guide`의 "경로 할인(30% 내외) 적용"에 **주중 한정 조건이 누락**돼 있었음(4.2-b 참조). 과거 이 항목의 사고 유형이 "주말에도 적용된다는 정반대 오류"였고, 형제 글 2편(senior-transport-discount·senior-travel-support)은 조건을 갖추고 있어 이 글만 빠진 상태였음 → "주중(월~금, 공휴일 제외)에만 적용, 주말·공휴일 제외, 특실 제외 가능" 단서 추가
+- **본문 글 수정 (2차)**: senior-discount-legal-support-guide 1편 (updatedAt 2026-09-04 동기화)
+
+#### ✅ 2026-09-04 (4차) - 잔여 작업 실행 (재매핑 26개 + 고유가 일몰 정리)
+
+- **재매핑 26개 항목 완료** → 3차 항목 참조. 스테일 매핑 0건 달성
+- **고유가 피해지원금 일몰 정리 완료** → 9.9.1 참조. `low-income-benefit-comparison-guide` 본문 5개 섹션·제목·메타·FAQ 정리, 빌드·렌더 검증까지 완료
+- **본문 글 수정 (4차)**: low-income-benefit-comparison-guide 1편
+- **2026-09-04 총 본문 수정: 2편** (senior-discount-legal-support-guide, low-income-benefit-comparison-guide). **배포는 사용자가 직접 수행** (`npx wrangler pages deploy out --project-name=bumohyetaek`)
+- **다음 가동 인계사항**:
+  1. **9/8 건정심 결과 확인** (2027년 건강보험료율, 2.1) - 최우선
+  2. **농지연금 1.9·1.10** - fplove.or.kr 접속 불가로 미확정, 사용자 확인 필요
+  3. **4.4 사회서비스형 76만** - 공식 원문 재대조 필요(현재 2차 출처 기반)
+  4. **섬여행지원금 만료일 등재** - 9.9.2 제안대로 시한성 항목에 `만료일` 필드 도입
+  5. 영향 글 0편 항목 5개의 등재 유지 여부 판단
+
+#### 🔎 2026-09-04 (3차) - 잔여 작업 실사 (사용자 "더 할 게 있나" 질의)
+
+- **🔴 최대 발견 - 한시조치 일몰 미정리**: 7/3 가동이 "8/31 일몰 후 정리" TODO로 남긴 **고유가 피해지원금이 일몰 4일 경과하도록 방치**된 것을 확인. 원본 글은 프루닝 삭제됐지만 내용이 합본 `low-income-benefit-comparison-guide`로 흡수돼 **제목·메타·본문 5개 섹션이 현재형으로 생존**. 신규 섹션 **9.9**로 등재, 사용자 결정 대기(제목·메타 수정이 걸려 있어 무단 진행 금지). 근본 원인인 "만료일 미등재"도 9.9.2로 등재
+- **✅ 재매핑 26개 항목 완료 (4차, 같은 날 실행)**: 아래 실측한 26개 항목을 전부 79편 기준으로 재작성. **재매핑 후 미주석 스테일 항목 0건** 확인, 신규 등록 슬러그 전수 실존 검증 통과(유령 등록 0건), **생존 79편 중 47편이 마스터에 매핑된 상태**로 개선
+  - **영향 글 0편으로 확정된 항목 5개** (프루닝으로 인용 글이 전멸): 1.11 기초연금 소득인정액 계산변수 / 5.5 기초생활보장 자동차 재산환산 / 6.10 상속세 세율 / 9.5.4 장기요양 서비스별 고시 수가 / (기존) 4.7 노인맞춤돌봄 지원 규모. **점검 우선순위를 낮추거나 9.5-E로 이관할지 다음 전수 감사에서 판단할 것**
+  - **2.8 본인부담 상한제는 등록 8편이 전부 삭제된 백지 상태**였고 → health-insurance-limit(1차 출처) 포함 5편으로 복구
+  - 광범위 grep의 오탐을 막기 위해 **주제어가 아니라 실제 인용 금액으로 좁혀** 매핑(예: 9.5.9 의료급여는 주제어 17편 → 금액 인용 7편). 4.7-b만 예외적으로 "언급 10편"으로 두고 문맥 확인 단서를 병기
+- **🟡 (실측 기록) 재매핑 대상 산정 근거**: 마스터 전체를 스캔해 **영향 글 필드가 삭제된 글을 가리키는 미주석 항목 26개**를 특정(1.4·1.5·1.11·2.3·2.4·2.8·4.3·4.7-b·5.3·5.4·5.5·6.6·6.8·6.9·6.10·9.5.2·9.5.4·9.5.5·9.5.6·9.5.7·9.5.8·9.5.9·9.5.11·9.5.13·9.5.17 등). 특히 **2.8 본인부담 상한제는 등록 영향글 8편이 전부 삭제된 글**이라 사실상 매핑이 백지. 외부 접속 없이 grep만으로 처리 가능한 작업이므로 다음 가동 1순위
 
 ### 2026-08-03 - /bumo-refresh 월초 정기 점검 (8월 앵커 + 회전 12개 항목, 프루닝 후 첫 가동)
 
