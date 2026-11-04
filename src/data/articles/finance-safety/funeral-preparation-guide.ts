@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2025-03-20',
-  updatedAt: '2026-04-30',
+  updatedAt: '2026-11-04',
   reviewStatus: 'current',
 
   summary:
@@ -61,7 +61,7 @@ const article: ContentItem = {
     {
       type: 'tip',
       heading: '기초수급자는 장제급여를 신청하세요',
-      body: '국민기초생활보장법에 따라 기초생활수급자 가구원이 사망하면 장제급여를 받을 수 있습니다. 1인당 최대 80만 원(2026년 기준) 지급. 사망일로부터 1년 이내 주민센터에 신청하면 됩니다.',
+      body: '국민기초생활보장법에 따라 기초생활수급자 가구원이 사망하면 장제급여를 받을 수 있습니다. 1인당 최대 80만 원(2026년 기준) 지급. 사망일이 속한 달의 말일부터 1년 이내에 주민센터나 정부24에서 신청하면 되고, 사망신고와 동시에 신청할 수도 있습니다.',
     },
     {
       type: 'numbered-list',

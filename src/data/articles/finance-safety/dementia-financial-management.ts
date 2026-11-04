@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-03-29',
-  updatedAt: '2026-05-02',
+  updatedAt: '2026-11-04',
   reviewStatus: 'current',
   effectiveDate: '2026-01-01',
 
@@ -65,7 +65,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '성년후견 제도 사전 준비',
-      body: '치매가 심해지면 법적으로 의사 결정 능력이 제한될 수 있습니다. 이때 법원이 선임한 후견인이 재산을 관리합니다. 치매 초기에 "임의후견계약"을 공증해두면 본인이 원하는 후견인을 미리 지정할 수 있습니다([[power-of-attorney|위임장·임의후견계약 작성 방법]] 참고). 이미 인지 능력이 크게 저하된 경우에는 [[adult-guardianship|성년후견 신청]]이 필요합니다.',
+      body: '치매가 심해지면 법적으로 의사 결정 능력이 제한될 수 있습니다. 이때 법원이 선임한 후견인이 재산을 관리합니다. 치매 초기에 "임의후견계약"을 공증해두면 본인이 원하는 후견인을 미리 지정할 수 있습니다([[power-of-attorney|위임장·임의후견계약 작성 방법]] 참고). 이미 인지 능력이 크게 저하된 경우에는 [[dementia-inheritance-protection-guide|성년후견 신청]]이 필요합니다.',
     },
     {
       type: 'list',
@@ -74,7 +74,7 @@ const article: ContentItem = {
         '금융기관 앱에서 이상거래 탐지 알림 설정',
         '인터넷뱅킹 1일 이체 한도 낮추기',
         '해외 결제 차단 설정',
-        '신규 대출·카드 발급 제한 (금융결제원 명의도용 방지 서비스)',
+        '신규 대출 차단 서비스 신청 (거래 은행에 문의)',
         '가족 명의 공동 알림 서비스 등록',
       ],
     },

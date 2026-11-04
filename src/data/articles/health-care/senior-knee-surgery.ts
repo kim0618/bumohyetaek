@@ -5,13 +5,13 @@ const article: ContentItem = {
   slug: 'senior-knee-surgery',
   title: '노인 인공관절 수술 건강보험 적용 조건과 비용 안내',
   seoTitle: '인공관절 수술 건강보험 적용 - 노인 무릎 수술 본인부담금과 조건',
-  seoDescription: '노인 인공관절 수술 건강보험 적용 조건, 본인부담금 수준, 선택진료비, 재활치료 보험 적용까지 꼼꼼히 정리했습니다. 수술 전 꼭 확인하세요.',
+  seoDescription: '노인 인공관절 수술 건강보험 적용 조건, 본인부담금 수준, 비급여 항목, 재활치료 보험 적용까지 꼼꼼히 정리했습니다. 수술 전 꼭 확인하세요.',
   category: 'health-care',
   template: 'standard',
   targetUser: 'senior',
 
   createdAt: '2026-04-02',
-  updatedAt: '2026-04-28',
+  updatedAt: '2026-11-04',
   reviewStatus: 'current',
 
   summary:
@@ -89,7 +89,7 @@ const article: ContentItem = {
     {
       type: 'warning',
       heading: '수술 전 확인해야 할 사항',
-      body: '인공관절은 평균 15-20년의 수명을 가지므로 70세 이상에서 수술받는 경우 재수술 가능성이 낮습니다. 반면 60대 초반의 활동적인 환자는 재수술을 고려해야 할 수 있습니다. 수술 전 혈액검사, 심장·폐 기능 검사 등 전신 상태 평가가 필수입니다. [[senior-diabetes-management|당뇨병]]이나 [[senior-hypertension|고혈압]] 등 만성질환을 가진 경우 수술 위험도가 높아지므로 담당 의사와 충분히 상담하세요.',
+      body: '인공관절은 평균 15-20년의 수명을 가지므로 70세 이상에서 수술받는 경우 재수술 가능성이 낮습니다. 반면 60대 초반의 활동적인 환자는 재수술을 고려해야 할 수 있습니다. 수술 전 혈액검사, 심장·폐 기능 검사 등 전신 상태 평가가 필수입니다. [[senior-diabetes-management|당뇨병]]이나 [[senior-chronic-disease-guide|고혈압]] 등 만성질환을 가진 경우 수술 위험도가 높아지므로 담당 의사와 충분히 상담하세요.',
     },
     {
       type: 'warning',

@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-05-13',
+  updatedAt: '2026-11-04',
   reviewStatus: 'current',
 
   summary:
@@ -63,7 +63,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '통신비 감면 제도',
-      body: '기초생활수급자는 월 통신비의 50%(최대 28,600원), 차상위계층은 35%(최대 21,500원) 감면을 받을 수 있습니다. 장애인도 등급에 따라 감면 혜택이 있습니다. 통신사 대리점 또는 ☎ 114(통신사 공통)에 전화해 감면 신청을 하세요. 알뜰폰 관련 상담은 ☎ 142-500으로 문의할 수 있습니다. [[senior-discount-guide|노인 할인 혜택]]도 함께 확인하면 좋습니다.',
+      body: '기초생활수급자는 월 통신비의 50%(최대 33,500원), 차상위계층은 35%(최대 21,500원) 감면을 받을 수 있습니다. 장애인도 등급에 따라 감면 혜택이 있습니다. 통신사 대리점 또는 ☎ 114(통신사 공통)에 전화해 감면 신청을 하세요. 알뜰폰 관련 상담은 ☎ 142-500으로 문의할 수 있습니다. [[senior-discount-legal-support-guide|노인 할인 혜택]]도 함께 확인하면 좋습니다.',
     },
     {
       type: 'tip',
