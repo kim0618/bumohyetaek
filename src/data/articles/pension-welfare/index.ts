@@ -35,6 +35,7 @@ import nationalPensionReceivingStrategyGuide from './national-pension-receiving-
 import careServiceSelectionGuide from './care-service-selection-guide';
 import lowIncomeBenefitComparisonGuide from './low-income-benefit-comparison-guide';
 import seniorDiscountLegalSupportGuide from './senior-discount-legal-support-guide';
+import medicalAidType2CopayCap from './medical-aid-type2-copay-cap';
 
 export const pensionWelfareArticles: ContentItem[] = [
   basicPensionApplication,
@@ -72,4 +73,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   careServiceSelectionGuide,
   lowIncomeBenefitComparisonGuide,
   seniorDiscountLegalSupportGuide,
+  medicalAidType2CopayCap,
 ];
