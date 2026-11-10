@@ -83,10 +83,10 @@ git log --diff-filter=A --format='%ad %s' --date=short -5 -- 'src/data/articles/
 ### Tier 1 - 11/04 검색어 묶음 (기존 글과 각도가 다른 위성만)
 > 각 묶음의 기존 글은 **급증 페이지라 제목·설명을 건드리지 않는다.** 새 글은 기존 글이 다루지 않는 질문을 받는 위성으로 쓰고, 기존 글 relatedSlugs에 새 slug만 추가한다.
 1. [완료 2026-11-05 → medical-aid-type2-copay-cap] 의료급여 2종 본인부담금 지원 (검색어 "기초수급자 2종 본인 부담금 지원" 노출 28 외 1종·2종 본인부담 6건 / 기존 medical-aid-system은 제도 개요. 2종 수급자가 실제로 내는 금액·지원 제도·1종과 차이를 사례로)
-2. 차상위·기초수급 할인 항목별 정리 (검색어 4건 / low-income-benefit-comparison-guide는 급여 비교라 할인(통신·전기·교통·문화) 각도는 비어 있는지 grep으로 확인 후)
+2. [건너뜀 2026-11-09: low-income-benefit-comparison-guide·senior-discount-legal-support-guide가 이미 통신35%·전기·수신료·문화누리 수록, 70% 초과 겹침] 차상위·기초수급 할인 항목별 정리 (검색어 4건 / low-income-benefit-comparison-guide는 급여 비교라 할인(통신·전기·교통·문화) 각도는 비어 있는지 grep으로 확인 후)
 3. 치매 등급 판정 기준과 인지지원등급 (검색어 3건 / long-term-care-grade·dementia 글과 70% 겹침 여부 먼저 확인)
 4. 고속버스·시외버스 노인 할인 실태 + 교통약자 콜택시 (검색어 경로우대 교통 3건 + 7/10 큐 재등장 / 기존 senior-transport-discount는 지하철·철도 위주)
-5. 국가유공자 고령자 수당·유족연금 금액표 (검색어 보훈 고령자 수당 2건 + 7/10 "국가유공자 유족연금표" / veterans-senior-benefit의 금액표 각도)
+5. [완료 2026-11-09 → veterans-survivor-compensation-table] 국가유공자 고령자 수당·유족연금 금액표 (검색어 보훈 고령자 수당 2건 + 7/10 "국가유공자 유족연금표" / veterans-senior-benefit의 금액표 각도)
 6. 노령연금 받으면 LH 임대 자격이 어떻게 되나 (검색어 LH 임대·노령연금 중복 3건 / senior-public-housing의 소득 산정 각도)
 
 ### Tier 2 - 12~1월 시즌형 (발표 확인 후 작성)
@@ -114,6 +114,7 @@ git log --diff-filter=A --format='%ad %s' --date=short -5 -- 'src/data/articles/
 | 발행일 | slug | 큐 번호 | 비고 | 4주 점검(네이버 세션·체류) |
 |---|---|---|---|---|
 | 2026-11-05 | medical-aid-type2-copay-cap | Tier1-1 | 배포 전, 시행령 13조⑤·별표1 원문 대조 | |
+| 2026-11-09 | veterans-survivor-compensation-table | Tier1-5 | 배포 전, 시행령 별표4·4의2(PDF)·법 12·13조·참전법 6조 원문 대조, 2027.1.1 시행 개정 포함 | |
 
 ### 신규 정책 확인 (매 회차, 주제 선정 전, 2026-11-04 신설)
 

@@ -143,7 +143,7 @@ const article: ContentItem = {
     subText: `${siteConfig.calculatorSiteName} · 무료`,
   },
 
-  relatedSlugs: ['national-pension-receiving-strategy-guide', 'basic-pension-application', 'funeral-preparation-guide', 'retirement-preparation-checklist-guide'],
+  relatedSlugs: ['national-pension-receiving-strategy-guide', 'basic-pension-application', 'funeral-preparation-guide', 'retirement-preparation-checklist-guide', 'veterans-survivor-compensation-table'],
 };
 
 export default article;
