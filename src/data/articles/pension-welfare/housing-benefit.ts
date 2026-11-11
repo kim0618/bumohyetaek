@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2025-03-05',
-  updatedAt: '2026-11-04',
+  updatedAt: '2026-11-11',
   effectiveDate: '2026-01-01',
   reviewStatus: 'current',
 
@@ -83,7 +83,7 @@ const article: ContentItem = {
       items: [
         '읍·면·동 주민센터 방문 신청 (본인 또는 가족·대리인 신청 가능)',
         '복지로(www.bokjiro.go.kr) 온라인 신청',
-        '담당자의 소득·재산 조사 (약 30일 소요)',
+        '담당자의 소득·재산 조사 (결과는 신청일부터 30일 이내, 특별한 사유가 있으면 60일 이내 통지)',
         '수급자 선정 시 다음 달부터 임차료 지급 또는 수선 신청 접수',
       ],
     },
