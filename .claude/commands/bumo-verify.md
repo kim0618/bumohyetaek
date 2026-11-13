@@ -5,7 +5,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash, Agent, WebFetch, WebSearch
 
 # 부모혜택 가이드 오류 검증
 
-> 2026-11-09 신설(사용자 결정: "제이퍼랑 같은 방식으로"). 제이퍼 `/verify`(jptcalc/.claude/commands/verify.md)의 구조를 옮기고, 검증 항목은 부모 `/audit`의 A~H를 이어받았다. `/audit`은 2026-05~06 애드센스 신청용 감사라 따로 보존한다.
+> 2026-11-09 신설(사용자 결정: "제이퍼랑 같은 방식으로"). 제이퍼 `/verify`(jptcalc/.claude/commands/verify.md)의 구조를 옮기고, 검증 항목은 부모 `/audit`(2026-05~06 애드센스 신청용 감사)의 A~H를 이어받았다. `/audit`은 2026-11-13 삭제했고, 필요한 절(공식 출처 블랙리스트)은 이 파일 E항으로 옮겼다.
 
 ## 목적
 
@@ -130,7 +130,11 @@ def done(slug): return re.search(r'(?<![\w-])' + re.escape(slug) + r'(?![\w-])',
 - 본문 `[[slug|텍스트]]`, `relatedSlugs[]` → `src/data/articles/*/<slug>.ts` 실존
 - `hubKey[]` → `src/data/hubs.ts`의 허브 중 하나
 - `relatedCalculator`·본문의 jptcalc 주소 → `/home/tjd618/jptcalc/calc/<cat>/<slug>/index.html` 실존
-- `officialSources[].url`은 **부모가 직접** 확인(subagent 판정 신뢰 금지). name과 도메인 매칭, 사설 도메인이 공공기관 이름으로 등록된 사례(`/audit`의 블랙리스트 절) 주의. WSL에서 `.go.kr`·`.or.kr` 타임아웃(curl 28)은 실존 추정, DNS 실패(curl 6)는 오류
+- `officialSources[].url`은 **부모가 직접** 확인(subagent 판정 신뢰 금지). name과 도메인 매칭, 사설 도메인이 공공기관 이름으로 등록된 사례 주의(아래 블랙리스트). WSL에서 `.go.kr`·`.or.kr` 타임아웃(curl 28)은 실존 추정, DNS 실패(curl 6)는 오류
+- **공식 출처 URL 블랙리스트** (2026-11-13 `/audit`에서 이관): `name`이 정부·공공기관인데 URL이 사설 도메인이면 오류로 본다
+  - `help-me.kr` ≠ 대법원 후견포털(사설 법무법인 "헬프미 법률사무소"). 성년후견·법원 출처는 `https://www.scourt.go.kr` 또는 `https://efamily.scourt.go.kr`만 허용
+  - 도메인이 `.go.kr`·`.or.kr`이 아니라 `.kr`·`.com`·`.co.kr`로만 끝나면 사설 가능성, name과 매칭을 신중히 확인
+  - 사이트가 "법무법인", "사무소", "스타트업", "주식회사" 등을 자칭하면 사설로 간주
 
 **F. ContentItem 구조**
 - 필수 필드(slug·title·category·template·targetUser·createdAt·updatedAt·reviewStatus·summary·sections), category 3종, `relatedCalculator.category`가 `finance|health|pension` 중 하나(콘텐츠 category와 혼동 금지)

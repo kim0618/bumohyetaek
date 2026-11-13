@@ -14,7 +14,7 @@
 - **네이버블로그와는 주제·일정 독립**(블로그는 예약 발행). 같은 제도를 다루게 되면 사이트는 표·절차 정리본, 문장 복사 금지. 블로그는 이미 공개된 사이트 글만 링크한다.
 - **급증 페이지 제목·설명 변경 금지**(medical-aid-system, rehabilitation, veterans, support-obligation, funeral, hub/prepare 등). 본문 수치 정정만 허용. 근거: 5/18 상위 7편 메타 동시 변경 후 노출 -95%.
 - `/bumo-refresh`: 1월 첫째 주 일제점검 유지 + 급증 페이지는 금액 발표 직후 우선 반영(기초연금·의료급여·기준중위소득).
-- `/bumo-meta-optimize`, `/bumo-bolster`는 계속 보류.
+- `/bumo-meta-optimize`는 계속 보류. (`/bumo-bolster`·`/audit`·`/new-analysis`·`/bumo-adsense-check`는 2026-11-13 삭제)
 - 애드핏·링크프라이스·301 리다이렉트·도메인 유지(제이퍼→부모혜택 링크 16개 보호).
 - 판정: 2026-12-16(블로그 1차 판정과 같은 날) 서치어드바이저 노출 추세 + GA4 네이버 세션으로 주 3편 유지 여부 결정.
 - 부모 네이버블로그: **애드포스트 조회수형**, 주 3편. 규칙 `naverblog-rules.md`, 대장 `naverblog-ledger.tsv`.
