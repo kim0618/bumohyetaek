@@ -37,6 +37,7 @@ import lowIncomeBenefitComparisonGuide from './low-income-benefit-comparison-gui
 import seniorDiscountLegalSupportGuide from './senior-discount-legal-support-guide';
 import medicalAidType2CopayCap from './medical-aid-type2-copay-cap';
 import specialTransportEligibilityGuide from './special-transport-eligibility-guide';
+import pensionIncomePublicRentalEligibility from './pension-income-public-rental-eligibility';
 import veteransSurvivorCompensationTable from './veterans-survivor-compensation-table';
 
 export const pensionWelfareArticles: ContentItem[] = [
@@ -78,4 +79,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   medicalAidType2CopayCap,
   veteransSurvivorCompensationTable,
   specialTransportEligibilityGuide,
+  pensionIncomePublicRentalEligibility,
 ];

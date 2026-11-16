@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-04-13',
-  updatedAt: '2026-11-04',
+  updatedAt: '2026-11-16',
   reviewStatus: 'current',
 
   summary:
@@ -58,7 +58,7 @@ const article: ContentItem = {
       heading: '어르신이 신청할 수 있는 공공임대 4가지',
       items: [
         '영구임대주택 - 기초수급자·한부모가족 등 최저소득층 대상, 시세 30% 수준 임대료, 전용 26-40㎡',
-        '국민임대주택 - 무주택 세대구성원, 전년도 도시근로자 월평균소득 70% 이하(1·2인 가구는 가산 적용), 시세 60-80% 수준, 전용 60㎡ 이하',
+        '국민임대주택 - 무주택 세대구성원, 전년도 도시근로자 월평균소득 기준 면적별 구간 적용: 전용 50㎡ 미만 1순위 50%(1인 70%, 2인 60%), 50~60㎡ 70%(1인 90%, 2인 80%), 60㎡ 초과 100%(1인 120%, 2인 110%) 이하. 시세 60-80% 수준. 노령연금이 소득에 어떻게 잡히는지는 [[pension-income-public-rental-eligibility|노령연금과 LH 임대 소득 산정]] 참고',
         '행복주택(고령자 유형) - 만 65세 이상 무주택자, 전년도 도시근로자 월평균소득 100% 이하(1·2인 가구는 가산 적용), 시세 60-80%, 전용 36-45㎡',
         '전세임대주택 - 기초수급자·저소득 어르신이 원하는 집을 고르면 LH가 전세 계약 후 저렴하게 재임대',
       ],
@@ -128,7 +128,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 4월 기준으로 작성되었습니다. 공공임대 모집 일정과 입주 조건은 지역·유형별로 다르므로 LH 청약센터(1600-1004) 또는 마이홈 포털(myhome.go.kr)에서 최신 공고를 확인하세요.',
 
-  relatedSlugs: ['housing-benefit', 'senior-housing-renovation', 'basic-livelihood-benefit', 'retirement-budget-planning'],
+  relatedSlugs: ['pension-income-public-rental-eligibility', 'housing-benefit', 'senior-housing-renovation', 'basic-livelihood-benefit', 'retirement-budget-planning'],
 };
 
 export default article;

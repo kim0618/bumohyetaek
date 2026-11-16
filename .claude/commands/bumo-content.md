@@ -87,7 +87,7 @@ git log --diff-filter=A --format='%ad %s' --date=short -5 -- 'src/data/articles/
 3. 치매 등급 판정 기준과 인지지원등급 (검색어 3건 / long-term-care-grade·dementia 글과 70% 겹침 여부 먼저 확인)
 4. [완료 2026-11-12 → special-transport-eligibility-guide, 고속버스는 기존 글에 있어 특별교통수단 각도로] 고속버스·시외버스 노인 할인 실태 + 교통약자 콜택시 (검색어 경로우대 교통 3건 + 7/10 큐 재등장 / 기존 senior-transport-discount는 지하철·철도 위주)
 5. [완료 2026-11-09 → veterans-survivor-compensation-table] 국가유공자 고령자 수당·유족연금 금액표 (검색어 보훈 고령자 수당 2건 + 7/10 "국가유공자 유족연금표" / veterans-senior-benefit의 금액표 각도)
-6. 노령연금 받으면 LH 임대 자격이 어떻게 되나 (검색어 LH 임대·노령연금 중복 3건 / senior-public-housing의 소득 산정 각도)
+6. [완료 2026-11-16 → pension-income-public-rental-eligibility] 노령연금 받으면 LH 임대 자격이 어떻게 되나 (검색어 LH 임대·노령연금 중복 3건 / senior-public-housing의 소득 산정 각도)
 
 ### Tier 2 - 12~1월 시즌형 (발표 확인 후 작성)
 > 금액·날짜는 그해 공식 발표를 확인한 뒤 쓴다. 발표 전이면 쓰지 않는다(아래 시의성 체크).
@@ -115,6 +115,7 @@ git log --diff-filter=A --format='%ad %s' --date=short -5 -- 'src/data/articles/
 |---|---|---|---|---|
 | 2026-11-05 | medical-aid-type2-copay-cap | Tier1-1 | 배포 전, 시행령 13조⑤·별표1 원문 대조 | |
 | 2026-11-12 | special-transport-eligibility-guide | Tier1-4 | 배포 전, 교통약자법 제16조·시행령 14조의4·7·시행규칙 5·6조 원문 대조, 요금·노인 증빙·처리기간은 조례라 원문 한계 명시 | |
+| 2026-11-16 | pension-income-public-rental-eligibility | Tier1-6 | 배포 전, 업무처리지침 별표15·제94조, 시행규칙 별표3·4 PDF 원문 대조, 소득 금액은 마이홈 2026년도 표(고시 원문 미확인), 기초연금 산입 여부는 한계 명시 | |
 | 2026-11-09 | veterans-survivor-compensation-table | Tier1-5 | 배포 전, 시행령 별표4·4의2(PDF)·법 12·13조·참전법 6조 원문 대조, 2027.1.1 시행 개정 포함 | |
 
 ### 신규 정책 확인 (매 회차, 주제 선정 전, 2026-11-04 신설)
