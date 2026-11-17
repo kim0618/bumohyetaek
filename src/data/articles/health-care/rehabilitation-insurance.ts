@@ -4,7 +4,7 @@ const article: ContentItem = {
   slug: 'rehabilitation-insurance',
   title: '재활치료 건강보험 적용 범위와 절차',
   seoTitle: '재활치료 건강보험 적용 - 급여 항목과 신청 절차',
-  seoDescription: '뇌졸중, 골절, 관절 수술 후 재활치료에 건강보험이 적용됩니다. 급여 항목, 산정특례, 입원-외래 차이, 요양병원 재활 적용 범위를 공식 기준으로 검증했습니다.',
+  seoDescription: '뇌졸중, 골절, 관절 수술 후 재활치료에 건강보험이 적용됩니다. 급여 항목, 산정특례, 입원-외래 차이, 요양병원 재활 적용 범위를 정리했습니다.',
   category: 'health-care',
   template: 'policy',
   targetUser: 'family',

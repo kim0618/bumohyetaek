@@ -28,7 +28,7 @@ const article: ContentItem = {
 
   hubKey: ['government-benefits'],
 
-  relatedSlugs: ['senior-culture-voucher', 'senior-discount-legal-support-guide', 'senior-transport-discount', 'basic-pension-application'],
+  relatedSlugs: ['senior-culture-voucher', 'senior-discount-legal-support-guide', 'senior-transport-discount', 'basic-pension-application', 'culture-nuri-card-year-end-balance'],
 
   officialSources: [
     {

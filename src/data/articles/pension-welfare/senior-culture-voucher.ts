@@ -126,7 +126,7 @@ const article: ContentItem = {
   cautionNote:
     '이 글은 2026년 11월 문화누리카드 누리집 안내 기준입니다. 지원 금액과 가맹점은 연도별로 변경될 수 있으니 문화누리 홈페이지(www.mnuri.kr)에서 최신 정보를 확인하세요.',
 
-  relatedSlugs: ['basic-livelihood-benefit', 'low-income-benefit-comparison-guide', 'senior-discount-legal-support-guide'],
+  relatedSlugs: ['basic-livelihood-benefit', 'low-income-benefit-comparison-guide', 'senior-discount-legal-support-guide', 'culture-nuri-card-year-end-balance'],
 };
 
 export default article;
