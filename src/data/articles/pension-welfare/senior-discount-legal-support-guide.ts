@@ -38,7 +38,7 @@ const article: ContentItem = {
   ],
 
   hubKey: ['government-benefits'],
-  relatedSlugs: ['senior-transport-discount', 'turning-65-benefit-guide', 'basic-pension-application'],
+  relatedSlugs: ['senior-transport-discount', 'turning-65-benefit-guide', 'basic-pension-application', 'energy-voucher-winter-use-guide'],
 
   officialSources: [
     { name: '보건복지부', url: 'https://www.mohw.go.kr', note: '노인복지 제도 안내' },

@@ -110,7 +110,7 @@ const article: ContentItem = {
   cautionNote:
     '소득인정액 산정 방식은 복잡하며 개인 상황에 따라 다릅니다. 복지로 모의계산 결과는 참고용이며, 정확한 수급 여부는 주민센터 상담을 통해 확인하세요.',
 
-  relatedSlugs: ['housing-benefit', 'basic-pension-application', 'senior-discount-legal-support-guide', 'medical-aid-system', 'low-income-benefit-comparison-guide'],
+  relatedSlugs: ['housing-benefit', 'basic-pension-application', 'senior-discount-legal-support-guide', 'medical-aid-system', 'low-income-benefit-comparison-guide', 'energy-voucher-winter-use-guide'],
 };
 
 export default article;

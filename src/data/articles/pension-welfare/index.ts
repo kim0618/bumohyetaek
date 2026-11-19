@@ -39,6 +39,7 @@ import medicalAidType2CopayCap from './medical-aid-type2-copay-cap';
 import specialTransportEligibilityGuide from './special-transport-eligibility-guide';
 import pensionIncomePublicRentalEligibility from './pension-income-public-rental-eligibility';
 import cultureNuriCardYearEndBalance from './culture-nuri-card-year-end-balance';
+import energyVoucherWinterUseGuide from './energy-voucher-winter-use-guide';
 import veteransSurvivorCompensationTable from './veterans-survivor-compensation-table';
 
 export const pensionWelfareArticles: ContentItem[] = [
@@ -82,4 +83,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   specialTransportEligibilityGuide,
   pensionIncomePublicRentalEligibility,
   cultureNuriCardYearEndBalance,
+  energyVoucherWinterUseGuide,
 ];
