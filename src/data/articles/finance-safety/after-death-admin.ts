@@ -10,7 +10,7 @@ const article: ContentItem = {
   targetUser: 'family',
 
   createdAt: '2026-03-30',
-  updatedAt: '2026-11-17',
+  updatedAt: '2026-11-20',
   reviewStatus: 'current',
 
   summary:
@@ -30,7 +30,7 @@ const article: ContentItem = {
   isFeatured: false,
 
   officialSources: [
-    { name: '정부24', url: 'https://www.gov.kr/portal/onestopSvc/safeInheritance', note: '안심상속 원스톱 서비스 및 사망신고' },
+    { name: '정부24', url: 'https://www.gov.kr/portal/onestopSvc/safeInheritance', note: '안심상속 원스톱 서비스(사망신고는 온라인 불가, 가족관계등록규칙 제36조의2)' },
     { name: '국세청', url: 'https://www.nts.go.kr', note: '상속세 신고 안내' },
   ],
 
@@ -44,7 +44,7 @@ const article: ContentItem = {
       type: 'numbered-list',
       heading: '장례 직후 - 사망신고와 연금·보험 정지',
       items: [
-        '사망신고: 주민센터 또는 정부24, 사망 사실을 안 날부터 1개월 이내 (함께 살던 친족이 신고 의무자, 늦으면 과태료)',
+        '사망신고: 주민센터(시·구·읍·면) 방문, 온라인 신고는 안 됨, 사망 사실을 안 날부터 1개월 이내 (함께 살던 친족이 신고 의무자, 늦으면 과태료)',
         '국민연금·기초연금 수급 중단 신고: 국민연금공단(1355) 또는 주민센터',
         '건강보험 피부양자 자격 변경: 건강보험공단에 사망 통보',
         '고인 명의 카드·자동이체 중단: 카드사·은행에 사망 통보',
@@ -65,7 +65,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '안심상속 원스톱 서비스란?',
-      body: '정부24에서 제공하는 "안심상속 원스톱 서비스"를 신청하면 고인 명의의 금융 자산(예금·대출·보험·증권), 부동산, 자동차, 세금 체납 내역, 연금 등을 한꺼번에 조회할 수 있습니다. 사망일로부터 1년 이내에 상속인이 신청해야 하며, 결과는 약 20일 소요됩니다. 이 결과를 바탕으로 상속 포기 여부를 결정하세요.',
+      body: '정부24에서 제공하는 "안심상속 원스톱 서비스"를 신청하면 고인 명의의 금융 자산(예금·대출·보험·증권), 부동산, 자동차, 세금 체납 내역, 연금 등을 한꺼번에 조회할 수 있습니다. 사망일이 속한 달의 말일부터 1년 이내에 상속인이 신청해야 하며, 결과는 약 20일 소요됩니다. 이 결과를 바탕으로 상속 포기 여부를 결정하세요.',
     },
     {
       type: 'numbered-list',
