@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-07-27',
-  updatedAt: '2026-11-04',
+  updatedAt: '2026-11-23',
   reviewStatus: 'current',
 
   summary:
@@ -28,7 +28,7 @@ const article: ContentItem = {
 
   tags: ['은퇴준비', '은퇴재정체크리스트', '건강보험임의계속가입', '노인일자리', '국민연금추납', '연령별로드맵'],
   hubKey: ['retirement-income'],
-  relatedSlugs: ['retirement-budget-planning', 'national-pension-additional', 'national-pension-increase-strategy'],
+  relatedSlugs: ['retirement-budget-planning', 'national-pension-additional', 'national-pension-increase-strategy', 'senior-job-2027-recruitment-guide'],
 
   officialSources: [
     {
@@ -250,7 +250,7 @@ const article: ContentItem = {
     {
       type: 'info',
       heading: '노인 일자리 신청 방법과 시기',
-      body: '매년 11월~1월에 신청 접수를 받으며, 거주지의 시·군·구 노인복지관이나 시니어클럽에서 신청합니다. 통합 신청은 노인 일자리 여기(www.seniorro.or.kr)에서도 가능합니다. 인기 있는 유형은 경쟁이 있어 조기에 신청하는 것이 유리합니다. 신청 후 서류 심사와 면접을 거쳐 약 30일 이내에 참여 여부가 결정되며, 결과는 개별 통보됩니다. 문의는 ☎ 110(정부민원안내) 또는 가까운 노인복지관에 하세요.',
+      body: '집중 모집은 보통 11월 말~12월에 지자체·수행기관별로 열리고(2027년분은 공주시 11월 23일~12월 4일, 용인시 11월 30일~12월 4일), 취업·창업형은 연중 상시 모집이며, 거주지의 시·군·구 노인복지관이나 시니어클럽에서 신청합니다. 통합 신청은 노인 일자리 여기(www.seniorro.or.kr)에서도 가능합니다. 인기 있는 유형은 경쟁이 있어 조기에 신청하는 것이 유리합니다. 신청 후 서류 심사와 면접을 거쳐 약 30일 이내에 참여 여부가 결정되며, 결과는 개별 통보됩니다. 문의는 ☎ 110(정부민원안내) 또는 가까운 노인복지관에 하세요.',
     },
     {
       type: 'numbered-list',
@@ -317,7 +317,7 @@ const article: ContentItem = {
         '연령별 로드맵: 55세 IRP·추납 마감, 60세 수령시기 결정·임의계속가입 신청, 65세 기초연금 신청, 70~75세 장기요양·유언장 준비',
         '재정 5대 점검: 연금·저축·보험·부채·비상금 - 3개 이상 부족하면 금융복지상담센터 무료 상담 권장',
         '건강보험: 임의계속가입(퇴직 후 2개월 이내)·피부양자 등록·지역가입자 보험료 조정 중 유리한 방법 선택',
-        '노인 일자리: 공익활동형 월 29만 원, 사회서비스형 월 약 76만 원, 시장형 최저임금 이상 - 매년 11월~1월 신청',
+        '노인 일자리: 공익활동형 월 29만 원, 사회서비스형 월 약 76만 원, 시장형 최저임금 이상 - 집중 모집 11월 말~12월(지자체별, [[senior-job-2027-recruitment-guide|2027년 모집 일정]] 참고)',
         '국민연금 추납: 전국 어느 지사나 신청 가능, 온라인(nps.or.kr)·전화(☎ 1355)도 가능',
       ],
     },

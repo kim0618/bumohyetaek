@@ -11,7 +11,7 @@ const article: ContentItem = {
   targetUser: 'both',
 
   createdAt: '2026-05-05',
-  updatedAt: '2026-11-04',
+  updatedAt: '2026-11-23',
   reviewStatus: 'current',
 
   summary:
@@ -28,7 +28,7 @@ const article: ContentItem = {
 
   tags: ['만65세혜택', '기초연금', '장기요양신청', '비과세종합저축', '노인혜택총정리'],
   hubKey: ['government-benefits', 'retirement-income'],
-  relatedSlugs: ['basic-pension-application', 'long-term-care-grade', 'senior-tax-benefit', 'senior-checkup-surgery-guide', 'senior-culture-voucher'],
+  relatedSlugs: ['basic-pension-application', 'long-term-care-grade', 'senior-tax-benefit', 'senior-checkup-surgery-guide', 'senior-culture-voucher', 'senior-job-2027-recruitment-guide'],
   order: 48,
   isFeatured: false,
 
@@ -97,7 +97,7 @@ const article: ContentItem = {
       type: 'list',
       heading: '65세 이후 확인할 추가 혜택 목록',
       items: [
-        '건강검진 강화: 만 66세에 골밀도·인지기능·노인신체기능 추가 항목 제공 (국가건강검진에 포함)',
+        '일반건강검진 추가 항목: 만 66세 이상 2년마다 인지기능장애 검사, 66·70·80세 노인신체기능검사, 여성은 54·60·66세 골밀도 검사 (건강검진 실시기준 별표 1)',
         '노인 일자리: 공익활동형(기초연금 수급자) 월 29만원, 사회서비스형 월 약 76만원 (주민센터 신청)',
         '노인 문화 바우처: 연 15만원 문화누리카드 - [[senior-culture-voucher|문화누리카드 신청]] 확인',
         '치매 안심센터 무료 검진: 시군구 치매안심센터에서 인지 기능 검사 무료 제공',

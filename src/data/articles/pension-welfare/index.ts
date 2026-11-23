@@ -40,6 +40,7 @@ import specialTransportEligibilityGuide from './special-transport-eligibility-gu
 import pensionIncomePublicRentalEligibility from './pension-income-public-rental-eligibility';
 import cultureNuriCardYearEndBalance from './culture-nuri-card-year-end-balance';
 import energyVoucherWinterUseGuide from './energy-voucher-winter-use-guide';
+import seniorJob2027RecruitmentGuide from './senior-job-2027-recruitment-guide';
 import veteransSurvivorCompensationTable from './veterans-survivor-compensation-table';
 
 export const pensionWelfareArticles: ContentItem[] = [
@@ -84,4 +85,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   pensionIncomePublicRentalEligibility,
   cultureNuriCardYearEndBalance,
   energyVoucherWinterUseGuide,
+  seniorJob2027RecruitmentGuide,
 ];
