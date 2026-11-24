@@ -26,6 +26,7 @@ import seniorExpenseReviewGuide from './senior-expense-review-guide';
 import pensionTaxBenefitGuide from './pension-tax-benefit-guide';
 import retirementAssetOptionComparisonGuide from './retirement-asset-option-comparison-guide';
 import retirementPreparationChecklistGuide from './retirement-preparation-checklist-guide';
+import giftTaxExemptionByRelationshipTable from './gift-tax-exemption-by-relationship-table';
 
 export const financeSafetyArticles: ContentItem[] = [
   preventVoicePhishing,
@@ -54,4 +55,5 @@ export const financeSafetyArticles: ContentItem[] = [
   pensionTaxBenefitGuide,
   retirementAssetOptionComparisonGuide,
   retirementPreparationChecklistGuide,
+  giftTaxExemptionByRelationshipTable,
 ];
