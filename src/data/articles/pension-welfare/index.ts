@@ -41,6 +41,7 @@ import pensionIncomePublicRentalEligibility from './pension-income-public-rental
 import cultureNuriCardYearEndBalance from './culture-nuri-card-year-end-balance';
 import energyVoucherWinterUseGuide from './energy-voucher-winter-use-guide';
 import seniorJob2027RecruitmentGuide from './senior-job-2027-recruitment-guide';
+import nationalPensionStartAgeByBirthYear from './national-pension-start-age-by-birth-year';
 import veteransSurvivorCompensationTable from './veterans-survivor-compensation-table';
 
 export const pensionWelfareArticles: ContentItem[] = [
@@ -86,4 +87,5 @@ export const pensionWelfareArticles: ContentItem[] = [
   cultureNuriCardYearEndBalance,
   energyVoucherWinterUseGuide,
   seniorJob2027RecruitmentGuide,
+  nationalPensionStartAgeByBirthYear,
 ];
